@@ -1,0 +1,155 @@
+Fri Jun 21 10:39:33 EDT 2024
+0.055 8 10 -0.2
+LOADED MATLAB
+0.055
+8
+-0.2
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+indir = 
+
+    "/scratch/xpz5km/Cahn_Hilliard_Model/julia_out/critical_radius_alpha"
+
+
+epsilon_name = 
+
+    "0.015009"
+
+
+R0_name =
+
+    '0.055'
+
+
+alpha_name =
+
+    '-0.2'
+
+
+alpha =
+
+    '-0.2'
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.055_eps_0.015009_alpha_-0.2'
+
+Launching updater executable
+pure virtual method called
+
+------------------------------------------------------------------------
+          std::terminate() detected at Fri Jun 21 10:48:22 2024
+------------------------------------------------------------------------
+Architecture     : glnxa64
+Processor ID     : Intel(R) Xeon(R) Gold 6248 CPU @ 2.50GHz
+Host Name        : udc-an33-17c1
+Locale           : en_US
+
+
+Abnormal termination:
+std::terminate()
+
+Current Thread: 'GTP_11' id 22418679805696
+
+Register State (captured):
+  RAX = 0000000000000000  RBX = 00001463d7e463c8
+  RCX = 0000000000000000  RDX = 00001463d7e2fe88
+  RSP = 00001463c1721120  RBP = 00001463c1721500
+  RSI = 00001463d7e14f6d  RDI = 00001463c1721130
+
+   R8 = 0000000000000002   R9 = 00001463c1721410
+  R10 = 0000000000000000  R11 = 0000000000000000
+  R12 = 00001463d7e14f6d  R13 = 00001463c1721570
+  R14 = 00001463c17219e0  R15 = 00001463c1721e80
+
+  RIP = 00001463d7dbe93f  EFL = 0000000000000000
+
+   CS = 0000   FS = 0000   GS = 0000
+
+Stack Trace (captured):
+[  0] 0x00001463d7db8433 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwfl.so+00320563
+[  1] 0x00001463d7db867c /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwfl.so+00321148 _ZN10foundation4core4diag15stacktrace_base7captureEm+00000028
+[  2] 0x00001463d7dba4fa /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwfl.so+00328954
+[  3] 0x00001463d7dba7a2 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwfl.so+00329634
+[  4] 0x00001463d8b2b901 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwagentutils.so+00637185
+[  5] 0x00001463d8b2c7fa /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwagentutils.so+00641018
+[  6] 0x00001463d8b2c969 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwagentutils.so+00641385
+[  7] 0x00001463d8b29c98 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwagentutils.so+00629912
+[  8] 0x00001463d82ddefa /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00724730
+[  9] 0x00001463d82ddf65 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00724837
+[ 10] 0x00001463d82dec63 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00728163
+[ 11] 0x00001463d2f25160 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00524640
+[ 12] 0x00001463d2f3cae9 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00621289
+[ 13] 0x00001463d2f4aba8 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00678824
+[ 14] 0x00001463d2f4136a /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00639850
+[ 15] 0x00001463d2f41aa2 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00641698
+[ 16] 0x00001463d2f3c2fc /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00619260
+[ 17] 0x00001463d2f3ce12 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00622098
+[ 18] 0x00001463d2f2a993 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00547219
+[ 19] 0x00001463d2f27a7d /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00535165
+[ 20] 0x00001463d2f575fe /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00730622
+[ 21] 0x00001463d2ed101b /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00180251
+[ 22] 0x00001463d2f30e53 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00573011
+[ 23] 0x00001463d2f34899 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00587929
+[ 24] 0x00001463d8461e67                             /lib64/libpthread.so.0+00065127
+[ 25] 0x00001463d2f2ee8d /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00564877
+[ 26] 0x00001463d2f31086 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00573574
+[ 27] 0x00001463d2f34899 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00587929
+[ 28] 0x00001463d8461e67                             /lib64/libpthread.so.0+00065127
+[ 29] 0x00001463d2f2f008 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00565256
+[ 30] 0x00001463d76a2c34 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwfoundation_threadpool.so+00146484
+[ 31] 0x00001463d76a7928 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwfoundation_threadpool.so+00166184
+[ 32] 0x00001463d76a7d54 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwfoundation_threadpool.so+00167252
+[ 33] 0x00001463d83098c3 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00903363
+[ 34] 0x00001463d845a1ca                             /lib64/libpthread.so.0+00033226
+[ 35] 0x00001463d7e80e73                                   /lib64/libc.so.6+00237171 clone+00000067
+
+
+** This crash report has been written to /home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/logs/MathWorksServiceHost_crash_391293.log **
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.055_eps_0.015009_alpha_-0.2
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_plot_alpha (line 50)
+In level_set_radius_array_alpha (line 25)] 
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+DONE

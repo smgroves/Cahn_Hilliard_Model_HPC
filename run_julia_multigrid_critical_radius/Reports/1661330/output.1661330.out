@@ -1,0 +1,10 @@
+Fri Jan 24 12:29:31 EST 2025
+MODULES LOADED
+Timepoint  0
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/run_julia_multigrid_critical_radius/plot_timepoints_critical_radius.py", line 47, in <module>
+    plt.clim(-1,1)
+  File "/apps/software/standard/core/miniforge/24.3.0-py3.11/lib/python3.11/site-packages/matplotlib/pyplot.py", line 2157, in clim
+    raise RuntimeError('You must first define an image, e.g., with imshow')
+RuntimeError: You must first define an image, e.g., with imshow
+DONE

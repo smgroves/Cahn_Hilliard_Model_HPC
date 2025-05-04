@@ -1,0 +1,156 @@
+Wed Jul 10 18:34:04 EDT 2024
+0.08 8 10 0 256
+LOADED MATLAB
+0.08
+8
+0
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+[Warning: Unable to load Toolbox Path Cache
+/home/xpz5km/.matlab/R2024a/toolbox_cache-24.1.0-3725113302-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+indir = 
+
+    "/scratch/xpz5km/Cahn_Hilliard_Model/julia_out/critical_radius_alpha"
+
+
+epsilon =
+
+    0.0075
+
+
+epsilon_name =
+
+    '0.0075047'
+
+
+R0_name =
+
+    '0.08'
+
+
+alpha_name =
+
+    '0.0'
+
+
+alpha =
+
+    '0.0'
+
+
+name =
+
+    'phi_256_400000_1.0e-6__R0_0.08_eps_0.0075047_alpha_0.0'
+
+Launching updater executable
+corrupted double-linked list
+
+------------------------------------------------------------------------
+              abort() detected at Wed Jul 10 18:48:43 2024
+------------------------------------------------------------------------
+Architecture     : glnxa64
+Processor ID     : Intel(R) Xeon(R) Gold 6248 CPU @ 2.50GHz
+Host Name        : udc-aw34-17c1
+Locale           : en_US
+
+
+Abnormal termination:
+abort()
+
+Current Thread: 'GTP_5' id 23245581362944
+
+Register State (from fault):
+  RAX = 0000000000000000  RBX = 0000000000000006
+  RCX = 000015244e3c8acf  RDX = 0000000000000000
+  RSP = 00001524489e9110  RBP = 00001524489e9460
+  RSI = 00001524489e9110  RDI = 0000000000000002
+
+   R8 = 0000000000000000   R9 = 00001524489e9110
+  R10 = 0000000000000008  R11 = 0000000000000246
+  R12 = 0000000000001000  R13 = 00001524489e9380
+  R14 = 0000000000000010  R15 = 000015244ef6d000
+
+  RIP = 000015244e3c8acf  EFL = 0000000000000246
+
+   CS = 0033   FS = 0000   GS = 0000
+
+Stack Trace (from fault):
+[  0] 0x000015244e3c8acf                                   /lib64/libc.so.6+00322255 gsignal+00000271
+[  1] 0x000015244e39bea5                                   /lib64/libc.so.6+00138917 abort+00000295
+[  2] 0x000015244e409cc7                                   /lib64/libc.so.6+00588999
+[  3] 0x000015244e410fcc                                   /lib64/libc.so.6+00618444
+[  4] 0x000015244e41185c                                   /lib64/libc.so.6+00620636
+[  5] 0x000015244e4119b9                                   /lib64/libc.so.6+00620985
+[  6] 0x000015244e413080                                   /lib64/libc.so.6+00626816
+[  7] 0x00001524485f71e8 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/mathworksservicehost/rcf/matlabconnector/serviceprocess/rcf/client-v1/../../../../../../../../bin/glnxa64/libmwagentspfcore.so+00188904 _ZN5agent3spf4core16ServiceInterfaceD2Ev+00000088
+[  8] 0x0000000000415c7a /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/MathWorksServiceHost+00089210 _ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv+00000090
+[  9] 0x000015244275251b /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/libmwagentspflegacyservicepublisher.so+00328987
+[ 10] 0x000015244954e17c /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/libDeclarativeServices.so.1.5.7+00672124
+[ 11] 0x0000152449554b55 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/libDeclarativeServices.so.1.5.7+00699221
+[ 12] 0x00001524495294a8 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/libDeclarativeServices.so.1.5.7+00521384
+[ 13] 0x000015244955ba88 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/libDeclarativeServices.so.1.5.7+00727688
+[ 14] 0x0000152449536123 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/libDeclarativeServices.so.1.5.7+00573731
+[ 15] 0x0000152449539b69 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/libDeclarativeServices.so.1.5.7+00588649
+[ 16] 0x000015244e994e67                             /lib64/libpthread.so.0+00065127
+[ 17] 0x000015244953415d /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/libDeclarativeServices.so.1.5.7+00565597
+[ 18] 0x0000152449536356 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/libDeclarativeServices.so.1.5.7+00574294
+[ 19] 0x0000152449539b69 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/libDeclarativeServices.so.1.5.7+00588649
+[ 20] 0x000015244e994e67                             /lib64/libpthread.so.0+00065127
+[ 21] 0x00001524495342d8 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/libDeclarativeServices.so.1.5.7+00565976
+[ 22] 0x000015244dcb0c34 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/libmwfoundation_threadpool.so+00146484
+[ 23] 0x000015244dcb5928 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/libmwfoundation_threadpool.so+00166184
+[ 24] 0x000015244dcb5d54 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/libmwfoundation_threadpool.so+00167252
+[ 25] 0x000015244e83c8c3 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00903363
+[ 26] 0x000015244e98d1ca                             /lib64/libpthread.so.0+00033226
+[ 27] 0x000015244e3b3e73                                   /lib64/libc.so.6+00237171 clone+00000067
+
+
+** This crash report has been written to /home/xpz5km/.MathWorks/ServiceHost/udc-aw34-17c1/logs/MathWorksServiceHost_crash_83161.log **
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_256_400000_1.0e-6__R0_0.08_eps_0.0075047_alpha_0.0
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_plot_alpha_256 (line 50)
+In level_set_radius_array_alpha_256 (line 14)] 
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+DONE

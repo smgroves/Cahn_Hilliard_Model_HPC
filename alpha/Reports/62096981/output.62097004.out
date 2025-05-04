@@ -1,0 +1,13 @@
+Fri Jun 21 09:11:54 EDT 2024
+0.2 24 10 0.2
+LOADED MATLAB
+0.2
+24
+0.2
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+slurmstepd: error: *** JOB 62097004 ON udc-an33-2c1 CANCELLED AT 2024-06-21T09:14:32 ***

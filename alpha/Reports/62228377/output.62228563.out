@@ -1,0 +1,89 @@
+Wed Jun 26 10:40:41 EDT 2024
+0.0975 32 10 -0.5
+LOADED MATLAB
+0.0975
+32
+-0.5
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+[Warning: Unable to load Toolbox Path Cache
+/home/xpz5km/.matlab/R2024a/toolbox_cache-24.1.0-999402552-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+indir = 
+
+    "/scratch/xpz5km/Cahn_Hilliard_Model/julia_out/critical_radius_alpha"
+
+
+epsilon_name = 
+
+    "0.060037"
+
+
+R0_name =
+
+    '0.0975'
+
+
+alpha_name =
+
+    '-0.5'
+
+
+alpha =
+
+    '-0.5'
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.0975_eps_0.060037_alpha_-0.5'
+
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.0975_eps_0.060037_alpha_-0.5
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_plot_alpha (line 50)
+In level_set_radius_array_alpha (line 25)] 
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+DONE

@@ -1,0 +1,141 @@
+Wed Jun 26 10:37:55 EDT 2024
+0.035 16 10 -0.5
+LOADED MATLAB
+0.035
+16
+-0.5
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+[Warning: Unable to load Toolbox Path Cache
+/home/xpz5km/.matlab/R2024a/toolbox_cache-24.1.0-999402552-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+indir = 
+
+    "/scratch/xpz5km/Cahn_Hilliard_Model/julia_out/critical_radius_alpha"
+
+
+epsilon_name = 
+
+    "0.030019"
+
+
+R0_name =
+
+    '0.035'
+
+
+alpha_name =
+
+    '-0.5'
+
+
+alpha =
+
+    '-0.5'
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.035_eps_0.030019_alpha_-0.5'
+
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwagentcontrolcommon.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwagentinterprocessmutex.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwagentspfframeworksetup.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwagentspfframeworksetup.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwagentutils.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwagentutils.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwcppmicroservices.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwcppmicroservices.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwcppmicroservices.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwi18n.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwi18n.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwfoundation_log.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwcpp11compat.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwboost_log.so.1.81.0)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwboost_log.so.1.81.0)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwboost_program_options.so.1.81.0)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwfoundation_filesystem.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwagentcorecontainer.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwagentcoreserviceutils.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwagentcoreserviceutils.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwagentdirectoryclient.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwagentdirectoryclient.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwagentnanomsgtransport.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwagentnanomsgtransport.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwagentnanomsgtransport.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwagentshutdownserviceclient.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwagentshutdownserviceclient.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwflcryptoutils.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwfl.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwfl.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwflurlmanager.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwfoundation_threadpool.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwfoundation_threadpool.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwfoundation_threadpool.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwflcertificates.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwflcertificates.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwflcodesigning_verifier.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwboost_serialization.so.1.81.0)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwagentcoretransport.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwagentdirectoryserialisation.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwagentnanomsgbytetransport.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwagentshutdownserviceserialisation.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwflnetwork.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwflnetwork.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwagentnanomsg.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/mlcstop: /sfs/applications/vendor/installation/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-17c1/v2024.2.0.3/bin/glnxa64/libmwagentnanomsg.so)
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.035_eps_0.030019_alpha_-0.5
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_plot_alpha (line 50)
+In level_set_radius_array_alpha (line 25)] 
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+DONE

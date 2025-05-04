@@ -1,0 +1,10 @@
+Fri Dec 6 12:50:52 EST 2024
+0.113 8 10
+MODULES LOADED
+ERROR: LoadError: syntax: missing separator in array expression
+Stacktrace:
+ [1] top-level scope
+   @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/run_julia_multigrid_critical_radius/julia_run_critical_radius_two_drops.jl:42
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/run_julia_multigrid_critical_radius/julia_run_critical_radius_two_drops.jl:42
+0.113
+DONE

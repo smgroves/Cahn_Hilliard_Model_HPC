@@ -1,0 +1,28 @@
+Tue Oct 8 13:38:03 EDT 2024
+0.1 0.0060038 10 0.5 256
+MODULES LOADED
+ERROR: LoadError: SystemError: close: Disk quota exceeded
+Stacktrace:
+ [1] systemerror(p::String, errno::Int32; extrainfo::Nothing)
+   @ Base ./error.jl:176
+ [2] #systemerror#82
+   @ ./error.jl:175 [inlined]
+ [3] systemerror
+   @ ./error.jl:175 [inlined]
+ [4] close(s::IOStream)
+   @ Base ./iostream.jl:63
+ [5] open(::var"#15#19", ::String, ::Vararg{String}; kwargs::Base.Pairs{Symbol, Bool, Tuple{Symbol}, NamedTuple{(:lock,), Tuple{Bool}}})
+   @ Base ./io.jl:397
+ [6] open
+   @ ./io.jl:392 [inlined]
+ [7] main_w_alpha(oc::Matrix{Float64}, nx::Int64, tol::Float64, outdir::String; max_it::Int64, max_it_CH::Int64, suffix::String, overwrite::Bool, print_phi::Bool, print_mass::Bool, print_e::Bool, dt::Float64, M::Int64, ns::Int64, gam::Float64, alpha::Float64, check_dir::Bool)
+   @ Main /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/alpha/CH_multigrid_solver_with_alpha_v2.jl:472
+ [8] top-level scope
+   @ ./timing.jl:393
+in expression starting at /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/alpha/julia_run_critical_radius_alpha_v3.jl:40
+0.1
+starting initialization
+starting ch solver
+phi
+nx = 256, ny = 256, dt = 2.5e-5, epsilon = 0.0060038, max_it = 400000,max_it_CH= 10000, ns = 10, n_level = 8
+DONE

@@ -1,0 +1,31 @@
+0.2
+10
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024a Update 6 (24.1.0.2689473) 64-bit (glnxa64)
+                               July 29, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+CPC =
+
+    10
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_10_eps_0.060037_two_drops'
+
+{Error using readmatrix (line 171)
+Unable to find or open
+'/project/g_bme-janeslab/SarahG/julia_out/critical_radius_two_drops/phi_128_400000_1.0e-6__R0_10_eps_0.060037_two_drops.txt'.
+Check the path and filename or file permissions.
+
+Error in level_set_radius_multiple_droplets (line 21)
+    phi = readmatrix(sprintf('%s/%s.txt', indir, name),'FileType','text');
+} 
+Done.

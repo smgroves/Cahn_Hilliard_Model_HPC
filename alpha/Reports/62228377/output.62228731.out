@@ -1,0 +1,122 @@
+Wed Jun 26 10:55:17 EDT 2024
+0.16 32 10 -0.2
+LOADED MATLAB
+0.16
+32
+-0.2
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+indir = 
+
+    "/scratch/xpz5km/Cahn_Hilliard_Model/julia_out/critical_radius_alpha"
+
+
+epsilon_name = 
+
+    "0.060037"
+
+
+R0_name =
+
+    '0.16'
+
+
+alpha_name =
+
+    '-0.2'
+
+
+alpha =
+
+    '-0.2'
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.16_eps_0.060037_alpha_-0.2'
+
+
+------------------------------------------------------------------------
+       Segmentation violation detected at Wed Jun 26 11:02:24 2024
+------------------------------------------------------------------------
+Architecture     : glnxa64
+Processor ID     : Intel(R) Xeon(R) Gold 6248 CPU @ 2.50GHz
+Host Name        : udc-an33-5c0
+Locale           : en_US
+
+
+Abnormal termination:
+Segmentation violation
+
+Current Thread: 'FTP_2_2' id 23275215353600
+
+Register State (from fault):
+  RAX = 0000152b00000001  RBX = 0000152b481a85b0
+  RCX = 0000000000000051  RDX = 0000152b4823acd0
+  RSP = 0000152b2ef16d50  RBP = 0000000000000120
+  RSI = 0000000000000000  RDI = 0000152b481a8680
+
+   R8 = 0000000152b481c6   R9 = 00000000024edc50
+  R10 = 000000002199f5e2  R11 = 0000000000000202
+  R12 = 0000152b481a8680  R13 = 0000000000000050
+  R14 = 0000000000000000  R15 = 0000152b48000020
+
+  RIP = 0000152b52d7b7e1  EFL = 0000000000010246
+
+   CS = 0033   FS = 0000   GS = 0000
+
+Stack Trace (from fault):
+[  0] 0x0000152b52d7b7e1                                   /lib64/libc.so.6+00620513
+[  1] 0x0000152b52d7cefb                                   /lib64/libc.so.6+00626427
+[  2] 0x0000152b52d7ff72                                   /lib64/libc.so.6+00638834
+[  3] 0x0000152b532f71f0                             /lib64/libpthread.so.0+00033264
+[  4] 0x0000152b52d1de73                                   /lib64/libc.so.6+00237171 clone+00000067
+
+
+** This crash report has been written to /home/xpz5km/.MathWorks/ServiceHost/udc-an33-5c0/logs/MathWorksServiceHost_crash_527064.log **
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.16_eps_0.060037_alpha_-0.2
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_plot_alpha (line 50)
+In level_set_radius_array_alpha (line 25)] 
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+DONE

@@ -1,0 +1,100 @@
+Wed Jul 10 12:10:22 EDT 2024
+0.115 16 10 0 256
+LOADED MATLAB
+0.115
+16
+0
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+indir = 
+
+    "/scratch/xpz5km/Cahn_Hilliard_Model/julia_out/critical_radius_alpha"
+
+
+epsilon =
+
+    0.0150
+
+
+epsilon_name =
+
+    '0.015009'
+
+
+R0_name =
+
+    '0.115'
+
+
+alpha_name =
+
+    '0.0'
+
+
+alpha =
+
+    '0.0'
+
+
+name =
+
+    'phi_256_400000_1.0e-6__R0_0.115_eps_0.015009_alpha_0.0'
+
+
+------------------------------------------------------------------------
+       Segmentation violation detected at Wed Jul 10 12:12:39 2024
+------------------------------------------------------------------------
+Architecture     : glnxa64
+Processor ID     : Intel(R) Xeon(R) Gold 6248 CPU @ 2.50GHz
+Host Name        : udc-an33-20c1
+Locale           : en_US
+
+
+Abnormal termination:
+Segmentation violation
+
+Current Thread: 'FTP_2_1' id 22690308806400
+
+Register State (from fault):
+  RAX = 00000000027865e0  RBX = 0000000002c75bc0
+  RCX = 0000000000000006  RDX = 000014a318231da0
+  RSP = 000014a2ffcbc330  RBP = 000014a2ffcbc4b0
+  RSI = 000014a300114780  RDI = 000014a2ffcbc3a0
+
+   R8 = 0000000000000000   R9 = cf0f6bf8ad247e5d
+  R10 = 0000000000000000  R11 = 0000000000000007
+  R12 = 000014a2ffcbc3a0  R13 = 000014a3180732c0
+  R14 = 46002056206b726f  R15 = 000014a2ffcbc360
+
+  RIP = 000014a300133547  EFL = 0000000000010202
+
+   CS = 0033   FS = 0000   GS = 0000
+
+Stack Trace (from fault):
+[  0] 0x000014a300133547 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/spf/serviceproviders/login/spf/matlabloginserviceprovider/libmwmatlabloginserviceprovider.so+00369991
+[  1] 0x000014a317ba3a97 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentspflegacyservicewrapper.so+00187031
+[  2] 0x000014a31dac146b /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/mathworksservicehost/rcf/matlabconnector/serviceprocess/rcf/client-v1/../../../../../../../../bin/glnxa64/libmwagentspfcore.so+00152683 _ZNK5agent3spf4core16ExportedFunctionclEON10foundation10concurrent10threadpool10stop_tokenEONS1_14GenericPayloadE+00000347
+[  3] 0x000014a317b955f6 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentspflegacyservicewrapper.so+00128502
+[  4] 0x000014a317b95681 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentspflegacyservicewrapper.so+00128641
+[  5] 0x000014a317afc060 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentnanomsgtransport.so+00082016
+[  6] 0x000014a323183c34 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/libmwfoundation_threadpool.so+00146484
+[  7] 0x000014a323188928 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/libmwfoundation_threadpool.so+00166184
+[  8] 0x000014a323188d54 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/libmwfoundation_threadpool.so+00167252
+[  9] 0x000014a323d0f8c3 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00903363
+[ 10] 0x000014a323e601ca                             /lib64/libpthread.so.0+00033226
+[ 11] 0x000014a323886e73                                   /lib64/libc.so.6+00237171 clone+00000067
+
+
+** This crash report has been written to /home/xpz5km/.MathWorks/ServiceHost/udc-an33-20c1/logs/MathWorksServiceHost_crash_595461.log **
+/var/spool/slurm/slurmd/job62415360/slurm_script: line 24: 594781 Killed                  matlab -nodisplay -r "level_set_radius_array_alpha_256($R0, $m, $alpha, 256); exit;"
+DONE
+slurmstepd: error: Detected 1 oom_kill event in StepId=62415360.batch. Some of the step tasks have been OOM Killed.

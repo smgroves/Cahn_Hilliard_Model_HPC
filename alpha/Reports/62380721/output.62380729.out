@@ -1,0 +1,19 @@
+Mon Jul 8 10:11:48 EDT 2024
+0.095 8 10 0 256
+MODULES LOADED
+ERROR: LoadError: MethodError: no method matching /(::Int64, ::String)
+
+Closest candidates are:
+  /(::Union{Int128, Int16, Int32, Int64, Int8, UInt128, UInt16, UInt32, UInt64, UInt8}, !Matched::Union{Int128, Int16, Int32, Int64, Int8, UInt128, UInt16, UInt32, UInt64, UInt8})
+   @ Base int.jl:97
+  /(::Union{Integer, Complex{<:Union{Integer, Rational}}}, !Matched::Rational)
+   @ Base rational.jl:361
+  /(::Union{Int16, Int32, Int64, Int8, UInt16, UInt32, UInt64, UInt8}, !Matched::BigInt)
+   @ Base gmp.jl:555
+  ...
+
+Stacktrace:
+ [1] top-level scope
+   @ /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/alpha/julia_run_critical_radius_alpha_v2.jl:19
+in expression starting at /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/alpha/julia_run_critical_radius_alpha_v2.jl:19
+DONE

@@ -1,0 +1,31 @@
+Tue Oct 8 11:33:27 EDT 2024
+0.014,0.0018761,10,-0.5,256
+MODULES LOADED
+ERROR: LoadError: ArgumentError: cannot parse "0.014,0.0018761,10,-0.5,256" as Float64
+Stacktrace:
+  [1] _parse_failure(T::Type, s::String, startpos::Int64, endpos::Int64)
+    @ Base ./parse.jl:373
+  [2] _parse_failure(T::Type, s::String)
+    @ Base ./parse.jl:373
+  [3] #tryparse_internal#509
+    @ ./parse.jl:369 [inlined]
+  [4] tryparse_internal
+    @ ./parse.jl:366 [inlined]
+  [5] #parse#510
+    @ ./parse.jl:379 [inlined]
+  [6] parse
+    @ ./parse.jl:379 [inlined]
+  [7] _broadcast_getindex_evalf
+    @ ./broadcast.jl:683 [inlined]
+  [8] _broadcast_getindex
+    @ ./broadcast.jl:666 [inlined]
+  [9] getindex
+    @ ./broadcast.jl:610 [inlined]
+ [10] copy
+    @ ./broadcast.jl:888 [inlined]
+ [11] materialize(bc::Base.Broadcast.Broadcasted{Base.Broadcast.DefaultArrayStyle{0}, Nothing, typeof(parse), Tuple{Base.RefValue{Type{Float64}}, Base.RefValue{String}}})
+    @ Base.Broadcast ./broadcast.jl:873
+ [12] top-level scope
+    @ /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/alpha/julia_run_critical_radius_alpha_v3.jl:7
+in expression starting at /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/alpha/julia_run_critical_radius_alpha_v3.jl:7
+DONE

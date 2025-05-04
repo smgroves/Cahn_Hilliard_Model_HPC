@@ -1,0 +1,9 @@
+Tue Sep 17 10:48:43 EDT 2024
+128 8 5 -0.1
+MODULES LOADED
+ERROR: LoadError: UndefVarError: `R0` not defined
+Stacktrace:
+ [1] top-level scope
+   @ /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/alpha/julia_run_critical_radius_flat_interface.jl:15
+in expression starting at /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/alpha/julia_run_critical_radius_flat_interface.jl:15
+DONE

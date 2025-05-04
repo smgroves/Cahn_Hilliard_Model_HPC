@@ -1,0 +1,84 @@
+Fri Jun 21 10:49:37 EDT 2024
+0.12 16 10 -0.2
+LOADED MATLAB
+0.12
+16
+-0.2
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+indir = 
+
+    "/scratch/xpz5km/Cahn_Hilliard_Model/julia_out/critical_radius_alpha"
+
+
+epsilon_name = 
+
+    "0.030019"
+
+
+R0_name =
+
+    '0.12'
+
+
+alpha_name =
+
+    '-0.2'
+
+
+alpha =
+
+    '-0.2'
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.12_eps_0.030019_alpha_-0.2'
+
+Launching updater executable
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.12_eps_0.030019_alpha_-0.2
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_plot_alpha (line 50)
+In level_set_radius_array_alpha (line 25)] 
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+DONE

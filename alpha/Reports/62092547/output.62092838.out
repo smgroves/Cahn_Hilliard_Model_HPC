@@ -1,0 +1,47 @@
+Fri Jun 21 03:34:30 EDT 2024
+0.21 24 10 0.2
+LOADED MATLAB
+0.21
+24
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+indir = 
+
+    "/scratch/xpz5km/Cahn_Hilliard_Model/julia_out/critical_radius_alpha"
+
+
+epsilon_name = 
+
+    "0.045028"
+
+
+R0_name =
+
+    '0.21'
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.21_eps_0.045028'
+
+{Error using readmatrix (line 171)
+Unable to find or open
+'/scratch/xpz5km/Cahn_Hilliard_Model/julia_out/critical_radius_alpha/phi_128_400000_1.0e-6__R0_0.21_eps_0.045028.txt'.
+Check the path and filename or file permissions.
+
+Error in level_set_plot (line 13)
+    phi = readmatrix(sprintf('%s/%s.txt', indir, name),'FileType','text');
+
+Error in level_set_radius_array_alpha (line 23)
+    [rr,tt] = level_set_plot(2.5e-5, indir, total_time, everyR, epsilon_name, R0_name, folder);
+} 
+DONE

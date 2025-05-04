@@ -1,0 +1,62 @@
+Wed Jul 10 18:34:04 EDT 2024
+0.07 8 10 0 256
+LOADED MATLAB
+0.07
+8
+0
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+[Warning: Unable to load Toolbox Path Cache
+/home/xpz5km/.matlab/R2024a/toolbox_cache-24.1.0-3725113302-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+indir = 
+
+    "/scratch/xpz5km/Cahn_Hilliard_Model/julia_out/critical_radius_alpha"
+
+
+epsilon =
+
+    0.0075
+
+
+epsilon_name =
+
+    '0.0075047'
+
+
+R0_name =
+
+    '0.07'
+
+
+alpha_name =
+
+    '0.0'
+
+
+alpha =
+
+    '0.0'
+
+
+name =
+
+    'phi_256_400000_1.0e-6__R0_0.07_eps_0.0075047_alpha_0.0'
+
+tcache_thread_shutdown(): unaligned tcache chunk detected
+
+MATLAB is exiting because of fatal error
+/var/spool/slurm/slurmd/job62421912/slurm_script: line 24: 34311 Killed                  matlab -nodisplay -r "level_set_radius_array_alpha_256($R0, $m, $alpha, 256); exit;"
+DONE

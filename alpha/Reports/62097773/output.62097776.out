@@ -1,0 +1,157 @@
+Fri Jun 21 09:41:08 EDT 2024
+0.13 8 10 0.2
+LOADED MATLAB
+0.13
+8
+0.2
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+indir = 
+
+    "/scratch/xpz5km/Cahn_Hilliard_Model/julia_out/critical_radius_alpha"
+
+
+epsilon_name = 
+
+    "0.015009"
+
+
+R0_name =
+
+    '0.13'
+
+
+alpha_name =
+
+    '0.2'
+
+
+alpha =
+
+    '0.2'
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.13_eps_0.015009_alpha_0.2'
+
+MathWorksServiceHost: ../nptl/pthread_mutex_lock.c:81: __pthread_mutex_lock: Assertion `mutex->__data.__owner == 0' failed.
+
+------------------------------------------------------------------------
+              abort() detected at Fri Jun 21 09:51:40 2024
+------------------------------------------------------------------------
+Architecture     : glnxa64
+Processor ID     : Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz
+Host Name        : udc-aj40-5c1
+Locale           : en_US
+
+
+Abnormal termination:
+abort()
+
+Current Thread: 'MathWorksServic' id 23053745362432
+
+Register State (from fault):
+  RAX = 0000000000000000  RBX = 0000000000000006
+  RCX = 000014f7a2e24acf  RDX = 0000000000000000
+  RSP = 00007ffc2060ff10  RBP = 000014f7a2f60048
+  RSI = 00007ffc2060ff10  RDI = 0000000000000002
+
+   R8 = 0000000000000000   R9 = 00007ffc2060ff10
+  R10 = 0000000000000008  R11 = 0000000000000246
+  R12 = 000014f7a33f61f5  R13 = 000014f7a33f6212
+  R14 = 0000000000000051  R15 = 0000000000f794b0
+
+  RIP = 000014f7a2e24acf  EFL = 0000000000000246
+
+   CS = 0033   FS = 0000   GS = 0000
+
+Stack Trace (from fault):
+[  0] 0x000014f7a2e24acf                                   /lib64/libc.so.6+00322255 gsignal+00000271
+[  1] 0x000014f7a2df7ea5                                   /lib64/libc.so.6+00138917 abort+00000295
+[  2] 0x000014f7a2df7d79                                   /lib64/libc.so.6+00138617
+[  3] 0x000014f7a2e1d426                                   /lib64/libc.so.6+00291878
+[  4] 0x000014f7a33ebcc1                             /lib64/libpthread.so.0+00044225 __pthread_mutex_lock+00000577
+[  5] 0x000014f79dfa590b /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aj40-5c1/v2024.6.0.6/bin/glnxa64/libDeclarativeServices.so.1.5.7+00649483
+[  6] 0x000014f7a3672233 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aj40-5c1/v2024.6.0.6/bin/glnxa64/libCppMicroServices.so.3.8.1+00463411
+[  7] 0x000014f7a36722d1 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aj40-5c1/v2024.6.0.6/bin/glnxa64/libCppMicroServices.so.3.8.1+00463569
+[  8] 0x000014f7a3682542 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aj40-5c1/v2024.6.0.6/bin/glnxa64/libCppMicroServices.so.3.8.1+00529730 _ZN16cppmicroservices23ServiceRegistrationBase10UnregisterEv+00000530
+[  9] 0x000014f79dfa8b5d /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aj40-5c1/v2024.6.0.6/bin/glnxa64/libDeclarativeServices.so.1.5.7+00662365
+[ 10] 0x000014f79dfb4bee /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aj40-5c1/v2024.6.0.6/bin/glnxa64/libDeclarativeServices.so.1.5.7+00711662
+[ 11] 0x000014f79df96b69 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aj40-5c1/v2024.6.0.6/bin/glnxa64/libDeclarativeServices.so.1.5.7+00588649
+[ 12] 0x000014f7a33f0e67                             /lib64/libpthread.so.0+00065127
+[ 13] 0x000014f79dfb524e /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aj40-5c1/v2024.6.0.6/bin/glnxa64/libDeclarativeServices.so.1.5.7+00713294
+[ 14] 0x000014f79df87430 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aj40-5c1/v2024.6.0.6/bin/glnxa64/libDeclarativeServices.so.1.5.7+00525360
+[ 15] 0x000014f79df9edb9 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aj40-5c1/v2024.6.0.6/bin/glnxa64/libDeclarativeServices.so.1.5.7+00622009
+[ 16] 0x000014f79dface78 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aj40-5c1/v2024.6.0.6/bin/glnxa64/libDeclarativeServices.so.1.5.7+00679544
+[ 17] 0x000014f79dfa363a /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aj40-5c1/v2024.6.0.6/bin/glnxa64/libDeclarativeServices.so.1.5.7+00640570
+[ 18] 0x000014f79dfa5a72 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aj40-5c1/v2024.6.0.6/bin/glnxa64/libDeclarativeServices.so.1.5.7+00649842
+[ 19] 0x000014f7a3672233 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aj40-5c1/v2024.6.0.6/bin/glnxa64/libCppMicroServices.so.3.8.1+00463411
+[ 20] 0x000014f7a36722d1 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aj40-5c1/v2024.6.0.6/bin/glnxa64/libCppMicroServices.so.3.8.1+00463569
+[ 21] 0x000014f7a3682542 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aj40-5c1/v2024.6.0.6/bin/glnxa64/libCppMicroServices.so.3.8.1+00529730 _ZN16cppmicroservices23ServiceRegistrationBase10UnregisterEv+00000530
+[ 22] 0x000014f79dfa8b5d /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aj40-5c1/v2024.6.0.6/bin/glnxa64/libDeclarativeServices.so.1.5.7+00662365
+[ 23] 0x000014f79dfb1b4b /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aj40-5c1/v2024.6.0.6/bin/glnxa64/libDeclarativeServices.so.1.5.7+00699211
+[ 24] 0x000014f79df87430 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aj40-5c1/v2024.6.0.6/bin/glnxa64/libDeclarativeServices.so.1.5.7+00525360
+[ 25] 0x000014f79df9edb9 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aj40-5c1/v2024.6.0.6/bin/glnxa64/libDeclarativeServices.so.1.5.7+00622009
+[ 26] 0x000014f79dface78 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aj40-5c1/v2024.6.0.6/bin/glnxa64/libDeclarativeServices.so.1.5.7+00679544
+[ 27] 0x000014f79dfa363a /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aj40-5c1/v2024.6.0.6/bin/glnxa64/libDeclarativeServices.so.1.5.7+00640570
+[ 28] 0x000014f79dfa5a72 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aj40-5c1/v2024.6.0.6/bin/glnxa64/libDeclarativeServices.so.1.5.7+00649842
+[ 29] 0x000014f7a3672233 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aj40-5c1/v2024.6.0.6/bin/glnxa64/libCppMicroServices.so.3.8.1+00463411
+[ 30] 0x000014f7a36722d1 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aj40-5c1/v2024.6.0.6/bin/glnxa64/libCppMicroServices.so.3.8.1+00463569
+[ 31] 0x000014f7a3682542 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aj40-5c1/v2024.6.0.6/bin/glnxa64/libCppMicroServices.so.3.8.1+00529730 _ZN16cppmicroservices23ServiceRegistrationBase10UnregisterEv+00000530
+[ 32] 0x000014f79d1fd404 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aj40-5c1/v2024.6.0.6/bin/glnxa64/mathworksservicehost/rcf/matlabconnector/serviceprocess/rcf/client-v1/libmwmshrcfclientv1.so+00132100
+[ 33] 0x000014f79d2090e3 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aj40-5c1/v2024.6.0.6/bin/glnxa64/mathworksservicehost/rcf/matlabconnector/serviceprocess/rcf/client-v1/libmwmshrcfclientv1.so+00180451
+[ 34] 0x000014f79d203bc5 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aj40-5c1/v2024.6.0.6/bin/glnxa64/mathworksservicehost/rcf/matlabconnector/serviceprocess/rcf/client-v1/libmwmshrcfclientv1.so+00158661
+[ 35] 0x0000000000422d6f /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aj40-5c1/v2024.6.0.6/bin/glnxa64/MathWorksServiceHost+00142703
+[ 36] 0x0000000000411bd4 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aj40-5c1/v2024.6.0.6/bin/glnxa64/MathWorksServiceHost+00072660
+[ 37] 0x000014f7a2e10d85                                   /lib64/libc.so.6+00241029 __libc_start_main+00000229
+[ 38] 0x0000000000411c5a /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aj40-5c1/v2024.6.0.6/bin/glnxa64/MathWorksServiceHost+00072794
+
+
+** This crash report has been written to /home/xpz5km/.MathWorks/ServiceHost/udc-aj40-5c1/logs/MathWorksServiceHost_crash_361343.log **
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.13_eps_0.015009_alpha_0.2
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_plot_alpha (line 50)
+In level_set_radius_array_alpha (line 25)] 
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+DONE

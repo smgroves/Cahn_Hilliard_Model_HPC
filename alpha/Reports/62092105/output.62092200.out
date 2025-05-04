@@ -1,0 +1,19 @@
+Thu Jun 20 21:53:08 EDT 2024
+0.12 8 10 0.2
+MODULES LOADED
+ERROR: LoadError: MethodError: no method matching main_w_alpha(::Matrix{Float64}, ::Int64, ::Float64, ::String; dt::Float64, gam::Float64, max_it::Int64, print_mass::Bool, print_e::Bool, overwrite::Bool, print_r::Bool, suffix::String, check_dir::Bool, alpha::Float64)
+
+Closest candidates are:
+  main_w_alpha(::Any, ::Any, ::Any, ::Any; max_it, max_it_CH, suffix, overwrite, print_phi, print_mass, print_e, dt, M, ns, gam, alpha, check_dir) got unsupported keyword argument "print_r"
+   @ Main /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/alpha/CH_multigrid_solver_with_alpha_v2.jl:390
+
+Stacktrace:
+ [1] kwerr(::NamedTuple{(:dt, :gam, :max_it, :print_mass, :print_e, :overwrite, :print_r, :suffix, :check_dir, :alpha), Tuple{Float64, Float64, Int64, Bool, Bool, Bool, Bool, String, Bool, Float64}}, ::Function, ::Matrix{Float64}, ::Int64, ::Float64, ::String)
+   @ Base ./error.jl:165
+ [2] top-level scope
+   @ ./timing.jl:393
+in expression starting at /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/alpha/julia_run_critical_radius_alpha.jl:31
+0.12
+starting initialization
+starting ch solver
+DONE

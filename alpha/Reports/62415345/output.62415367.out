@@ -1,0 +1,98 @@
+Wed Jul 10 12:10:22 EDT 2024
+0.13 24 10 0 256
+LOADED MATLAB
+0.13
+24
+0
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+indir = 
+
+    "/scratch/xpz5km/Cahn_Hilliard_Model/julia_out/critical_radius_alpha"
+
+
+epsilon =
+
+    0.0225
+
+
+epsilon_name =
+
+    '0.022514'
+
+
+R0_name =
+
+    '0.13'
+
+
+alpha_name =
+
+    '0.0'
+
+
+alpha =
+
+    '0.0'
+
+
+name =
+
+    'phi_256_400000_1.0e-6__R0_0.13_eps_0.022514_alpha_0.0'
+
+
+------------------------------------------------------------------------
+       Segmentation violation detected at Wed Jul 10 12:11:24 2024
+------------------------------------------------------------------------
+Architecture     : glnxa64
+Processor ID     : Intel(R) Xeon(R) Gold 6248 CPU @ 2.50GHz
+Host Name        : udc-an33-6c0
+Locale           : en_US
+
+
+Abnormal termination:
+Segmentation violation
+
+Current Thread: 'FTP_2_3' id 23141481076480
+
+Register State (from fault):
+  RAX = 00000000023a82c0  RBX = 0000150c0bc244f0
+  RCX = 0000000000000000  RDX = 0000000000000009
+  RSP = 0000150c0bc244b0  RBP = 0000150c0bc24710
+  RSI = 0000000000000002  RDI = 0000000000000002
+
+   R8 = 0000150c0bc244f8   R9 = 0000000000000052
+  R10 = 0000150d74c911de  R11 = 0000150c0bc24468
+  R12 = 0000150c0bc24538  R13 = 0000000002ae3510
+  R14 = 6e69676f4c62616c  R15 = 0000150c0bc24550
+
+  RIP = 0000150c0c718b13  EFL = 0000000000010246
+
+   CS = 0033   FS = 0000   GS = 0000
+
+Stack Trace (from fault):
+[  0] 0x0000150c0c718b13 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/spf/serviceproviders/login/spf/matlabloginserviceprovider/libmwmatlabloginserviceprovider.so+00371475
+[  1] 0x0000150c2a0a646b /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/mathworksservicehost/rcf/matlabconnector/serviceprocess/rcf/client-v1/../../../../../../../../bin/glnxa64/libmwagentspfcore.so+00152683 _ZNK5agent3spf4core16ExportedFunctionclEON10foundation10concurrent10threadpool10stop_tokenEONS1_14GenericPayloadE+00000347
+[  2] 0x0000150c2817b5f6 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentspflegacyservicewrapper.so+00128502
+[  3] 0x0000150c2817b681 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentspflegacyservicewrapper.so+00128641
+[  4] 0x0000150c280e2060 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentnanomsgtransport.so+00082016
+[  5] 0x0000150c2f768c34 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/libmwfoundation_threadpool.so+00146484
+[  6] 0x0000150c2f76d928 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/libmwfoundation_threadpool.so+00166184
+[  7] 0x0000150c2f76dd54 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/libmwfoundation_threadpool.so+00167252
+[  8] 0x0000150c302f48c3 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00903363
+[  9] 0x0000150c304451ca                             /lib64/libpthread.so.0+00033226
+[ 10] 0x0000150c2fe6be73                                   /lib64/libc.so.6+00237171 clone+00000067
+
+
+** This crash report has been written to /home/xpz5km/.MathWorks/ServiceHost/udc-an33-6c0/logs/MathWorksServiceHost_crash_615934.log **
+DONE
+/var/spool/slurm/slurmd/job62415367/slurm_script: line 25: echo: write error: No space left on device

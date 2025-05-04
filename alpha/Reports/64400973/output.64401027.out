@@ -1,0 +1,89 @@
+Tue Sep 24 16:51:44 EDT 2024
+LOADED MATLAB
+0.08
+0.0450281
+-0.5
+128
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+/home/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/mlclauncher: /sfs/applications/vendor/production/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/libmwagentutils.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/mlclauncher: /sfs/applications/vendor/production/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/libmwagentutils.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/mlclauncher: /sfs/applications/vendor/production/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/libmwcppmicroservices.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/mlclauncher: /sfs/applications/vendor/production/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/libmwcppmicroservices.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/mlclauncher: /sfs/applications/vendor/production/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/libmwcppmicroservices.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/mlclauncher: /sfs/applications/vendor/production/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/libmwi18n.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/mlclauncher: /sfs/applications/vendor/production/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/libmwi18n.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/mlclauncher: /sfs/applications/vendor/production/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/libmwfoundation_filesystem.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/mlclauncher: /sfs/applications/vendor/production/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/libmwcpp11compat.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/mlclauncher: /sfs/applications/vendor/production/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/libmwagentcoreserviceutils.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/mlclauncher: /sfs/applications/vendor/production/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/libmwagentcoreserviceutils.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/mlclauncher: /sfs/applications/vendor/production/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/libmwfl.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/mlclauncher: /sfs/applications/vendor/production/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/libmwfl.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/mlclauncher: /sfs/applications/vendor/production/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/libmwflurlmanager.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/mlclauncher: /sfs/applications/vendor/production/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/libmwfoundation_log.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/mlclauncher: /sfs/applications/vendor/production/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/libmwboost_log.so.1.81.0)
+/home/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/mlclauncher: /sfs/applications/vendor/production/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/libmwboost_log.so.1.81.0)
+/home/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/mlclauncher: /sfs/applications/vendor/production/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/libmwfoundation_threadpool.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/mlclauncher: /sfs/applications/vendor/production/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/libmwfoundation_threadpool.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/mlclauncher: /sfs/applications/vendor/production/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/libmwfoundation_threadpool.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/mlclauncher: /sfs/applications/vendor/production/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/libmwflcertificates.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/mlclauncher: /sfs/applications/vendor/production/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/libmwflcertificates.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/mlclauncher: /sfs/applications/vendor/production/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/libmwflcodesigning_verifier.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/mlclauncher: /sfs/applications/vendor/production/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/libmwagentcoretransport.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/mlclauncher: /sfs/applications/vendor/production/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/libmwflnetwork.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/mlclauncher: /sfs/applications/vendor/production/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/libmwflnetwork.so)
+/home/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/mlclauncher: /sfs/applications/vendor/production/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/libmwboost_serialization.so.1.81.0)
+/home/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/mlclauncher: /sfs/applications/vendor/production/software/matlab/R2024a/sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-10c1/v2024.2.0.3/bin/glnxa64/libmwflcryptoutils.so)
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+epsilon_name =
+
+    '0.045028'
+
+
+R0_name =
+
+    '0.08'
+
+
+alpha_name =
+
+    '-0.5'
+
+
+alpha =
+
+    '-0.5'
+
+
+name =
+
+    'phi_128_4e-05_1.0e-6__R0_0.08_eps_0.045028_alpha_-0.5'
+
+{Error using readmatrix (line 171)
+Unable to find or open
+'/project/g_bme-janeslab/SarahG/julia_out/critical_radius_alpha_updated/phi_128_4e-05_1.0e-6__R0_0.08_eps_0.045028_alpha_-0.5.txt'.
+Check the path and filename or file permissions.
+
+Error in level_set_plot_alpha_v3 (line 14)
+    phi = readmatrix(sprintf('%s/%s.txt', indir, name),'FileType','text');
+
+Error in level_set_radius_array_alpha_v3 (line 14)
+    [rr,tt] = level_set_plot_alpha_v3(dt, indir, total_time, everyR, epsilon_name, R0_name, folder, alpha_name, Nx, contour_level);
+} 
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+DONE

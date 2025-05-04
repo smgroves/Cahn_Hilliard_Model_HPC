@@ -1,0 +1,11 @@
+Tue Sep 24 14:03:33 EDT 2024
+0.0075 0.0075046 10 -0.5 256
+MODULES LOADED
+ERROR: LoadError: syntax: unexpected "="
+Stacktrace:
+ [1] top-level scope
+   @ /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/alpha/julia_run_critical_radius_alpha_v3.jl:18
+in expression starting at /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/alpha/julia_run_critical_radius_alpha_v3.jl:18
+0.0075
+starting initialization
+DONE

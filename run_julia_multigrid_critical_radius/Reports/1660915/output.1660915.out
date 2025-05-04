@@ -1,0 +1,10 @@
+Fri Jan 24 12:24:53 EST 2025
+Lmod has detected the following error: These module(s) or extension(s) exist
+but cannot be loaded as requested: "python"
+   Try: "module spider python" to see how to load the module(s).
+
+
+
+MODULES LOADED
+/var/spool/slurm/slurmd/job1660915/slurm_script: line 14: python: command not found
+DONE

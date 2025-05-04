@@ -1,0 +1,146 @@
+Fri Sep 27 12:59:24 EDT 2024
+LOADED MATLAB
+0.05
+0.0300187
+-0.5
+256
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+epsilon_name =
+
+    '0.030019'
+
+
+R0_name =
+
+    '0.05'
+
+
+alpha_name =
+
+    '-0.5'
+
+
+alpha =
+
+    '-0.5'
+
+
+name =
+
+    'phi_256_400000_1.0e-6__R0_0.05_eps_0.030019_alpha_-0.5'
+
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at -1.666000e-01 level set
+ phi_256_400000_1.0e-6__R0_0.05_eps_0.030019_alpha_-0.5
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_plot_alpha_v3 (line 52)
+In level_set_radius_array_alpha_v3 (line 14)] 
+
+ans =
+
+     1
+
+
+ans =
+
+     1
+
+
+ans =
+
+     1
+
+
+ans =
+
+     1
+
+
+ans =
+
+     1
+
+
+--------------------------------------------------------------------------------
+          Segmentation violation detected at 2024-09-27 13:28:29 -0400
+--------------------------------------------------------------------------------
+
+Configuration:
+  Crash Decoding           : Disabled - No sandbox or build area path
+  Crash Mode               : continue (default)
+  Default Encoding         : UTF-8
+  Deployed                 : false
+  GNU C Library            : 2.28 stable
+  Graphics Driver          : Uninitialized software 
+  Graphics card 1          : 0x102b ( 0x102b ) 0x536 Version 0.0.0.0 (0-0-0)
+  Java Version             : Java 1.8.0_202-b08 with Oracle Corporation Java HotSpot(TM) 64-Bit Server VM mixed mode
+  MATLAB Architecture      : glnxa64
+  MATLAB Entitlement ID    : 5215811
+  MATLAB Root              : /sfs/applications/vendor/production/software/matlab/R2024a
+  MATLAB Version           : 24.1.0.2537033 (R2024a)
+  OpenGL                   : software
+  Operating System         : Linux 4.18.0-513.18.1.el8_9.x86_64 #1 SMP Wed Feb 21 21:34:36 UTC 2024 x86_64
+  Process ID               : 372403
+  Processor ID             : x86 Family 6 Model 85 Stepping 7, GenuineIntel
+  Session Key              : 53bd2cff-d1cd-4378-9b0d-925824f82961
+  Window System            : No active display
+
+Fault Count: 1
+
+
+Abnormal termination:
+Segmentation violation
+
+Current Thread: 'GTP_3' id 22625575724800
+
+Register State (from fault):
+  RAX = 0000000000000000  RBX = 7243bb6066b7251a
+  RCX = 0000000000000002  RDX = e1aa7b794e3e0b8b
+  RSP = 00001493ed6756b8  RBP = 00001493ed675710
+  RSI = 7243bb6066b7251a  RDI = 00000000000000d0
+
+   R8 = 0000000000000001   R9 = 0000000014e55020
+  R10 = 0000000000000007  R11 = 0000000000000246
+  R12 = 00000000000000d0  R13 = 0000000000000010
+  R14 = 0000000000000002  R15 = e1aa7b794e3e0b8b
+
+  RIP = 0000149423505a84  EFL = 0000000000010206
+
+   CS = 0033   FS = 0000   GS = 0000
+
+Stack Trace (from fault):
+[  0] 0x0000149423505a84                             /lib64/libpthread.so.0+00043652 __pthread_mutex_lock+00000004
+[  1] 0x00001493ef168466 /sfs/applications/vendor/production/software/matlab/R2024a/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentnanomsgtransport.so+00263270
+[  2] 0x00001493ef13e877 /sfs/applications/vendor/production/software/matlab/R2024a/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentnanomsgtransport.so+00092279
+[  3] 0x00001493ef152cf0 /sfs/applications/vendor/production/software/matlab/R2024a/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentnanomsgtransport.so+00175344
+[  4] 0x00001493ef14bf72 /sfs/applications/vendor/production/software/matlab/R2024a/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentnanomsgtransport.so+00147314
+[  5] 0x00001493ef16281a /sfs/applications/vendor/production/software/matlab/R2024a/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentnanomsgtransport.so+00239642
+[  6] 0x00001493ef162968 /sfs/applications/vendor/production/software/matlab/R2024a/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentnanomsgtransport.so+00239976
+[  7] 0x00001493ef166fd0 /sfs/applications/vendor/production/software/matlab/R2024a/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentnanomsgtransport.so+00258000
+[  8] 0x00001493ef167ba0 /sfs/applications/vendor/production/software/matlab/R2024a/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentnanomsgtransport.so+00261024
+[  9] 0x00001494233fbd10 /sfs/applications/vendor/production/software/matlab/R2024a/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00879888
+[ 10] 0x00001494235031ca                             /lib64/libpthread.so.0+00033226
+[ 11] 0x0000149422f7fe73                                   /lib64/libc.so.6+00237171 clone+00000067
+
+** This crash report has been saved to disk as /home/xpz5km/matlab_crash_dump.372403-1 **
+
+
+
+MATLAB is exiting because of fatal error
+/var/spool/slurm/slurmd/job64475024/slurm_script: line 25: 372403 Killed                  matlab -nodisplay -r "level_set_radius_array_alpha_v3($R0, $epsilon, $alpha, $nx, '$indir', 2.5e5, -0.1666); exit;"
+DONE

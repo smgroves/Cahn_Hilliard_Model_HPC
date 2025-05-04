@@ -1,0 +1,12 @@
+Tue Oct 1 13:01:20 EDT 2024
+sed: can't read options_alpha_-0._v2.txt: No such file or directory
+
+MODULES LOADED
+ERROR: LoadError: BoundsError: attempt to access 0-element Vector{String} at index [1]
+Stacktrace:
+ [1] getindex(A::Vector{String}, i1::Int64)
+   @ Base ./essentials.jl:13
+ [2] top-level scope
+   @ /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/alpha/julia_run_critical_radius_alpha_v3.jl:7
+in expression starting at /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/alpha/julia_run_critical_radius_alpha_v3.jl:7
+DONE

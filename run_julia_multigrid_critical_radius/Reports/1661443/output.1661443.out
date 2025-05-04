@@ -1,0 +1,7 @@
+Fri Jan 24 12:43:05 EST 2025
+MODULES LOADED
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/run_julia_multigrid_critical_radius/plot_timepoints_critical_radius.py", line 62, in <module>
+    plot_timepoint("phi_128_400000_1.0e-6__R0_0.11625_eps_0.015009.txt", indir, outdir, timepoints = timepoints)
+TypeError: plot_timepoint() got an unexpected keyword argument 'timepoints'
+DONE

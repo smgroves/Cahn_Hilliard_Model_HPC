@@ -1,0 +1,83 @@
+Tue Oct 1 11:26:48 EDT 2024
+LOADED MATLAB
+0.14
+0.0900562
+-0.5
+128
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+[Warning: Unable to load Toolbox Path Cache
+/home/xpz5km/.matlab/R2024a/toolbox_cache-24.1.0-3725113302-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+epsilon_name =
+
+    '0.090056'
+
+
+R0_name =
+
+    '0.14'
+
+
+alpha_name =
+
+    '-0.5'
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.14_eps_0.090056_alpha_-0.5'
+
+You already have the most recent version of MATLAB Connector installed.
+Launching updater executable
+
+(InstallMathWorksServiceHost:28588): Gtk-WARNING **: 11:33:32.579: cannot open display: 
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at -1.666000e-01 level set
+ phi_128_400000_1.0e-6__R0_0.14_eps_0.090056_alpha_-0.5
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_plot_alpha_v3 (line 51)
+In level_set_radius_array_alpha_v3 (line 14)] 
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+DONE

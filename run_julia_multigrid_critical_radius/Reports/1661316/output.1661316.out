@@ -1,0 +1,9 @@
+Fri Jan 24 12:27:20 EST 2025
+MODULES LOADED
+0
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/run_julia_multigrid_critical_radius/plot_timepoints_critical_radius.py", line 34, in <module>
+    xx = np.linspace(0, 1 / 128 * (nx - 1), nx)
+                                   ^^
+NameError: name 'nx' is not defined. Did you mean: 'np'?
+DONE

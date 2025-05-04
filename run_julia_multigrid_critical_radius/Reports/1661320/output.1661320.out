@@ -1,0 +1,9 @@
+Fri Jan 24 12:28:20 EST 2025
+MODULES LOADED
+Timepoint  0
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/run_julia_multigrid_critical_radius/plot_timepoints_critical_radius.py", line 38, in <module>
+    phi_MG[:, :, timepoint],
+    ^^^^^^
+NameError: name 'phi_MG' is not defined
+DONE

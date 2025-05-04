@@ -1,0 +1,175 @@
+Fri Jun 21 12:56:37 EDT 2024
+0.213 32 10 0.2
+LOADED MATLAB
+0.213
+32
+0.2
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+indir = 
+
+    "/scratch/xpz5km/Cahn_Hilliard_Model/julia_out/critical_radius_alpha"
+
+
+epsilon_name = 
+
+    "0.060037"
+
+
+R0_name =
+
+    '0.213'
+
+
+alpha_name =
+
+    '0.2'
+
+
+alpha =
+
+    '0.2'
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.213_eps_0.060037_alpha_0.2'
+
+
+------------------------------------------------------------------------
+       Segmentation violation detected at Fri Jun 21 12:58:41 2024
+------------------------------------------------------------------------
+Architecture     : glnxa64
+Processor ID     : Intel(R) Xeon(R) Gold 6248 CPU @ 2.50GHz
+Host Name        : udc-an33-8c1
+Locale           : en_US
+
+
+Abnormal termination:
+Segmentation violation
+
+Current Thread: 'FTP_2_1' id 23111210063616
+
+Register State (from fault):
+  RAX = 0000000000000014  RBX = 0000000000000163
+  RCX = 0000000000000007  RDX = 0000000000000001
+  RSP = 00001504ff774330  RBP = 00001504ff7744b0
+  RSI = 0000150518163380  RDI = 0000150518163310
+
+   R8 = 0000000000000014   R9 = 0000000000000014
+  R10 = 000000000000fe9c  R11 = 000015051811eb10
+  R12 = 00001504ff7743a0  R13 = 00001505181633a8
+  R14 = 000015052391d6f0  R15 = 00001504ff774360
+
+  RIP = 00001504ffbeb658  EFL = 0000000000010206
+
+   CS = 0033   FS = 0000   GS = 0000
+
+Stack Trace (from fault):
+[  0] 0x00001504ffbeb658 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-8c1/v2024.6.0.6/bin/glnxa64/spf/serviceproviders/login/spf/matlabloginserviceprovider/libmwmatlabloginserviceprovider.so+00370264
+[  1] 0x000015051765ba97 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-8c1/v2024.6.0.6/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentspflegacyservicewrapper.so+00187031
+[  2] 0x000015051d57846b /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-8c1/v2024.6.0.6/bin/glnxa64/mathworksservicehost/rcf/matlabconnector/serviceprocess/rcf/client-v1/../../../../../../../../bin/glnxa64/libmwagentspfcore.so+00152683 _ZNK5agent3spf4core16ExportedFunctionclEON10foundation10concurrent10threadpool10stop_tokenEONS1_14GenericPayloadE+00000347
+[  3] 0x000015051764d5f6 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-8c1/v2024.6.0.6/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentspflegacyservicewrapper.so+00128502
+[  4] 0x000015051764d681 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-8c1/v2024.6.0.6/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentspflegacyservicewrapper.so+00128641
+[  5] 0x00001505175b4060 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-8c1/v2024.6.0.6/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentnanomsgtransport.so+00082016
+[  6] 0x0000150522c39c34 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-8c1/v2024.6.0.6/bin/glnxa64/libmwfoundation_threadpool.so+00146484
+[  7] 0x0000150522c3e928 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-8c1/v2024.6.0.6/bin/glnxa64/libmwfoundation_threadpool.so+00166184
+[  8] 0x0000150522c3ed54 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-8c1/v2024.6.0.6/bin/glnxa64/libmwfoundation_threadpool.so+00167252
+[  9] 0x00001505237c58c3 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-8c1/v2024.6.0.6/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00903363
+[ 10] 0x00001505239161ca                             /lib64/libpthread.so.0+00033226
+[ 11] 0x000015052333ce73                                   /lib64/libc.so.6+00237171 clone+00000067
+
+
+** This crash report has been written to /home/xpz5km/.MathWorks/ServiceHost/udc-an33-8c1/logs/MathWorksServiceHost_crash_856782.log **
+
+------------------------------------------------------------------------
+       Segmentation violation detected at Fri Jun 21 13:06:47 2024
+------------------------------------------------------------------------
+Architecture     : glnxa64
+Processor ID     : Intel(R) Xeon(R) Gold 6248 CPU @ 2.50GHz
+Host Name        : udc-an33-8c1
+Locale           : en_US
+
+
+Abnormal termination:
+Segmentation violation
+
+Current Thread: 'FTP_2_0' id 23334153832192
+
+Register State (from fault):
+  RAX = 0000000000000020  RBX = 0000000000000011
+  RCX = 0000000000000003  RDX = 0000000000000001
+  RSP = 00001538e7f33330  RBP = 00001538e7f334b0
+  RSI = 00001539002640c0  RDI = 0000153900264050
+
+   R8 = 0000000000000020   R9 = 0000000000000044
+  R10 = 000000000000ffee  R11 = 00001539004fdbc0
+  R12 = 00001538e7f333a0  R13 = 00001539002640e8
+  R14 = 000015390b57c6f0  R15 = 00001538e7f33360
+
+  RIP = 00001538e7848658  EFL = 0000000000010202
+
+   CS = 0033   FS = 0000   GS = 0000
+
+Stack Trace (from fault):
+[  0] 0x00001538e7848658 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-8c1/v2024.6.0.6/bin/glnxa64/spf/serviceproviders/login/spf/matlabloginserviceprovider/libmwmatlabloginserviceprovider.so+00370264
+[  1] 0x00001538ff2b5a97 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-8c1/v2024.6.0.6/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentspflegacyservicewrapper.so+00187031
+[  2] 0x00001539051d746b /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-8c1/v2024.6.0.6/bin/glnxa64/mathworksservicehost/rcf/matlabconnector/serviceprocess/rcf/client-v1/../../../../../../../../bin/glnxa64/libmwagentspfcore.so+00152683 _ZNK5agent3spf4core16ExportedFunctionclEON10foundation10concurrent10threadpool10stop_tokenEONS1_14GenericPayloadE+00000347
+[  3] 0x00001538ff2a75f6 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-8c1/v2024.6.0.6/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentspflegacyservicewrapper.so+00128502
+[  4] 0x00001538ff2a7681 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-8c1/v2024.6.0.6/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentspflegacyservicewrapper.so+00128641
+[  5] 0x00001538ff20e060 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-8c1/v2024.6.0.6/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentnanomsgtransport.so+00082016
+[  6] 0x000015390a898c34 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-8c1/v2024.6.0.6/bin/glnxa64/libmwfoundation_threadpool.so+00146484
+[  7] 0x000015390a89d928 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-8c1/v2024.6.0.6/bin/glnxa64/libmwfoundation_threadpool.so+00166184
+[  8] 0x000015390a89dd54 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-8c1/v2024.6.0.6/bin/glnxa64/libmwfoundation_threadpool.so+00167252
+[  9] 0x000015390b4248c3 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-8c1/v2024.6.0.6/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00903363
+[ 10] 0x000015390b5751ca                             /lib64/libpthread.so.0+00033226
+[ 11] 0x000015390af9be73                                   /lib64/libc.so.6+00237171 clone+00000067
+
+
+** This crash report has been written to /home/xpz5km/.MathWorks/ServiceHost/udc-an33-8c1/logs/MathWorksServiceHost_crash_873126.log **
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.213_eps_0.060037_alpha_0.2
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_plot_alpha (line 50)
+In level_set_radius_array_alpha (line 25)] 
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+DONE

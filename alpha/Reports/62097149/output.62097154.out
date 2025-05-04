@@ -1,0 +1,102 @@
+Fri Jun 21 09:14:32 EDT 2024
+0.15 8 10 0.2
+LOADED MATLAB
+0.15
+8
+0.2
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+indir = 
+
+    "/scratch/xpz5km/Cahn_Hilliard_Model/julia_out/critical_radius_alpha"
+
+
+epsilon_name = 
+
+    "0.015009"
+
+
+R0_name =
+
+    '0.15'
+
+
+alpha_name =
+
+    '0.2'
+
+
+alpha =
+
+    '0.2'
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.15_eps_0.015009_alpha_0.2'
+
+
+------------------------------------------------------------------------
+       Segmentation violation detected at Fri Jun 21 09:21:26 2024
+------------------------------------------------------------------------
+Architecture     : glnxa64
+Processor ID     : Intel(R) Xeon(R) Gold 6248 CPU @ 2.50GHz
+Host Name        : udc-an33-5c0
+Locale           : en_US
+
+
+Abnormal termination:
+Segmentation violation
+
+Current Thread: 'FTP_2_4' id 22563339917056
+
+Register State (from fault):
+  RAX = 0000000000000001  RBX = 0000000001beb950
+  RCX = 0000000000000051  RDX = 0000000001c63330
+  RSP = 000014856fdc4d50  RBP = 00000000000000f0
+  RSI = 0000000000000000  RDI = 0000000001beb950
+
+   R8 = 0000000148588262   R9 = 00001485884232e0
+  R10 = 0000000000000000  R11 = 0000000000000202
+  R12 = 0000000001beba40  R13 = 0000000000000210
+  R14 = 0000000000000000  R15 = 0000148594591bc0
+
+  RIP = 00001485942697e1  EFL = 0000000000010246
+
+   CS = 0033   FS = 0000   GS = 0000
+
+Stack Trace (from fault):
+[  0] 0x00001485942697e1                                   /lib64/libc.so.6+00620513
+[  1] 0x000014859426aa55                                   /lib64/libc.so.6+00625237
+[  2] 0x000014859426df72                                   /lib64/libc.so.6+00638834
+[  3] 0x00001485947e51f0                             /lib64/libpthread.so.0+00033264
+[  4] 0x000014859420be73                                   /lib64/libc.so.6+00237171 clone+00000067
+
+
+** This crash report has been written to /home/xpz5km/.MathWorks/ServiceHost/udc-an33-5c0/logs/MathWorksServiceHost_crash_518007.log **
+{Error using saveas (line 138)
+Invalid or missing path:
+/scratch/xpz5km/Cahn_Hilliard_Model/julia_out/critical_radius_alpha/plots/radius_0.5_nx_128_nt_400000_1.0e-6__R0_0.15_eps_0.015009.png
+
+Error in level_set_plot_alpha (line 50)
+            saveas(fig, filename);
+
+Error in level_set_radius_array_alpha (line 25)
+    [rr,tt] = level_set_plot_alpha(2.5e-5, indir, total_time, everyR, epsilon_name, R0_name, folder, alpha_name);
+} 
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.15_eps_0.015009_alpha_0.2
+] 
+DONE

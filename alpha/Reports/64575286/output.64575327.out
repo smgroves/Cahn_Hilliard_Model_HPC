@@ -1,0 +1,12 @@
+Tue Oct 1 11:15:40 EDT 2024
+LOADED MATLAB
+0.07
+0.0300187
+-0.5
+128
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+/var/spool/slurm/slurmd/job64575327/slurm_script: line 25: 533203 Killed                  matlab -nodisplay -r "level_set_radius_array_alpha_v3($R0, $epsilon, $alpha, $nx, '$indir', 2.5e-5, -0.1666); exit;"
+DONE

@@ -1,0 +1,69 @@
+terminate called after throwing an instance of 'matlabconnector::installationsregistry::InstallationsRegistryError'
+  what():  InstallationsRegistry:getMatlabConnectorVersion: More than one MATLAB Connector records were found
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+everyR =
+
+        1000
+
+
+nx = 
+
+    "128"
+
+
+alpha = 
+
+    "-0.5"
+
+
+alpha = 
+
+    "-0.1"
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+
+
+alpha = 
+
+    "0.1"
+
+
+alpha = 
+
+    "0.5"
+
+
+nx = 
+
+    "256"
+
+
+alpha = 
+
+    "-0.5"
+
+
+alpha = 
+
+    "-0.1"
+
+
+alpha = 
+
+    "0.1"
+
+
+alpha = 
+
+    "0.5"
+

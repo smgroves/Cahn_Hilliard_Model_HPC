@@ -1,0 +1,55 @@
+Fri Sep 27 08:29:06 EDT 2024
+LOADED MATLAB
+0.005
+0.0075046
+-0.5
+128
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+epsilon_name =
+
+    '0.0075046'
+
+
+R0_name =
+
+    '0.005'
+
+
+alpha_name =
+
+    '-0.5'
+
+
+alpha =
+
+    '-0.5'
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.005_eps_0.0075046_alpha_-0.5'
+
+{Error using contour (line 48)
+Number of contour levels must not be negative.
+
+Error in level_set_plot_alpha_v3 (line 31)
+        [~, h] = contour(x, y, phi_tmp, contour_level);
+
+Error in level_set_radius_array_alpha_v3 (line 14)
+    [rr,tt] = level_set_plot_alpha_v3(dt, indir, total_time, everyR, epsilon_name, R0_name, folder, alpha_name, Nx, contour_level);
+} 
+DONE

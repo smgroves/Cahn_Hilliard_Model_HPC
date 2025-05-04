@@ -1,0 +1,21 @@
+Tue Sep 24 16:50:39 EDT 2024
+LOADED MATLAB
+0.17
+0.0900562
+-0.5
+128
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+ level_set_radius_array_alpha_v3(0.17, 0.0900562, -0.5, 128, /project/g_bme-janeslab/SarahG/julia_out/critical_radius_alpha_updated, 2.5e5, -0.1666); exit;
+                                                             |
+{Invalid use of operator.
+} 
+DONE

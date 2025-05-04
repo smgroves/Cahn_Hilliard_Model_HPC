@@ -1,0 +1,86 @@
+Tue Oct 15 19:40:32 EDT 2024
+LOADED MATLAB
+0.162
+0.045028
+0.5
+128
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+[Warning: Unable to load Toolbox Path Cache
+/home/xpz5km/.matlab/R2024a/toolbox_cache-24.1.0-3725113302-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+epsilon_name =
+
+    '0.045028'
+
+
+R0_name =
+
+    '0.162'
+
+
+alpha_name =
+
+    '0.5'
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.162_eps_0.045028_alpha_0.5'
+
+You already have the most recent version of MATLAB Connector installed.
+Launching updater executable
+
+(InstallMathWorksServiceHost:101144): Gtk-WARNING **: 19:46:03.986: cannot open display: 
+You already have the most recent version of MATLAB Connector installed.
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 1.666000e-01 level set
+ phi_128_400000_1.0e-6__R0_0.162_eps_0.045028_alpha_0.5
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_plot_alpha_v3 (line 51)
+In level_set_radius_array_alpha_v3 (line 14)] 
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+Launching updater executable
+
+(InstallMathWorksServiceHost:102434): Gtk-WARNING **: 19:51:21.120: cannot open display: 
+malloc_consolidate(): unaligned fastbin chunk detected
+DONE

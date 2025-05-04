@@ -1,0 +1,8 @@
+Mon Jul 8 13:26:44 EDT 2024
+0.11 8 10 0 256
+LOADED MATLAB
+0.11
+8
+0
+/var/spool/slurm/slurmd/job62384832/slurm_script: line 24: matlab: command not found
+DONE

@@ -1,0 +1,73 @@
+Tue Oct 15 19:37:49 EDT 2024
+LOADED MATLAB
+0.075
+0.060038
+0.5
+128
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+epsilon_name =
+
+    '0.060038'
+
+
+R0_name =
+
+    '0.075'
+
+
+alpha_name =
+
+    '0.5'
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.075_eps_0.060038_alpha_0.5'
+
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 1.666000e-01 level set
+ phi_128_400000_1.0e-6__R0_0.075_eps_0.060038_alpha_0.5
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_plot_alpha_v3 (line 51)
+In level_set_radius_array_alpha_v3 (line 14)] 
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+DONE

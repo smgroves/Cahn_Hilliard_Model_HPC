@@ -1,0 +1,18 @@
+Tue Dec 10 16:16:27 EST 2024
+0.147 16 10
+MODULES LOADED
+ERROR: LoadError: MethodError: no method matching initialization(::Int64, ::Int64; method::String, h::Float64, R0::Float64, gam::Float64)
+
+Closest candidates are:
+  initialization(::Any, ::Any; method, initial_file, delim, h, R0, epsilon, cohesin_width, CPC_width) got unsupported keyword argument "gam"
+   @ Main /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/CH_multigrid_solver_periodic_bc.jl:334
+
+Stacktrace:
+ [1] kwerr(::NamedTuple{(:method, :h, :R0, :gam), Tuple{String, Float64, Float64, Float64}}, ::Function, ::Int64, ::Int64)
+   @ Base ./error.jl:165
+ [2] top-level scope
+   @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/run_julia_multigrid_critical_radius/julia_run_critical_radius_periodic.jl:18
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/run_julia_multigrid_critical_radius/julia_run_critical_radius_periodic.jl:18
+0.147
+starting initialization
+DONE

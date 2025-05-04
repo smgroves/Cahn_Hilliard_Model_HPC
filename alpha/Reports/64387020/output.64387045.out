@@ -1,0 +1,11 @@
+Tue Sep 24 14:07:42 EDT 2024
+0.01 0.0150094 10 -0.5 128
+MODULES LOADED
+ERROR: LoadError: UndefVarError: `ny` not defined
+Stacktrace:
+ [1] top-level scope
+   @ /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/alpha/julia_run_critical_radius_alpha_v3.jl:36
+in expression starting at /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/alpha/julia_run_critical_radius_alpha_v3.jl:36
+0.01
+starting initialization
+DONE

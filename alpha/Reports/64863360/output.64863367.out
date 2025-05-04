@@ -1,0 +1,135 @@
+Fri Oct 11 16:02:37 EDT 2024
+LOADED MATLAB
+0.072
+0.0037523
+-0.5
+256
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+epsilon_name =
+
+    '0.0037523'
+
+
+R0_name =
+
+    '0.072'
+
+
+alpha_name =
+
+    '-0.5'
+
+
+name =
+
+    'phi_256_400000_1.0e-6__R0_0.072_eps_0.0037523_alpha_-0.5'
+
+Launching updater executable
+
+------------------------------------------------------------------------
+       Segmentation violation detected at Fri Oct 11 16:10:22 2024
+------------------------------------------------------------------------
+Architecture     : glnxa64
+Processor ID     : Intel(R) Xeon(R) Gold 6248 CPU @ 2.50GHz
+Host Name        : udc-aw33-7c0
+Locale           : en_US
+
+
+Abnormal termination:
+Segmentation violation
+
+Current Thread: 'GTP_9' id 23160085710592
+
+Register State (from fault):
+  RAX = 0000000000000001  RBX = 000015105cd7e2b0
+  RCX = 333330373335322e  RDX = 000000000000000e
+  RSP = 0000151060ae7368  RBP = 0000151060ae73b0
+  RSI = 0000151060ae7420  RDI = 000015110d9dc9ee
+
+   R8 = 0000000000000000   R9 = 000015105caa2418
+  R10 = 0000000001642d38  R11 = 0000000000000006
+  R12 = 000000000000000e  R13 = 0000151060ae7420
+  R14 = 0000151060ae7410  R15 = 0000151060ae7410
+
+  RIP = 00001510666125ca  EFL = 0000000000010283
+
+   CS = 0033   FS = 0000   GS = 0000
+
+Stack Trace (from fault):
+[  0] 0x00001510666125ca                                   /lib64/libc.so.6+00820682
+[  1] 0x0000151054f3041d /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw33-7c0/v2024.2.0.3/bin/glnxa64/spf/serviceproviders/mwactions/delegators/applicationdelegator/serviceprovider/libmwactionsapplicationdelegator.so+00123933
+[  2] 0x0000151054f30f3a /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw33-7c0/v2024.2.0.3/bin/glnxa64/spf/serviceproviders/mwactions/delegators/applicationdelegator/serviceprovider/libmwactionsapplicationdelegator.so+00126778
+[  3] 0x0000151054f46a4f /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw33-7c0/v2024.2.0.3/bin/glnxa64/spf/serviceproviders/mwactions/delegators/applicationdelegator/serviceprovider/libmwactionsapplicationdelegator.so+00215631
+[  4] 0x0000151054f46f65 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw33-7c0/v2024.2.0.3/bin/glnxa64/spf/serviceproviders/mwactions/delegators/applicationdelegator/serviceprovider/libmwactionsapplicationdelegator.so+00216933
+[  5] 0x0000151054f47230 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw33-7c0/v2024.2.0.3/bin/glnxa64/spf/serviceproviders/mwactions/delegators/applicationdelegator/serviceprovider/libmwactionsapplicationdelegator.so+00217648
+[  6] 0x0000151054f475a6 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw33-7c0/v2024.2.0.3/bin/glnxa64/spf/serviceproviders/mwactions/delegators/applicationdelegator/serviceprovider/libmwactionsapplicationdelegator.so+00218534
+[  7] 0x0000151054f4f671 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw33-7c0/v2024.2.0.3/bin/glnxa64/spf/serviceproviders/mwactions/delegators/applicationdelegator/serviceprovider/libmwactionsapplicationdelegator.so+00251505 DeleteInstance_applicationdelegator+00000657
+[  8] 0x000015106162c2d0 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw33-7c0/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00541392
+[  9] 0x000015106164bfcd /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw33-7c0/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00671693
+[ 10] 0x000015106165288d /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw33-7c0/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00698509
+[ 11] 0x00001510616271d8 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw33-7c0/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00520664
+[ 12] 0x00001510616597c8 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw33-7c0/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00726984
+[ 13] 0x0000151061633e53 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw33-7c0/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00573011
+[ 14] 0x0000151061637899 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw33-7c0/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00587929
+[ 15] 0x0000151066b64e67                             /lib64/libpthread.so.0+00065127
+[ 16] 0x0000151061631e8d /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw33-7c0/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00564877
+[ 17] 0x0000151061634086 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw33-7c0/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00573574
+[ 18] 0x0000151061637899 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw33-7c0/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00587929
+[ 19] 0x0000151066b64e67                             /lib64/libpthread.so.0+00065127
+[ 20] 0x0000151061632008 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw33-7c0/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00565256
+[ 21] 0x0000151065da5c34 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw33-7c0/v2024.2.0.3/bin/glnxa64/libmwfoundation_threadpool.so+00146484
+[ 22] 0x0000151065daa928 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw33-7c0/v2024.2.0.3/bin/glnxa64/libmwfoundation_threadpool.so+00166184
+[ 23] 0x0000151065daad54 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw33-7c0/v2024.2.0.3/bin/glnxa64/libmwfoundation_threadpool.so+00167252
+[ 24] 0x0000151066a0c8c3 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw33-7c0/v2024.2.0.3/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00903363
+[ 25] 0x0000151066b5d1ca                             /lib64/libpthread.so.0+00033226
+[ 26] 0x0000151066583e73                                   /lib64/libc.so.6+00237171 clone+00000067
+
+
+** This crash report has been written to /home/xpz5km/.MathWorks/ServiceHost/udc-aw33-7c0/logs/MathWorksServiceHost_crash_541778.log **
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at -1.666000e-01 level set
+ phi_256_400000_1.0e-6__R0_0.072_eps_0.0037523_alpha_-0.5
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_plot_alpha_v3 (line 51)
+In level_set_radius_array_alpha_v3 (line 14)] 
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+DONE

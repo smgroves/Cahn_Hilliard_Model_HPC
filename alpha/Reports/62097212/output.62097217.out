@@ -1,0 +1,13 @@
+Fri Jun 21 09:22:11 EDT 2024
+0.155 16 10 0.2
+LOADED MATLAB
+0.155
+16
+0.2
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+malloc(): unaligned tcache chunk detected
+
+MATLAB is exiting because of fatal error
+/var/spool/slurm/slurmd/job62097217/slurm_script: line 24: 128407 Killed                  matlab -nodisplay -r "level_set_radius_array_alpha($R0, $m, $alpha); exit;"
+DONE

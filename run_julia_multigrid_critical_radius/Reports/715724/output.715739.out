@@ -1,0 +1,12 @@
+Fri Dec 6 12:30:09 EST 2024
+0.115 8 10
+MODULES LOADED
+ERROR: LoadError: UndefVarError: `main` not defined
+Stacktrace:
+ [1] top-level scope
+   @ ./timing.jl:393
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/run_julia_multigrid_critical_radius/julia_run_critical_radius_alt_IC.jl:40
+0.115
+starting initialization
+starting ch solver
+DONE

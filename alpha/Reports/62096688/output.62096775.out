@@ -1,0 +1,52 @@
+Fri Jun 21 08:58:42 EDT 2024
+0.2 32 10 0.2
+LOADED MATLAB
+0.2
+32
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+indir = 
+
+    "/scratch/xpz5km/Cahn_Hilliard_Model/julia_out/critical_radius_alpha"
+
+
+epsilon_name = 
+
+    "0.060037"
+
+
+R0_name =
+
+    '0.2'
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.2_eps_0.060037_alpha_
+     '
+
+{Error using readmatrix (line 171)
+Unable to find or open
+'/scratch/xpz5km/Cahn_Hilliard_Model/julia_out/critical_radius_alpha/phi_128_400000_1.0e-6__R0_0.2_eps_0.060037_alpha_
+.txt'. Check the path and filename or file permissions.
+
+Error in level_set_plot_alpha (line 13)
+    phi = readmatrix(sprintf('%s/%s.txt', indir, name),'FileType','text');
+
+Error in level_set_radius_array_alpha (line 23)
+    [rr,tt] = level_set_plot_alpha(2.5e-5, indir, total_time, everyR, epsilon_name, R0_name, folder, alpha);
+} 
+DONE

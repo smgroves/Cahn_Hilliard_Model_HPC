@@ -1,0 +1,131 @@
+Tue Oct 1 11:15:40 EDT 2024
+LOADED MATLAB
+0.03
+0.0300187
+-0.5
+128
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+epsilon_name =
+
+    '0.030019'
+
+
+R0_name =
+
+    '0.03'
+
+
+alpha_name =
+
+    '-0.5'
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.03_eps_0.030019_alpha_-0.5'
+
+Warning: Default logging disabled. Something went wrong whilst setting up default logging.
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.26' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwagentspfframeworksetup.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwagentspfframeworksetup.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwagentspfframeworksetup.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwagentutils.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwagentutils.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwcppmicroservices.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwcppmicroservices.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwcppmicroservices.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwfoundation_log.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwi18n.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwi18n.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.26' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwi18n.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwserviceprocesslifetime.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwserviceprocesslifetime.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwcpp11compat.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.26' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwboost_log.so.1.81.0)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwboost_log.so.1.81.0)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwboost_log.so.1.81.0)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwboost_program_options.so.1.81.0)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.26' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libCppMicroServices.so.3.8.0)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.26' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwfoundation_filesystem.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwfoundation_filesystem.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwfl.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwfl.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.26' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwfl.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwflurlmanager.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.26' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwboost_thread.so.1.81.0)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwfoundation_threadpool.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwfoundation_threadpool.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwfoundation_threadpool.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwflcertificates.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwflcertificates.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.26' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwflcertificates.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwflcodesigning_verifier.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwboost_serialization.so.1.81.0)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwddux_loggingapi.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwddux_loggingapi.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.26' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwddux_loggingapi.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwflhttpproxy.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwmatlabconnectorlvinstallationdiscovery.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwflnetwork.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwflnetwork.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.26' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwflnetwork.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwflcryptoutils.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.26' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwflcryptocryptopp.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.26' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libPocoNet.so.94)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.26' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libut.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libut.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libut.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwfoundation_usm.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwflstrings.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.29' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwagentcoreserviceutils.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwagentcoreserviceutils.so)
+/sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/MSHHealthMonitor: /lib64/libstdc++.so.6: version `CXXABI_1.3.13' not found (required by /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw36-18c1/v2024.2.0.3/bin/glnxa64/libmwagentcoretransport.so)
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at -1.666000e-01 level set
+ phi_128_400000_1.0e-6__R0_0.03_eps_0.030019_alpha_-0.5
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_plot_alpha_v3 (line 51)
+In level_set_radius_array_alpha_v3 (line 14)] 
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+DONE

@@ -1,0 +1,132 @@
+Fri Jun 21 10:53:12 EDT 2024
+0.225 32 10 -0.2
+LOADED MATLAB
+0.225
+32
+-0.2
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+indir = 
+
+    "/scratch/xpz5km/Cahn_Hilliard_Model/julia_out/critical_radius_alpha"
+
+
+epsilon_name = 
+
+    "0.060037"
+
+
+R0_name =
+
+    '0.225'
+
+
+alpha_name =
+
+    '-0.2'
+
+
+alpha =
+
+    '-0.2'
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.225_eps_0.060037_alpha_-0.2'
+
+Launching updater executable
+
+------------------------------------------------------------------------
+       Segmentation violation detected at Fri Jun 21 11:06:09 2024
+------------------------------------------------------------------------
+Architecture     : glnxa64
+Processor ID     : Intel(R) Xeon(R) Gold 6248 CPU @ 2.50GHz
+Host Name        : udc-an33-8c0
+Locale           : en_US
+
+
+Abnormal termination:
+Segmentation violation
+
+Current Thread: 'MathWorksServic' id 23448173442816
+
+Register State (from fault):
+  RAX = 0000155300000001  RBX = 000015538c022f60
+  RCX = 0000000000000004  RDX = 000015538c1f9160
+  RSP = 00001553740c64f0  RBP = 000015538c15def0
+  RSI = 000015538c1f9160  RDI = 000015538c15def0
+
+   R8 = 000015538c0a7090   R9 = 000015538c1f9160
+  R10 = 0000000000000000  R11 = 0000000000000003
+  R12 = 0000155398aee6f0  R13 = 000015538c0a70a0
+  R14 = 0000000000a12ba0  R15 = 000015538c0a70a0
+
+  RIP = 0000155393694c67  EFL = 0000000000010246
+
+   CS = 0033   FS = 0000   GS = 0000
+
+Stack Trace (from fault):
+[  0] 0x0000155393694c67 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-8c0/v2024.6.0.6/bin/glnxa64/libDeclarativeServices.so.1.5.7+00588903
+[  1] 0x0000155393690a4d /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-8c0/v2024.6.0.6/bin/glnxa64/libDeclarativeServices.so.1.5.7+00571981
+[  2] 0x000015539365338f /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-8c0/v2024.6.0.6/bin/glnxa64/libDeclarativeServices.so.1.5.7+00320399
+[  3] 0x0000155393654cf1 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-8c0/v2024.6.0.6/bin/glnxa64/libDeclarativeServices.so.1.5.7+00326897
+[  4] 0x0000155393635213 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-8c0/v2024.6.0.6/bin/glnxa64/libDeclarativeServices.so.1.5.7+00197139
+[  5] 0x0000155398d70027 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-8c0/v2024.6.0.6/bin/glnxa64/libCppMicroServices.so.3.8.1+00462887
+[  6] 0x0000155398da438f /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-8c0/v2024.6.0.6/bin/glnxa64/libCppMicroServices.so.3.8.1+00676751
+[  7] 0x0000155398da4c72 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-8c0/v2024.6.0.6/bin/glnxa64/libCppMicroServices.so.3.8.1+00679026
+[  8] 0x0000155398da4f08 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-8c0/v2024.6.0.6/bin/glnxa64/libCppMicroServices.so.3.8.1+00679688
+[  9] 0x0000155398d4b44f /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-8c0/v2024.6.0.6/bin/glnxa64/libCppMicroServices.so.3.8.1+00312399
+[ 10] 0x0000155398d4ba80 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-8c0/v2024.6.0.6/bin/glnxa64/libCppMicroServices.so.3.8.1+00313984
+[ 11] 0x00001553989968c3 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-8c0/v2024.6.0.6/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00903363
+[ 12] 0x0000155398ae71ca                             /lib64/libpthread.so.0+00033226
+[ 13] 0x000015539850de73                                   /lib64/libc.so.6+00237171 clone+00000067
+
+
+** This crash report has been written to /home/xpz5km/.MathWorks/ServiceHost/udc-an33-8c0/logs/MathWorksServiceHost_crash_888055.log **
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.225_eps_0.060037_alpha_-0.2
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_plot_alpha (line 50)
+In level_set_radius_array_alpha (line 25)] 
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+DONE
