@@ -1,0 +1,81 @@
+0.3
+0.12
+0.045
+29491
+phi_512_29491_1.0e-5__CPC_0.3_cohesin_0.12_eps_0.0096_alpha_0_domain_0_2
+/project/g_bme-janeslab/SarahG/julia_out/CPC_geometry/CPC_domain_0_2/phi_512_29491_1.0e-5__CPC_0.3_cohesin_0.12_eps_0.0096_alpha_0_domain_0_2
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+You already have the most recent version of MATLAB Connector installed.
+
+--------------------------------------------------------------------------------
+          Segmentation violation detected at 2024-08-27 15:00:01 -0400
+--------------------------------------------------------------------------------
+
+Configuration:
+  Crash Decoding           : Disabled - No sandbox or build area path
+  Crash Mode               : continue (default)
+  Default Encoding         : UTF-8
+  GNU C Library            : 2.28 stable
+  MATLAB Architecture      : glnxa64
+  MATLAB Root              : /sfs/applications/vendor/production/software/matlab/R2024a
+  MATLAB Version           : 24.1.0.2537033 (R2024a)
+  Operating System         : "Rocky Linux release 8.9 (Green Obsidian)"
+  Process ID               : 534126
+  Processor ID             : x86 Family 25 Model 17 Stepping 1, AuthenticAMD
+
+Fault Count: 1
+
+
+Abnormal termination:
+Segmentation violation
+
+Current Thread: 'GTP_8' id 22558713882368
+
+Register State (from fault):
+  RAX = 0000000000000000  RBX = 0000000000000003
+  RCX = 0000000000000001  RDX = 0000000000000000
+  RSP = 000014845c209150  RBP = 0000000000000040
+  RSI = 00001484701fae46  RDI = 00001484701fae58
+
+   R8 = 0000000000000003   R9 = 00001484701fae42
+  R10 = 0000000000000000  R11 = 0000000000000206
+  R12 = ffffffffffffff10  R13 = 000014845c209240
+  R14 = 000014844c1b64c0  R15 = 000014844c1b64b0
+
+  RIP = 000014847fd178c6  EFL = 0000000000010256
+
+   CS = 0033   FS = 0000   GS = 0000
+
+Stack Trace (from fault):
+[  0] 0x000014847fd178c6                                   /lib64/libc.so.6+00637126 __libc_malloc+00000326
+[  1] 0x0000148480108ef5 /sfs/applications/vendor/production/software/matlab/R2024a/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00712437 _Znwm+00000021
+[  2] 0x0000148476f62803 /sfs/applications/vendor/production/software/matlab/R2024a/bin/glnxa64/libDeclarativeServices.so.1.5.5+00653315
+[  3] 0x0000148476f404ca /sfs/applications/vendor/production/software/matlab/R2024a/bin/glnxa64/libDeclarativeServices.so.1.5.5+00513226
+[  4] 0x0000148476f6f5fc /sfs/applications/vendor/production/software/matlab/R2024a/bin/glnxa64/libDeclarativeServices.so.1.5.5+00706044
+[  5] 0x0000148476f41a6a /sfs/applications/vendor/production/software/matlab/R2024a/bin/glnxa64/libDeclarativeServices.so.1.5.5+00518762
+[  6] 0x0000148476f3e671 /sfs/applications/vendor/production/software/matlab/R2024a/bin/glnxa64/libDeclarativeServices.so.1.5.5+00505457
+[  7] 0x0000148476f71f40 /sfs/applications/vendor/production/software/matlab/R2024a/bin/glnxa64/libDeclarativeServices.so.1.5.5+00716608
+[  8] 0x0000148476f4b959 /sfs/applications/vendor/production/software/matlab/R2024a/bin/glnxa64/libDeclarativeServices.so.1.5.5+00559449
+[  9] 0x0000148476f4cc7b /sfs/applications/vendor/production/software/matlab/R2024a/bin/glnxa64/libDeclarativeServices.so.1.5.5+00564347
+[ 10] 0x0000148476f505a9 /sfs/applications/vendor/production/software/matlab/R2024a/bin/glnxa64/libDeclarativeServices.so.1.5.5+00578985
+[ 11] 0x0000148480240e67                             /lib64/libpthread.so.0+00065127
+[ 12] 0x0000148476f4a89d /sfs/applications/vendor/production/software/matlab/R2024a/bin/glnxa64/libDeclarativeServices.so.1.5.5+00555165
+[ 13] 0x0000148476f4bc46 /sfs/applications/vendor/production/software/matlab/R2024a/bin/glnxa64/libDeclarativeServices.so.1.5.5+00560198
+[ 14] 0x0000148476f505a9 /sfs/applications/vendor/production/software/matlab/R2024a/bin/glnxa64/libDeclarativeServices.so.1.5.5+00578985
+[ 15] 0x0000148480240e67                             /lib64/libpthread.so.0+00065127
+[ 16] 0x0000148476f4aa18 /sfs/applications/vendor/production/software/matlab/R2024a/bin/glnxa64/libDeclarativeServices.so.1.5.5+00555544
+[ 17] 0x000014847f92ed14 /sfs/applications/vendor/production/software/matlab/R2024a/bin/glnxa64/libmwfoundation_threadpool.so+00163092
+[ 18] 0x000014847f932f10 /sfs/applications/vendor/production/software/matlab/R2024a/bin/glnxa64/libmwfoundation_threadpool.so+00179984
+[ 19] 0x000014847f9336a9 /sfs/applications/vendor/production/software/matlab/R2024a/bin/glnxa64/libmwfoundation_threadpool.so+00181929
+[ 20] 0x0000148480131d10 /sfs/applications/vendor/production/software/matlab/R2024a/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00879888
+[ 21] 0x00001484802391ca                             /lib64/libpthread.so.0+00033226
+[ 22] 0x000014847fcb5e73                                   /lib64/libc.so.6+00237171 clone+00000067
+
+** This crash report has been saved to disk as /home/xpz5km/matlab_crash_dump.534126-1 **
+
+
+
+MATLAB is exiting because of fatal error
+/var/spool/slurm/slurmd/job63655600/slurm_script: line 41: 534126 Killed                  matlab -nodisplay -nosplash -r "kymograph_central_droplets_domain('$indir', '$outdir','$name', $dt, $dtout, false, 0, 6.4);quit;"
+Done.

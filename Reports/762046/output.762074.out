@@ -1,0 +1,51 @@
+Tue Dec 10 15:41:38 EST 2024
+0.16 32 10
+LOADED MATLAB
+0.16
+32
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024a Update 6 (24.1.0.2689473) 64-bit (glnxa64)
+                               July 29, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+epsilson =
+
+    0.0600
+
+
+epsilon_name = 
+
+    "0.060037"
+
+
+R0_name =
+
+    '0.16'
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.16_eps_0.060037_two_halves'
+
+/sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.7.0.6/mci/bin/glnxa64/InstallMathWorksServiceHost: error while loading shared libraries: /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.7.0.6/mci/bin/glnxa64/libmwopczippackage.so: file too short
+
+ans =
+
+   128   128
+
+{Error using contour (line 48)
+The size of X must match the size of Z or the number of columns of Z.
+
+Error in level_set_plot_alt_IC (line 32)
+        [~, h] = contour(x, y, phi_tmp, [0 0]);
+
+Error in level_set_radius_array_alt_IC (line 8)
+    [rr,tt] = level_set_plot_alt_IC(2.5e-5, indir, total_time, everyR, epsilon_name, R0_name, folder, Nx, suffix);
+} 
+DONE

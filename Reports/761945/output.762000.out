@@ -1,0 +1,25 @@
+Tue Dec 10 15:33:32 EST 2024
+
+LOADED MATLAB
+
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024a Update 6 (24.1.0.2689473) 64-bit (glnxa64)
+                               July 29, 2024
+
+[Warning: Unable to load Toolbox Path Cache
+/home/xpz5km/.matlab/R2024a/toolbox_cache-24.1.0-3725113302-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+ level_set_radius_array_alt_IC(, , 128,'/project/g_bme-janeslab/SarahG/julia_out/critical_radius_alt_IC', '_two_halves'); exit;
+                               |
+{Invalid expression. When calling a function or indexing a variable, use
+parentheses. Otherwise, check for mismatched delimiters.
+} 
+DONE

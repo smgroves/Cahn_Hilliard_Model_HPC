@@ -1,0 +1,44 @@
+Tue Aug 13 11:03:18 EDT 2024
+0.117 16 10
+LOADED MATLAB
+0.117
+16
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+[Warning: Unable to load Toolbox Path Cache
+/home/xpz5km/.matlab/R2024a/toolbox_cache-24.1.0-3725113302-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+eps =
+
+    0.0150
+
+
+epsilon_name = 
+
+    "0.015009"
+
+
+R0_name =
+
+    '0.117'
+
+
+name =
+
+    'phi_256_400000_1.0e-6__256_R0_0.117_eps_0.015009'
+
+/var/spool/slurm/slurmd/job63342706/slurm_script: line 22: 215719 Killed                  matlab -nodisplay -r "level_set_radius_array($R0, $m, 256,'$indir'); exit;"
+DONE
+slurmstepd: error: Detected 1 oom_kill event in StepId=63342706.batch. Some of the step tasks have been OOM Killed.

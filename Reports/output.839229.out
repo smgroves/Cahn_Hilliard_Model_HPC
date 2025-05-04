@@ -1,0 +1,100 @@
+Fri Dec 13 15:08:16 EST 2024
+LOADED MATLAB
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024a Update 6 (24.1.0.2689473) 64-bit (glnxa64)
+                               July 29, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+/sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.7.0.6/mci/bin/glnxa64/InstallMathWorksServiceHost: error while loading shared libraries: /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.7.0.6/mci/bin/glnxa64/libmwopczippackage.so: file too short
+
+phidims =
+
+     5120128         128
+
+java.lang.OutOfMemoryError: Java heap space
+Opening log file:  /home/xpz5km/java.log.52941
+[Warning: Error while calling MException/getReport:
+Failed to retrieve Exception Message
+
+
+Error in alternatePrintPath
+
+Error in alternateGetframe
+
+Error in alternateGetframe
+
+Error in getframe (line 68)
+    x = alternateGetframe(parentFig, offsetRect, scaledOffsetRect,
+    includeDecorations, true, h, offsetRectSpecified);
+
+Error in CHplotting_function (line 78)
+            frame = getframe(fig); % Capture the current figure window as a
+            frame] 
+[> In alternatePrintPath
+In alternateGetframe
+In alternateGetframe
+In getframe (line 68)
+In CHplotting_function (line 78)] 
+[Warning: The following error was caught while executing 'onCleanup' class
+destructor:
+] 
+[> In alternatePrintPath
+In alternateGetframe
+In alternateGetframe
+In getframe (line 68)
+In CHplotting_function (line 78)] 
+[Warning: The following error was caught while executing 'VideoWriter' class
+destructor:
+Failed to retrieve Exception Message
+
+
+Error in VideoWriter/close (line 268)
+            for ii = 1:length(obj)
+
+Error in VideoWriter/delete (line 217)
+            close(obj)
+
+Error in CHplotting_function (line 9)
+    const_colorbar = true;] 
+[> In CHplotting_function (line 9)] 
+[Warning: Error while calling MException/getReport:
+Failed to retrieve Exception Message
+
+
+Error in CHplotting_function (line 9)
+    const_colorbar = true;] 
+[> In CHplotting_function (line 9)] 
+[Warning: The following error was caught while executing
+'audiovideo.internal.writer.plugin.IPlugin' class destructor:
+] 
+[> In CHplotting_function (line 9)] 
+[Warning: Error while calling MException/getReport:
+Failed to retrieve Exception Message
+
+
+Error in CHplotting_function (line 9)
+    const_colorbar = true;] 
+[> In CHplotting_function (line 9)] 
+[Warning: The following error was caught while executing
+'matlabshared.asyncio.internal.Channel' class destructor:
+] 
+[> In CHplotting_function (line 9)] 
+{Error using figure
+Failed to retrieve Exception Message
+
+
+Error in CHplotting_function (line 37)
+            fig = figure('visible','off');
+} 
+{Failed to retrieve Exception Message
+} 
+Exception in thread "AWT-EventQueue-0" Exception in thread "AWT-EventQueue-0" >> /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.7.0.6/mci/bin/glnxa64/InstallMathWorksServiceHost: error while loading shared libraries: /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.7.0.6/mci/bin/glnxa64/libmwopczippackage.so: file too short
+{Error using exit
+Failed to retrieve Exception Message
+} 
+slurmstepd: error: *** JOB 839229 ON udc-aw32-9c0 CANCELLED AT 2024-12-14T01:08:45 DUE TO TIME LIMIT ***

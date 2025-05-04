@@ -1,0 +1,21 @@
+0.35
+0.14
+phi_512_9830_1.0e-5__CPC_0.35_cohesin_0.14_eps_0.0096_alpha_0_domain_0_2
+/scratch/xpz5km/Cahn_Hilliard_Model/CPC_geometry/CPC_domain_0_2/phi_512_9830_1.0e-5__CPC_0.35_cohesin_0.14_eps_0.0096_alpha_0_domain_0_2
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+{Error using reshape
+Size arguments must be real integers.
+
+Error in kymograph_central_droplets_domain (line 16)
+    phi = reshape(phi,phidims(1),phidims(3),phidims(2)); %Reshape multidimensional array
+} 
+Done.

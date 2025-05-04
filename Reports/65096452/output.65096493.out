@@ -1,0 +1,27 @@
+0.125
+0.12
+0.03
+19661
+phi_512_19661_1.0e-5__CPC_0.125_cohesin_0.12_eps_0.0075_alpha_-0.5_domain_0_2
+/project/g_bme-janeslab/SarahG/julia_out/CPC_geometry/CPC_domain_0_2_e_0.0075_alpha_-0.5_new_IC//phi_512_19661_1.0e-5__CPC_0.125_cohesin_0.12_eps_0.0075_alpha_-0.5_domain_0_2
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+[Warning: Directory already exists.] 
+[> In kymograph_central_droplets_domain (line 8)] 
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+phi_512_19661_1.0e-5__CPC_0.125_cohesin_0.12_eps_0.0075_alpha_-0.5_domain_0_2
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In kymograph_central_droplets_domain (line 66)] 
+Done.

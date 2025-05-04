@@ -1,0 +1,36 @@
+Thu Jun 20 15:01:17 EDT 2024
+0.215 40 10
+LOADED MATLAB
+0.215
+40
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+indir = 
+
+    "/project/g_bme-janeslab/sarah/critical_radius_updated_IC"
+
+
+epsilon_name = 
+
+    "0.075047"
+
+
+R0_name =
+
+    '0.215'
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.215_eps_0.075047'
+
+slurmstepd: error: *** JOB 62083024 ON udc-aj40-5c0 CANCELLED AT 2024-06-20T15:10:30 ***

@@ -1,0 +1,53 @@
+Thu Sep 12 15:25:17 EDT 2024
+0.22 0.11 512 0.03
+MODULES LOADED
+   Resolving package versions...
+  No Changes to `/sfs/qumulo/qhome/xpz5km/.julia/environments/v1.9/Project.toml`
+  No Changes to `/sfs/qumulo/qhome/xpz5km/.julia/environments/v1.9/Manifest.toml`
+ERROR: LoadError: SystemError: opening file "/home/xpz5km/.julia/scratchspaces/44cfe95a-1eb2-52ea-b672-e2afdf69b78f/suspend_cache_3428090039009434876": No such file or directory
+Stacktrace:
+  [1] systemerror(p::String, errno::Int32; extrainfo::Nothing)
+    @ Base ./error.jl:176
+  [2] #systemerror#82
+    @ ./error.jl:175 [inlined]
+  [3] systemerror
+    @ ./error.jl:175 [inlined]
+  [4] open(fname::String; lock::Bool, read::Nothing, write::Nothing, create::Nothing, truncate::Nothing, append::Nothing)
+    @ Base ./iostream.jl:293
+  [5] open
+    @ ./iostream.jl:275 [inlined]
+  [6] open(f::Pkg.API.var"#288#289"{Vector{Pkg.Types.PackageSpec}}, args::String; kwargs::Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+    @ Base ./io.jl:393
+  [7] open
+    @ ./io.jl:392 [inlined]
+  [8] recall_precompile_state()
+    @ Pkg.API /sfs/applications/202406/software/standard/core/julia/1.9.2/share/julia/stdlib/v1.9/Pkg/src/API.jl:1609
+  [9] precompile(ctx::Pkg.Types.Context, pkgs::Vector{Pkg.Types.PackageSpec}; internal_call::Bool, strict::Bool, warn_loaded::Bool, already_instantiated::Bool, timing::Bool, kwargs::Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+    @ Pkg.API /sfs/applications/202406/software/standard/core/julia/1.9.2/share/julia/stdlib/v1.9/Pkg/src/API.jl:1131
+ [10] precompile
+    @ /sfs/applications/202406/software/standard/core/julia/1.9.2/share/julia/stdlib/v1.9/Pkg/src/API.jl:1115 [inlined]
+ [11] #_auto_precompile#7
+    @ /sfs/applications/202406/software/standard/core/julia/1.9.2/share/julia/stdlib/v1.9/Pkg/src/Pkg.jl:790 [inlined]
+ [12] _auto_precompile (repeats 2 times)
+    @ /sfs/applications/202406/software/standard/core/julia/1.9.2/share/julia/stdlib/v1.9/Pkg/src/Pkg.jl:788 [inlined]
+ [13] add(pkgs::Vector{Pkg.Types.PackageSpec}; io::IOStream, kwargs::Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+    @ Pkg.API /sfs/applications/202406/software/standard/core/julia/1.9.2/share/julia/stdlib/v1.9/Pkg/src/API.jl:157
+ [14] add(pkgs::Vector{Pkg.Types.PackageSpec})
+    @ Pkg.API /sfs/applications/202406/software/standard/core/julia/1.9.2/share/julia/stdlib/v1.9/Pkg/src/API.jl:145
+ [15] #add#25
+    @ /sfs/applications/202406/software/standard/core/julia/1.9.2/share/julia/stdlib/v1.9/Pkg/src/API.jl:144 [inlined]
+ [16] add
+    @ /sfs/applications/202406/software/standard/core/julia/1.9.2/share/julia/stdlib/v1.9/Pkg/src/API.jl:144 [inlined]
+ [17] #add#24
+    @ /sfs/applications/202406/software/standard/core/julia/1.9.2/share/julia/stdlib/v1.9/Pkg/src/API.jl:143 [inlined]
+ [18] add(pkg::String)
+    @ Pkg.API /sfs/applications/202406/software/standard/core/julia/1.9.2/share/julia/stdlib/v1.9/Pkg/src/API.jl:143
+ [19] top-level scope
+    @ /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/CH_multigrid_solver_with_alpha_change_domain.jl:12
+ [20] include(fname::String)
+    @ Base.MainInclude ./client.jl:478
+ [21] top-level scope
+    @ /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/CPC_geometric_array/CPC_geometric_run_array_with_alpha_change_domain_eps_0.0075_noisy_cohesin.jl:1
+in expression starting at /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/CH_multigrid_solver_with_alpha_change_domain.jl:12
+in expression starting at /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/CPC_geometric_array/CPC_geometric_run_array_with_alpha_change_domain_eps_0.0075_noisy_cohesin.jl:1
+DONE

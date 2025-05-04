@@ -1,0 +1,89 @@
+Thu Sep 12 15:22:15 EDT 2024
+0.22 0.09 512 0.03
+MODULES LOADED
+error in running finalizer: Base.IOError(msg="stat(RawFD(17)): Unknown system error -116 (Unknown system error -116)", code=-116)
+uv_error at ./libuv.jl:100 [inlined]
+stat at ./stat.jl:152
+stat at ./filesystem.jl:280 [inlined]
+close at /cache/build/default-amdci5-2/julialang/julia-release-1-dot-9/usr/share/julia/stdlib/v1.9/FileWatching/src/pidfile.jl:307
+jfptr_close_49631.clone_1 at /sfs/applications/202406/software/standard/core/julia/1.9.2/lib/julia/sys.so (unknown line)
+_jl_invoke at /cache/build/default-amdci5-2/julialang/julia-release-1-dot-9/src/gf.c:2758 [inlined]
+ijl_apply_generic at /cache/build/default-amdci5-2/julialang/julia-release-1-dot-9/src/gf.c:2940
+run_finalizer at /cache/build/default-amdci5-2/julialang/julia-release-1-dot-9/src/gc.c:417
+jl_gc_run_finalizers_in_list at /cache/build/default-amdci5-2/julialang/julia-release-1-dot-9/src/gc.c:507
+run_finalizers at /cache/build/default-amdci5-2/julialang/julia-release-1-dot-9/src/gc.c:553
+jl_mutex_unlock at /cache/build/default-amdci5-2/julialang/julia-release-1-dot-9/src/julia_locks.h:81 [inlined]
+jl_generate_fptr_impl at /cache/build/default-amdci5-2/julialang/julia-release-1-dot-9/src/jitlayers.cpp:467
+jl_compile_method_internal at /cache/build/default-amdci5-2/julialang/julia-release-1-dot-9/src/gf.c:2348 [inlined]
+jl_compile_method_internal at /cache/build/default-amdci5-2/julialang/julia-release-1-dot-9/src/gf.c:2237
+_jl_invoke at /cache/build/default-amdci5-2/julialang/julia-release-1-dot-9/src/gf.c:2750 [inlined]
+ijl_apply_generic at /cache/build/default-amdci5-2/julialang/julia-release-1-dot-9/src/gf.c:2940
+display_error at ./client.jl:114
+jfptr_display_error_37033.clone_1 at /sfs/applications/202406/software/standard/core/julia/1.9.2/lib/julia/sys.so (unknown line)
+_jl_invoke at /cache/build/default-amdci5-2/julialang/julia-release-1-dot-9/src/gf.c:2758 [inlined]
+ijl_apply_generic at /cache/build/default-amdci5-2/julialang/julia-release-1-dot-9/src/gf.c:2940
+jl_apply at /cache/build/default-amdci5-2/julialang/julia-release-1-dot-9/src/julia.h:1879 [inlined]
+jl_f__call_latest at /cache/build/default-amdci5-2/julialang/julia-release-1-dot-9/src/builtins.c:774
+#invokelatest#2 at ./essentials.jl:816 [inlined]
+invokelatest at ./essentials.jl:813 [inlined]
+exec_options at ./client.jl:310
+_start at ./client.jl:522
+jfptr__start_43375.clone_1 at /sfs/applications/202406/software/standard/core/julia/1.9.2/lib/julia/sys.so (unknown line)
+_jl_invoke at /cache/build/default-amdci5-2/julialang/julia-release-1-dot-9/src/gf.c:2758 [inlined]
+ijl_apply_generic at /cache/build/default-amdci5-2/julialang/julia-release-1-dot-9/src/gf.c:2940
+jl_apply at /cache/build/default-amdci5-2/julialang/julia-release-1-dot-9/src/julia.h:1879 [inlined]
+true_main at /cache/build/default-amdci5-2/julialang/julia-release-1-dot-9/src/jlapi.c:573
+jl_repl_entrypoint at /cache/build/default-amdci5-2/julialang/julia-release-1-dot-9/src/jlapi.c:717
+main at julia (unknown line)
+__libc_start_main at /lib64/libc.so.6 (unknown line)
+unknown function (ip: 0x401098)
+   Resolving package versions...
+ERROR: LoadError: IOError: stat(RawFD(17)): Unknown system error -116 (Unknown system error -116)
+Stacktrace:
+  [1] uv_error
+    @ ./libuv.jl:100 [inlined]
+  [2] stat(fd::RawFD)
+    @ Base.Filesystem ./stat.jl:152
+  [3] stat
+    @ ./filesystem.jl:280 [inlined]
+  [4] close(lock::FileWatching.Pidfile.LockMonitor)
+    @ FileWatching.Pidfile /sfs/applications/202406/software/standard/core/julia/1.9.2/share/julia/stdlib/v1.9/FileWatching/src/pidfile.jl:307
+  [5] mkpidlock(f::Pkg.Types.var"#51#54"{String, String, Dates.DateTime, String}, at::String, pid::Int32; kwopts::Base.Pairs{Symbol, Int64, Tuple{Symbol}, NamedTuple{(:stale_age,), Tuple{Int64}}})
+    @ FileWatching.Pidfile /sfs/applications/202406/software/standard/core/julia/1.9.2/share/julia/stdlib/v1.9/FileWatching/src/pidfile.jl:84
+  [6] mkpidlock
+    @ /sfs/applications/202406/software/standard/core/julia/1.9.2/share/julia/stdlib/v1.9/FileWatching/src/pidfile.jl:79 [inlined]
+  [7] #mkpidlock#6
+    @ /sfs/applications/202406/software/standard/core/julia/1.9.2/share/julia/stdlib/v1.9/FileWatching/src/pidfile.jl:77 [inlined]
+  [8] mkpidlock
+    @ /sfs/applications/202406/software/standard/core/julia/1.9.2/share/julia/stdlib/v1.9/FileWatching/src/pidfile.jl:77 [inlined]
+  [9] write_env_usage(source_file::String, usage_filepath::String)
+    @ Pkg.Types /sfs/applications/202406/software/standard/core/julia/1.9.2/share/julia/stdlib/v1.9/Pkg/src/Types.jl:511
+ [10] download_artifacts(env::Pkg.Types.EnvCache; platform::Base.BinaryPlatforms.Platform, julia_version::VersionNumber, verbose::Bool, io::IOStream)
+    @ Pkg.Operations /sfs/applications/202406/software/standard/core/julia/1.9.2/share/julia/stdlib/v1.9/Pkg/src/Operations.jl:759
+ [11] add(ctx::Pkg.Types.Context, pkgs::Vector{Pkg.Types.PackageSpec}, new_git::Set{Base.UUID}; preserve::Pkg.Types.PreserveLevel, platform::Base.BinaryPlatforms.Platform)
+    @ Pkg.Operations /sfs/applications/202406/software/standard/core/julia/1.9.2/share/julia/stdlib/v1.9/Pkg/src/Operations.jl:1391
+ [12] add
+    @ /sfs/applications/202406/software/standard/core/julia/1.9.2/share/julia/stdlib/v1.9/Pkg/src/Operations.jl:1373 [inlined]
+ [13] add(ctx::Pkg.Types.Context, pkgs::Vector{Pkg.Types.PackageSpec}; preserve::Pkg.Types.PreserveLevel, platform::Base.BinaryPlatforms.Platform, kwargs::Base.Pairs{Symbol, IOStream, Tuple{Symbol}, NamedTuple{(:io,), Tuple{IOStream}}})
+    @ Pkg.API /sfs/applications/202406/software/standard/core/julia/1.9.2/share/julia/stdlib/v1.9/Pkg/src/API.jl:275
+ [14] add(pkgs::Vector{Pkg.Types.PackageSpec}; io::IOStream, kwargs::Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+    @ Pkg.API /sfs/applications/202406/software/standard/core/julia/1.9.2/share/julia/stdlib/v1.9/Pkg/src/API.jl:156
+ [15] add(pkgs::Vector{Pkg.Types.PackageSpec})
+    @ Pkg.API /sfs/applications/202406/software/standard/core/julia/1.9.2/share/julia/stdlib/v1.9/Pkg/src/API.jl:145
+ [16] #add#25
+    @ /sfs/applications/202406/software/standard/core/julia/1.9.2/share/julia/stdlib/v1.9/Pkg/src/API.jl:144 [inlined]
+ [17] add
+    @ /sfs/applications/202406/software/standard/core/julia/1.9.2/share/julia/stdlib/v1.9/Pkg/src/API.jl:144 [inlined]
+ [18] #add#24
+    @ /sfs/applications/202406/software/standard/core/julia/1.9.2/share/julia/stdlib/v1.9/Pkg/src/API.jl:143 [inlined]
+ [19] add(pkg::String)
+    @ Pkg.API /sfs/applications/202406/software/standard/core/julia/1.9.2/share/julia/stdlib/v1.9/Pkg/src/API.jl:143
+ [20] top-level scope
+    @ /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/CH_multigrid_solver_with_alpha_change_domain.jl:12
+ [21] include(fname::String)
+    @ Base.MainInclude ./client.jl:478
+ [22] top-level scope
+    @ /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/CPC_geometric_array/CPC_geometric_run_array_with_alpha_change_domain_eps_0.0075_noisy_cohesin.jl:1
+in expression starting at /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/CH_multigrid_solver_with_alpha_change_domain.jl:12
+in expression starting at /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/CPC_geometric_array/CPC_geometric_run_array_with_alpha_change_domain_eps_0.0075_noisy_cohesin.jl:1
+DONE

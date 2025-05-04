@@ -1,0 +1,164 @@
+Fri Aug 16 16:25:11 EDT 2024
+0.1055 12 10
+LOADED MATLAB
+0.1055
+12
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+eps =
+
+    0.0113
+
+
+epsilon_name = 
+
+    "0.011257"
+
+
+R0_name =
+
+    '0.1055'
+
+
+name =
+
+    'phi_256_400000_1.0e-6__256_R0_0.1055_eps_0.011257'
+
+You already have the most recent version of MATLAB Connector installed.
+Launching updater executable
+
+(InstallMathWorksServiceHost:784700): Gtk-WARNING **: 16:30:24.850: cannot open display: 
+malloc_consolidate(): unaligned fastbin chunk detected
+You already have the most recent version of MATLAB Connector installed.
+Launching updater executable
+
+(InstallMathWorksServiceHost:785490): Gtk-WARNING **: 16:35:43.285: cannot open display: 
+pure virtual method called
+
+------------------------------------------------------------------------
+          std::terminate() detected at Fri Aug 16 16:35:43 2024
+------------------------------------------------------------------------
+Architecture     : glnxa64
+Processor ID     : Intel(R) Xeon(R) Gold 6248 CPU @ 2.50GHz
+Host Name        : udc-an33-16c0
+Locale           : en_US
+
+
+Abnormal termination:
+std::terminate()
+
+Current Thread: 'GTP_11' id 22877514151680
+
+Register State (captured):
+  RAX = 0000000000000000  RBX = 000014ce9c6113c8
+  RCX = 0000000000000000  RDX = 000014ce9c5fae88
+  RSP = 000014ce961a9120  RBP = 000014ce961a9500
+  RSI = 000014ce9c5dff6d  RDI = 000014ce961a9130
+
+   R8 = 0000000000000002   R9 = 000014ce961a9410
+  R10 = 0000000000000000  R11 = 0000000000000000
+  R12 = 000014ce9c5dff6d  R13 = 000014ce961a9570
+  R14 = 000014ce961a99e0  R15 = 000014ce961a9e80
+
+  RIP = 000014ce9c58993f  EFL = 0000000000000000
+
+   CS = 0000   FS = 0000   GS = 0000
+
+Stack Trace (captured):
+[  0] 0x000014ce9c583433 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-16c0/v2024.2.0.3/bin/glnxa64/libmwfl.so+00320563
+[  1] 0x000014ce9c58367c /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-16c0/v2024.2.0.3/bin/glnxa64/libmwfl.so+00321148 _ZN10foundation4core4diag15stacktrace_base7captureEm+00000028
+[  2] 0x000014ce9c5854fa /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-16c0/v2024.2.0.3/bin/glnxa64/libmwfl.so+00328954
+[  3] 0x000014ce9c5857a2 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-16c0/v2024.2.0.3/bin/glnxa64/libmwfl.so+00329634
+[  4] 0x000014ce9d2f6901 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-16c0/v2024.2.0.3/bin/glnxa64/libmwagentutils.so+00637185
+[  5] 0x000014ce9d2f77fa /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-16c0/v2024.2.0.3/bin/glnxa64/libmwagentutils.so+00641018
+[  6] 0x000014ce9d2f7969 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-16c0/v2024.2.0.3/bin/glnxa64/libmwagentutils.so+00641385
+[  7] 0x000014ce9d2f4c98 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-16c0/v2024.2.0.3/bin/glnxa64/libmwagentutils.so+00629912
+[  8] 0x000014ce9caa8efa /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-16c0/v2024.2.0.3/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00724730
+[  9] 0x000014ce9caa8f65 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-16c0/v2024.2.0.3/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00724837
+[ 10] 0x000014ce9caa9c63 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-16c0/v2024.2.0.3/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00728163
+[ 11] 0x000014ce976f0160 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-16c0/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00524640
+[ 12] 0x000014ce97707ae9 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-16c0/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00621289
+[ 13] 0x000014ce97715ba8 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-16c0/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00678824
+[ 14] 0x000014ce9770c36a /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-16c0/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00639850
+[ 15] 0x000014ce9770caa2 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-16c0/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00641698
+[ 16] 0x000014ce977072fc /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-16c0/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00619260
+[ 17] 0x000014ce97707e12 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-16c0/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00622098
+[ 18] 0x000014ce976f5993 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-16c0/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00547219
+[ 19] 0x000014ce976f2a7d /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-16c0/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00535165
+[ 20] 0x000014ce977225fe /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-16c0/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00730622
+[ 21] 0x000014ce9769c01b /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-16c0/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00180251
+[ 22] 0x000014ce976fbe53 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-16c0/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00573011
+[ 23] 0x000014ce976ff899 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-16c0/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00587929
+[ 24] 0x000014ce9cc2ce67                             /lib64/libpthread.so.0+00065127
+[ 25] 0x000014ce976f9e8d /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-16c0/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00564877
+[ 26] 0x000014ce976fc086 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-16c0/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00573574
+[ 27] 0x000014ce976ff899 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-16c0/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00587929
+[ 28] 0x000014ce9cc2ce67                             /lib64/libpthread.so.0+00065127
+[ 29] 0x000014ce976fa008 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-16c0/v2024.2.0.3/bin/glnxa64/libDeclarativeServices.so.1.5.6+00565256
+[ 30] 0x000014ce9be6dc34 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-16c0/v2024.2.0.3/bin/glnxa64/libmwfoundation_threadpool.so+00146484
+[ 31] 0x000014ce9be72928 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-16c0/v2024.2.0.3/bin/glnxa64/libmwfoundation_threadpool.so+00166184
+[ 32] 0x000014ce9be72d54 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-16c0/v2024.2.0.3/bin/glnxa64/libmwfoundation_threadpool.so+00167252
+[ 33] 0x000014ce9cad48c3 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-16c0/v2024.2.0.3/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00903363
+[ 34] 0x000014ce9cc251ca                             /lib64/libpthread.so.0+00033226
+[ 35] 0x000014ce9c64be73                                   /lib64/libc.so.6+00237171 clone+00000067
+
+
+** This crash report has been written to /home/xpz5km/.MathWorks/ServiceHost/udc-an33-16c0/logs/MathWorksServiceHost_crash_784747.log **
+You already have the most recent version of MATLAB Connector installed.
+Launching updater executable
+
+(InstallMathWorksServiceHost:786379): Gtk-WARNING **: 16:41:01.880: cannot open display: 
+You already have the most recent version of MATLAB Connector installed.
+Launching updater executable
+
+(InstallMathWorksServiceHost:787168): Gtk-WARNING **: 16:46:20.013: cannot open display: 
+You already have the most recent version of MATLAB Connector installed.
+Launching updater executable
+
+(InstallMathWorksServiceHost:788013): Gtk-WARNING **: 16:51:39.146: cannot open display: 
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_256_400000_1.0e-6__256_R0_0.1055_eps_0.011257
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_plot (line 49)
+In level_set_radius_array (line 24)] 
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+DONE

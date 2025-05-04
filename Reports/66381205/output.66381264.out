@@ -1,0 +1,25 @@
+0.3
+0.13
+0.03
+19661
+phi_512_19661_1.0e-5__CPC_0.3_cohesin_0.13_kt_width_0.3_eps_0.0075_domain_0_2
+/project/g_bme-janeslab/SarahG/julia_out/CPC_geometry/CPC_domain_0_2_e_0.0075_crosshair/phi_512_19661_1.0e-5__CPC_0.3_cohesin_0.13_kt_width_0.3_eps_0.0075_domain_0_2
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024a Update 6 (24.1.0.2689473) 64-bit (glnxa64)
+                               July 29, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+phi_512_19661_1.0e-5__CPC_0.3_cohesin_0.13_kt_width_0.3_eps_0.0075_domain_0_2
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In kymograph_central_droplets_domain (line 66)] 
+Done.

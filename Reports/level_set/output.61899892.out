@@ -1,0 +1,39 @@
+
+LOADED MATLAB
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+R0 = 
+
+    "0.105"
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.105_eps_0.015009'
+
+Launching updater executable
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set phi_128_400000_1.0e-6__R0_0.105_eps_0.015009
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_radius>level_set_plot (line 74)
+In level_set_radius (line 10)] 
+{Unrecognized function or variable 'dt_name'.
+
+Error in level_set_radius (line 11)
+        dt = str2double(dt_name);
+} 
+DONE

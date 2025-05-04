@@ -1,0 +1,10 @@
+Tue Dec 3 16:37:06 EST 2024
+0.15 0.09 512 0.03 4
+MODULES LOADED
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+
+[947029] signal (6.-6): Aborted
+in expression starting at none:0
+/var/spool/slurm/slurmd/job660441/slurm_script: line 19: 947029 Aborted                 (core dumped) julia CPC_geometric_run_array_with_alpha_change_domain_eps_0.0075_noisy_cohesin.jl $OPTS
+DONE

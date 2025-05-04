@@ -1,0 +1,52 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+R0 = 
+
+    "0.07"
+
+
+R0 = 
+
+    "0.08"
+
+
+R0 = 
+
+    "0.09"
+
+
+R0 = 
+
+    "0.1"
+
+
+R0 = 
+
+    "0.11"
+
+
+R0 = 
+
+    "0.12"
+
+
+R0 = 
+
+    "0.13"
+
+{Error using readmatrix (line 171)
+Unable to find or open
+'/project/g_bme-janeslab/sarah/julia_out/julia_out/critical_radius_alpha//phi_128_400000_1.0e-6__R0_0.13_eps_0.045028_alpha_-0.5.txt'.
+Check the path and filename or file permissions.
+
+Error in f_with_alpha_range_single_droplet (line 10)
+} 

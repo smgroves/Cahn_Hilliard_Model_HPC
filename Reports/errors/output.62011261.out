@@ -1,0 +1,11 @@
+Mon Jun 17 11:14:15 EDT 2024
+
+MODULES LOADED
+ERROR: LoadError: BoundsError: attempt to access 0-element Vector{String} at index [1]
+Stacktrace:
+ [1] getindex(A::Vector{String}, i1::Int64)
+   @ Base ./essentials.jl:13
+ [2] top-level scope
+   @ /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/julia_run_critical_radius.jl:17
+in expression starting at /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/julia_run_critical_radius.jl:17
+DONE

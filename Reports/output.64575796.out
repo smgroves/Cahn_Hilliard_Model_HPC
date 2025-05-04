@@ -1,0 +1,18 @@
+Tue Oct 1 12:18:18 EDT 2024
+LOADED MATLAB
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+{Unrecognized function or variable 'phidims'.
+
+Error in plot_IC_heatmap (line 26)
+    XLabels = 1:phidims(2);
+} 
+Done.

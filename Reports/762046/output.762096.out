@@ -1,0 +1,21 @@
+Tue Dec 10 15:41:51 EST 2024
+
+LOADED MATLAB
+
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024a Update 6 (24.1.0.2689473) 64-bit (glnxa64)
+                               July 29, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+ level_set_radius_array_alt_IC(, , 128,'/project/g_bme-janeslab/SarahG/julia_out/critical_radius_alt_IC', '_two_halves'); exit;
+                               |
+{Invalid expression. When calling a function or indexing a variable, use
+parentheses. Otherwise, check for mismatched delimiters.
+} 
+DONE

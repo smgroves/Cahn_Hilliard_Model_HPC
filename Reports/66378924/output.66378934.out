@@ -1,0 +1,24 @@
+/var/spool/slurm/slurmd/job66378934/slurm_script: line 15: indir: command not found
+0.125
+0.08
+0.03
+19661
+phi_256_19661_1.0e-5__CPC_0.125_cohesin_0.08_eps_0.0075_domain_0_1_HCC1927_100%bound
+/phi_256_19661_1.0e-5__CPC_0.125_cohesin_0.08_eps_0.0075_domain_0_1_HCC1927_100%bound
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024a Update 6 (24.1.0.2689473) 64-bit (glnxa64)
+                               July 29, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+{Error using mkdir
+Read-only file system
+
+Error in kymograph_central_droplets_domain (line 8)
+    mkdir(outdir)
+} 
+Done.

@@ -1,0 +1,14 @@
+Tue Nov 5 16:43:19 EST 2024
+0.15 0.1 256 0.03
+MODULES LOADED
+ERROR: LoadError: UndefVarError: `alpha` not defined
+Stacktrace:
+ [1] top-level scope
+   @ ./timing.jl:393
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/CPC_geometric_array/CPC_geometric_run_array_eps_0.0075.jl:27
+0.15
+0.1
+starting initialization
+starting ch solver
+cohesin=0.1, CPC=0.15, epsilon=0.0075
+DONE

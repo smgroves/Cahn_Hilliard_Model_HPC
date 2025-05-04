@@ -1,0 +1,31 @@
+0.15
+0.14
+0.04
+
+phi_512_26214_1.0e-5__CPC_0.15_cohesin_0.14_eps_0.0067_domain_0_2
+/project/g_bme-janeslab/SarahG/julia_out/CPC_geometry/CPC_domain_0_2_e_0.0067_t_0.04/phi_512_26214_1.0e-5__CPC_0.15_cohesin_0.14_eps_0.0067_domain_0_2
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024b Update 3 (24.2.0.2806996) 64-bit (glnxa64)
+                             November 26, 2024
+
+[Warning: Unable to load Toolbox Path Cache
+/home/xpz5km/.matlab/R2024b/toolbox_cache-24.2.0-280821755-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+[Warning: Directory already exists.] 
+[> In kymograph_central_droplets_domain (line 8)] 
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+[Warning: Error in state of SceneNode.
+String scalar or character vector must have valid interpreter syntax:
+phi_512_26214_1.0e-5__CPC_0.15_cohesin_0.14_eps_0.0067_domain_0_2
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In kymograph_central_droplets_domain (line 66)] 

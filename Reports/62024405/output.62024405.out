@@ -1,0 +1,34 @@
+Tue Jun 18 17:20:21 EDT 2024
+0.110 8 10
+LOADED MATLAB
+0.110
+8
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+indir = 
+
+    "/scratch/xpz5km/Cahn_Hilliard_Model/julia_out/critical_radius_updated_IC"
+
+
+epsilon_name = 
+
+    "0.015009"
+
+{Index exceeds the number of array elements. Index must not exceed 4.
+
+Error in formattedStr (line 11)
+            while endIdx > idx && str(endIdx) == '0'
+
+Error in level_set_radius_array (line 21)
+    R0 = formattedStr(R0)
+} 
+DONE

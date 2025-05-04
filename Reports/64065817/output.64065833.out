@@ -1,0 +1,31 @@
+Thu Sep 12 15:25:17 EDT 2024
+0.1 0.08 512 0.03
+MODULES LOADED
+   Resolving package versions...
+  No Changes to `/sfs/qumulo/qhome/xpz5km/.julia/environments/v1.9/Project.toml`
+  No Changes to `/sfs/qumulo/qhome/xpz5km/.julia/environments/v1.9/Manifest.toml`
+ERROR: LoadError: MethodError: no method matching isless(::Vector{Float64}, ::Int64)
+
+Closest candidates are:
+  isless(!Matched::Union{StatsBase.PValue, StatsBase.TestStat}, ::Real)
+   @ StatsBase ~/.julia/packages/StatsBase/ebrT3/src/statmodels.jl:90
+  isless(::AbstractVector, !Matched::AbstractVector)
+   @ Base abstractarray.jl:2911
+  isless(!Matched::AbstractFloat, ::Real)
+   @ Base operators.jl:179
+  ...
+
+Stacktrace:
+ [1] <(x::Vector{Float64}, y::Int64)
+   @ Base ./operators.jl:343
+ [2] initialize_round_CPC_noisy_cohesin_um(nx::Int64, ny::Int64; CPC_width::Float64, cohesin_width::Float64, domain_width::Float64, sd::Float64, seed::Int64)
+   @ Main /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/CH_multigrid_solver_with_alpha_change_domain.jl:310
+ [3] top-level scope
+   @ /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/CPC_geometric_array/CPC_geometric_run_array_with_alpha_change_domain_eps_0.0075_noisy_cohesin.jl:26
+in expression starting at /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/CPC_geometric_array/CPC_geometric_run_array_with_alpha_change_domain_eps_0.0075_noisy_cohesin.jl:26
+0.1
+0.08
+starting initialization
+starting ch solver
+cohesin=0.08, CPC=0.1, epsilon=0.0075
+DONE

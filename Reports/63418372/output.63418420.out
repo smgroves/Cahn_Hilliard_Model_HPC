@@ -1,0 +1,56 @@
+Fri Aug 16 15:28:57 EDT 2024
+0.06 6 10
+LOADED MATLAB
+0.06
+6
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+[Warning: Unable to load Toolbox Path Cache
+/home/xpz5km/.matlab/R2024a/toolbox_cache-24.1.0-3725113302-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+You already have the most recent version of MATLAB Drive Connector installed.
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+eps =
+
+    0.0056
+
+
+epsilon_name = 
+
+    "0.0056285"
+
+
+R0_name =
+
+    '0.06'
+
+
+name =
+
+    'phi_256_400000_1.0e-6__256_R0_0.06_eps_0.0056285'
+
+{Error using readmatrix (line 171)
+Unable to find or open
+'/project/g_bme-janeslab/SarahG/julia_out/critical_radius_updated_IC_256/phi_256_400000_1.0e-6__256_R0_0.06_eps_0.0056285.txt'.
+Check the path and filename or file permissions.
+
+Error in level_set_plot (line 13)
+    phi = readmatrix(sprintf('%s/%s.txt', indir, name),'FileType','text');
+
+Error in level_set_radius_array (line 24)
+    [rr,tt] = level_set_plot(2.5e-5, indir, total_time, everyR, epsilon_name, R0_name, folder, Nx);
+} 
+DONE

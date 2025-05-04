@@ -1,0 +1,74 @@
+0.25
+0.1
+0.03
+19661
+phi_512_19661_1.0e-5__CPC_0.25_cohesin_0.1_eps_0.0075_alpha_-0.5_domain_0_2
+/project/g_bme-janeslab/SarahG/julia_out/CPC_geometry/CPC_domain_0_2_e_0.0075_alpha//phi_512_19661_1.0e-5__CPC_0.25_cohesin_0.1_eps_0.0075_alpha_-0.5_domain_0_2
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Launching updater executable
+
+------------------------------------------------------------------------
+       Segmentation violation detected at Tue Oct 15 19:26:20 2024
+------------------------------------------------------------------------
+Architecture     : glnxa64
+Processor ID     : Intel(R) Xeon(R) Gold 6248 CPU @ 2.50GHz
+Host Name        : udc-aw34-23c0
+Locale           : en_US
+
+
+Abnormal termination:
+Segmentation violation
+
+Current Thread: 'GTP_9' id 23082034820864
+
+Register State (from fault):
+  RAX = 0000000000000001  RBX = 000014fe38f72bf0
+  RCX = 333330373335322e  RDX = 000000000000000e
+  RSP = 000014fe347c6198  RBP = 000014fe347c61e0
+  RSI = 000014fe347c6250  RDI = 000014ff77a00b02
+
+   R8 = 0000000000000000   R9 = 000014fe38ae75d8
+  R10 = 000014fe38fca300  R11 = 0000000000000005
+  R12 = 000000000000000e  R13 = 000014fe347c6250
+  R14 = 000014fe347c6240  R15 = 000014fe347c6240
+
+  RIP = 000014fe4301d5ca  EFL = 0000000000010283
+
+   CS = 0033   FS = 0000   GS = 0000
+
+Stack Trace (from fault):
+[  0] 0x000014fe4301d5ca                                   /lib64/libc.so.6+00820682
+[  1] 0x000014fe3194041d /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/udc-aw34-23c0/v2024.2.0.3/bin/glnxa64/spf/serviceproviders/mwactions/delegators/applicationdelegator/serviceprovider/libmwactionsapplicationdelegator.so+00123933
+[  2] 0x000014fe31940f3a /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/udc-aw34-23c0/v2024.2.0.3/bin/glnxa64/spf/serviceproviders/mwactions/delegators/applicationdelegator/serviceprovider/libmwactionsapplicationdelegator.so+00126778
+[  3] 0x000014fe31956a4f /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/udc-aw34-23c0/v2024.2.0.3/bin/glnxa64/spf/serviceproviders/mwactions/delegators/applicationdelegator/serviceprovider/libmwactionsapplicationdelegator.so+00215631
+[  4] 0x000014fe3195912d /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/udc-aw34-23c0/v2024.2.0.3/bin/glnxa64/spf/serviceproviders/mwactions/delegators/applicationdelegator/serviceprovider/libmwactionsapplicationdelegator.so+00225581
+[  5] 0x000014fe437f3533 /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/udc-aw34-23c0/v2024.2.0.3/bin/glnxa64/libCppMicroServices.so.3.8.0+00472371
+[  6] 0x000014fe437f35d1 /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/udc-aw34-23c0/v2024.2.0.3/bin/glnxa64/libCppMicroServices.so.3.8.0+00472529
+[  7] 0x000014fe43803f6f /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/udc-aw34-23c0/v2024.2.0.3/bin/glnxa64/libCppMicroServices.so.3.8.0+00540527 _ZN16cppmicroservices23ServiceRegistrationBase10UnregisterEv+00002367
+[  8] 0x000014fe3599b968 /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/udc-aw34-23c0/v2024.2.0.3/bin/glnxa64/spf/framework/agent/spf/framework/libmwagentspfframework.so+00575848
+[  9] 0x000014fe3599c7d2 /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/udc-aw34-23c0/v2024.2.0.3/bin/glnxa64/spf/framework/agent/spf/framework/libmwagentspfframework.so+00579538
+[ 10] 0x000014fe35969bd9 /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/udc-aw34-23c0/v2024.2.0.3/bin/glnxa64/spf/framework/agent/spf/framework/libmwagentspfframework.so+00371673
+[ 11] 0x000014fe434178c3 /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/udc-aw34-23c0/v2024.2.0.3/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00903363
+[ 12] 0x000014fe435681ca                             /lib64/libpthread.so.0+00033226
+[ 13] 0x000014fe42f8ee73                                   /lib64/libc.so.6+00237171 clone+00000067
+
+
+** This crash report has been written to /home/xpz5km/.MathWorks/ServiceHost/udc-aw34-23c0/logs/MathWorksServiceHost_crash_63701.log **
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+phi_512_19661_1.0e-5__CPC_0.25_cohesin_0.1_eps_0.0075_alpha_-0.5_domain_0_2
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In kymograph_central_droplets_domain (line 66)] 
+Done.

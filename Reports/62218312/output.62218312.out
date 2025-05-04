@@ -1,0 +1,22 @@
+Tue Jun 25 11:36:53 EDT 2024
+MODULES LOADED
+ERROR: LoadError: MethodError: no method matching readdlm(::String, ::String, ::Type{Float64})
+
+Closest candidates are:
+  readdlm(::Any, !Matched::AbstractChar, ::Type; opts...)
+   @ DelimitedFiles ~/.julia/packages/DelimitedFiles/aGcsu/src/DelimitedFiles.jl:86
+  readdlm(::Any, !Matched::AbstractChar, ::Type, !Matched::AbstractChar; opts...)
+   @ DelimitedFiles ~/.julia/packages/DelimitedFiles/aGcsu/src/DelimitedFiles.jl:226
+  readdlm(::Any; opts...)
+   @ DelimitedFiles ~/.julia/packages/DelimitedFiles/aGcsu/src/DelimitedFiles.jl:118
+  ...
+
+Stacktrace:
+ [1] initialization_from_file(file::String, nx::Int64, ny::Int64; delim::String, transpose_matrix::Bool)
+   @ Main /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/CH_multigrid_solver.jl:322
+ [2] top-level scope
+   @ /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/restart_CPC_1024.jl:26
+in expression starting at /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/restart_CPC_1024.jl:26
+225280
+220
+DONE

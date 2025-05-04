@@ -1,0 +1,13 @@
+Fri Nov 8 13:17:28 EST 2024
+0.173 0.2 512 0.03
+MODULES LOADED
+    Updating registry at `~/.julia/registries/General.toml`
+   Resolving package versions...
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.9/Project.toml`
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.9/Manifest.toml`
+ERROR: LoadError: syntax: incomplete: "function" at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/CPC_geometric_array/CPC_geometric_run_array_change_domain_eps_0.0075_crosshair_localization.jl:5 requires end
+Stacktrace:
+ [1] top-level scope
+   @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/CPC_geometric_array/CPC_geometric_run_array_change_domain_eps_0.0075_crosshair_localization.jl:5
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/CPC_geometric_array/CPC_geometric_run_array_change_domain_eps_0.0075_crosshair_localization.jl:5
+DONE

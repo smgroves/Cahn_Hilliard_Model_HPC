@@ -1,0 +1,15 @@
+Tue Sep 24 16:57:22 EDT 2024
+0.25 0.09 512 0.03 7
+MODULES LOADED
+   Resolving package versions...
+  No Changes to `/sfs/qumulo/qhome/xpz5km/.julia/environments/v1.9/Project.toml`
+  No Changes to `/sfs/qumulo/qhome/xpz5km/.julia/environments/v1.9/Manifest.toml`
+ERROR: LoadError: syntax: extra token "outdir" after end of expression
+Stacktrace:
+ [1] top-level scope
+   @ /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/CPC_geometric_array/CPC_geometric_run_array_with_alpha_change_domain_eps_0.0075_noisy_cohesin.jl:23
+in expression starting at /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/CPC_geometric_array/CPC_geometric_run_array_with_alpha_change_domain_eps_0.0075_noisy_cohesin.jl:23
+0.25
+0.09
+starting initialization
+DONE

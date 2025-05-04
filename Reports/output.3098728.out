@@ -1,0 +1,13 @@
+Mon Mar 24 15:43:59 EDT 2025
+LOADED MATLAB
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024b Update 3 (24.2.0.2806996) 64-bit (glnxa64)
+                             November 26, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+slurmstepd: error: *** JOB 3098728 ON udc-aw33-17c0 CANCELLED AT 2025-03-24T15:45:13 ***

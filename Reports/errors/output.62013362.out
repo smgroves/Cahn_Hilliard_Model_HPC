@@ -1,0 +1,227 @@
+Mon Jun 17 13:19:36 EDT 2024
+LOADED MATLAB
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+R0 = 
+
+    "0.131"
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.131_eps_0.030019'
+
+
+------------------------------------------------------------------------
+       Segmentation violation detected at Mon Jun 17 13:27:44 2024
+------------------------------------------------------------------------
+Architecture     : glnxa64
+Processor ID     : Intel(R) Xeon(R) Gold 6248 CPU @ 2.50GHz
+Host Name        : udc-aw34-1c0
+Locale           : en_US
+
+
+Abnormal termination:
+Segmentation violation
+
+Current Thread: 'FTP_2_0' id 22515851372288
+
+Register State (from fault):
+  RAX = 00000000017111d0  RBX = 0000000001bd5a30
+  RCX = 0000147a60e1f6c0  RDX = 0000147a78167a90
+  RSP = 0000147a61529330  RBP = 0000147a615294b0
+  RSI = 0000147a781112e0  RDI = 0000147a615293a0
+
+   R8 = 0000000000000000   R9 = cf0f6bf8ad247e5d
+  R10 = 0000000001c278d8  R11 = 0000000000000007
+  R12 = 0000147a615293a0  R13 = 0000000000000001
+  R14 = dc5f18f033d16182  R15 = 0000147a61529360
+
+  RIP = 0000147a60e3e547  EFL = 0000000000010206
+
+   CS = 0033   FS = 0000   GS = 0000
+
+Stack Trace (from fault):
+[  0] 0x0000147a60e3e547 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw34-1c0/v2024.6.0.6/bin/glnxa64/spf/serviceproviders/login/spf/matlabloginserviceprovider/libmwmatlabloginserviceprovider.so+00369991
+[  1] 0x0000147a7c8aea97 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw34-1c0/v2024.6.0.6/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentspflegacyservicewrapper.so+00187031
+[  2] 0x0000147a7e7cb46b /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw34-1c0/v2024.6.0.6/bin/glnxa64/mathworksservicehost/rcf/matlabconnector/serviceprocess/rcf/client-v1/../../../../../../../../bin/glnxa64/libmwagentspfcore.so+00152683 _ZNK5agent3spf4core16ExportedFunctionclEON10foundation10concurrent10threadpool10stop_tokenEONS1_14GenericPayloadE+00000347
+[  3] 0x0000147a7c8a05f6 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw34-1c0/v2024.6.0.6/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentspflegacyservicewrapper.so+00128502
+[  4] 0x0000147a7c8a0681 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw34-1c0/v2024.6.0.6/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentspflegacyservicewrapper.so+00128641
+[  5] 0x0000147a7c807060 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw34-1c0/v2024.6.0.6/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentnanomsgtransport.so+00082016
+[  6] 0x0000147a83e8cc34 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw34-1c0/v2024.6.0.6/bin/glnxa64/libmwfoundation_threadpool.so+00146484
+[  7] 0x0000147a83e91928 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw34-1c0/v2024.6.0.6/bin/glnxa64/libmwfoundation_threadpool.so+00166184
+[  8] 0x0000147a83e91d54 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw34-1c0/v2024.6.0.6/bin/glnxa64/libmwfoundation_threadpool.so+00167252
+[  9] 0x0000147a84a188c3 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw34-1c0/v2024.6.0.6/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00903363
+[ 10] 0x0000147a84b691ca                             /lib64/libpthread.so.0+00033226
+[ 11] 0x0000147a8458fe73                                   /lib64/libc.so.6+00237171 clone+00000067
+
+
+** This crash report has been written to /home/xpz5km/.MathWorks/ServiceHost/udc-aw34-1c0/logs/MathWorksServiceHost_crash_564469.log **
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.131_eps_0.030019
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_radius>level_set_plot (line 77)
+In level_set_radius (line 13)] 
+
+R0 = 
+
+    "0.132"
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.132_eps_0.030019'
+
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.132_eps_0.030019
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_radius>level_set_plot (line 77)
+In level_set_radius (line 13)] 
+
+R0 = 
+
+    "0.133"
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.133_eps_0.030019'
+
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.133_eps_0.030019
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_radius>level_set_plot (line 77)
+In level_set_radius (line 13)] 
+
+R0 = 
+
+    "0.134"
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.134_eps_0.030019'
+
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.134_eps_0.030019
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_radius>level_set_plot (line 77)
+In level_set_radius (line 13)] 
+
+R0 = 
+
+    "0.1315"
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.1315_eps_0.030019'
+
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.1315_eps_0.030019
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_radius>level_set_plot (line 77)
+In level_set_radius (line 13)] 
+
+R0 = 
+
+    "0.1325"
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.1325_eps_0.030019'
+
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.1325_eps_0.030019
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_radius>level_set_plot (line 77)
+In level_set_radius (line 13)] 
+
+R0 = 
+
+    "0.1335"
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.1335_eps_0.030019'
+
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.1335_eps_0.030019
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_radius>level_set_plot (line 77)
+In level_set_radius (line 13)] 
+
+R0 = 
+
+    "0.1345"
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.1345_eps_0.030019'
+
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.1345_eps_0.030019
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_radius>level_set_plot (line 77)
+In level_set_radius (line 13)] 
+DONE

@@ -1,0 +1,25 @@
+0.12
+0.1
+0.04
+
+phi_512__1.0e-5__CPC_0.12_cohesin_0.1_eps_0.0067_domain_0_2
+/project/g_bme-janeslab/SarahG/julia_out/CPC_geometry/CPC_domain_0_2_e_0.0067_t_0.04/phi_512__1.0e-5__CPC_0.12_cohesin_0.1_eps_0.0067_domain_0_2
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024b Update 3 (24.2.0.2806996) 64-bit (glnxa64)
+                             November 26, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+{Error using readmatrix (line 171)
+Unable to find or open
+'/project/g_bme-janeslab/SarahG/julia_out/CPC_geometry/CPC_domain_0_2_e_0.0067_t_0.04/phi_512__1.0e-5__CPC_0.12_cohesin_0.1_eps_0.0067_domain_0_2.txt'.
+Check the path and filename or file permissions.
+
+Error in kymograph_central_droplets_domain (line 10)
+    phi = readmatrix(sprintf('%s/%s.txt', indir, name),'FileType','text');
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 

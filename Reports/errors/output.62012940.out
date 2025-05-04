@@ -1,0 +1,25 @@
+Mon Jun 17 12:32:30 EDT 2024
+LOADED MATLAB
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Launching updater executable
+
+phidims =
+
+     4200479         511
+41,943,040
+{Error using reshape
+Size arguments must be real integers.
+
+Error in CHplotting_function (line 16)
+    phi = reshape(phi,phidims(1),phidims(3),phidims(2)); %Reshape multidimensional array
+} 
+Done.

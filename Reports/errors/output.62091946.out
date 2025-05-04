@@ -1,0 +1,8 @@
+Thu Jun 20 20:30:07 EDT 2024
+LOADED JULIA
+ERROR: LoadError: UndefVarError: `multigrid_solver` not defined
+Stacktrace:
+ [1] top-level scope
+   @ ./timing.jl:393
+in expression starting at /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/run_solver_manuscript_1024.jl:20
+DONE

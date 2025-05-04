@@ -1,0 +1,41 @@
+Thu Sep 12 15:22:15 EDT 2024
+0.22 0.11 512 0.03
+MODULES LOADED
+   Resolving package versions...
+  No Changes to `/sfs/qumulo/qhome/xpz5km/.julia/environments/v1.9/Project.toml`
+  No Changes to `/sfs/qumulo/qhome/xpz5km/.julia/environments/v1.9/Manifest.toml`
+Precompiling project...
+[32m  ✓ [39m[90mFillArrays → FillArraysSparseArraysExt[39m
+[32m  ✓ [39m[90mFillArrays → FillArraysStatisticsExt[39m
+[32m  ✓ [39m[90mLogExpFunctions[39m
+[32m  ✓ [39m[90mAliasTables[39m
+[32m  ✓ [39m[90mFillArrays → FillArraysPDMatsExt[39m
+[32m  ✓ [39m[90mRmath[39m
+[32m  ✓ [39m[90mStatsBase[39m
+[32m  ✓ [39m[90mSpecialFunctions[39m
+[33m  ? [39m[90mHypergeometricFunctions[39m
+[91m  ✗ [39m[90mGtkObservables[39m
+[32m  ✓ [39m[90mStatsFuns[39m
+[91m  ✗ [39mProfileView
+[32m  ✓ [39mDistributions
+[32m  ✓ [39m[90mDistributions → DistributionsTestExt[39m
+  11 dependencies successfully precompiled in 23 seconds. 132 already precompiled.
+  [33m1[39m dependency failed but may be precompilable after restarting julia
+  [91m2[39m dependencies errored. To see a full report either run `import Pkg; Pkg.precompile()` or load the packages
+  [33m1[39m dependency had warnings during precompilation:[33m
+┌ [39mHypergeometricFunctions [34004b35-14d8-5ef3-9330-4cdb6864b03a][33m
+│  [39m┌ Warning: The call to compilecache failed to create a usable precompiled cache file for SpecialFunctions [276daf66-3868-5448-9aa4-cd146d93841b][33m
+│  [39m│   exception = Invalid input in module list: expected LogExpFunctions.[33m
+│  [39m└ @ Base loading.jl:1818[33m
+└  [39m
+ERROR: LoadError: syntax: unexpected "end"
+Stacktrace:
+ [1] top-level scope
+   @ /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/CH_multigrid_solver_with_alpha_change_domain.jl:326
+ [2] include(fname::String)
+   @ Base.MainInclude ./client.jl:478
+ [3] top-level scope
+   @ /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/CPC_geometric_array/CPC_geometric_run_array_with_alpha_change_domain_eps_0.0075_noisy_cohesin.jl:1
+in expression starting at /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/CH_multigrid_solver_with_alpha_change_domain.jl:326
+in expression starting at /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/CPC_geometric_array/CPC_geometric_run_array_with_alpha_change_domain_eps_0.0075_noisy_cohesin.jl:1
+DONE

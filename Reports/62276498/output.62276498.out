@@ -1,0 +1,5 @@
+Mon Jul 1 11:05:43 EDT 2024
+MODULES LOADED
+/var/spool/slurm/slurmd/job62276498/slurm_script: line 32: 509682 Killed                  julia restart_CPC_1024.jl
+DONE
+slurmstepd: error: Detected 1 oom_kill event in StepId=62276498.batch. Some of the step tasks have been OOM Killed.

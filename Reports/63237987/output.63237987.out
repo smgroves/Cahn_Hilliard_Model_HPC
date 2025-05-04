@@ -1,0 +1,40 @@
+Fri Aug 9 16:10:42 EDT 2024
+0.11675 16 10
+LOADED MATLAB
+0.11675
+16
+terminate called after throwing an instance of 'matlabconnector::installationsregistry::InstallationsRegistryError'
+  what():  InstallationsRegistry:getMatlabConnectorVersion: More than one MATLAB Connector records were found
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+eps =
+
+    0.0150
+
+
+epsilon_name = 
+
+    "0.015009"
+
+
+R0_name =
+
+    '0.11675'
+
+
+name =
+
+    'phi_256_400000_1.0e-6__256_R0_0.11675_eps_0.015009'
+
+/var/spool/slurm/slurmd/job63237987/slurm_script: line 22: 102084 Killed                  matlab -nodisplay -r "level_set_radius_array($R0, $m, 256,'$indir'); exit;"
+DONE
+slurmstepd: error: Detected 1 oom_kill event in StepId=63237987.batch. Some of the step tasks have been OOM Killed.

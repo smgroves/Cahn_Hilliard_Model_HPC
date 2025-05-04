@@ -1,0 +1,27 @@
+0.12
+0.13
+/var/spool/slurm/slurmd/job63237515/slurm_script: line 24: [: missing `]'
+/var/spool/slurm/slurmd/job63237515/slurm_script: line 26: [0.045==0.03]: command not found
+/var/spool/slurm/slurmd/job63237515/slurm_script: line 28: [0.045==0.045]: command not found
+
+phi_512__1.0e-5__CPC_0.12_cohesin_0.13_eps_0.0096_alpha_0_domain_0_2
+/project/g_bme-janeslab/sarah/julia_out/CPC_geometry/CPC_domain_0_2/phi_512__1.0e-5__CPC_0.12_cohesin_0.13_eps_0.0096_alpha_0_domain_0_2
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+{Error using readmatrix (line 171)
+Unable to find or open
+'/project/g_bme-janeslab/sarah/julia_out/CPC_geometry/CPC_domain_0_2/phi_512__1.0e-5__CPC_0.12_cohesin_0.13_eps_0.0096_alpha_0_domain_0_2.txt'.
+Check the path and filename or file permissions.
+
+Error in kymograph_central_droplets_domain (line 10)
+    phi = readmatrix(sprintf('%s/%s.txt', indir, name),'FileType','text');
+} 
+Done.

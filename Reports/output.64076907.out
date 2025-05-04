@@ -1,0 +1,21 @@
+Thu Sep 12 20:38:08 EDT 2024
+LOADED MATLAB
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+{Error using readmatrix (line 171)
+Unable to find or open
+'/project/g_bme-janeslab/SarahG/julia_out/CPC_geometry/CPC_domain_0_2_e_0.007_noisy_cohesin/phi_512_19661_1.0e-5__1234_CPC_0.125_cohesin_0.07_eps_0.0075_alpha_0_domain_0_2.txt'.
+Check the path and filename or file permissions.
+
+Error in CHplotting_function (line 11)
+    phi = readmatrix(sprintf('%s/%s.txt', indir, name),'FileType','text');
+} 
+Done.

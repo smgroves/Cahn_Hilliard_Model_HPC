@@ -1,0 +1,44 @@
+Fri Aug 9 16:09:56 EDT 2024
+0.1165 16 10
+LOADED MATLAB
+0.1165
+16
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+terminate called after throwing an instance of 'matlabconnector::installationsregistry::InstallationsRegistryError'
+  what():  InstallationsRegistry:getMatlabConnectorVersion: More than one MATLAB Connector records were found
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+eps =
+
+    0.0150
+
+
+epsilon_name = 
+
+    "0.015009"
+
+
+R0_name =
+
+    '0.1165'
+
+
+name =
+
+    'phi_256_400000_1.0e-6__256_R0_0.1165_eps_0.015009'
+
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+/var/spool/slurm/slurmd/job63238010/slurm_script: line 22: 616502 Killed                  matlab -nodisplay -r "level_set_radius_array($R0, $m, 256,'$indir'); exit;"
+DONE
+slurmstepd: error: Detected 1 oom_kill event in StepId=63238010.batch. Some of the step tasks have been OOM Killed.

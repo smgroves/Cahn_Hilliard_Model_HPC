@@ -1,0 +1,198 @@
+Tue Dec 10 16:19:46 EST 2024
+LOADED MATLAB
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024a Update 6 (24.1.0.2689473) 64-bit (glnxa64)
+                               July 29, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+/sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.7.0.6/mci/bin/glnxa64/InstallMathWorksServiceHost: error while loading shared libraries: /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.7.0.6/mci/bin/glnxa64/libmwopczippackage.so: file too short
+
+phidims =
+
+     5120128         128
+
+[Warning: Error while calling matlab.exception.JavaException/getReport:
+Java exception occurred:
+java.lang.OutOfMemoryError: Java heap space] 
+[Warning: Error while calling matlab.exception.JavaException/getReport:
+Java exception occurred:
+java.lang.OutOfMemoryError: Java heap space] 
+{Error using handle
+Failed to retrieve Exception Message
+} 
+Opening log file:  /home/xpz5km/java.log.29486
+[Warning: Java exception occurred:
+java.lang.OutOfMemoryError: Java heap space] 
+[Warning: Java exception occurred:
+java.lang.OutOfMemoryError: Java heap space] 
+[Warning: Java exception occurred:
+java.lang.OutOfMemoryError: Java heap space] 
+[Warning: Java exception occurred:
+java.lang.OutOfMemoryError: Java heap space] 
+[Warning: Java exception occurred:
+java.lang.OutOfMemoryError: Java heap space] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+[Warning: Failed to retrieve Exception Message
+] 
+{Failed to retrieve Exception Message
+} 
+{Failed to retrieve Exception Message
+} 
+>> {Failed to retrieve Exception Message
+} 
+/sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.7.0.6/mci/bin/glnxa64/InstallMathWorksServiceHost: error while loading shared libraries: /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.7.0.6/mci/bin/glnxa64/libmwopczippackage.so: file too short
+slurmstepd: error: *** JOB 762618 ON udc-aw33-11c1 CANCELLED AT 2024-12-11T02:20:09 DUE TO TIME LIMIT ***

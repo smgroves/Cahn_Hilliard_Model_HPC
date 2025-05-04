@@ -1,0 +1,28 @@
+0.12
+0.13
+0.03
+19661
+phi_512_19661_1.0e-5__CPC_0.12_cohesin_0.13_eps_0.0067_domain_0_2
+/project/g_bme-janeslab/SarahG/julia_out/CPC_geometry/CPC_domain_0_2_e_0.0067/phi_512_19661_1.0e-5__CPC_0.12_cohesin_0.13_eps_0.0067_domain_0_2
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024a Update 6 (24.1.0.2689473) 64-bit (glnxa64)
+                               July 29, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+[Warning: Directory already exists.] 
+[> In kymograph_central_droplets_domain (line 8)] 
+/sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.7.0.6/mci/bin/glnxa64/InstallMathWorksServiceHost: error while loading shared libraries: /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.7.0.6/mci/bin/glnxa64/libmwopczippackage.so: file too short
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+phi_512_19661_1.0e-5__CPC_0.12_cohesin_0.13_eps_0.0067_domain_0_2
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In kymograph_central_droplets_domain (line 66)] 
+Done.

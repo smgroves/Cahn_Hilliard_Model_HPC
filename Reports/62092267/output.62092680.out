@@ -1,0 +1,119 @@
+Fri Jun 21 01:49:31 EDT 2024
+0.1165 8 10
+LOADED MATLAB
+0.1165
+8
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+indir = 
+
+    "/scratch/xpz5km/Cahn_Hilliard_Model/julia_out/critical_radius_updated_IC"
+
+
+epsilon_name = 
+
+    "0.015009"
+
+
+R0_name =
+
+    '0.1165'
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.1165_eps_0.015009'
+
+Launching updater executable
+
+------------------------------------------------------------------------
+       Segmentation violation detected at Fri Jun 21 02:01:39 2024
+------------------------------------------------------------------------
+Architecture     : glnxa64
+Processor ID     : Intel(R) Xeon(R) Gold 6248 CPU @ 2.50GHz
+Host Name        : udc-an33-12c0
+Locale           : en_US
+
+
+Abnormal termination:
+Segmentation violation
+
+Current Thread: 'FTP_2_2' id 23123937683200
+
+Register State (from fault):
+  RAX = 0065726975716572  RBX = 00000000000000e6
+  RCX = 0000000000000001  RDX = 0000000000000003
+  RSP = 00001507f6175330  RBP = 00001507f61754b0
+  RSI = 0000150810337cc0  RDI = 0000150810337c50
+
+   R8 = 0000000000000007   R9 = 0065726975716572
+  R10 = 000000000000ff19  R11 = 0000150810337cc0
+  R12 = 00001507f61753a0  R13 = 0000150810337ce8
+  R14 = 000015081a99d6f0  R15 = 00001507f6175360
+
+  RIP = 00001507f6c69658  EFL = 0000000000010206
+
+   CS = 0033   FS = 0000   GS = 0000
+
+Stack Trace (from fault):
+[  0] 0x00001507f6c69658 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-12c0/v2024.6.0.6/bin/glnxa64/spf/serviceproviders/login/spf/matlabloginserviceprovider/libmwmatlabloginserviceprovider.so+00370264
+[  1] 0x000015080e6d6a97 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-12c0/v2024.6.0.6/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentspflegacyservicewrapper.so+00187031
+[  2] 0x00001508145f846b /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-12c0/v2024.6.0.6/bin/glnxa64/mathworksservicehost/rcf/matlabconnector/serviceprocess/rcf/client-v1/../../../../../../../../bin/glnxa64/libmwagentspfcore.so+00152683 _ZNK5agent3spf4core16ExportedFunctionclEON10foundation10concurrent10threadpool10stop_tokenEONS1_14GenericPayloadE+00000347
+[  3] 0x000015080e6c85f6 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-12c0/v2024.6.0.6/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentspflegacyservicewrapper.so+00128502
+[  4] 0x000015080e6c8681 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-12c0/v2024.6.0.6/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentspflegacyservicewrapper.so+00128641
+[  5] 0x000015080e62f060 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-12c0/v2024.6.0.6/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentnanomsgtransport.so+00082016
+[  6] 0x0000150819cb9c34 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-12c0/v2024.6.0.6/bin/glnxa64/libmwfoundation_threadpool.so+00146484
+[  7] 0x0000150819cbe928 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-12c0/v2024.6.0.6/bin/glnxa64/libmwfoundation_threadpool.so+00166184
+[  8] 0x0000150819cbed54 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-12c0/v2024.6.0.6/bin/glnxa64/libmwfoundation_threadpool.so+00167252
+[  9] 0x000015081a8458c3 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-an33-12c0/v2024.6.0.6/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00903363
+[ 10] 0x000015081a9961ca                             /lib64/libpthread.so.0+00033226
+[ 11] 0x000015081a3bce73                                   /lib64/libc.so.6+00237171 clone+00000067
+
+
+** This crash report has been written to /home/xpz5km/.MathWorks/ServiceHost/udc-an33-12c0/logs/MathWorksServiceHost_crash_868216.log **
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.1165_eps_0.015009
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_plot (line 49)
+In level_set_radius_array (line 23)] 
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+DONE

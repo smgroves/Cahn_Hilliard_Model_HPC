@@ -1,0 +1,31 @@
+Tue Jun 18 17:12:27 EDT 2024
+0.110 8 10
+LOADED MATLAB
+0.110
+8
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+indir = 
+
+    "/scratch/xpz5km/Cahn_Hilliard_Model/julia_out/critical_radius_updated_IC"
+
+
+epsilon_name = 
+
+    "0.015009"
+
+{Unrecognized function or variable 'tostring'.
+
+Error in level_set_radius_array (line 21)
+    R0 = tostring(R0)
+} 
+DONE

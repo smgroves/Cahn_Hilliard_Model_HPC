@@ -1,0 +1,17 @@
+Fri Nov 8 13:17:46 EST 2024
+0.25 0.08 512 0.03
+MODULES LOADED
+   Resolving package versions...
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.9/Project.toml`
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.9/Manifest.toml`
+Precompiling project...
+[91m  ✗ [39m[90mGtkObservables[39m
+[91m  ✗ [39mProfileView
+  0 dependencies successfully precompiled in 5 seconds. 144 already precompiled.
+  [91m2[39m dependencies errored. To see a full report either run `import Pkg; Pkg.precompile()` or load the packages
+ERROR: LoadError: syntax: incomplete: "function" at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/CPC_geometric_array/CPC_geometric_run_array_change_domain_eps_0.0075_crosshair_localization.jl:5 requires end
+Stacktrace:
+ [1] top-level scope
+   @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/CPC_geometric_array/CPC_geometric_run_array_change_domain_eps_0.0075_crosshair_localization.jl:5
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/CPC_geometric_array/CPC_geometric_run_array_change_domain_eps_0.0075_crosshair_localization.jl:5
+DONE

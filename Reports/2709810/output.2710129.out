@@ -1,0 +1,25 @@
+0.173
+0.08
+0.04
+
+phi_512_26214_1.0e-5__CPC_0.173_cohesin_0.08_eps_0.0067_domain_0_2
+/project/g_bme-janeslab/SarahG/julia_out/CPC_geometry/CPC_domain_0_2_e_0.0067_t_0.04/phi_512_26214_1.0e-5__CPC_0.173_cohesin_0.08_eps_0.0067_domain_0_2
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024b Update 3 (24.2.0.2806996) 64-bit (glnxa64)
+                             November 26, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+[Warning: Directory already exists.] 
+[> In kymograph_central_droplets_domain (line 8)] 
+[Warning: Error in state of SceneNode.
+String scalar or character vector must have valid interpreter syntax:
+phi_512_26214_1.0e-5__CPC_0.173_cohesin_0.08_eps_0.0067_domain_0_2
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In kymograph_central_droplets_domain (line 66)] 

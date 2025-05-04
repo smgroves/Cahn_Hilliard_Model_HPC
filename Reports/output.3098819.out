@@ -1,0 +1,30 @@
+Mon Mar 24 16:21:00 EDT 2025
+LOADED MATLAB
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024b Update 3 (24.2.0.2806996) 64-bit (glnxa64)
+                             November 26, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+
+phidims =
+
+     5120128         128
+
+[Warning: No video frames were written to this file. The file may be invalid.] 
+[> In VideoWriter/close (line 282)
+In VideoWriter/delete (line 217)
+In CHplotting_function (line 9)] 
+{Unrecognized function or variable 'colorbar_type'.
+
+Error in CHplotting_function (line 39)
+            if colorbar_type == "default"
+               ^^^^^^^^^^^^^
+} 
+Done.

@@ -1,0 +1,13 @@
+0.3
+0.1
+0.03
+19661
+phi_512_19661_1.0e-5__CPC_0.3_cohesin_0.1_eps_0.0075_alpha_0_domain_0_2
+/project/g_bme-janeslab/SarahG/julia_out/CPC_geometry/CPC_domain_0_2_e_0.0075/phi_512_19661_1.0e-5__CPC_0.3_cohesin_0.1_eps_0.0075_alpha_0_domain_0_2
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+malloc(): unaligned tcache chunk detected
+
+MATLAB is exiting because of fatal error
+/var/spool/slurm/slurmd/job63919443/slurm_script: line 39: 942483 Killed                  matlab -nodisplay -nosplash -r "kymograph_central_droplets_domain('$indir', '$outdir','$name', $dt, $dtout, false, 0, 6.4);quit;"
+Done.

@@ -1,0 +1,13 @@
+Wed Jun 26 10:55:17 EDT 2024
+19207
+19660
+
+/var/spool/slurm/slurmd/job62228504/slurm_script: line 18: [: : integer expression expected
+
+/var/spool/slurm/slurmd/job62228504/slurm_script: line 18: [: : integer expression expected
+cat: /scratch/xpz5km/Cahn_Hilliard_Model/julia_out/CPC_geometry_1024/phi_1024__0.0001__CPC_40_cohesin_16_eps_0.007504684956431058.txt: No such file or directory
+rm: cannot remove 'newfile': No such file or directory
+MODULES LOADED
+/var/spool/slurm/slurmd/job62228504/slurm_script: line 32: 703994 Killed                  julia restart_CPC_1024.jl
+DONE
+slurmstepd: error: Detected 1 oom_kill event in StepId=62228504.batch. Some of the step tasks have been OOM Killed.

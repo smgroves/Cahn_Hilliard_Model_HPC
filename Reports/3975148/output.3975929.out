@@ -1,0 +1,28 @@
+0.173
+0.09
+0.03
+19661
+phi_512_19661_1.0e-5__CPC_0.173_cohesin_0.09_eps_0.0067_alpha_0_domain_0_2
+/project/g_bme-janeslab/SarahG/julia_out/CPC_geometry/CPC_domain_0_2_e_0.0067_noisy_cohesin/sd_0.11//phi_512_19661_1.0e-5__CPC_0.173_cohesin_0.09_eps_0.0067_alpha_0_domain_0_2
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024b Update 3 (24.2.0.2806996) 64-bit (glnxa64)
+                             November 26, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+[Warning: Directory already exists.] 
+[> In kymograph_central_droplets_domain (line 8)] 
+[Warning: Error in state of SceneNode.
+String scalar or character vector must have valid interpreter syntax:
+phi_512_19661_1.0e-5__CPC_0.173_cohesin_0.09_eps_0.0067_alpha_0_domain_0_2
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In kymograph_central_droplets_domain (line 67)] 
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+slurmstepd: error: *** JOB 3975929 ON udc-ba06-33c0 CANCELLED AT 2025-04-24T15:20:36 ***

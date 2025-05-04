@@ -1,0 +1,29 @@
+Fri Nov 8 14:27:38 EST 2024
+0.125 0.08 256 0.03 -1.612752722 -0.466021107 HCC1599_100%bound
+MODULES LOADED
+ERROR: LoadError: MethodError: no method matching parse(::Type{String}, ::String)
+
+Closest candidates are:
+  parse(!Matched::Type{T}, ::AbstractString) where T<:Complex
+   @ Base parse.jl:381
+  parse(!Matched::Type{Rational{T}}, ::AbstractString) where T<:Integer
+   @ Base rational.jl:98
+  parse(!Matched::Type{Sockets.IPAddr}, ::AbstractString)
+   @ Sockets /sfs/applications/202406/software/standard/core/julia/1.9.2/share/julia/stdlib/v1.9/Sockets/src/IPAddr.jl:246
+  ...
+
+Stacktrace:
+ [1] _broadcast_getindex_evalf
+   @ ./broadcast.jl:683 [inlined]
+ [2] _broadcast_getindex
+   @ ./broadcast.jl:666 [inlined]
+ [3] getindex
+   @ ./broadcast.jl:610 [inlined]
+ [4] copy
+   @ ./broadcast.jl:888 [inlined]
+ [5] materialize(bc::Base.Broadcast.Broadcasted{Base.Broadcast.DefaultArrayStyle{0}, Nothing, typeof(parse), Tuple{Base.RefValue{Type{String}}, Base.RefValue{String}}})
+   @ Base.Broadcast ./broadcast.jl:873
+ [6] top-level scope
+   @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/CPC_geometric_array/CPC_geometric_run_array_eps_0.0075_monse_quant.jl:16
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/CPC_geometric_array/CPC_geometric_run_array_eps_0.0075_monse_quant.jl:16
+DONE

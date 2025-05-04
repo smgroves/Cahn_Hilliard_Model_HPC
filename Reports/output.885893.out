@@ -1,0 +1,20 @@
+Tue Dec 17 12:59:30 EST 2024
+LOADED MATLAB
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024a Update 6 (24.1.0.2689473) 64-bit (glnxa64)
+                               July 29, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+/sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.7.0.6/mci/bin/glnxa64/InstallMathWorksServiceHost: error while loading shared libraries: /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.7.0.6/mci/bin/glnxa64/libmwopczippackage.so: file too short
+
+phidims =
+
+     5120128         128
+
+/sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.7.0.6/mci/bin/glnxa64/InstallMathWorksServiceHost: error while loading shared libraries: /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.7.0.6/mci/bin/glnxa64/libmwopczippackage.so: file too short
+slurmstepd: error: *** JOB 885893 ON udc-aw33-4c0 CANCELLED AT 2024-12-17T22:59:39 DUE TO TIME LIMIT ***

@@ -1,0 +1,72 @@
+Tue Aug 13 14:28:52 EDT 2024
+0.1112 16 10
+LOADED MATLAB
+0.1112
+16
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+eps =
+
+    0.0150
+
+
+epsilon_name = 
+
+    "0.015009"
+
+
+R0_name =
+
+    '0.1112'
+
+
+name =
+
+    'phi_256_400000_1.0e-6__256_R0_0.1112_eps_0.015009'
+
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_256_400000_1.0e-6__256_R0_0.1112_eps_0.015009
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_plot (line 49)
+In level_set_radius_array (line 24)] 
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+DONE

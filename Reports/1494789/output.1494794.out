@@ -1,0 +1,22 @@
+0.12
+0.05
+0.03
+19661
+phi_512_19661_1.0e-5__CPC_0.12_cohesin_0.05_eps_0.0067_domain_0_2
+/project/g_bme-janeslab/SarahG/julia_out/CPC_geometry/CPC_domain_0_2_e_0.0067/phi_512_19661_1.0e-5__CPC_0.12_cohesin_0.05_eps_0.0067_domain_0_2
+/home/xpz5km/.MathWorks/ServiceHost/udc-ba05-17c1/v2024.7.0.6/bin/glnxa64/mlcpostinstall: error while loading shared libraries: libicudata.so.72: ELF load command past end of file
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024a Update 6 (24.1.0.2689473) 64-bit (glnxa64)
+                               July 29, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+tcache_thread_shutdown(): unaligned tcache chunk detected
+
+MATLAB is exiting because of fatal error
+/var/spool/slurm/slurmd/job1494794/slurm_script: line 47: 800390 Killed                  matlab -nodisplay -nosplash -r "kymograph_central_droplets_domain('$indir', '$outdir','$name', $dt, $dtout, false, 0, 6.4);quit;"
+Done.

@@ -1,0 +1,30 @@
+0.25
+0.1
+0.03
+19661
+phi_512_19661_1.0e-5__CPC_0.25_cohesin_0.1_eps_0.0067_domain_0_2
+/project/g_bme-janeslab/SarahG/julia_out/CPC_geometry/CPC_domain_0_2_e_0.0067/phi_512_19661_1.0e-5__CPC_0.25_cohesin_0.1_eps_0.0067_domain_0_2
+/home/xpz5km/.MathWorks/ServiceHost/udc-ba06-26c0/v2024.7.0.6/bin/glnxa64/mlcstop: error while loading shared libraries: libCppMicroServices.so.3.8.3: cannot open shared object file: No such file or directory
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Couldn't find properties file
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024a Update 6 (24.1.0.2689473) 64-bit (glnxa64)
+                               July 29, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+/home/xpz5km/.MathWorks/ServiceHost/udc-ba06-26c0/v2024.7.0.6/bin/glnxa64/mlcpreuninstall: error while loading shared libraries: libicudata.so.72: ELF load command past end of file
+/home/xpz5km/.MathWorks/ServiceHost/udc-ba06-26c0/v2024.7.0.6/bin/glnxa64/mlcpostinstall: error while loading shared libraries: libicudata.so.72: ELF load command past end of file
+{Error using reshape
+Size arguments must be real integers.
+
+Error in kymograph_central_droplets_domain (line 16)
+    phi = reshape(phi,phidims(1),phidims(3),phidims(2)); %Reshape multidimensional array
+} 
+Done.

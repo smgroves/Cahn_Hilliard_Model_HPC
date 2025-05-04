@@ -1,0 +1,6 @@
+Tue Aug 13 11:05:19 EDT 2024
+0.35 0.13 512 0.045
+MODULES LOADED
+/var/spool/slurm/slurmd/job63342716/slurm_script: line 17: 488459 Killed                  julia CPC_geometric_run_array_with_alpha_change_domain.jl $OPTS
+DONE
+slurmstepd: error: Detected 1 oom_kill event in StepId=63342716.batch. Some of the step tasks have been OOM Killed.

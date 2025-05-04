@@ -1,0 +1,29 @@
+Tue Jun 18 17:01:34 EDT 2024
+0.180 32 10
+LOADED MATLAB
+0.180
+32
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+[Warning: Unable to load Toolbox Path Cache
+/home/xpz5km/.matlab/R2024a/toolbox_cache-24.1.0-999402552-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+{File: /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/level_set_radius_array.m
+Line: 8 Column: 13
+Incorrect use of '=' operator. Assign a value to a variable using '=' and
+compare values for equality using '=='.
+} 
+DONE

@@ -1,0 +1,8 @@
+Fri Aug 9 16:07:53 EDT 2024
+0.1111 16 10
+LOADED MATLAB
+0.1111
+16
+terminate called after throwing an instance of 'matlabconnector::installationsregistry::InstallationsRegistryError'
+  what():  InstallationsRegistry:getMatlabConnectorVersion: More than one MATLAB Connector records were found
+slurmstepd: error: *** JOB 63237567 ON udc-aw33-19c0 CANCELLED AT 2024-08-09T16:09:32 ***

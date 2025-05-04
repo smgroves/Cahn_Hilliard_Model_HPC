@@ -1,0 +1,64 @@
+Tue Aug 13 13:00:04 EDT 2024
+0.118 16 10
+LOADED MATLAB
+0.118
+16
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+You already have the most recent version of MATLAB Drive Connector installed.
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+eps =
+
+    0.0150
+
+
+epsilon_name = 
+
+    "0.015009"
+
+
+R0_name =
+
+    '0.118'
+
+
+name =
+
+    'phi_256_400000_1.0e-6__256_R0_0.118_eps_0.015009'
+
+You already have the most recent version of MATLAB Connector installed.
+Launching updater executable
+
+(InstallMathWorksServiceHost:563531): Gtk-WARNING **: 13:07:00.600: cannot open display: 
+You already have the most recent version of MATLAB Connector installed.
+Launching updater executable
+
+(InstallMathWorksServiceHost:564367): Gtk-WARNING **: 13:12:18.291: cannot open display: 
+You already have the most recent version of MATLAB Connector installed.
+Launching updater executable
+
+(InstallMathWorksServiceHost:565152): Gtk-WARNING **: 13:17:36.027: cannot open display: 
+You already have the most recent version of MATLAB Connector installed.
+Launching updater executable
+
+(InstallMathWorksServiceHost:565988): Gtk-WARNING **: 13:22:53.833: cannot open display: 
+{Error using contour (line 48)
+The size of X must match the size of Z or the number of columns of Z.
+
+Error in level_set_plot (line 28)
+        [~, h] = contour(x, y, phi_tmp, [0 0]);
+
+Error in level_set_radius_array (line 24)
+    [rr,tt] = level_set_plot(2.5e-5, indir, total_time, everyR, epsilon_name, R0_name, folder, Nx);
+} 
+DONE

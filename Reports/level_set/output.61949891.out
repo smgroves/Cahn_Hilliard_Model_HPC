@@ -1,0 +1,330 @@
+Thu Jun 13 19:17:09 EDT 2024
+LOADED MATLAB
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+R0 = 
+
+    "0.105"
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.105_eps_0.015009'
+
+Launching updater executable
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.105_eps_0.015009
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_radius>level_set_plot (line 73)
+In level_set_radius (line 10)] 
+
+R0 = 
+
+    "0.1111"
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.1111_eps_0.015009'
+
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.1111_eps_0.015009
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_radius>level_set_plot (line 73)
+In level_set_radius (line 10)] 
+
+R0 = 
+
+    "0.1112"
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.1112_eps_0.015009'
+
+corrupted double-linked list
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.1112_eps_0.015009
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_radius>level_set_plot (line 73)
+In level_set_radius (line 10)] 
+
+R0 = 
+
+    "0.1113"
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.1113_eps_0.015009'
+
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.1113_eps_0.015009
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_radius>level_set_plot (line 73)
+In level_set_radius (line 10)] 
+
+R0 = 
+
+    "0.1114"
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.1114_eps_0.015009'
+
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.1114_eps_0.015009
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_radius>level_set_plot (line 73)
+In level_set_radius (line 10)] 
+
+R0 = 
+
+    "0.11155"
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.11155_eps_0.015009'
+
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.11155_eps_0.015009
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_radius>level_set_plot (line 73)
+In level_set_radius (line 10)] 
+
+R0 = 
+
+    "0.1115"
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.1115_eps_0.015009'
+
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.1115_eps_0.015009
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_radius>level_set_plot (line 73)
+In level_set_radius (line 10)] 
+
+R0 = 
+
+    "0.1116"
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.1116_eps_0.015009'
+
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.1116_eps_0.015009
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_radius>level_set_plot (line 73)
+In level_set_radius (line 10)] 
+
+R0 = 
+
+    "0.111"
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.111_eps_0.015009'
+
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.111_eps_0.015009
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_radius>level_set_plot (line 73)
+In level_set_radius (line 10)] 
+
+R0 = 
+
+    "0.112"
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.112_eps_0.015009'
+
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.112_eps_0.015009
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_radius>level_set_plot (line 73)
+In level_set_radius (line 10)] 
+
+R0 = 
+
+    "0.113"
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.113_eps_0.015009'
+
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.113_eps_0.015009
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_radius>level_set_plot (line 73)
+In level_set_radius (line 10)] 
+
+R0 = 
+
+    "0.114"
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.114_eps_0.015009'
+
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.114_eps_0.015009
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_radius>level_set_plot (line 73)
+In level_set_radius (line 10)] 
+
+R0 = 
+
+    "0.115"
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.115_eps_0.015009'
+
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.115_eps_0.015009
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_radius>level_set_plot (line 73)
+In level_set_radius (line 10)] 
+
+R0 = 
+
+    "0.11"
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.11_eps_0.015009'
+
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.11_eps_0.015009
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_radius>level_set_plot (line 73)
+In level_set_radius (line 10)] 
+
+R0 = 
+
+    "0.1"
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.1_eps_0.015009'
+
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.1_eps_0.015009
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_radius>level_set_plot (line 73)
+In level_set_radius (line 10)] 
+DONE

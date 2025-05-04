@@ -1,0 +1,29 @@
+0.25
+0.12
+0.03
+19661
+phi_256_19661_1.0e-5__CPC_0.25_cohesin_0.12_eps_0.0075_domain_0_1
+/project/g_bme-janeslab/SarahG/julia_out/CPC_geometry/CPC_domain_0_1_e_0.0075/phi_256_19661_1.0e-5__CPC_0.25_cohesin_0.12_eps_0.0075_domain_0_1
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024a Update 6 (24.1.0.2689473) 64-bit (glnxa64)
+                               July 29, 2024
+
+[Warning: Unable to load Toolbox Path Cache
+/home/xpz5km/.matlab/R2024a/toolbox_cache-24.1.0-3725113302-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+phi_256_19661_1.0e-5__CPC_0.25_cohesin_0.12_eps_0.0075_domain_0_1
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In kymograph_central_droplets_domain (line 66)] 
+Done.

@@ -1,0 +1,26 @@
+Tue Aug 6 15:30:26 EDT 2024
+0.105 6 10
+LOADED MATLAB
+0.105
+6
+terminate called after throwing an instance of 'matlabconnector::installationsregistry::InstallationsRegistryError'
+  what():  InstallationsRegistry:getMatlabConnectorVersion: More than one MATLAB Connector records were found
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+[Warning: Unable to load Toolbox Path Cache
+/home/xpz5km/.matlab/R2024a/toolbox_cache-24.1.0-3725113302-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+ level_set_radius_array(0.105, 6, 128,/scratch/xpz5km/Cahn_Hilliard_Model/julia_out/critical_radius_updated_IC); exit;
+                                      |
+{Invalid use of operator.
+} 
+DONE

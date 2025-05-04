@@ -1,0 +1,19 @@
+Thu Sep 12 15:11:16 EDT 2024
+0.2 0.11 512 0.03
+MODULES LOADED
+ERROR: LoadError: ArgumentError: Package Distributions not found in current path.
+- Run `import Pkg; Pkg.add("Distributions")` to install the Distributions package.
+Stacktrace:
+ [1] macro expansion
+   @ ./loading.jl:1630 [inlined]
+ [2] macro expansion
+   @ ./lock.jl:267 [inlined]
+ [3] require(into::Module, mod::Symbol)
+   @ Base ./loading.jl:1611
+ [4] include(fname::String)
+   @ Base.MainInclude ./client.jl:478
+ [5] top-level scope
+   @ /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/CPC_geometric_array/CPC_geometric_run_array_with_alpha_change_domain_eps_0.0075_noisy_cohesin.jl:1
+in expression starting at /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/CH_multigrid_solver_with_alpha_change_domain.jl:12
+in expression starting at /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/CPC_geometric_array/CPC_geometric_run_array_with_alpha_change_domain_eps_0.0075_noisy_cohesin.jl:1
+DONE

@@ -1,0 +1,40 @@
+Fri Aug 9 15:54:24 EDT 2024
+0.117 16 10
+LOADED MATLAB
+0.117
+16
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+terminate called after throwing an instance of 'matlabconnector::installationsregistry::InstallationsRegistryError'
+  what():  InstallationsRegistry:getMatlabConnectorVersion: More than one MATLAB Connector records were found
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+eps =
+
+    0.0150
+
+
+epsilon_name = 
+
+    "0.015009"
+
+
+R0_name =
+
+    '0.117'
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.117_eps_0.015009'
+
+slurmstepd: error: *** JOB 63237358 ON udc-an33-11c0 CANCELLED AT 2024-08-09T15:57:57 ***

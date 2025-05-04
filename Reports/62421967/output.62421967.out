@@ -1,0 +1,11 @@
+Wed Jul 10 18:37:09 EDT 2024
+17483
+19660
+
+/var/spool/slurm/slurmd/job62421967/slurm_script: line 18: [: : integer expression expected
+
+/var/spool/slurm/slurmd/job62421967/slurm_script: line 18: [: : integer expression expected
+MODULES LOADED
+/var/spool/slurm/slurmd/job62421967/slurm_script: line 32: 845590 Killed                  julia restart_CPC_1024.jl
+DONE
+slurmstepd: error: Detected 1 oom_kill event in StepId=62421967.batch. Some of the step tasks have been OOM Killed.

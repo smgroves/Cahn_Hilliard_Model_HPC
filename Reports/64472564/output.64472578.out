@@ -1,0 +1,23 @@
+Fri Sep 27 08:36:38 EDT 2024
+0.173 0.09 512 0.03 5
+MODULES LOADED
+    Updating registry at `~/.julia/registries/General.toml`
+   Resolving package versions...
+  No Changes to `/sfs/qumulo/qhome/xpz5km/.julia/environments/v1.9/Project.toml`
+  No Changes to `/sfs/qumulo/qhome/xpz5km/.julia/environments/v1.9/Manifest.toml`
+Precompiling project...
+[91m  ✗ [39m[90mGtkObservables[39m
+[91m  ✗ [39mProfileView
+  0 dependencies successfully precompiled in 8 seconds. 144 already precompiled.
+  [91m2[39m dependencies errored. To see a full report either run `import Pkg; Pkg.precompile()` or load the packages
+ERROR: LoadError: UndefVarError: `msax_it` not defined
+Stacktrace:
+ [1] top-level scope
+   @ ./timing.jl:393
+in expression starting at /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/CPC_geometric_array/CPC_geometric_run_array_with_alpha_change_domain_eps_0.0075_noisy_cohesin.jl:29
+0.173
+0.09
+starting initialization
+starting ch solver
+cohesin=0.09, CPC=0.173, epsilon=0.0075
+DONE

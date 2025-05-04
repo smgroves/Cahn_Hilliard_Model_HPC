@@ -1,0 +1,69 @@
+0.173
+0.14
+phi_512_9830_1.0e-5__CPC_0.173_cohesin_0.14_eps_0.0096_alpha_0_domain_0_2
+/scratch/xpz5km/Cahn_Hilliard_Model/CPC_geometry/CPC_domain_0_2/phi_512_9830_1.0e-5__CPC_0.173_cohesin_0.14_eps_0.0096_alpha_0_domain_0_2
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+------------------------------------------------------------------------
+       Segmentation violation detected at Wed Jul 31 11:07:30 2024
+------------------------------------------------------------------------
+Architecture     : glnxa64
+Processor ID     : Intel(R) Xeon(R) Gold 6248 CPU @ 2.50GHz
+Host Name        : udc-an33-6c0
+Locale           : en_US
+
+
+Abnormal termination:
+Segmentation violation
+
+Current Thread: 'FTP_2_1' id 22896020485888
+
+Register State (from fault):
+  RAX = 0000000000da8be0  RBX = 0000000001025b30
+  RCX = 0000000000000006  RDX = 00000000009f3860
+  RSP = 000014d2e52ae330  RBP = 000014d2e52ae4b0
+  RSI = 000014d2e5706780  RDI = 000014d2e52ae3a0
+
+   R8 = 0000000000000000   R9 = cf0f6bf8ad247e5d
+  R10 = 000000000109a648  R11 = 0000000000000007
+  R12 = 000014d2e52ae3a0  R13 = 0000000000e87be0
+  R14 = 46002056206b726f  R15 = 000014d2e52ae360
+
+  RIP = 000014d2e5725547  EFL = 0000000000010202
+
+   CS = 0033   FS = 0000   GS = 0000
+
+Stack Trace (from fault):
+[  0] 0x000014d2e5725547 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/spf/serviceproviders/login/spf/matlabloginserviceprovider/libmwmatlabloginserviceprovider.so+00369991
+[  1] 0x000014d301197a97 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentspflegacyservicewrapper.so+00187031
+[  2] 0x000014d3030b446b /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/mathworksservicehost/rcf/matlabconnector/serviceprocess/rcf/client-v1/../../../../../../../../bin/glnxa64/libmwagentspfcore.so+00152683 _ZNK5agent3spf4core16ExportedFunctionclEON10foundation10concurrent10threadpool10stop_tokenEONS1_14GenericPayloadE+00000347
+[  3] 0x000014d3011895f6 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentspflegacyservicewrapper.so+00128502
+[  4] 0x000014d301189681 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentspflegacyservicewrapper.so+00128641
+[  5] 0x000014d3010f0060 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentnanomsgtransport.so+00082016
+[  6] 0x000014d308776c34 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/libmwfoundation_threadpool.so+00146484
+[  7] 0x000014d30877b928 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/libmwfoundation_threadpool.so+00166184
+[  8] 0x000014d30877bd54 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/libmwfoundation_threadpool.so+00167252
+[  9] 0x000014d3093028c3 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.6.0.6/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00903363
+[ 10] 0x000014d3094531ca                             /lib64/libpthread.so.0+00033226
+[ 11] 0x000014d308e79e73                                   /lib64/libc.so.6+00237171 clone+00000067
+
+
+** This crash report has been written to /home/xpz5km/.MathWorks/ServiceHost/udc-an33-6c0/logs/MathWorksServiceHost_crash_852235.log **
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+phi_512_9830_1.0e-5__CPC_0.173_cohesin_0.14_eps_0.0096_alpha_0_domain_0_2
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In kymograph_central_droplets_domain (line 66)] 
+Done.

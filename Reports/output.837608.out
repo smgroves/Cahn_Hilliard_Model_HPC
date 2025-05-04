@@ -1,0 +1,28 @@
+Fri Dec 13 12:40:35 EST 2024
+LOADED MATLAB
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024a Update 6 (24.1.0.2689473) 64-bit (glnxa64)
+                               July 29, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+/sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.7.0.6/mci/bin/glnxa64/InstallMathWorksServiceHost: error while loading shared libraries: /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.7.0.6/mci/bin/glnxa64/libmwopczippackage.so: file too short
+
+phidims =
+
+     5120128         128
+
+[Warning: No video frames were written to this file. The file may be invalid.] 
+[> In VideoWriter/close (line 282)
+In VideoWriter/delete (line 217)
+In CHplotting_function (line 9)] 
+{Unrecognized function or variable 'Nx'.
+
+Error in CHplotting_function (line 35)
+            phi_tmp = circshift(phi_tmp,int64(Nx/2),2); %%%%%%%%ADDED TO CHECK OUTPUT AFTER CIRCSHIFT
+} 
+Done.

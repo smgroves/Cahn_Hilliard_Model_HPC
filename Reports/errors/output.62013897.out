@@ -1,0 +1,64 @@
+Mon Jun 17 14:33:48 EDT 2024
+LOADED MATLAB
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+phidims =
+
+     4194560         256
+
+
+------------------------------------------------------------------------
+       Segmentation violation detected at Mon Jun 17 15:16:36 2024
+------------------------------------------------------------------------
+Architecture     : glnxa64
+Processor ID     : Intel(R) Xeon(R) Gold 6248 CPU @ 2.50GHz
+Host Name        : udc-aw34-9c0
+Locale           : en_US
+
+
+Abnormal termination:
+Segmentation violation
+
+Current Thread: 'FTP_2_1' id 22724852610816
+
+Register State (from fault):
+  RAX = 0000000000000014  RBX = 000014ab24449740
+  RCX = 0000000000000006  RDX = 000000000134a120
+  RSP = 000014ab0ac46330  RBP = 000014ab0ac464b0
+  RSI = 000014ab0b09e780  RDI = 000014ab0ac463a0
+
+   R8 = 0000000000000000   R9 = cf0f6bf8ad247e5d
+  R10 = 0000000000000000  R11 = 0000000000000007
+  R12 = 000014ab0ac463a0  R13 = 00000000013f0c00
+  R14 = 000014ab24341380  R15 = 000014ab0ac46360
+
+  RIP = 000014ab0b0bd54a  EFL = 0000000000010202
+
+   CS = 0033   FS = 0000   GS = 0000
+
+Stack Trace (from fault):
+[  0] 0x000014ab0b0bd54a /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw34-9c0/v2024.6.0.6/bin/glnxa64/spf/serviceproviders/login/spf/matlabloginserviceprovider/libmwmatlabloginserviceprovider.so+00369994
+[  1] 0x000014ab22b32a97 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw34-9c0/v2024.6.0.6/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentspflegacyservicewrapper.so+00187031
+[  2] 0x000014ab28a4a46b /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw34-9c0/v2024.6.0.6/bin/glnxa64/mathworksservicehost/rcf/matlabconnector/serviceprocess/rcf/client-v1/../../../../../../../../bin/glnxa64/libmwagentspfcore.so+00152683 _ZNK5agent3spf4core16ExportedFunctionclEON10foundation10concurrent10threadpool10stop_tokenEONS1_14GenericPayloadE+00000347
+[  3] 0x000014ab22b245f6 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw34-9c0/v2024.6.0.6/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentspflegacyservicewrapper.so+00128502
+[  4] 0x000014ab22b24681 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw34-9c0/v2024.6.0.6/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentspflegacyservicewrapper.so+00128641
+[  5] 0x000014ab22a8b060 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw34-9c0/v2024.6.0.6/bin/glnxa64/spf/servicepublishers/agent/spf/legacyservicepublisher/../../../../../../../bin/glnxa64/libmwagentnanomsgtransport.so+00082016
+[  6] 0x000014ab2e10bc34 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw34-9c0/v2024.6.0.6/bin/glnxa64/libmwfoundation_threadpool.so+00146484
+[  7] 0x000014ab2e110928 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw34-9c0/v2024.6.0.6/bin/glnxa64/libmwfoundation_threadpool.so+00166184
+[  8] 0x000014ab2e110d54 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw34-9c0/v2024.6.0.6/bin/glnxa64/libmwfoundation_threadpool.so+00167252
+[  9] 0x000014ab2ec978c3 /sfs/qumulo/qhome/xpz5km/.MathWorks/ServiceHost/udc-aw34-9c0/v2024.6.0.6/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00903363
+[ 10] 0x000014ab2ede81ca                             /lib64/libpthread.so.0+00033226
+[ 11] 0x000014ab2e80ee73                                   /lib64/libc.so.6+00237171 clone+00000067
+
+
+** This crash report has been written to /home/xpz5km/.MathWorks/ServiceHost/udc-aw34-9c0/logs/MathWorksServiceHost_crash_821613.log **
+Done.

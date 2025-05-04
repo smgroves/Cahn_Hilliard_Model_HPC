@@ -1,0 +1,72 @@
+Fri Jun 21 02:27:06 EDT 2024
+0.216 40 10
+LOADED MATLAB
+0.216
+40
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+indir = 
+
+    "/scratch/xpz5km/Cahn_Hilliard_Model/julia_out/critical_radius_updated_IC"
+
+
+epsilon_name = 
+
+    "0.075047"
+
+
+R0_name =
+
+    '0.216'
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.216_eps_0.075047'
+
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.216_eps_0.075047
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_plot (line 49)
+In level_set_radius_array (line 23)] 
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+DONE

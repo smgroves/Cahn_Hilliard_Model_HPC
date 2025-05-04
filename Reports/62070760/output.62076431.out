@@ -1,0 +1,45 @@
+Thu Jun 20 12:32:40 EDT 2024
+0.19 24 10
+LOADED MATLAB
+0.19
+24
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+[Warning: Unable to load Toolbox Path Cache
+/home/xpz5km/.matlab/R2024a/toolbox_cache-24.1.0-999402552-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+indir = 
+
+    "/scratch/xpz5km/Cahn_Hilliard_Model/julia_out/critical_radius_updated_IC"
+
+
+epsilon_name = 
+
+    "0.045028"
+
+
+R0 =
+
+    '0.19'
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.19_eps_0.045028'
+
+DONE
+/var/spool/slurm/slurmd/job62076431/slurm_script: line 22: echo: write error: No space left on device

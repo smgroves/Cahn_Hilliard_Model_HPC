@@ -1,0 +1,23 @@
+Thu Sep 12 15:22:14 EDT 2024
+0.15 0.09 512 0.03
+MODULES LOADED
+   Resolving package versions...
+  No Changes to `/sfs/qumulo/qhome/xpz5km/.julia/environments/v1.9/Project.toml`
+  No Changes to `/sfs/qumulo/qhome/xpz5km/.julia/environments/v1.9/Manifest.toml`
+Precompiling project...
+[91m  ✗ [39m[90mGtkObservables[39m
+[91m  ✗ [39mProfileView
+[32m  ✓ [39m[90mDistributions → DistributionsTestExt[39m
+  1 dependency successfully precompiled in 8 seconds. 143 already precompiled.
+  [91m2[39m dependencies errored. To see a full report either run `import Pkg; Pkg.precompile()` or load the packages
+ERROR: LoadError: syntax: unexpected "end"
+Stacktrace:
+ [1] top-level scope
+   @ /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/CH_multigrid_solver_with_alpha_change_domain.jl:326
+ [2] include(fname::String)
+   @ Base.MainInclude ./client.jl:478
+ [3] top-level scope
+   @ /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/CPC_geometric_array/CPC_geometric_run_array_with_alpha_change_domain_eps_0.0075_noisy_cohesin.jl:1
+in expression starting at /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/CH_multigrid_solver_with_alpha_change_domain.jl:326
+in expression starting at /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model/CPC_geometric_array/CPC_geometric_run_array_with_alpha_change_domain_eps_0.0075_noisy_cohesin.jl:1
+DONE
