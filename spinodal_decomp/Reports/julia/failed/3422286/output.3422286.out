@@ -1,0 +1,13 @@
+Mon Apr 7 14:59:06 EDT 2025
+64 periodic true NMG
+MODULES LOADED
+ERROR: LoadError: ArgumentError: Number of format specifiers and number of provided args differ: 2 != 3
+Stacktrace:
+ [1] argmismatch(a::Int64, b::Int64)
+   @ Printf /sfs/applications/202412/software/standard/core/julia/1.9.2/share/julia/stdlib/v1.9/Printf/src/Printf.jl:853
+ [2] format(::Printf.Format{Base.CodeUnits{UInt8, String}, Tuple{Printf.Spec{Val{'s'}}, Printf.Spec{Val{'s'}}}}, ::String, ::String, ::String)
+   @ Printf /sfs/applications/202412/software/standard/core/julia/1.9.2/share/julia/stdlib/v1.9/Printf/src/Printf.jl:875
+ [3] top-level scope
+   @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Julia_solvers/run_spinodal_decomp.jl:49
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Julia_solvers/run_spinodal_decomp.jl:49
+DONE

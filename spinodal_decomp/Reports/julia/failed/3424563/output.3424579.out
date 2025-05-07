@@ -1,0 +1,15 @@
+Mon Apr 7 15:53:25 EDT 2025
+128 neumann false SAV
+MODULES LOADED
+ERROR: LoadError: UndefVarError: `xext` not defined
+Stacktrace:
+ [1] sav_solver(phi_old::Matrix{Float64}, r_old::Float64, hx::Float64, hy::Float64, k2::Matrix{ComplexF64}, k4::Matrix{ComplexF64}, dt::Float64, epsilon2::Float64, boundary::String, C0::Int64, Beta::Int64, gamma0::Int64)
+   @ Main /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Julia_solvers/sav_solver.jl:54
+ [2] CahnHilliard_SAV(phi0::Matrix{Float64}; t_iter::Int64, dt::Float64, dt_out::Int64, m::Int64, epsilon2::Float64, boundary::String, domain::Matrix{Int64}, printres::Bool, printphi::Bool, pathname::String, C0::Int64, Beta::Int64, gamma0::Int64)
+   @ Main /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Julia_solvers/CahnHilliard_SAV.jl:145
+ [3] macro expansion
+   @ ./timing.jl:501 [inlined]
+ [4] top-level scope
+   @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Julia_solvers/run_spinodal_decomp.jl:58
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Julia_solvers/run_spinodal_decomp.jl:52
+DONE

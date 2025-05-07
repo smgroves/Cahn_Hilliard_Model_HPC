@@ -1,0 +1,18 @@
+Tue Apr 8 16:36:40 EDT 2025
+Loading modules...
+Finished loading modules...
+128 neumann false SAV
+MODULES LOADED
+Running SAV...
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/./CahnHilliard_Python_solvers/run_spinodal_decomp.py", line 57, in <module>
+    results_dict = ch.SAV.CahnHilliard_SAV(phi0, t_iter=max_it, dt=dt, dt_out=dt_out, m=m,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Python_solvers/CHsolvers/aux_functions.py", line 64, in wrapper
+    results = func(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Python_solvers/CHsolvers/CahnHilliard_SAV.py", line 105, in CahnHilliard_SAV
+    f.write(f"{phi_old_out[i][j]},")
+               ~~~~~~~~~~~~~~^^^
+IndexError: index 128 is out of bounds for axis 0 with size 128
+DONE

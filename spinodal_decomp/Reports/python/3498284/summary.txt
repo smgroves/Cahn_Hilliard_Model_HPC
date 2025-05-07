@@ -1,0 +1,96 @@
+output.3498297 128 periodic false NMG time_limit
+output.3498313 512 periodic false NMG time_limit
+output.3498309 512 periodic true NMG time_limit
+output.3498301 256 periodic true NMG time_limit
+output.3498305 256 periodic false NMG time_limit
+output.3498293 128 periodic true NMG time_limit
+output.3498285 64 periodic true NMG time_limit
+output.3498289 64 periodic false NMG IndexError
+output.3498310 512 neumann true NMG DONE
+output.3498302 256 neumann true NMG DONE
+output.3498314 512 neumann false NMG IndexError
+output.3498294 128 neumann true NMG DONE
+output.3498311 512 periodic true SAV DONE
+output.3498306 256 neumann false NMG IndexError
+output.3498286 64 neumann true NMG DONE
+output.3498303 256 periodic true SAV DONE
+output.3498315 512 periodic false SAV DONE
+output.3498298 128 neumann false NMG IndexError
+output.3498295 128 periodic true SAV DONE
+output.3498307 256 periodic false SAV DONE
+output.3498287 64 periodic true SAV DONE
+output.3498290 64 neumann false NMG IndexError
+output.3498299 128 periodic false SAV DONE
+output.3498291 64 periodic false SAV DONE
+output.3498288 64 neumann true SAV IndexError
+output.3498284 512 neumann false SAV IndexError
+output.3498304 256 neumann true SAV IndexError
+output.3498300 128 neumann false SAV IndexError
+output.3498292 64 neumann false SAV IndexError
+output.3498312 512 neumann true SAV IndexError
+output.3498308 256 neumann false SAV IndexError
+output.3498296 128 neumann true SAV IndexError
+
+
+PROBLEMS:
+periodic false NMG
+neumann false NMG
+neumann true SAV
+neumann false SAV
+
+NO PRINT FOR NMG
+>>periodic false NMG
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/./CahnHilliard_Python_solvers/run_spinodal_decomp.py", line 49, in <module>
+    # note that if using the time_and_mem decorator (in CahnHilliard_NMG), it will return a results dictionary.
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Python_solvers/CHsolvers/aux_functions.py", line 64, in wrapper
+    results = func(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Python_solvers/CHsolvers/CahnHilliard_NMG.py", line 78, in CahnHilliard_NMG
+    mass_t[t_index] = calculate_mass(phi_new, h2, nx, ny)
+    ~~~~~~^^^^^^^^^
+IndexError: index 1 is out of bounds for axis 0 with size 1
+DONE
+
+>>neumann false NMG
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/./CahnHilliard_Python_solvers/run_spinodal_decomp.py", line 49, in <module>
+    results_dict = ch.NMG.CahnHilliard_NMG(phi0, t_iter=max_it, dt=dt, dt_out=dt_out, m=m,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Python_solvers/CHsolvers/aux_functions.py", line 64, in wrapper
+    results = func(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Python_solvers/CHsolvers/CahnHilliard_NMG.py", line 78, in CahnHilliard_NMG
+    mass_t[t_index] = calculate_mass(phi_new, h2, nx, ny)
+    ~~~~~~^^^^^^^^^
+IndexError: index 1 is out of bounds for axis 0 with size 1
+
+
+NEUMANN FOR SAV
+>>neumann true SAV
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/./CahnHilliard_Python_solvers/run_spinodal_decomp.py", line 57, in <module>
+    results_dict = ch.SAV.CahnHilliard_SAV(phi0, t_iter=max_it, dt=dt, dt_out=dt_out, m=m,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Python_solvers/CHsolvers/aux_functions.py", line 64, in wrapper
+    results = func(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Python_solvers/CHsolvers/CahnHilliard_SAV.py", line 105, in CahnHilliard_SAV
+    f.write(f"{phi_old_out[i][j]},")
+               ~~~~~~~~~~~~~~^^^
+IndexError: index 64 is out of bounds for axis 0 with size 64
+
+
+>>neumann false SAV
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/./CahnHilliard_Python_solvers/run_spinodal_decomp.py", line 57, in <module>
+    results_dict = ch.SAV.CahnHilliard_SAV(phi0, t_iter=max_it, dt=dt, dt_out=dt_out, m=m,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Python_solvers/CHsolvers/aux_functions.py", line 64, in wrapper
+    results = func(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Python_solvers/CHsolvers/CahnHilliard_SAV.py", line 105, in CahnHilliard_SAV
+    f.write(f"{phi_old_out[i][j]},")
+               ~~~~~~~~~~~~~~^^^
+IndexError: index 128 is out of bounds for axis 0 with size 128

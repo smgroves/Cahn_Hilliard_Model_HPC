@@ -1,0 +1,22 @@
+0.3
+0.13
+0.045
+terminate called after throwing an instance of 'matlabconnector::installationsregistry::InstallationsRegistryError'
+  what():  InstallationsRegistry:getMatlabConnectorVersion: More than one MATLAB Connector records were found
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2024a (24.1.0.2537033) 64-bit (glnxa64)
+                             February 21, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+{level_set_radius_multiple_droplets is not found in the current folder or on the
+MATLAB path, but exists in:
+    /sfs/qumulo/qhome/xpz5km/Cahn_Hilliard_Model
+
+Change the MATLAB current folder or add its folder to the MATLAB path.
+} 
+Done.

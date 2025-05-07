@@ -1,0 +1,18 @@
+Thu Apr 17 13:18:14 EDT 2025
+64 periodic true NMG
+MODULES LOADED
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024b Update 3 (24.2.0.2806996) 64-bit (glnxa64)
+                             November 26, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+ ./CahnHilliard_MATLAB_solvers/run_spinodal_decomp(64, 'periodic', 'true', 'NMG', '3741335_1');quit;
+ |
+{Invalid use of operator.
+} 
+Done.

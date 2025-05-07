@@ -1,0 +1,5 @@
+Mon Apr 7 15:53:25 EDT 2025
+256 neumann true NMG
+MODULES LOADED
+GKS: cannot open display - headless operation mode active
+slurmstepd: error: *** JOB 3424581 ON udc-aw34-4c1 CANCELLED AT 2025-04-07T16:05:58 ***

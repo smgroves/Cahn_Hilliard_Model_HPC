@@ -1,0 +1,5 @@
+64 neumann false NMG _75p
+64 neumann true NMG _25p
+64 periodic false NMG _75p
+128 periodic false NMG _25p
+64 neumann false SAV _25p

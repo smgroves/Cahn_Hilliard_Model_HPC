@@ -1,0 +1,29 @@
+Mon Apr 7 15:09:34 EDT 2025
+64 periodic true NMG
+MODULES LOADED
+ERROR: LoadError: SystemError: opening file "/project/g_bme-janeslab/SarahG/spinodal_decomp_04_2025/output_julia/NMG_Julia_2000_dt_5.50e-06_Nx_64_periodic_dtout_10_phi.csv": No such file or directory
+Stacktrace:
+  [1] systemerror(p::String, errno::Int32; extrainfo::Nothing)
+    @ Base ./error.jl:176
+  [2] #systemerror#82
+    @ ./error.jl:175 [inlined]
+  [3] systemerror
+    @ ./error.jl:175 [inlined]
+  [4] open(fname::String; lock::Bool, read::Nothing, write::Nothing, create::Nothing, truncate::Bool, append::Nothing)
+    @ Base ./iostream.jl:293
+  [5] open
+    @ ./iostream.jl:275 [inlined]
+  [6] open(fname::String, mode::String; lock::Bool)
+    @ Base ./iostream.jl:356
+  [7] open(::var"#16#18"{Matrix{Float64}}, ::String, ::Vararg{String}; kwargs::Base.Pairs{Symbol, Bool, Tuple{Symbol}, NamedTuple{(:lock,), Tuple{Bool}}})
+    @ Base ./io.jl:393
+  [8] open
+    @ ./io.jl:392 [inlined]
+  [9] CahnHilliard_NMG(phi0::Matrix{Float64}; t_iter::Int64, dt::Float64, solver_iter::Float64, tol::Float64, dt_out::Int64, m::Int64, epsilon2::Float64, boundary::String, c_relax::Int64, domain::Matrix{Int64}, printres::Bool, printphi::Bool, pathname::String)
+    @ Main /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Julia_solvers/CahnHilliard_NMG.jl:95
+ [10] macro expansion
+    @ ./timing.jl:501 [inlined]
+ [11] top-level scope
+    @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Julia_solvers/run_spinodal_decomp.jl:53
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Julia_solvers/run_spinodal_decomp.jl:52
+DONE

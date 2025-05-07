@@ -1,0 +1,27 @@
+0.25
+0.09
+0.04
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024b Update 3 (24.2.0.2806996) 64-bit (glnxa64)
+                             November 26, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+name =
+
+    'phi_512_26214_1.0e-5__CPC_0.25_cohesin_0.09_eps_0.0067_domain_0_2'
+
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+{Error using reshape
+Size arguments must be real integers.
+
+Error in level_set_radius_multiple_droplets (line 22)
+    phi = reshape(phi,phidims(1),phidims(3),phidims(2)); %Reshape multidimensional array
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 

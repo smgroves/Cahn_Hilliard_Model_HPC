@@ -1,0 +1,4 @@
+64 periodic true NMG
+128 periodic true NMG
+256 periodic true NMG
+512 periodic true NMG

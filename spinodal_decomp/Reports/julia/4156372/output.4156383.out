@@ -1,0 +1,26 @@
+Sun May 4 15:50:50 EDT 2025
+sed: can't read opts_redo_julia.txt: No such file or directory
+
+MODULES LOADED
+ERROR: LoadError: ArgumentError: invalid base 10 digit '_' in "4156372_11"
+Stacktrace:
+ [1] tryparse_internal(#unused#::Type{Int64}, s::String, startpos::Int64, endpos::Int64, base_::Int64, raise::Bool)
+   @ Base ./parse.jl:137
+ [2] parse(::Type{Int64}, s::String; base::Nothing)
+   @ Base ./parse.jl:241
+ [3] parse
+   @ ./parse.jl:240 [inlined]
+ [4] _broadcast_getindex_evalf
+   @ ./broadcast.jl:683 [inlined]
+ [5] _broadcast_getindex
+   @ ./broadcast.jl:666 [inlined]
+ [6] getindex
+   @ ./broadcast.jl:610 [inlined]
+ [7] copy
+   @ ./broadcast.jl:888 [inlined]
+ [8] materialize(bc::Base.Broadcast.Broadcasted{Base.Broadcast.DefaultArrayStyle{0}, Nothing, typeof(parse), Tuple{Base.RefValue{Type{Int64}}, Base.RefValue{String}}})
+   @ Base.Broadcast ./broadcast.jl:873
+ [9] top-level scope
+   @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Julia_solvers/run_spinodal_decomp.jl:20
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Julia_solvers/run_spinodal_decomp.jl:20
+DONE

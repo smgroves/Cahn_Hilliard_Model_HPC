@@ -1,0 +1,19 @@
+Mon Apr 7 14:27:18 EDT 2025
+64,periodic,true,NMG
+MODULES LOADED
+ERROR: LoadError: ArgumentError: Package FFMPEG not found in current path.
+- Run `import Pkg; Pkg.add("FFMPEG")` to install the FFMPEG package.
+Stacktrace:
+ [1] macro expansion
+   @ ./loading.jl:1630 [inlined]
+ [2] macro expansion
+   @ ./lock.jl:267 [inlined]
+ [3] require(into::Module, mod::Symbol)
+   @ Base ./loading.jl:1611
+ [4] include(fname::String)
+   @ Base.MainInclude ./client.jl:478
+ [5] top-level scope
+   @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Julia_solvers/run_spinodal_decomp.jl:15
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Julia_solvers/ch_movie_from_file.jl:1
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Julia_solvers/run_spinodal_decomp.jl:15
+DONE

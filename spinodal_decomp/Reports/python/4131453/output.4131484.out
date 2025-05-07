@@ -1,0 +1,9 @@
+Fri May 2 15:22:35 EDT 2025
+Loading modules...
+Finished loading modules...
+512 neumann false NMG
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/./CahnHilliard_Python_solvers/run_spinodal_decomp.py", line 21
+    else
+        ^
+SyntaxError: expected ':'
+DONE

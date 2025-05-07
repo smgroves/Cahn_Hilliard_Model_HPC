@@ -1,0 +1,11 @@
+Tue Apr 8 16:28:59 EDT 2025
+Loading modules...
+Finished loading modules...
+64 periodic true NMG
+MODULES LOADED
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/./CahnHilliard_Python_solvers/run_spinodal_decomp.py", line 41, in <module>
+    pathname = f"{outdir}{method}_Python_{max_it}_dt_{dt:.2e}_Nx_{GridSize}_{boundary}_dtout_{dt_out}"
+                          ^^^^^^
+NameError: name 'method' is not defined
+DONE

@@ -1,0 +1,14 @@
+Fri Mar 28 12:50:39 EDT 2025
+MODULES LOADED
+0
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/CPC_geometric_array/plot_CPC_snapshots.py", line 101, in <module>
+    plot_snapshot(
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/CPC_geometric_array/plot_CPC_snapshots.py", line 69, in plot_snapshot
+    snapshot = read_specific_lines(f"{indir}/{name}", line_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/CPC_geometric_array/plot_CPC_snapshots.py", line 12, in read_specific_lines
+    with open(file_path, "r") as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/project/g_bme-janeslab/SarahG/julia_out/CPC_geometry/CPC_domain_0_2_e_0.0067_t_0.04/phi_512_19661_1.0e-5__CPC_0.12_cohesin_0.06_eps_0.0067_domain_0_2.txt'
+DONE

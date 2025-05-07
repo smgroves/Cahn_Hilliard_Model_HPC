@@ -1,0 +1,9 @@
+Fri May 2 15:14:58 EDT 2025
+64 periodic false NMG
+MODULES LOADED
+ERROR: LoadError: syntax: unexpected comma in array expression
+Stacktrace:
+ [1] top-level scope
+   @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Julia_solvers/run_spinodal_decomp.jl:57
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Julia_solvers/run_spinodal_decomp.jl:57
+DONE

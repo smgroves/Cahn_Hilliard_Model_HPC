@@ -1,0 +1,10 @@
+Tue Apr 8 16:32:48 EDT 2025
+Loading modules...
+Finished loading modules...
+512 neumann false SAV
+MODULES LOADED
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/./CahnHilliard_Python_solvers/run_spinodal_decomp.py", line 52, in <module>
+    print("Running SAV...")
+TypeError: 'bool' object is not callable
+DONE

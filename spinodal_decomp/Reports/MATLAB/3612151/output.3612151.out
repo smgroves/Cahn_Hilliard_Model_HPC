@@ -1,0 +1,23 @@
+Fri Apr 11 13:21:32 EDT 2025
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024b Update 3 (24.2.0.2806996) 64-bit (glnxa64)
+                             November 26, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+outdir = 
+
+    "/project/g_bme-janeslab/SarahG/spinodal_decomp_04_2025/out_MATLAB/FD"
+
+{Unrecognized function or variable 'spinodal_decomp'.
+
+Error in run_spinodal_decomp_FD (line 25)
+[phi_t,mass_t,E_t] = spinodal_decomp(D,gamma, ...
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+Done.

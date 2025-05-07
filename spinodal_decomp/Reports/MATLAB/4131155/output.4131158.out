@@ -1,0 +1,134 @@
+Fri May 2 15:01:16 EDT 2025
+64 neumann true NMG
+MODULES LOADED
+An error occurred while extracting product files.
+Try rerunning the installer.
+
+For help, see this <a href="https://www.mathworks.com/pi_ee_mci_glnxa64">support article</a>.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024b Update 3 (24.2.0.2806996) 64-bit (glnxa64)
+                             November 26, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+outdir = 
+
+    "/project/g_bme-janeslab/SarahG/spinodal_decomp_04_2025"
+
+
+note = 
+
+    "_75p"
+
+
+dt_out =
+
+    10
+
+Running NMG solver with parameters: /project/g_bme-janeslab/SarahG/spinodal_decomp_04_2025/out_MATLAB/NMG_MATLAB_2000_dt_5.50e-06_Nx_64_neumann_n_relax_4_75p_
+
+tol = 
+
+    "1e-5"
+
+
+solver_iter = 
+
+    "1e4"
+
+  5 percent complete
+ 10 percent complete
+ 15 percent complete
+ 20 percent complete
+ 25 percent complete
+ 30 percent complete
+ 35 percent complete
+ 40 percent complete
+ 45 percent complete
+ 50 percent complete
+ 60 percent complete
+ 65 percent complete
+ 70 percent complete
+ 75 percent complete
+ 80 percent complete
+
+------------------------------------------------------------------------
+       Segmentation violation detected at Fri May  2 15:02:43 2025
+------------------------------------------------------------------------
+Architecture     : glnxa64
+Processor ID     : Intel(R) Xeon(R) Gold 6248 CPU @ 2.50GHz
+Host Name        : udc-aw34-2c1
+Locale           : en_US
+
+
+Abnormal termination:
+Segmentation violation
+
+Current Thread: 'GTP_2' id 23403517769472
+
+Register State (from fault):
+  RAX = 0000000000000030  RBX = 000015490e5cd620
+  RCX = 000015490e5cd580  RDX = 0000154908050418
+  RSP = 000015490e5cd480  RBP = 000015490e5cd510
+  RSI = 000015490e5cd580  RDI = 000015490e5cd490
+
+   R8 = 00001549081b1f60   R9 = 00001549081211b2
+  R10 = 0000000000000000  R11 = 0000000000000003
+  R12 = 000015490e5cd490  R13 = 0000154908050418
+  R14 = 0000000000cca4b0  R15 = 0000000000cc5e90
+
+  RIP = 000015490ed81afa  EFL = 0000000000010202
+
+   CS = 0033   FS = 0000   GS = 0000
+
+Stack Trace (from fault):
+[  0] 0x000015490ed81afa /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.11.0.2/bin/glnxa64/mathworksservicehost/rcf/matlabconnector/serviceprocess/rcf/client-v1/../../../../../../../../bin/glnxa64/libmwagentcoretransport.so+00060154 _ZN5agent4core9transport9Transport4sendERKNS1_7AddressENS1_7MessageE+00000042
+[  1] 0x000015490ed9e155 /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.11.0.2/bin/glnxa64/mathworksservicehost/rcf/matlabconnector/serviceprocess/rcf/client-v1/../../../../../../../../bin/glnxa64/libmwagentcoreserviceutils.so+00094549
+[  2] 0x000015490ea319f2 /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.11.0.2/bin/glnxa64/mathworksservicehost/rcf/matlabconnector/serviceprocess/rcf/client-v1/../../../../../../../../bin/glnxa64/libmwagentdirectoryclient.so+00358898
+[  3] 0x000015490ea29327 /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.11.0.2/bin/glnxa64/mathworksservicehost/rcf/matlabconnector/serviceprocess/rcf/client-v1/../../../../../../../../bin/glnxa64/libmwagentdirectoryclient.so+00324391
+[  4] 0x000015490ea1bdf1 /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.11.0.2/bin/glnxa64/mathworksservicehost/rcf/matlabconnector/serviceprocess/rcf/client-v1/../../../../../../../../bin/glnxa64/libmwagentdirectoryclient.so+00269809 _ZNK5agent9directory22DirectoryServiceClient34queryDirectoryForServiceUUIDsAsyncERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+00000049
+[  5] 0x000015490ea1d6ee /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.11.0.2/bin/glnxa64/mathworksservicehost/rcf/matlabconnector/serviceprocess/rcf/client-v1/../../../../../../../../bin/glnxa64/libmwagentdirectoryclient.so+00276206 _ZNK5agent9directory22DirectoryServiceClient29queryDirectoryForServiceUUIDsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+00000030
+[  6] 0x000015490c28a4a0 /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.11.0.2/bin/glnxa64/spf/serviceproviders/agent/webwindowservice/libmwagentwebwindowservice.so+00189600
+[  7] 0x000015490c29348a /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.11.0.2/bin/glnxa64/spf/serviceproviders/agent/webwindowservice/libmwagentwebwindowservice.so+00226442
+[  8] 0x000015490e384a3e /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.11.0.2/bin/glnxa64/spf/framework/agent/spf/framework/libmwagentspfframework.so+00756286
+[  9] 0x000015490e31bf3f /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.11.0.2/bin/glnxa64/spf/framework/agent/spf/framework/libmwagentspfframework.so+00327487
+[ 10] 0x000015490e31c164 /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.11.0.2/bin/glnxa64/spf/framework/agent/spf/framework/libmwagentspfframework.so+00328036
+[ 11] 0x000015490e32b1b3 /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.11.0.2/bin/glnxa64/spf/framework/agent/spf/framework/libmwagentspfframework.so+00389555
+[ 12] 0x000015490e32e104 /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.11.0.2/bin/glnxa64/spf/framework/agent/spf/framework/libmwagentspfframework.so+00401668
+[ 13] 0x000015490e32f148 /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.11.0.2/bin/glnxa64/spf/framework/agent/spf/framework/libmwagentspfframework.so+00405832
+[ 14] 0x00001549153398c3 /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.11.0.2/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00903363
+[ 15] 0x000015491548a1ca                             /lib64/libpthread.so.0+00033226
+[ 16] 0x0000154914eb0e73                                   /lib64/libc.so.6+00237171 clone+00000067
+
+
+** This crash report has been written to /home/xpz5km/.MathWorks/ServiceHost/udc-aw34-2c1/logs/MathWorksServiceHost_crash_187097.log **
+ 85 percent complete
+ 90 percent complete
+ 95 percent complete
+100 percent complete
+Creating movie
+  5 percent complete
+ 10 percent complete
+ 15 percent complete
+ 20 percent complete
+ 25 percent complete
+ 30 percent complete
+ 35 percent complete
+ 40 percent complete
+ 45 percent complete
+ 50 percent complete
+ 60 percent complete
+ 65 percent complete
+ 70 percent complete
+ 75 percent complete
+ 80 percent complete
+ 85 percent complete
+ 90 percent complete
+ 95 percent complete
+100 percent complete
+Done.

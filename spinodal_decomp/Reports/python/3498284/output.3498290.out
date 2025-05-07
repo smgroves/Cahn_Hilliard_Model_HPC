@@ -1,0 +1,22 @@
+Tue Apr 8 16:36:40 EDT 2025
+Loading modules...
+Finished loading modules...
+64 neumann false NMG
+MODULES LOADED
+Running NMG...
+Saving squared residuals per iteration to file in the output directory
+
+0
+  0 percent complete
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/./CahnHilliard_Python_solvers/run_spinodal_decomp.py", line 49, in <module>
+    results_dict = ch.NMG.CahnHilliard_NMG(phi0, t_iter=max_it, dt=dt, dt_out=dt_out, m=m,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Python_solvers/CHsolvers/aux_functions.py", line 64, in wrapper
+    results = func(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Python_solvers/CHsolvers/CahnHilliard_NMG.py", line 78, in CahnHilliard_NMG
+    mass_t[t_index] = calculate_mass(phi_new, h2, nx, ny)
+    ~~~~~~^^^^^^^^^
+IndexError: index 1 is out of bounds for axis 0 with size 1
+DONE

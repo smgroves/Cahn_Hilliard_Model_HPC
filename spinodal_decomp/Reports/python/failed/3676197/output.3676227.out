@@ -1,0 +1,11 @@
+Tue Apr 15 12:58:35 EDT 2025
+Loading modules...
+Finished loading modules...
+128 neumann false NMG
+MODULES LOADED
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/./CahnHilliard_Python_solvers/run_spinodal_decomp.py", line 17, in <module>
+    if len(sys.argv >4):
+           ^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'list' and 'int'
+DONE

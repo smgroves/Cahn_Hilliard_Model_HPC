@@ -1,0 +1,65 @@
+Mon Apr 7 15:52:05 EDT 2025
+64 neumann true NMG
+MODULES LOADED
+GKS: cannot open display - headless operation mode active
+ERROR: LoadError: ArgumentError: The empty type does not have field names since it does not have instances.
+Stacktrace:
+  [1] fieldnames(#unused#::Core.TypeofBottom)
+    @ Base ./reflection.jl:190
+  [2] unzip(v::Vector{Union{}})
+    @ RecipesPipeline ~/.julia/packages/RecipesPipeline/BGM3l/src/utils.jl:205
+  [3] macro expansion
+    @ ~/.julia/packages/RecipesPipeline/BGM3l/src/user_recipe.jl:269 [inlined]
+  [4] apply_recipe(plotattributes::AbstractDict{Symbol, Any}, fs::Matrix{Union{}}, xmin::Number, xmax::Number)
+    @ RecipesPipeline ~/.julia/packages/RecipesBase/BRe07/src/RecipesBase.jl:300
+  [5] _process_userrecipes!(plt::Any, plotattributes::Any, args::Any)
+    @ RecipesPipeline ~/.julia/packages/RecipesPipeline/BGM3l/src/user_recipe.jl:38
+  [6] recipe_pipeline!(plt::Any, plotattributes::Any, args::Any)
+    @ RecipesPipeline ~/.julia/packages/RecipesPipeline/BGM3l/src/RecipesPipeline.jl:72
+  [7] _plot!(plt::Plots.Plot, plotattributes::Any, args::Any)
+    @ Plots ~/.julia/packages/Plots/3u4B6/src/plot.jl:223
+  [8] plot(args::Any; kw::Base.Pairs{Symbol, V, Tuple{Vararg{Symbol, N}}, NamedTuple{names, T}} where {V, N, names, T<:Tuple{Vararg{Any, N}}})
+    @ Plots ~/.julia/packages/Plots/3u4B6/src/plot.jl:102
+  [9] heatmap(args::Any; kw::Base.Pairs{Symbol, V, Tuple{Vararg{Symbol, N}}, NamedTuple{names, T}} where {V, N, names, T<:Tuple{Vararg{Any, N}}})
+    @ Plots ~/.julia/packages/RecipesBase/BRe07/src/RecipesBase.jl:427
+ [10] macro expansion
+    @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Julia_solvers/ch_movie_from_file.jl:56 [inlined]
+ [11] macro expansion
+    @ ~/.julia/packages/Plots/3u4B6/src/animation.jl:251 [inlined]
+ [12] ch_movie_from_file(phi_file::String, t_out::StepRangeLen{Float64, Base.TwicePrecision{Float64}, Base.TwicePrecision{Float64}, Int64}, ny::Int64; dtframes::Int64, filename::String, filetype::String, colorbar_type::String)
+    @ Main /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Julia_solvers/ch_movie_from_file.jl:34
+ [13] top-level scope
+    @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Julia_solvers/run_spinodal_decomp.jl:80
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Julia_solvers/run_spinodal_decomp.jl:64
+  5 percent complete
+ 10 percent complete
+ 15 percent complete
+ 20 percent complete
+ 25 percent complete
+ 30 percent complete
+ 35 percent complete
+ 40 percent complete
+ 45 percent complete
+ 50 percent complete
+ 60 percent complete
+ 65 percent complete
+ 70 percent complete
+ 75 percent complete
+ 80 percent complete
+ 85 percent complete
+ 90 percent complete
+ 95 percent complete
+100 percent complete
+Printing out results...
+  0 percent complete
+  5 percent complete
+ 10 percent complete
+ 15 percent complete
+ 20 percent complete
+ 25 percent complete
+ 30 percent complete
+ 35 percent complete
+ 40 percent complete
+ 45 percent complete
+ 50 percent complete
+DONE

@@ -1,0 +1,6 @@
+Tue Apr 8 16:29:41 EDT 2025
+Loading modules...
+Finished loading modules...
+64 periodic true NMG
+MODULES LOADED
+slurmstepd: error: *** JOB 3498108 ON udc-aw32-2c1 CANCELLED AT 2025-04-08T16:31:32 ***

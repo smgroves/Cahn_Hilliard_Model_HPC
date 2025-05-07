@@ -1,0 +1,30 @@
+Mon Mar 24 15:02:59 EDT 2025
+MODULES LOADED
+0
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/CPC_geometric_array/plot_CPC_snapshots.py", line 97, in <module>
+    plot_snapshot(
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/CPC_geometric_array/plot_CPC_snapshots.py", line 82, in plot_snapshot
+    plt.savefig(f"{outdir}/t={time}_{name}_only_heatmap.png")
+  File "/apps/software/standard/core/miniforge/24.3.0-py3.11/lib/python3.11/site-packages/matplotlib/pyplot.py", line 1023, in savefig
+    res = fig.savefig(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/software/standard/core/miniforge/24.3.0-py3.11/lib/python3.11/site-packages/matplotlib/figure.py", line 3343, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/apps/software/standard/core/miniforge/24.3.0-py3.11/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2366, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/apps/software/standard/core/miniforge/24.3.0-py3.11/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 2232, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/apps/software/standard/core/miniforge/24.3.0-py3.11/lib/python3.11/site-packages/matplotlib/backends/backend_agg.py", line 509, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+  File "/apps/software/standard/core/miniforge/24.3.0-py3.11/lib/python3.11/site-packages/matplotlib/backends/backend_agg.py", line 458, in _print_pil
+    mpl.image.imsave(
+  File "/apps/software/standard/core/miniforge/24.3.0-py3.11/lib/python3.11/site-packages/matplotlib/image.py", line 1689, in imsave
+    image.save(fname, **pil_kwargs)
+  File "/apps/software/standard/core/miniforge/24.3.0-py3.11/lib/python3.11/site-packages/PIL/Image.py", line 2428, in save
+    fp = builtins.open(filename, "w+b")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotADirectoryError: [Errno 20] Not a directory: '/project/g_bme-janeslab/SarahG/julia_out/CPC_geometry/CPC_domain_0_2_e_0.0075/phi_512_19661_1.0e-5__CPC_0.173_cohesin_0.08_eps_0.0075_alpha_0_domain_0_2.txt/t=0_phi_512_19661_1.0e-5__CPC_0.173_cohesin_0.08_eps_0.0075_alpha_0_domain_0_2.txt_only_heatmap.png'
+DONE

@@ -1,0 +1,78 @@
+0.173
+0.08
+0.04
+An error occurred while extracting product files.
+Try rerunning the installer.
+
+For help, see this <a href="https://www.mathworks.com/pi_ee_mci_glnxa64">support article</a>.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024b Update 3 (24.2.0.2806996) 64-bit (glnxa64)
+                             November 26, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+name =
+
+    'phi_512_26214_1.0e-5__CPC_0.173_cohesin_0.08_eps_0.0067_alpha_0_domain_0_2'
+
+{Error using readmatrix (line 171)
+Unable to find or open
+'/project/g_bme-janeslab/SarahG/julia_out/CPC_geometry/CPC_domain_0_2_e_0.0067_t_0.04/phi_512_26214_1.0e-5__CPC_0.173_cohesin_0.08_eps_0.0067_alpha_0_domain_0_2.txt'.
+Check the path and filename or file permissions.
+
+Error in level_set_radius_multiple_droplets (line 18)
+    phi = readmatrix(sprintf('%s/%s.txt', indir, name),'FileType','text');
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+
+------------------------------------------------------------------------
+       Segmentation violation detected at Tue Mar  4 12:00:14 2025
+------------------------------------------------------------------------
+Architecture     : glnxa64
+Processor ID     : Intel(R) Xeon(R) Gold 6248 CPU @ 2.50GHz
+Host Name        : udc-aw36-15c1
+Locale           : en_US
+
+
+Abnormal termination:
+Segmentation violation
+
+Current Thread: 'GTP_1' id 22808711206656
+
+Register State (from fault):
+  RAX = 000000000000000a  RBX = 000014be9120f710
+  RCX = 7265767265737074  RDX = 000014be9120f890
+  RSP = 000014be9120f6e0  RBP = 000014be9120f6f0
+  RSI = 0000000000000000  RDI = 000014be9120f710
+
+   R8 = 000014be8c946bf0   R9 = 000014be8c07a2a4
+  R10 = 0000000000258c43  R11 = 0000000000000006
+  R12 = 000014be9120f860  R13 = 000014be9120f820
+  R14 = 000014be9120f710  R15 = 000014be9120fe60
+
+  RIP = 000014be9165ddcc  EFL = 0000000000010202
+
+   CS = 0033   FS = 0000   GS = 0000
+
+Stack Trace (from fault):
+[  0] 0x000014be9165ddcc /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.11.0.2/bin/glnxa64/mathworksservicehost/rcf/matlabconnector/serviceprocess/rcf/client-v1/../../../../../../../../bin/glnxa64/libmwagentdirectoryclient.so+00269772 _ZNK5agent9directory22DirectoryServiceClient34queryDirectoryForServiceUUIDsAsyncERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+00000012
+[  1] 0x000014be9165f6ee /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.11.0.2/bin/glnxa64/mathworksservicehost/rcf/matlabconnector/serviceprocess/rcf/client-v1/../../../../../../../../bin/glnxa64/libmwagentdirectoryclient.so+00276206 _ZNK5agent9directory22DirectoryServiceClient29queryDirectoryForServiceUUIDsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+00000030
+[  2] 0x000014be8b3d24a0 /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.11.0.2/bin/glnxa64/spf/serviceproviders/agent/webwindowservice/libmwagentwebwindowservice.so+00189600
+[  3] 0x000014be8b3db48a /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.11.0.2/bin/glnxa64/spf/serviceproviders/agent/webwindowservice/libmwagentwebwindowservice.so+00226442
+[  4] 0x000014be90fc6a3e /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.11.0.2/bin/glnxa64/spf/framework/agent/spf/framework/libmwagentspfframework.so+00756286
+[  5] 0x000014be90f5df3f /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.11.0.2/bin/glnxa64/spf/framework/agent/spf/framework/libmwagentspfframework.so+00327487
+[  6] 0x000014be90f5e164 /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.11.0.2/bin/glnxa64/spf/framework/agent/spf/framework/libmwagentspfframework.so+00328036
+[  7] 0x000014be90f6d1b3 /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.11.0.2/bin/glnxa64/spf/framework/agent/spf/framework/libmwagentspfframework.so+00389555
+[  8] 0x000014be90f70104 /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.11.0.2/bin/glnxa64/spf/framework/agent/spf/framework/libmwagentspfframework.so+00401668
+[  9] 0x000014be90f71148 /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.11.0.2/bin/glnxa64/spf/framework/agent/spf/framework/libmwagentspfframework.so+00405832
+[ 10] 0x000014be9817c8c3 /sfs/gpfs/tardis/home/xpz5km/.MathWorks/ServiceHost/-mw_shared_installs/v2024.11.0.2/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00903363
+[ 11] 0x000014be982cd1ca                             /lib64/libpthread.so.0+00033226
+[ 12] 0x000014be97cf3e73                                   /lib64/libc.so.6+00237171 clone+00000067
+
+
+** This crash report has been written to /home/xpz5km/.MathWorks/ServiceHost/udc-aw36-15c1/logs/MathWorksServiceHost_crash_221127.log **

@@ -1,0 +1,23 @@
+Mon Apr 7 14:32:15 EDT 2025
+64 periodic true NMG
+MODULES LOADED
+ERROR: LoadError: ArgumentError: Cannot open './IC/initial_phi_64_smooth_n_relax_4)from512.csv': not a file
+Stacktrace:
+ [1] readdlm_auto(input::String, dlm::Char, T::Type, eol::Char, auto::Bool; opts::Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+   @ DelimitedFiles ~/.julia/packages/DelimitedFiles/aGcsu/src/DelimitedFiles.jl:234
+ [2] readdlm_auto
+   @ ~/.julia/packages/DelimitedFiles/aGcsu/src/DelimitedFiles.jl:233 [inlined]
+ [3] #readdlm#6
+   @ ~/.julia/packages/DelimitedFiles/aGcsu/src/DelimitedFiles.jl:226 [inlined]
+ [4] readdlm
+   @ ~/.julia/packages/DelimitedFiles/aGcsu/src/DelimitedFiles.jl:226 [inlined]
+ [5] #readdlm#2
+   @ ~/.julia/packages/DelimitedFiles/aGcsu/src/DelimitedFiles.jl:86 [inlined]
+ [6] readdlm
+   @ ~/.julia/packages/DelimitedFiles/aGcsu/src/DelimitedFiles.jl:86 [inlined]
+ [7] initialization_from_file(file::String, nx::Int64, ny::Int64; delim::Char, transpose_matrix::Bool)
+   @ Main /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Julia_solvers/ch_initialization.jl:85
+ [8] top-level scope
+   @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Julia_solvers/run_spinodal_decomp.jl:38
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/CahnHilliard_Julia_solvers/run_spinodal_decomp.jl:38
+DONE

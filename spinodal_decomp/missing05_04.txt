@@ -1,0 +1,26 @@
+Missing Julia NMG 64 neumann 50p True #run_julia 4156410
+Missing Julia NMG 64 neumann _75p False #run_julia  *** 4382353
+Missing Julia NMG 64 neumann _25p False #run_julia 
+Missing Julia NMG 64 neumann _25p True #run_julia ***
+Missing Julia NMG 64 periodic _75p False #run_julia  ***
+Missing Julia NMG 64 periodic _25p False #run_julia 
+Missing Julia NMG 128 neumann _25p False #run_julia 
+Missing Julia NMG 128 periodic _25p False #run_julia  ***
+Missing Julia SAV 64 neumann 50p True #run_julia 
+Missing Julia SAV 64 neumann _75p True #run_julia 
+Missing Julia SAV 64 neumann _25p False #run_julia  ***
+Missing Julia SAV 128 periodic _75p False #run_julia 
+Missing Julia SAV 128 periodic _25p True #run_julia 
+Missing Julia SAV 256 periodic 50p True #run_julia 
+Missing MATLAB NMG 512 neumann _75p False #running
+Missing MATLAB NMG 512 neumann _75p True #running
+Missing MATLAB NMG 512 periodic _75p False #running
+Missing MATLAB NMG 512 periodic _75p True #running
+Missing MATLAB SAV 128 periodic _25p True *** 4382860
+Missing Python NMG 64 periodic 50p True #4156388
+Missing Python NMG 128 periodic 50p True #4156388
+Missing Python NMG 256 periodic 50p True #4156388
+Missing Python NMG 512 periodic 50p True #4156388
+Missing Python NMG 512 periodic _25p False #running
+Missing Python NMG 512 periodic _25p True #running
+

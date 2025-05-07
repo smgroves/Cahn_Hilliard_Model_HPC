@@ -1,0 +1,31 @@
+0.15
+0.09
+0.03
+An error occurred while extracting product files.
+Try rerunning the installer.
+
+For help, see this <a href="https://www.mathworks.com/pi_ee_mci_glnxa64">support article</a>.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024a Update 6 (24.1.0.2689473) 64-bit (glnxa64)
+                               July 29, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+name =
+
+    'phi_512_19661_1.0e-5__CPC_0.15_cohesin_0.09_eps_0.01'
+
+{Error using readmatrix (line 171)
+Unable to find or open
+'/project/g_bme-janeslab/SarahG/julia_out/CPC_geometry/CPC_domain_0_2_e_0.01_noisy_cohesin/sd_0.11/individual_seeds/phi_512_19661_1.0e-5__CPC_0.15_cohesin_0.09_eps_0.01.txt'.
+Check the path and filename or file permissions.
+
+Error in level_set_radius_multiple_droplets (line 18)
+    phi = readmatrix(sprintf('%s/%s.txt', indir, name),'FileType','text');
+} 
+Done.

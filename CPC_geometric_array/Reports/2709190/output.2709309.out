@@ -1,0 +1,37 @@
+0.2
+0.09
+0.04
+An error occurred while extracting product files.
+Try rerunning the installer.
+
+For help, see this <a href="https://www.mathworks.com/pi_ee_mci_glnxa64">support article</a>.
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024b Update 3 (24.2.0.2806996) 64-bit (glnxa64)
+                             November 26, 2024
+
+[Warning: Unable to load Toolbox Path Cache
+/home/xpz5km/.matlab/R2024b/toolbox_cache-24.2.0-280821755-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+name =
+
+    'phi_512_26214_1.0e-5__CPC_0.2_cohesin_0.09_eps_0.0067_alpha_0_domain_0_2'
+
+{Error using readmatrix (line 171)
+Unable to find or open
+'/project/g_bme-janeslab/SarahG/julia_out/CPC_geometry/CPC_domain_0_2_e_0.0067_t_0.04/phi_512_26214_1.0e-5__CPC_0.2_cohesin_0.09_eps_0.0067_alpha_0_domain_0_2.txt'.
+Check the path and filename or file permissions.
+
+Error in level_set_radius_multiple_droplets (line 18)
+    phi = readmatrix(sprintf('%s/%s.txt', indir, name),'FileType','text');
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 

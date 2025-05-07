@@ -1,0 +1,6 @@
+Tue Apr 15 13:02:38 EDT 2025
+Loading modules...
+Finished loading modules...
+512 periodic false NMG
+MODULES LOADED
+slurmstepd: error: *** JOB 3676352 ON udc-aw33-12c1 CANCELLED AT 2025-04-16T14:02:53 DUE TO TIME LIMIT ***

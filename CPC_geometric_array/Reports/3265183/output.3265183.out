@@ -1,0 +1,21 @@
+Tue Apr 1 11:49:41 EDT 2025
+MODULES LOADED
+0
+6553
+13107
+19660
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/CPC_geometric_array/plot_CPC_snapshots.py", line 101, in <module>
+    plot_snapshot(
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/CPC_geometric_array/plot_CPC_snapshots.py", line 70, in plot_snapshot
+    sns.heatmap(
+  File "/apps/software/standard/core/miniforge/24.3.0-py3.11/lib/python3.11/site-packages/seaborn/matrix.py", line 446, in heatmap
+    plotter = _HeatMapper(data, vmin, vmax, cmap, center, robust, annot, fmt,
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/software/standard/core/miniforge/24.3.0-py3.11/lib/python3.11/site-packages/seaborn/matrix.py", line 115, in __init__
+    plot_data = np.ma.masked_where(np.asarray(mask), plot_data)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/software/standard/core/miniforge/24.3.0-py3.11/lib/python3.11/site-packages/numpy/ma/core.py", line 1933, in masked_where
+    raise IndexError("Inconsistent shape between the condition and the input"
+IndexError: Inconsistent shape between the condition and the input (got (0, 1) and (0,))
+DONE

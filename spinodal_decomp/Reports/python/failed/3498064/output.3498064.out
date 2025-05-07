@@ -1,0 +1,11 @@
+Tue Apr 8 16:25:09 EDT 2025
+Loading modules...
+Finished loading modules...
+64 periodic true NMG
+MODULES LOADED
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model/spinodal_decomp/./CahnHilliard_Python_solvers/run_spinodal_decomp.py", line 12, in <module>
+    GridSize = int(sys.argv[1])
+               ^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'NMG'
+DONE
