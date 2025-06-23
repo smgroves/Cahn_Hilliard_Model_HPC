@@ -6,18 +6,19 @@ import matplotlib.cm as cm
 import matplotlib.colors as mcolors
 
 
-def read_chunk(phi_name, indir, timepoint, rows_per_timepoint = 128):
+def read_chunk(phi_name, indir, timepoint,delim= " ", rows_per_timepoint = 128):
     start_row = timepoint * rows_per_timepoint
     end_row = start_row + rows_per_timepoint
     # Read only the required rows
     phi_chunk = np.genfromtxt(
         f"{indir}/{phi_name}", 
         skip_header=start_row, 
-        max_rows=rows_per_timepoint
+        max_rows=rows_per_timepoint,
+        delimiter=delim
     )
     return phi_chunk 
 
-def plot_timepoint(phi_name, indir, outdir, timepoints):
+def plot_timepoint(phi_name, indir, outdir, timepoints, delim = " ",Nx = 128):
     # max_iter = 400000
     dt =  2.5e-5
     dt_out = 10
@@ -31,11 +32,33 @@ def plot_timepoint(phi_name, indir, outdir, timepoints):
     for timepoint in timepoints:
 
         print("Timepoint ",timepoint)
-        tmp = read_chunk(phi_name, indir, timepoint = timepoint)
+        tmp = read_chunk(phi_name, indir, timepoint = timepoint, delim=delim, rows_per_timepoint=Nx)
         # xx = np.linspace(0, 1 / 128 * (nx - 1), nx)
         normalize_phis = mcolors.TwoSlopeNorm(vcenter=0, vmin=-1, vmax=1)
+        s = sns.heatmap(
+            tmp,
+            square=True,
+            cmap=cm.RdBu_r,
+            norm=normalize_phis,
+            cbar=False,
+            linewidths=0.0,
+        )
+        plt.xticks(ticks=[], labels=[])
+        plt.yticks(ticks=[], labels=[])
+        # plt.title(f"Time= {timepoint*dt}")
+        plt.tight_layout()
+        plt.savefig(
+            f"{outdir}/{phi_name}_{timepoint*dt*dt_out:.2e}.png",
+            bbox_inches="tight",
+            pad_inches=0,
+            dpi=300,
+        )
+        plt.close()
+
+        #zoomed plot
         # s = sns.heatmap(
-        #     tmp,
+        #     # tmp[49:81,49:81],
+        #     tmp[46:84,46:84],
         #     square=True,
         #     cmap=cm.RdBu_r,
         #     norm=normalize_phis,
@@ -54,30 +77,8 @@ def plot_timepoint(phi_name, indir, outdir, timepoints):
         # )
         # plt.close()
 
-        #zoomed plot
-        s = sns.heatmap(
-            # tmp[49:81,49:81],
-            tmp[46:84,46:84],
-            square=True,
-            cmap=cm.RdBu_r,
-            norm=normalize_phis,
-            cbar=False,
-            linewidths=0.0,
-        )
-        plt.xticks(ticks=[], labels=[])
-        plt.yticks(ticks=[], labels=[])
-        # plt.title(f"Time= {timepoint*dt}")
-        plt.tight_layout()
-        plt.savefig(
-            f"{outdir}/{phi_name}_{timepoint*dt*dt_out:.2e}_zoom_v2.png",
-            bbox_inches="tight",
-            pad_inches=0,
-            dpi=300,
-        )
-        plt.close()
 
-
-indir = "/project/g_bme-janeslab/SarahG/julia_out/critical_radius_updated_IC/"
+indir = "/project/g_bme-janeslab/SarahG/julia_out/critical_radius_alt_IC"
 outdir = f"{indir}/timepoint_plots"
 timepoints = [0,8000,16000,24000,32000,40000]
 # plot_timepoint("phi_128_400000_1.0e-6__R0_0.118_eps_0.015009.txt", indir, outdir, timepoints = timepoints)
@@ -90,8 +91,9 @@ timepoints = [0,8000,16000,24000,32000,40000]
 timepoints = [0, 40, 120, 400, 1200,4000,12000,40000]
 # plot_timepoint("phi_128_400000_1.0e-6__R0_0.11_eps_0.015009.txt", indir, outdir, timepoints = timepoints)
 # plot_timepoint("phi_128_400000_1.0e-6__R0_0.12_eps_0.015009.txt", indir, outdir, timepoints = timepoints)
-plot_timepoint("phi_128_400000_1.0e-6__R0_0.12_eps_0.011257.txt", indir, outdir, timepoints = timepoints)
-plot_timepoint("phi_128_400000_1.0e-6__R0_0.09_eps_0.011257.txt", indir, outdir, timepoints = timepoints)
+# plot_timepoint("phi_128_400000_1.0e-6__R0_0.12_eps_0.011257.txt", indir, outdir, timepoints = timepoints)
+# plot_timepoint("phi_128_400000_1.0e-6__R0_0.09_eps_0.011257.txt", indir, outdir, timepoints = timepoints)
+plot_timepoint("phi_256_400000_1.0e-6__R0_0.105_eps_0.011257_two_halvesphi.csv", indir, outdir, timepoints = timepoints, delim = ",", Nx = 256)
 # plot_timepoint("phi_128_400000_1.0e-6__R0_0.06_eps_0.011257.txt", indir, outdir, timepoints = timepoints)
 # plot_timepoint("phi_128_400000_1.0e-6__R0_0.1_eps_0.011257.txt", indir, outdir, timepoints = timepoints)
 

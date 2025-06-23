@@ -1,0 +1,22 @@
+Tue Jun 17 10:39:59 EDT 2025
+LOADED MATLAB
+
+
+/project/g_bme-janeslab/SarahG/julia_out/critical_radius_alt_IC
+_two_halvesphi
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024b Update 3 (24.2.0.2806996) 64-bit (glnxa64)
+                             November 26, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+ level_set_radius_array_alt_IC(, , 128,'/project/g_bme-janeslab/SarahG/julia_out/critical_radius_alt_IC', '_two_halvesphi'); exit;
+                               |
+{Invalid expression. When calling a function or indexing a variable, use
+parentheses. Otherwise, check for mismatched delimiters.
+} 
+DONE

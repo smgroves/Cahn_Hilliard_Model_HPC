@@ -1,0 +1,19 @@
+Fri Jun 13 14:09:13 EDT 2025
+0.11 12 10
+MODULES LOADED
+ERROR: LoadError: MethodError: no method matching calculate_discrete_energy(::Matrix{Float64}, ::Float64, ::Int64, ::Int64, ::Float64)
+
+Closest candidates are:
+  calculate_discrete_energy(::Any, ::Any, ::Any)
+   @ Main /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/CahnHilliard_Julia_solvers/aux_functions_NMG.jl:30
+
+Stacktrace:
+ [1] CahnHilliard_NMG(phi0::Matrix{Float64}; t_iter::Int64, dt::Float64, solver_iter::Float64, tol::Float64, dt_out::Int64, m::Int64, epsilon2::Float64, boundary::String, c_relax::Int64, domain::Matrix{Int64}, printres::Bool, printphi::Bool, pathname::String)
+   @ Main /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/CahnHilliard_Julia_solvers/CahnHilliard_NMG.jl:114
+ [2] top-level scope
+   @ ./timing.jl:393
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/run_julia_multigrid_critical_radius/julia_run_critical_radius_alt_IC.jl:41
+0.11
+starting initialization
+starting ch solver
+DONE

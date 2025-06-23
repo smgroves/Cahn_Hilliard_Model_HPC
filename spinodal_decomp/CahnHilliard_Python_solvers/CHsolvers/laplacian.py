@@ -27,7 +27,7 @@ def laplace(a, nxt, nyt, xright, xleft, yright, yleft, boundary):
                 if boundary == "neumann":
                     dadx_R = 0
                 elif boundary == "periodic":
-                    dadx_R = a[1, j] - a[i, j]
+                    dadx_R = a[0, j] - a[i, j]
             if j > 0:
                 dady_B = a[i, j] - a[i, j - 1]
             else:
@@ -41,6 +41,6 @@ def laplace(a, nxt, nyt, xright, xleft, yright, yleft, boundary):
                 if boundary == "neumann":
                     dady_T = 0
                 elif boundary == "periodic":
-                    dady_T = a[i, 1] - a[i, j]
+                    dady_T = a[i, 0] - a[i, j]
             lap_a[i, j] = (dadx_R - dadx_L + dady_T - dady_B) / h2
     return lap_a

@@ -6,17 +6,17 @@
 #SBATCH --time=10:00:00
 #SBATCH --mem=50G
 #SBATCH --partition=standard
-#SBATCH --array=1-32
+#SBATCH --array=1-5
 
 echo $(date)
-OPTS=$(sed -n "${SLURM_ARRAY_TASK_ID}"p options.txt)
-outdir="/project/g_bme-janeslab/SarahG/julia_out/critical_radius_periodic"
+OPTS=$(sed -n "${SLURM_ARRAY_TASK_ID}"p options_alt_IC_128.txt)
+outdir="/project/g_bme-janeslab/SarahG/julia_out/critical_radius_alt_IC"
 mkdir -p $outdir
 
 echo $OPTS
 # Load  Julia environment
 module load julia/1.9.2
 echo "MODULES LOADED"
-julia julia_run_critical_radius_periodic.jl $OPTS
+julia julia_run_critical_radius_alt_IC.jl $OPTS
 
 echo "DONE"

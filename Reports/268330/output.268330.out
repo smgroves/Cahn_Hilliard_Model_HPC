@@ -1,0 +1,26 @@
+Tue Jun 17 10:45:29 EDT 2025
+LOADED MATLAB
+0.12
+12
+/project/g_bme-janeslab/SarahG/julia_out/critical_radius_alt_IC
+_two_halvesphi
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024b Update 3 (24.2.0.2806996) 64-bit (glnxa64)
+                             November 26, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+{Error: File:
+/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/level_set_plot_alt_IC.m
+Line: 13 Column: 78
+Invalid expression. Check for missing or extra characters.
+
+Error in level_set_radius_array_alt_IC (line 8)
+    [rr,tt] = level_set_plot_alt_IC(2.5e-5, indir, total_time, everyR, epsilon_name, R0_name, folder, Nx, suffix);
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+DONE

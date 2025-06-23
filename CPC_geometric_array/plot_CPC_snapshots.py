@@ -116,21 +116,43 @@ def plot_snapshot(
 
 # phi_512_262144_1.0e-5__CPC_0.12_cohesin_0.14_eps_0.0067_domain_0_2
 # phi_512_262144_1.0e-5__CPC_0.35_cohesin_0.12_eps_0.0067_domain_0_2
-
-
-indir="/project/g_bme-janeslab/SarahG/julia_out/CPC_geometry/CPC_domain_0_2_e_0.0067_t_0.4"
 # name = "phi_512_262144_1.0e-5__CPC_0.25_cohesin_0.11_eps_0.0067_domain_0_2.txt"
 # indir="/project/g_bme-janeslab/SarahG/julia_out/CPC_geometry/CPC_domain_0_2_e_0.0075"
 # name = "phi_512_19661_1.0e-5__CPC_0.173_cohesin_0.08_eps_0.0075_alpha_0_domain_0_2.txt"
 # name = "phi_256_19661_1.0e-5__CPC_0.125_cohesin_0.08_eps_0.0075_domain_0_1.txt"
 # phi_512_262144_1.0e-5__CPC_0.35_cohesin_0.14_eps_0.0067_domain_0_2
+
 Nx = 512
 
-#long-run simulations
+#figure 5 t = 0.04
+indir="/project/g_bme-janeslab/SarahG/julia_out/CPC_geometry/CPC_domain_0_2_e_0.0067_t_0.04"
+for CPC in ["0.35", "0.12"]:
+    for cohesin in ["0.14", "0.12","0.09","0.06"]:
+        name = f"phi_{Nx}_26214_1.0e-5__CPC_{CPC}_cohesin_{cohesin}_eps_0.0067_domain_0_2.txt"
+        outdir = f"{indir}/snapshots_eps_0.0067_t_0.04/{'_'.join(name.split('_')[5:11])}"
+        os.makedirs(outdir) if not os.path.exists(outdir) else None
+
+        for time in [0, 0.01, 0.02, 0.03, 0.04]:
+            try:
+                plot_snapshot(
+                    indir,
+                    name,
+                    Nx,
+                    time=time,
+                    dt=0.000001525878906,
+                    save=True,
+                    outdir=outdir,
+                )
+            except IndexError: print("Time {time} would not plot.")
+
+
+#long-run simulations for Figure 5
+indir="/project/g_bme-janeslab/SarahG/julia_out/CPC_geometry/CPC_domain_0_2_e_0.0067_t_0.4"
+
 for CPC in ["0.35", "0.12"]:
     for cohesin in ["0.14", "0.12"]:
         name = f"phi_{Nx}_262144_1.0e-5__CPC_{CPC}_cohesin_{cohesin}_eps_0.0067_domain_0_2.txt"
-        outdir = f"/project/g_bme-janeslab/SarahG/julia_out/CPC_geometry/CPC_domain_0_2_e_0.0067_t_0.4/snapshots_eps_0.0067_t_0.4/{'_'.join(name.split('_')[5:11])}"
+        outdir = f"{indir}/snapshots_eps_0.0067_t_0.4/{'_'.join(name.split('_')[5:11])}"
         os.makedirs(outdir) if not os.path.exists(outdir) else None
 
         for time in [0, 0.1, 0.2, 0.3, 0.4]:
@@ -147,8 +169,6 @@ for CPC in ["0.35", "0.12"]:
             except IndexError: print("Time {time} would not plot.")
 #3265183 t = 0.4
 
-#figure 5 t = 0.04
-indir="/project/g_bme-janeslab/SarahG/julia_out/CPC_geometry/CPC_domain_0_2_e_0.0067_t_0.04"
 
 # # for time in [0, 0.005, 0.01, 0.015, 0.02, 0.025, 0.03, 0.035, 0.04, 0.08, 0.1, 0.2, 0.3, 0.35]:
 # # for time in [0.05, 0.15, 0.18, 0.22, 0.25, 0.28]:

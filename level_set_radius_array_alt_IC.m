@@ -2,10 +2,20 @@ function [] = level_set_radius_array_alt_IC(R0, m, Nx,indir, suffix)
     folder = "plots";
     total_time=10;
     everyR=10;
-    epsilson = m * (1 / Nx) / (2 * sqrt(2) * atanh(0.9))
-    epsilon_name = sprintf("%.5g", epsilson)
-    R0_name = sprintf('%.5g', R0)
-    [rr,tt] = level_set_plot_alt_IC(2.5e-5, indir, total_time, everyR, epsilon_name, R0_name, folder, Nx, suffix);
+    epsilon = m * (1 / Nx) / (2 * sqrt(2) * atanh(0.9));
+    epsilon_name = sprintf("%.5g", epsilon);
+    R0_name = sprintf('%.5g', R0);
+    dt = 2.5e-5;
+    dt
+    indir
+    total_time
+    everyR
+    epsilon_name
+    R0_name
+    folder
+    Nx
+    suffix
+    [rr,tt] = level_set_plot_alt_IC(dt, indir, total_time, everyR, epsilon_name, R0_name, folder, Nx, suffix);
     R0_vector = repmat(R0, 1,length(tt));
     length(rr)
     length(R0_vector)

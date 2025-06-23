@@ -8,22 +8,20 @@
 #SBATCH --partition=standard
 
 
-indir="/project/g_bme-janeslab/SarahG/julia_out/critical_radius_updated_IC"
+indir="/project/g_bme-janeslab/SarahG/julia_out/critical_radius_alt_IC"
 dtout=10
 dt=2.5e-5
 nx=128
-frame_rate=100
+frame_rate=400
 
-name="phi_128_400000_1.0e-6__R0_0.14_eps_0.011257"
+name="phi_128_400000_1.0e-6__R0_0.15_eps_0.030019_two_halves"
 
-# name="phi_128_400000_1.0e-6__R0_0.09_eps_0.011257"
-# name="phi_128_400000_1.0e-6__R0_0.14_eps_0.030019"
 echo $(date)
 module load matlab
 echo "LOADED MATLAB"
 
 # Run Matlab single core program
-matlab -nodisplay -r "CHplotting_function('$indir', '$name', $dt, $dtout, '', $frame_rate);quit;"
+matlab -nodisplay -r "CHplotting_function('$indir', '$name', $dt, $dtout, '_fast', $frame_rate);quit;"
 
 # suffix=""
 # matlab -nodisplay -r "plot_single_timepoint_heatmap(1, '$indir','$name', '$suffix');quit;"

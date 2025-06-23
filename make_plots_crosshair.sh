@@ -26,13 +26,13 @@ frame_rate=4
 # for cohesin in 2 4
 # do
 # name="phi_512_19661_1.0e-5__CPC_0.22_cohesin_0.09_eps_0.0075_alpha_0_domain_0_2"
-name="phi_512_19661_1.0e-5__CPC_0.125_cohesin_0.14_kt_width_0.3_eps_0.0075_domain_0_2"
+name="phi_512_19661_1.0e-5__CPC_0.12_cohesin_0.1_kt_width_0.3_eps_0.0075_domain_0_2"
 echo $(date)
 module load matlab
 echo "LOADED MATLAB"
 
 # Run Matlab single core program
-matlab -nodisplay -r "CHplotting_function('$indir', '$name', $dt, $dtout, '', $frame_rate);quit;"
+matlab -nodisplay -r "CHplotting_function_minutes('$indir', '$name', $dt, $dtout, '_minutes_hires', $frame_rate);quit;"
 
 # suffix=""
 # matlab -nodisplay -r "plot_single_timepoint_heatmap(1, '$indir','$name', '$suffix');quit;"

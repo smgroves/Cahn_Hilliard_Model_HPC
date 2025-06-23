@@ -1,8 +1,9 @@
-function [rr, tt] = level_set_plot(dt, indir, total_time, everyR, epsilon_name, R0, folder, Nx)
+function [rr, tt] = level_set_plot(dt, indir, total_time, everyR, epsilon_name, R0, folder, Nx, suffix)
     timesteps=total_time/dt;
-    name=sprintf('phi_%s_%s_1.0e-6__%s_R0_%s_eps_%s',string(Nx),string(timesteps), string(Nx),R0, epsilon_name)
+    name=sprintf('phi_%s_%s_1.0e-6__R0_%s_eps_%s%s',string(Nx),string(timesteps),R0, epsilon_name, suffix)
     dtout=10;
-    Nx = 2^8;Ny=2^8;
+    % Nx = 2^8;Ny=2^8;
+    Ny = Nx;
     hx = 1/Nx;
     hy = 1/Ny;
     x  = hx*(0:Nx-1);           
@@ -10,7 +11,7 @@ function [rr, tt] = level_set_plot(dt, indir, total_time, everyR, epsilon_name, 
     [xx,yy] = meshgrid(x,y); 
     T0=0;
     tt=0;rr=0;
-    phi = readmatrix(sprintf('%s/%s.txt', indir, name),'FileType','text');
+    phi = readmatrix(sprintf('%s/%s.csv', indir, name),'FileType','text');
     % phi = readmatrix("/Users/smgroves/Documents/GitHub/jlCHSolver/output.txt");
     phidims = size(phi);
     phidims(3) = phidims(1)/phidims(2); %Determine number of frames captured
@@ -45,6 +46,6 @@ function [rr, tt] = level_set_plot(dt, indir, total_time, everyR, epsilon_name, 
                 'LineWidth',1.5);set(gca,'FontSize',16);
             title(sprintf('Radius at 0.5 level set \n %s',name))
             xlabel('t');ylabel('R');
-            filename = sprintf('%s/%s/radius_0.5_nx_128_nt_%s_1.0e-6__R0_%s_eps_%s.png',indir,folder, string(timesteps), R0, epsilon_name);
+            filename = sprintf('%s/%s/radius_0.5_nx_%s_nt_%s_1.0e-6__R0_%s_eps_%s.png',indir,folder, string(Nx), string(timesteps), R0, epsilon_name);
             saveas(fig, filename);
 end

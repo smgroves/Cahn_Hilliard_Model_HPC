@@ -47,7 +47,7 @@ function [] = kymograph_central_droplets_domain(indir, outdir, name, dt, dtout, 
         XLabels = 1:cutoff;
     end
     CustomXLabels = string((XLabels-1)*dt*dtout)
-    CustomXLabels(mod(XLabels,5000) ~= 0) = " ";
+    CustomXLabels(mod(XLabels,50000) ~= 0) = " ";
     % h.XDisplayLabels = CustomXLabels;
     % h.XLabel = "Time";
 
@@ -65,8 +65,10 @@ function [] = kymograph_central_droplets_domain(indir, outdir, name, dt, dtout, 
     % set(gca, 'FontName', 'Arial');
     % set(gca,'YTickLabel',[]);
     % set(gca,'XTickLabel',[]);
-    print(gcf,sprintf('%s/kymograph_x_%d_redblue_um.png', outdir, x),'-dpng')
-    % print(gcf,sprintf('%s/kymograph_x_%d_redblue_um.pdf', outdir, x),'-dpdf','-vector')
+    set(gcf,'Renderer','painters');
+
+    % print(gcf,sprintf('%s/kymograph_x_%d_redblue_um.png', outdir, x),'-dpng')
+    print(gcf,sprintf('%s/kymograph_x_%d_redblue_um.pdf', outdir, x),'-dpdf')%,'-vector')
 end
 
 % function c = redblue(m)

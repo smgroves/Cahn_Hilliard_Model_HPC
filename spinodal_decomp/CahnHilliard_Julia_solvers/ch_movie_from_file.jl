@@ -1,5 +1,4 @@
-using Plots, CSV, DataFrames, FFMPEG
-
+using Plots, CSV, DataFrames
 
 default(colorbar=false)  # Turn off colorbars globally for cleaner animation
 
@@ -23,9 +22,9 @@ function ch_movie_from_file(phi_file, t_out, ny; dtframes=1, filename="ch_movie"
     """
 
     # Validate file type
-    valid_filetypes = ["mp4", "gif", "avi"]
+    valid_filetypes = ["mp4", "gif"]
     if !(filetype in valid_filetypes)
-        error("Invalid filetype. Supported types are: mp4, gif, avi")
+        error("Invalid filetype. Supported types are: mp4, gif")
     end
 
     # Initial color range
@@ -64,8 +63,6 @@ function ch_movie_from_file(phi_file, t_out, ny; dtframes=1, filename="ch_movie"
         mp4(anim, "$filename.mp4")
     elseif filetype == "gif"
         gif(anim, "$filename.gif")
-    elseif filetype == "avi"
-        mp4(anim, "$filename.avi")
     end
 
     println("Animation saved as $filename.$filetype")

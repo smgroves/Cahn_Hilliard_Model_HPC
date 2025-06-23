@@ -1,0 +1,14 @@
+Fri Jun 13 14:15:26 EDT 2025
+0.1 12 10
+MODULES LOADED
+ERROR: LoadError: ArgumentError: Package random not found in current path.
+- Run `import Pkg; Pkg.add("random")` to install the random package.
+Stacktrace:
+ [1] macro expansion
+   @ ./loading.jl:1630 [inlined]
+ [2] macro expansion
+   @ ./lock.jl:267 [inlined]
+ [3] require(into::Module, mod::Symbol)
+   @ Base ./loading.jl:1611
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/run_julia_multigrid_critical_radius/julia_run_critical_radius_offcenter.jl:2
+DONE

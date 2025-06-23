@@ -10,7 +10,7 @@ function [rr, tt] = level_set_plot_alt_IC(dt, indir, total_time, everyR, epsilon
     [xx,yy] = meshgrid(x,y); 
     T0=0;
     tt=0;rr=0;
-    phi = readmatrix(sprintf('%s/%s.txt', indir, name),'FileType','text');
+    phi = readmatrix(sprintf('%s/%s.csv', indir, name),'FileType','text');
     % phi = readmatrix("/Users/smgroves/Documents/GitHub/jlCHSolver/output.txt");
     phidims = size(phi);
     phidims(3) = phidims(1)/phidims(2); %Determine number of frames captured
@@ -22,10 +22,11 @@ function [rr, tt] = level_set_plot_alt_IC(dt, indir, total_time, everyR, epsilon
         T=i*dtout*dt;
         % t = Nx*i+1 : Nx*(i+1);
         % psi = Psi(t,:);
-        phi_tmp = phi(:,:,i+1);
+        % phi_tmp = phi(:,:,i+1);
 
         % Shift phi_tmp so that the droplet is back in the center of the matrix using circShift
-        phi_tmp = circshift(phi_tmp,int64(Nx/2),1);
+        % phi_tmp = circshift(phi_tmp,int64(Nx/2),1);
+        phi_tmp = circshift(phi(:,:,i+1),int64(phidims(1)/2),1);
         size(phi_tmp)
         % Find and plot the 0.5 contour
         figure('visible', 'off');

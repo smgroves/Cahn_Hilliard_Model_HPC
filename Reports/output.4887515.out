@@ -1,0 +1,26 @@
+Fri May 30 11:01:50 EDT 2025
+LOADED MATLAB
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024b Update 3 (24.2.0.2806996) 64-bit (glnxa64)
+                             November 26, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+
+phidims =
+
+     5120128         128
+
+Done.
+slurmstepd: error: _cgroup_procs_check: failed on path /sys/fs/cgroup/cpuacct/slurm/uid_15445681/job_4887515/step_batch/cgroup.procs: No such file or directory
+slurmstepd: error: unable to read '/sys/fs/cgroup/cpuacct/slurm/uid_15445681/job_4887515/step_batch/cgroup.procs'
+slurmstepd: error: _cgroup_procs_check: failed on path /sys/fs/cgroup/cpuset/slurm/uid_15445681/job_4887515/step_batch/cgroup.procs: No such file or directory
+slurmstepd: error: unable to read '/sys/fs/cgroup/cpuset/slurm/uid_15445681/job_4887515/step_batch/cgroup.procs'
+slurmstepd: error: _cgroup_procs_check: failed on path /sys/fs/cgroup/memory/slurm/uid_15445681/job_4887515/step_batch/cgroup.procs: No such file or directory
+slurmstepd: error: unable to read '/sys/fs/cgroup/memory/slurm/uid_15445681/job_4887515/step_batch/cgroup.procs'

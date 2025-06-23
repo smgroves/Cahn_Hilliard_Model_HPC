@@ -1,4 +1,4 @@
-function [] = level_set_radius_array(R0, m, Nx,indir)
+function [] = level_set_radius_array(R0, m, Nx,indir, suffix)
     folder = "plots";
     total_time=10;
     everyR=10;
@@ -21,7 +21,7 @@ function [] = level_set_radius_array(R0, m, Nx,indir)
     epsilon_name = sprintf("%.5g", eps)
     R0_name = sprintf('%.5g', R0)
 
-    [rr,tt] = level_set_plot(2.5e-5, indir, total_time, everyR, epsilon_name, R0_name, folder, Nx);
+    [rr,tt] = level_set_plot(2.5e-5, indir, total_time, everyR, epsilon_name, R0_name, folder, Nx, suffix);
     R0_vector = repmat(R0, 1,length(tt));
     length(rr)
     length(R0_vector)

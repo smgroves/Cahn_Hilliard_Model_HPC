@@ -1,82 +1,120 @@
-function run_spinodal_decomp(GridSize, boundary, print_results, solver, SLURM_ID, note)
-    indir = "../IC";
-    outdir = "/project/g_bme-janeslab/SarahG/spinodal_decomp_04_2025"
+% FIGURE 1
+indir = "../IC/";
+outdir = "../output/output_MATLAB-periodic";
 
-    n_relax = 4;
-    m = 8;
-    h = 1/GridSize;
-    epsilon = m * h/ (2 * sqrt(2) * atanh(0.9)); 
+n_relax = 4;
+m = 8;
+GridSize = 128;
+h = 1/GridSize;
+epsilon = m * h/ (2 * sqrt(2) * atanh(0.9));
+dt = 5.5e-6;
+max_it = 2000;
+boundary = 'periodic';
+init_file = sprintf("%s/initial_phi_%d_smooth_n_relax_%d.csv",indir,GridSize, n_relax);
+phi0 = readmatrix(init_file);
+print_phi = true;
+dt_out = 1;
+ny = GridSize;
+% #################################################
+% RUN SAV SOLVER 
+% #################################################
 
-    dt = 5.5e-6;
-    max_it = 2000;
-    init_file = sprintf("%s/initial_phi_%d_smooth_n_relax_%d_from512%s.csv",indir,GridSize, n_relax,note);
-    phi0 = readmatrix(init_file);
-    print_phi = true;
-    dt_out = 10;
-    ny = GridSize;
-    if print_results == "true"
-        dt_out = 10
-    else
-        dt_out = 2000
-    end
-    pathname = sprintf("%s/out_MATLAB/%s_MATLAB_%d_dt_%.2e_Nx_%d_%s_n_relax_%d%s_",outdir,solver, max_it,dt, GridSize, boundary, n_relax,note);
+% pathname = sprintf("%s/SAV_MATLAB_%d_dt_%.2e_Nx_%d_n_relax_%d_dtout_1_",outdir,max_it,dt, GridSize, n_relax);
+% fprintf("Running SAV solver with parameters: %s\n", pathname);
+% tStart_SAV = tic;
+% [t_out, phi_t, delta_mass_t, E_t] = CahnHilliard_SAV(phi0,...
+%                                     t_iter = max_it,...
+%                                     dt = dt,...
+%                                     m = m,...
+%                                     boundary = boundary,...
+%                                     printphi=print_phi,...
+%                                     pathname=pathname,...
+%                                     dt_out = dt_out);
+% elapsedTime = toc(tStart_SAV);
 
-    % #################################################
-    % RUN SAV SOLVER 
-    % #################################################
-    if solver == "SAV"
-        fprintf("Running SAV solver with parameters: %s\n", pathname);
-        tol = "NaN";
-        solver_iter = "NaN";
+% fid = fopen('../Job_specs.csv', 'a+');
+% v = [string(datetime) "SAV_spinodal_decomp_smoothed_periodic_dtout_10_relaxation" "MATLAB" "SAV" GridSize epsilon dt 'NaN' max_it 'NaN' pathname elapsedTime "NaN" boundary];
+% fprintf(fid, '%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s\n', v);
+% fclose(fid);
 
-        tStart_SAV = tic;
-   
-        [t_out, phi_t, delta_mass_t, E_t] = CahnHilliard_SAV(phi0,...
-                                            t_iter = max_it,...
-                                            dt = dt,...
-                                            m = m,...
-                                            boundary = boundary,...
-                                            printphi=print_phi,...
-                                            pathname=pathname,...
-                                            dt_out = dt_out);
-        elapsedTime = toc(tStart_SAV);
+% % writematrix(phi_t(:,:,end),sprintf('%sfinal_phi.csv', pathname));
+% writematrix(delta_mass_t,sprintf('%smass_uncentered.csv', pathname));
+% writematrix(E_t,sprintf('%senergy.csv', pathname));
+
+% fprintf("Creating movie\n");
+% filename = strcat(pathname, "movie");
+% if print_phi
+%     ch_movie_from_file(strcat(pathname,"phi.csv"), t_out, ny,filename = filename)
+% else
+%     ch_movie(phi_t,t_out, filename = filename);
+% end
+
+% % #################################################
+% % RUN NMG SOLVER 
+% % #################################################
+
+pathname = sprintf("%s/NMG_MATLAB_%d_dt_%.2e_Nx_%d_n_relax_%d_dtout_1_tol_1e-6",outdir,max_it,dt, GridSize, n_relax);
+fprintf("Running NMG solver with parameters: %s\n", pathname);
+tStart_NMG = tic;
+[t_out, phi_t, delta_mass_t, E_t] = CahnHilliard_NMG(phi0,...
+                                    t_iter = max_it,...
+                                    dt = dt,...
+                                    m = m,...
+                                    boundary = boundary,...
+                                    printphi=print_phi,...
+                                    pathname=pathname,...
+                                    dt_out = dt_out,...
+                                    tol = 1e-6);
+elapsedTime = toc(tStart_NMG);
+
+% fid = fopen('../Job_specs.csv', 'a+');
+% v = [string(datetime) "NMG_spinodal_decomp_smoothed_dtout_10" "MATLAB" "NMG" GridSize epsilon dt 'NaN' max_it  pathname elapsedTime 'NaN' "periodic"];
+% fprintf(fid, '%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s\n', v);
+% fclose(fid);
+
+% writematrix(phi_t(:,:,end),sprintf('%sfinal_phi.csv', pathname));
+writematrix(delta_mass_t,sprintf('%smass_uncentered.csv', pathname));
+writematrix(E_t,sprintf('%senergy.csv', pathname));
+% filename = strcat(pathname, "movie");
+% fprintf("Creating movie\n");
+% if print_phi
+%     ch_movie_from_file(strcat(pathname,"phi.csv"), t_out, ny,filename = filename)
+% else
+%     ch_movie(phi_t,t_out, filename = filename);
+% end
 
 
-    end
-    % % #################################################
-    % % RUN NMG SOLVER 
-    % % #################################################
 
-    if solver == "NMG"
-        fprintf("Running NMG solver with parameters: %s\n", pathname);
-        tStart_NMG = tic;
-        tol = "1e-5"
-        solver_iter = "1e4"
-        [t_out, phi_t, delta_mass_t, E_t] = CahnHilliard_NMG(phi0,...
-                                            t_iter = max_it,...
-                                            dt = dt,...
-                                            m = m,...
-                                            boundary = boundary,...
-                                            printphi=print_phi,...
-                                            pathname=pathname,...
-                                            dt_out = dt_out);
-        elapsedTime = toc(tStart_NMG);
+% % #################################################
+% % RUN FD SOLVER 
+% % #################################################
 
+% pathname = sprintf("%s/FD_MATLAB_%d_dt_%.2e_Nx_%d_n_relax_%d_",outdir,max_it,dt, GridSize, n_relax);
+% tStart_FD = tic;
+% [t_out, phi_t, delta_mass_t, E_t] = CahnHilliard_FD_SMG(phi0,...
+%                                     t_iter = max_it,...
+%                                     dt = dt,...
+%                                     m = m,...
+%                                     boundary = boundary,...
+%                                     printphi=print_phi,...
+%                                     pathname=pathname,...
+%                                     dt_out = dt_out);
+% elapsedTime = toc(tStart_FD);
 
-    end
-    filename = strcat(pathname, "movie");
-    fprintf("Creating movie\n");
-    if print_results
-        ch_movie_from_file(strcat(pathname,"phi.csv"), t_out, ny,filename = filename, filetype = "Motion JPEG AVI")
+% fid = fopen('../Job_specs.csv', 'a+');
+% v = [string(datetime) "FD_spinodal_decomp_smoothed_print" "MATLAB" "FD" GridSize epsilon dt 'NaN' max_it 'NaN' elapsedTime, pathname];
+% fprintf(fid, '%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s\n', v);
+% fclose(fid);
 
-    writematrix(t_out,sprintf('%st_out.csv', pathname));
-    writematrix(delta_mass_t,sprintf('%smass.csv', pathname));
-    writematrix(E_t,sprintf('%senergy.csv', pathname));
-
-    fid = fopen(sprintf('%s/Job_specs.csv', outdir), 'a+');
-    v = [string(datetime) "MATLAB" solver GridSize epsilon dt tol max_it solver_iter dt_out print_results boundary pathname elapsedTime "NaN" SLURM_ID note];
-    fprintf(fid, '%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s\n', v);
-    fclose(fid);
-
-end
-
+% % writematrix(phi_t(:,:,end),sprintf('%sfinal_phi.csv', pathname));
+% writematrix(delta_mass_t,sprintf('%smass.csv', pathname));
+% writematrix(E_t,sprintf('%senergy.csv', pathname));
+% t_out = 0:10*dt:max_it*dt;
+% filename = strcat(pathname, "movie_long");
+% phi_file = strcat(pathname, "phi.csv");
+% fprintf("Creating movie\n");
+% if print_phi
+%     ch_movie_from_file(strcat(pathname,"phi.csv"), t_out, ny,filename = filename)
+% else
+%     ch_movie(phi_t,t_out, filename = filename);
+% end
