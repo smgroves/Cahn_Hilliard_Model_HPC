@@ -1,0 +1,11 @@
+Thu May 8 21:37:02 EDT 2025
+MODULES LOADED
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py", line 45, in <module>
+    print(compare_phis_norm_at_timepoint(indir, GridSize, timepoint = 0))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py", line 35, in compare_phis_norm_at_timepoint
+    if nx_val == GridSize:
+       ^^^^^^
+UnboundLocalError: cannot access local variable 'nx_val' where it is not associated with a value
+DONE

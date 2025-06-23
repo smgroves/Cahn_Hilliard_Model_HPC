@@ -1,0 +1,12 @@
+Fri May 9 11:29:28 EDT 2025
+MODULES LOADED
+Timepoint 0
+SAV_MATLAB_2000_dt_5.50e-06_Nx_256_periodic_n_relax_4_25p_phi.csv
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py", line 88, in <module>
+    compare_phis_norm_at_timepoint(indir,out_file, timepoint = 0)
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py", line 48, in compare_phis_norm_at_timepoint
+    if dt_out > timepoint:
+       ^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'int'
+DONE

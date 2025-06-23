@@ -1,0 +1,768 @@
+Fri May 9 12:03:41 EDT 2025
+MODULES LOADED
+Timepoint 0
+SAV, MATLAB,2000,256,periodic,None (10),25p
+130.02964977248234
+SAV, MATLAB,2000,128,periodic,None (10),50p
+16.338019238090343
+NMG, MATLAB,2000,64,neumann,None (10),25p
+31.89139796114392
+SAV, MATLAB,2000,512,periodic,None (10),75p
+261.0235085456542
+NMG, MATLAB,2000,128,periodic,None (10),50p
+16.338019238090343
+SAV, MATLAB,2000,256,neumann,None (10),25p
+130.02964977248234
+NMG, MATLAB,2000,128,neumann,None (10),75p
+64.56840056370952
+NMG, MATLAB,2000,256,neumann,None (10),50p
+37.84490979408554
+NMG, MATLAB,2000,256,neumann,None (10),75p
+130.13179688686242
+SAV, MATLAB,2000,64,neumann,None (10),50p
+5.793058526954734
+NMG, MATLAB,2000,128,periodic,None (10),75p
+64.56840056370952
+NMG, MATLAB,2000,512,neumann,None (10),25p
+260.81333081731987
+SAV, MATLAB,2000,64,periodic,None (10),25p
+31.89139796114392
+NMG, MATLAB,2000,64,periodic,None (10),25p
+31.89139796114392
+NMG, MATLAB,2000,128,periodic,None (10),25p
+64.52529436818811
+NMG, MATLAB,2000,256,periodic,None (10),25p
+130.02964977248234
+SAV, MATLAB,2000,64,periodic,None (10),75p
+31.90797299687814
+SAV, MATLAB,2000,512,periodic,None (10),50p
+79.2467743605897
+SAV, MATLAB,2000,512,periodic,None (10),25p
+260.81333081731987
+SAV, MATLAB,2000,128,neumann,None (10),50p
+16.338019238090343
+SAV, MATLAB,2000,512,neumann,None (10),25p
+260.81333081731987
+NMG, MATLAB,2000,256,periodic,None (10),50p
+37.84490979408554
+NMG, MATLAB,2000,64,neumann,None (10),75p
+31.90797299687814
+SAV, MATLAB,2000,512,neumann,None (10),75p
+261.0235085456542
+SAV, MATLAB,2000,512,neumann,None (10),50p
+79.2467743605897
+SAV, MATLAB,2000,64,neumann,None (10),75p
+31.90797299687814
+NMG, MATLAB,2000,128,neumann,None (10),50p
+16.338019238090343
+SAV, MATLAB,2000,256,periodic,None (10),75p
+130.13179688686242
+NMG, MATLAB,2000,512,periodic,None (10),75p
+261.0235085456542
+SAV, MATLAB,2000,128,neumann,None (10),25p
+64.52529436818811
+NMG, MATLAB,2000,512,neumann,None (10),75p
+261.0235085456542
+SAV, MATLAB,2000,256,neumann,None (10),75p
+130.13179688686242
+SAV, MATLAB,2000,64,periodic,None (10),50p
+5.793058526954734
+SAV, MATLAB,2000,64,neumann,None (10),25p
+31.89139796114392
+SAV, MATLAB,2000,256,neumann,None (10),50p
+37.84490979408554
+NMG, MATLAB,2000,256,neumann,None (10),25p
+130.02964977248234
+NMG, MATLAB,2000,512,periodic,None (10),50p
+79.2467743605897
+SAV, MATLAB,2000,128,neumann,None (10),75p
+64.56840056370952
+SAV, MATLAB,2000,128,periodic,None (10),25p
+64.52529436818811
+SAV, MATLAB,2000,128,periodic,None (10),75p
+64.56840056370952
+SAV, MATLAB,2000,256,periodic,None (10),50p
+37.84490979408554
+NMG, MATLAB,2000,64,periodic,None (10),75p
+31.90797299687814
+NMG, MATLAB,2000,64,neumann,None (10),50p
+5.793058526954734
+NMG, MATLAB,2000,256,periodic,None (10),75p
+130.13179688686242
+NMG, MATLAB,2000,512,neumann,None (10),50p
+79.2467743605897
+NMG, MATLAB,2000,128,neumann,None (10),25p
+64.52529436818811
+NMG, MATLAB,2000,64,periodic,None (10),50p
+5.793058526954734
+NMG, MATLAB,2000,512,periodic,None (10),25p
+260.81333081731987
+NMG, Julia,2000,128,neumann,10,50p
+16.338019238090347
+NMG, Julia,2000,64,neumann,10,25p
+31.89139796114392
+NMG, Julia,2000,256,neumann,2000,50p
+37.84490979408554
+SAV, Julia,2000,512,periodic,2000,75p
+261.0235085456542
+NMG, Julia,2000,128,neumann,2000,50p
+16.338019238090347
+SAV, Julia,2000,256,periodic,2000,25p
+130.02964977248232
+NMG, Julia,2000,512,neumann,2000,50p
+79.2467743605897
+SAV, Julia,2000,512,neumann,10,50p
+79.2467743605897
+SAV, Julia,2000,512,periodic,10,75p
+261.0235085456542
+NMG, Julia,2000,128,periodic,2000,50p
+16.338019238090347
+SAV, Julia,2000,128,neumann,10,75p
+64.56840056370952
+SAV, Julia,2000,128,periodic,10,25p
+64.52529436818811
+NMG, Julia,2000,64,neumann,10,75p
+31.90797299687814
+NMG, Julia,2000,256,periodic,2000,75p
+130.1317968868624
+NMG, Julia,2000,128,periodic,2000,75p
+64.56840056370952
+NMG, Julia,2000,128,neumann,2000,25p
+64.52529436818811
+SAV, Julia,2000,512,periodic,2000,25p
+260.81333081731987
+NMG, Julia,2000,64,neumann,10,50p
+5.793058526954734
+SAV, Julia,2000,256,neumann,2000,50p
+37.84490979408554
+SAV, Julia,2000,512,periodic,10,25p
+260.81333081731987
+SAV, Julia,2000,128,periodic,10,50p
+16.338019238090347
+SAV, Julia,2000,512,neumann,10,75p
+261.0235085456542
+NMG, Julia,2000,256,periodic,2000,50p
+37.84490979408554
+SAV, Julia,2000,128,periodic,2000,50p
+16.338019238090347
+SAV, Julia,2000,64,neumann,2000,25p
+31.89139796114392
+NMG, Julia,2000,512,periodic,2000,75p
+261.0235085456542
+SAV, Julia,2000,256,periodic,2000,75p
+130.1317968868624
+SAV, Julia,2000,256,neumann,10,25p
+130.02964977248232
+SAV, Julia,2000,128,neumann,2000,25p
+64.52529436818811
+NMG, Julia,2000,256,neumann,10,75p
+130.1317968868624
+SAV, Julia,2000,512,neumann,10,25p
+260.81333081731987
+NMG, Julia,2000,64,neumann,2000,50p
+5.793058526954734
+SAV, Julia,2000,256,periodic,2000,50p
+37.84490979408554
+SAV, Julia,2000,64,neumann,2000,50p
+5.793058526954734
+SAV, Julia,2000,128,periodic,10,75p
+64.56840056370952
+NMG, Julia,2000,64,periodic,10,50p
+5.793058526954734
+SAV, Julia,2000,512,neumann,2000,50p
+79.2467743605897
+NMG, Julia,2000,64,periodic,2000,50p
+5.793058526954734
+NMG, Julia,2000,64,periodic,2000,75p
+31.90797299687814
+NMG, Julia,2000,512,neumann,10,25p
+260.81333081731987
+SAV, Julia,2000,256,neumann,2000,25p
+130.02964977248232
+SAV, Julia,2000,256,neumann,2000,75p
+130.1317968868624
+SAV, Julia,2000,512,periodic,10,50p
+79.2467743605897
+NMG, Julia,2000,128,periodic,10,50p
+16.338019238090347
+NMG, Julia,2000,128,neumann,2000,75p
+64.56840056370952
+NMG, Julia,2000,512,periodic,2000,25p
+260.81333081731987
+SAV, Julia,2000,64,periodic,2000,25p
+31.89139796114392
+NMG, Julia,2000,128,neumann,10,25p
+64.52529436818811
+NMG, Julia,2000,512,periodic,2000,50p
+79.2467743605897
+NMG, Julia,2000,64,periodic,10,75p
+31.90797299687814
+SAV, Julia,2000,64,neumann,2000,75p
+31.90797299687814
+SAV, Julia,2000,128,neumann,2000,75p
+64.56840056370952
+SAV, Julia,2000,64,periodic,2000,75p
+31.90797299687814
+SAV, Julia,2000,128,neumann,10,50p
+16.338019238090347
+NMG, Julia,2000,512,neumann,10,75p
+261.0235085456542
+SAV, Julia,2000,256,neumann,10,50p
+37.84490979408554
+NMG, Julia,2000,512,neumann,2000,25p
+260.81333081731987
+NMG, Julia,2000,256,periodic,10,25p
+130.02964977248232
+NMG, Julia,2000,256,neumann,10,50p
+37.84490979408554
+SAV, Julia,2000,128,neumann,2000,50p
+16.338019238090347
+NMG, Julia,2000,256,periodic,10,75p
+130.1317968868624
+SAV, Julia,2000,64,neumann,10,25p
+31.89139796114392
+NMG, Julia,2000,512,neumann,10,50p
+79.2467743605897
+SAV, Julia,2000,128,neumann,10,25p
+64.52529436818811
+NMG, Julia,2000,512,periodic,10,75p
+261.0235085456542
+SAV, Julia,2000,512,neumann,2000,75p
+261.0235085456542
+SAV, Julia,2000,128,periodic,2000,25p
+64.52529436818811
+SAV, Julia,2000,256,periodic,10,25p
+130.02964977248232
+SAV, Julia,2000,512,periodic,2000,50p
+79.2467743605897
+NMG, Julia,2000,256,neumann,2000,25p
+130.02964977248232
+NMG, Julia,2000,128,neumann,10,75p
+64.56840056370952
+NMG, Julia,2000,512,periodic,10,25p
+260.81333081731987
+NMG, Julia,2000,64,neumann,2000,25p
+31.89139796114392
+SAV, Julia,2000,64,periodic,2000,50p
+5.793058526954734
+SAV, Julia,2000,64,neumann,10,75p
+31.90797299687814
+SAV, Julia,2000,64,periodic,10,75p
+31.90797299687814
+NMG, Julia,2000,64,periodic,10,25p
+31.89139796114392
+SAV, Julia,2000,64,periodic,10,50p
+5.793058526954734
+SAV, Julia,2000,256,neumann,10,75p
+130.1317968868624
+NMG, Julia,2000,256,neumann,10,25p
+130.02964977248232
+SAV, Julia,2000,256,periodic,10,75p
+130.1317968868624
+SAV, Julia,2000,64,neumann,10,50p
+5.793058526954734
+SAV, Julia,2000,128,periodic,2000,75p
+64.56840056370952
+NMG, Julia,2000,256,periodic,10,50p
+37.84490979408554
+NMG, Julia,2000,128,periodic,10,75p
+64.56840056370952
+SAV, Julia,2000,256,periodic,10,50p
+37.84490979408554
+NMG, Julia,2000,128,periodic,10,25p
+64.52529436818811
+NMG, Julia,2000,64,neumann,2000,75p
+31.90797299687814
+NMG, Julia,2000,64,periodic,2000,25p
+31.89139796114392
+NMG, Julia,2000,256,neumann,2000,75p
+130.1317968868624
+SAV, Julia,2000,512,neumann,2000,25p
+260.81333081731987
+NMG, Julia,2000,512,neumann,2000,75p
+261.0235085456542
+NMG, Julia,2000,256,periodic,2000,25p
+130.02964977248232
+NMG, Julia,2000,512,periodic,10,50p
+79.2467743605897
+NMG, Julia,2000,128,periodic,2000,25p
+64.52529436818811
+SAV, Julia,2000,64,periodic,10,25p
+31.89139796114392
+NMG, Python,20,256,periodic,20,25p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,256,neumann,2000,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,512,neumann,1,25p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,512,periodic,2000,25p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,512,periodic,20,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,64,neumann,10,25p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,256,neumann,10,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,128,periodic,10,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,200,64,periodic,200,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,256,neumann,2000,75p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,512,neumann,20,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,128,neumann,10,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,256,neumann,20,25p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,256,neumann,10,75p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,128,neumann,1,75p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,512,periodic,20,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,64,neumann,10,75p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,512,periodic,1,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,128,periodic,2000,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,128,periodic,20,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,512,neumann,2000,25p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,128,periodic,1,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,64,neumann,1,25p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,128,periodic,2000,75p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,256,periodic,2000,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,512,periodic,1,75p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,512,neumann,2000,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,64,periodic,20,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,512,periodic,10,75p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,512,periodic,2000,75p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,64,periodic,2000,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,64,neumann,1,75p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,128,periodic,20,75p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,256,periodic,2000,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,512,neumann,10,75p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,128,periodic,2000,25p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,64,neumann,20,75p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,256,periodic,10,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,256,periodic,1,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,64,periodic,2000,25p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,128,periodic,1,25p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,512,periodic,10,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,128,periodic,20,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,64,periodic,1,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,64,neumann,10,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,512,neumann,10,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,256,periodic,20,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,200,256,periodic,200,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,64,periodic,2000,75p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,128,periodic,20,25p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,64,neumann,20,25p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,128,neumann,10,25p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,256,periodic,2000,25p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,128,neumann,10,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,256,periodic,1,75p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,256,neumann,2000,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,512,neumann,20,25p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,256,periodic,20,75p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,512,periodic,2000,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,64,neumann,2000,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,64,neumann,2000,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,512,periodic,2000,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,512,neumann,10,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,64,neumann,2000,75p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,256,periodic,10,25p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,64,periodic,1,75p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,200,512,neumann,200,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,128,neumann,1,25p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,128,neumann,2000,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,256,neumann,1,75p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,256,neumann,1,25p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,256,periodic,20,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,256,neumann,20,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,64,neumann,2000,25p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,128,neumann,2000,75p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,512,periodic,10,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,64,periodic,10,25p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,128,neumann,20,25p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,128,periodic,1,75p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,64,periodic,2000,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,128,periodic,10,25p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,200,128,periodic,200,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,64,periodic,20,25p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,512,neumann,2000,75p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,256,neumann,10,25p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,64,periodic,1,25p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,128,neumann,10,75p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,256,neumann,20,75p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,256,periodic,1,25p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,512,periodic,10,25p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,64,neumann,10,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,128,neumann,20,75p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,128,neumann,2000,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,200,128,neumann,200,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,512,periodic,1,25p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,64,periodic,20,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,200,512,periodic,200,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,256,neumann,10,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,64,periodic,10,75p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,256,neumann,2000,25p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,512,neumann,2000,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,128,periodic,2000,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,64,periodic,20,75p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,256,periodic,10,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,2000,64,periodic,10,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,256,periodic,10,75p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,512,neumann,20,75p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,200,64,neumann,200,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,512,neumann,1,75p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,64,periodic,10,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,512,periodic,20,75p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,200,256,neumann,200,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,128,periodic,10,75p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,256,periodic,2000,75p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,128,neumann,2000,25p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,128,periodic,10,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+NMG, Python,20,512,periodic,20,25p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,512,neumann,10,25p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+SAV, Python,2000,64,periodic,10,50p
+Exception type : ValueError 
+Exception message : could not convert string to float: ''
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 62, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : read_specific_lines, Message : digits = [float(i) for i in line.strip("\\n").split(",")]', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 14, Func.Name : <listcomp>, Message : digits = [float(i) for i in line.strip("\\n").split(",")]']
+DONE

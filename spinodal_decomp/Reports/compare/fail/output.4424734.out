@@ -1,0 +1,20 @@
+Thu May 8 21:44:51 EDT 2025
+MODULES LOADED
+/project/g_bme-janeslab/SarahG/spinodal_decomp_04_2025/out_MATLAB
+['FD']
+NMG_MATLAB_2000_dt_5.50e-06_Nx_64_neumann_n_relax_4_25p_phi.csv
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py", line 47, in <module>
+    print(compare_phis_norm_at_timepoint(indir, GridSize, timepoint = 0))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py", line 39, in compare_phis_norm_at_timepoint
+    snapshot = read_specific_lines(f"{root}/{fname}", line_list)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py", line 12, in read_specific_lines
+    digits = [float(i) for i in line.strip("\n").split(" ")]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py", line 12, in <listcomp>
+    digits = [float(i) for i in line.strip("\n").split(" ")]
+              ^^^^^^^^
+ValueError: could not convert string to float: '-0.502451857644018,-0.563882617569492,-0.53206084450868,-0.463792586824837,-0.448319255002484,-0.553640920541112,-0.437940488501118,-0.46916657617353,-0.555848218125335,-0.48221486387378,-0.560694953719871,-0.41419232718405,-0.430954025726779,-0.592117650302285,-0.469033007481752,-0.546872289096943,-0.446797083320733,-0.40088651686935,-0.191141229442537,-0.404304619953829,-0.639095254627161,-0.460416522006206,-0.522162578288329,-0.304214834443575,-0.447026063448317,-0.428468298963901,-0.50783354365121,-0.326826655363227,-0.52729485823439,-0.425173683526583,-0.388021625522489,-0.5813844002729,-0.606956171718302,-0.556774119912142,-0.579093392986521,-0.519090610737774,-0.45912056216253,-0.382214984952367,-0.62157586762487,-0.477649067524665,-0.427469510059241,-0.346558716257149,-0.499260493487939,-0.614178009153707,-0.55434252196481,-0.553715436815154,-0.517382359519753,-0.363729182248169,-0.543685234337826,-0.623916807977075,-0.512490483923707,-0.44300387446,-0.530857433200749,-0.528573522292289,-0.516799231212562,-0.335336177843444,-0.529526571298032,-0.619448665367697,-0.531237856462877,-0.525370066468937,-0.663667250071078,-0.55507516506915,-0.544240384684896,-0.441091220797999'
+DONE

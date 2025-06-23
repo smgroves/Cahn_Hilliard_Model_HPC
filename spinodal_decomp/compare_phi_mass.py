@@ -11,13 +11,8 @@ def read_specific_lines(file_path, line_numbers):
     with open(file_path, "r") as file:
         for current_line_number, line in enumerate(file):
             if current_line_number in line_numbers:
-                digits = []
-                for i in line.strip("\n").split(","):
-                    if i == "":  #at the end of each python line there is a "" appended that needs to be removed
-                        pass
-                    else:
-                        digits.append(float(i))
-                result.append(digits)
+                mass = line.strip("\n")
+                result.append(mass)
             if current_line_number > max(line_numbers):
                 break
     result = np.array(result)
@@ -25,14 +20,14 @@ def read_specific_lines(file_path, line_numbers):
 
 # NMG_MATLAB_2000_dt_5.50e-06_Nx_512_neumann_n_relax_4_75p_phi
 
-def compare_phis_norm_at_timepoint(indir,out_file, timepoint=None):
+def compare_phi_masses(indir,out_file, timepoints):
 
 
     # list_of_n = []
     # list_of_filenames = []
 
     # pattern = re.compile(fr'Nx_(\d+)_([a-zA-Z]+).*phi.csv$')
-    pattern = re.compile(fr'^([A-Za-z0-9]+)_([A-Za-z0-9]+)_(\d+).*?_Nx_(\d+).*?_(neumann|periodic).*?(?:_dtout_(\d+))?.*?_?(\d+p)?_?phi\.csv$')
+    pattern = re.compile(fr'^([A-Za-z0-9]+)_([A-Za-z0-9]+)_(\d+).*?_Nx_(\d+).*?_(neumann|periodic).*?(?:_dtout_(\d+))?.*?_?(\d+p)?_?mass\.csv$')
 
     for root, dirs, files in os.walk(indir):
         # grab only files that match the structure
@@ -58,19 +53,9 @@ def compare_phis_norm_at_timepoint(indir,out_file, timepoint=None):
                     else:
                         dt_out_practical = int(dt_out)
 
-                    if (int(dt_out_practical) > int(timepoint)+1) & (timepoint!= 0):
-                        print(f"Timepoint not recorded. dt_out:{dt_out} is bigger than timepoint: {timepoint}")
-                    else:
-                        first_line = int(timepoint/int(dt_out_practical) * int(nx_val))
-                        last_line = int(first_line + int(nx_val))
-                        line_list = range(first_line, last_line)
-                        # print(f"{root}/{fname}",first_line, last_line)
-                        snapshot = read_specific_lines(f"{root}/{fname}", line_list)
-                        n = np.linalg.norm(snapshot)
-                        # print(n)
-                        # list_of_filenames.append(fname)
-                        # list_of_n.append(n)
-
+                        lines = [int(i/int(dt_out_practical)) for i in timepoints]
+                        masses = read_specific_lines(f"{root}/{fname}",lines)
+                    for t, timepoint in enumerate(timepoints):
                         T = {}
                         T['language'] = language
                         T['method'] = method
@@ -78,8 +63,8 @@ def compare_phis_norm_at_timepoint(indir,out_file, timepoint=None):
                         T['boundary'] = bc
                         T['ic'] = ic
                         T['dt_out'] = dt_out
-                        T["timepoint"] = timepoint
-                        T['norm'] = n
+                        T["timepoint"] = t
+                        T['mass'] = masses[t]
                         T['pathname'] = f"{root}/{fname}"
 
                         T = pd.DataFrame([T])
@@ -107,24 +92,12 @@ def compare_phis_norm_at_timepoint(indir,out_file, timepoint=None):
                 # return list_of_filenames, list_of_n
 
 #reset file each time if rerunning the same timepoints
-out_file = f"/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_norms.csv"
+out_file = f"/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_masses.csv"
 
 
-indir = "/project/g_bme-janeslab/SarahG/spinodal_decomp_04_2025"
-# print("Timepoint 0")
-# compare_phis_norm_at_timepoint(indir,out_file, timepoint = 0)
-# print("Timepoint 20")
-# compare_phis_norm_at_timepoint(indir, out_file, timepoint = 20)
-# print("Timepoint 1000")
-# compare_phis_norm_at_timepoint(indir, out_file, timepoint = 1000)
-# print("Timepoint 2000")
-# compare_phis_norm_at_timepoint(indir, out_file, timepoint = 2000)
-for time in range(560, 2000,40):
-    if time in [1000, 2000]: continue
+indir = "/project/g_bme-janeslab/SarahG/spinodal_decomp_04_2025/out_julia"
 
-    else: 
-        print(time)
-        compare_phis_norm_at_timepoint(indir, out_file, timepoint = time)
+compare_phi_masses(indir, out_file, timepoints = [0,1000,2000])
 
 
 

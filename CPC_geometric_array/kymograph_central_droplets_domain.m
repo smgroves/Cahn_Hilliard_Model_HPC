@@ -38,14 +38,15 @@ function [] = kymograph_central_droplets_domain(indir, outdir, name, dt, dtout, 
         end
     end
     clim([-1, 1]);
-    colormap(redblue(100));
+    % colormap(redblue(100));
+    colormap(interp1(1:100:1100,redbluecmap,1:1001));
     % colormap(h,parula);
     if cutoff == 0
         XLabels = 1:phidims(3);
     else
         XLabels = 1:cutoff;
     end
-    CustomXLabels = string((XLabels-1)*dt*dtout);
+    CustomXLabels = string((XLabels-1)*dt*dtout)
     CustomXLabels(mod(XLabels,5000) ~= 0) = " ";
     % h.XDisplayLabels = CustomXLabels;
     % h.XLabel = "Time";
@@ -68,28 +69,28 @@ function [] = kymograph_central_droplets_domain(indir, outdir, name, dt, dtout, 
     % print(gcf,sprintf('%s/kymograph_x_%d_redblue_um.pdf', outdir, x),'-dpdf','-vector')
 end
 
-function c = redblue(m)
-    %   Adam Auton, 9th October 2009
+% function c = redblue(m)
+%     %   Adam Auton, 9th October 2009
     
-    if nargin < 1, m = size(get(gcf,'colormap'),1); end
+%     if nargin < 1, m = size(get(gcf,'colormap'),1); end
     
-    if (mod(m,2) == 0)
-        % From [0 0 1] to [1 1 1], then [1 1 1] to [1 0 0];
-        m1 = m*0.5;
-        r = (0:m1-1)'/max(m1-1,1);
-        g = r;
-        r = [r; ones(m1,1)];
-        g = [g; flipud(g)];
-        b = flipud(r);
-    else
-        % From [0 0 1] to [1 1 1] to [1 0 0];
-        m1 = floor(m*0.5);
-        r = (0:m1-1)'/max(m1,1);
-        g = r;
-        r = [r; ones(m1+1,1)];
-        g = [g; 1; flipud(g)];
-        b = flipud(r);
-    end
+%     if (mod(m,2) == 0)
+%         % From [0 0 1] to [1 1 1], then [1 1 1] to [1 0 0];
+%         m1 = m*0.5;
+%         r = (0:m1-1)'/max(m1-1,1);
+%         g = r;
+%         r = [r; ones(m1,1)];
+%         g = [g; flipud(g)];
+%         b = flipud(r);
+%     else
+%         % From [0 0 1] to [1 1 1] to [1 0 0];
+%         m1 = floor(m*0.5);
+%         r = (0:m1-1)'/max(m1,1);
+%         g = r;
+%         r = [r; ones(m1+1,1)];
+%         g = [g; 1; flipud(g)];
+%         b = flipud(r);
+%     end
     
-    c = [r g b]; 
-end    
+%     c = [r g b]; 
+% end    

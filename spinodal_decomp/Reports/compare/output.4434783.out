@@ -1,0 +1,2115 @@
+Fri May 9 12:29:14 EDT 2025
+MODULES LOADED
+Timepoint 0
+SAV, MATLAB,2000,256,periodic,None (10),25p
+130.02964977248234
+SAV, MATLAB,2000,128,periodic,None (10),50p
+16.338019238090343
+NMG, MATLAB,2000,64,neumann,None (10),25p
+31.89139796114392
+SAV, MATLAB,2000,512,periodic,None (10),75p
+261.0235085456542
+NMG, MATLAB,2000,128,periodic,None (10),50p
+16.338019238090343
+SAV, MATLAB,2000,256,neumann,None (10),25p
+130.02964977248234
+NMG, MATLAB,2000,128,neumann,None (10),75p
+64.56840056370952
+NMG, MATLAB,2000,256,neumann,None (10),50p
+37.84490979408554
+NMG, MATLAB,2000,256,neumann,None (10),75p
+130.13179688686242
+SAV, MATLAB,2000,64,neumann,None (10),50p
+5.793058526954734
+NMG, MATLAB,2000,128,periodic,None (10),75p
+64.56840056370952
+NMG, MATLAB,2000,512,neumann,None (10),25p
+260.81333081731987
+SAV, MATLAB,2000,64,periodic,None (10),25p
+31.89139796114392
+NMG, MATLAB,2000,64,periodic,None (10),25p
+31.89139796114392
+NMG, MATLAB,2000,128,periodic,None (10),25p
+64.52529436818811
+NMG, MATLAB,2000,256,periodic,None (10),25p
+130.02964977248234
+SAV, MATLAB,2000,64,periodic,None (10),75p
+31.90797299687814
+SAV, MATLAB,2000,512,periodic,None (10),50p
+79.2467743605897
+SAV, MATLAB,2000,512,periodic,None (10),25p
+260.81333081731987
+SAV, MATLAB,2000,128,neumann,None (10),50p
+16.338019238090343
+SAV, MATLAB,2000,512,neumann,None (10),25p
+260.81333081731987
+NMG, MATLAB,2000,256,periodic,None (10),50p
+37.84490979408554
+NMG, MATLAB,2000,64,neumann,None (10),75p
+31.90797299687814
+SAV, MATLAB,2000,512,neumann,None (10),75p
+261.0235085456542
+SAV, MATLAB,2000,512,neumann,None (10),50p
+79.2467743605897
+SAV, MATLAB,2000,64,neumann,None (10),75p
+31.90797299687814
+NMG, MATLAB,2000,128,neumann,None (10),50p
+16.338019238090343
+SAV, MATLAB,2000,256,periodic,None (10),75p
+130.13179688686242
+NMG, MATLAB,2000,512,periodic,None (10),75p
+261.0235085456542
+SAV, MATLAB,2000,128,neumann,None (10),25p
+64.52529436818811
+NMG, MATLAB,2000,512,neumann,None (10),75p
+261.0235085456542
+SAV, MATLAB,2000,256,neumann,None (10),75p
+130.13179688686242
+SAV, MATLAB,2000,64,periodic,None (10),50p
+5.793058526954734
+SAV, MATLAB,2000,64,neumann,None (10),25p
+31.89139796114392
+SAV, MATLAB,2000,256,neumann,None (10),50p
+37.84490979408554
+NMG, MATLAB,2000,256,neumann,None (10),25p
+130.02964977248234
+NMG, MATLAB,2000,512,periodic,None (10),50p
+79.2467743605897
+SAV, MATLAB,2000,128,neumann,None (10),75p
+64.56840056370952
+SAV, MATLAB,2000,128,periodic,None (10),25p
+64.52529436818811
+SAV, MATLAB,2000,128,periodic,None (10),75p
+64.56840056370952
+SAV, MATLAB,2000,256,periodic,None (10),50p
+37.84490979408554
+NMG, MATLAB,2000,64,periodic,None (10),75p
+31.90797299687814
+NMG, MATLAB,2000,64,neumann,None (10),50p
+5.793058526954734
+NMG, MATLAB,2000,256,periodic,None (10),75p
+130.13179688686242
+NMG, MATLAB,2000,512,neumann,None (10),50p
+79.2467743605897
+NMG, MATLAB,2000,128,neumann,None (10),25p
+64.52529436818811
+NMG, MATLAB,2000,64,periodic,None (10),50p
+5.793058526954734
+NMG, MATLAB,2000,512,periodic,None (10),25p
+260.81333081731987
+NMG, Julia,2000,128,neumann,10,50p
+16.338019238090347
+NMG, Julia,2000,64,neumann,10,25p
+31.89139796114392
+NMG, Julia,2000,256,neumann,2000,50p
+37.84490979408554
+SAV, Julia,2000,512,periodic,2000,75p
+261.0235085456542
+NMG, Julia,2000,128,neumann,2000,50p
+16.338019238090347
+SAV, Julia,2000,256,periodic,2000,25p
+130.02964977248232
+NMG, Julia,2000,512,neumann,2000,50p
+79.2467743605897
+SAV, Julia,2000,512,neumann,10,50p
+79.2467743605897
+SAV, Julia,2000,512,periodic,10,75p
+261.0235085456542
+NMG, Julia,2000,128,periodic,2000,50p
+16.338019238090347
+SAV, Julia,2000,128,neumann,10,75p
+64.56840056370952
+SAV, Julia,2000,128,periodic,10,25p
+64.52529436818811
+NMG, Julia,2000,64,neumann,10,75p
+31.90797299687814
+NMG, Julia,2000,256,periodic,2000,75p
+130.1317968868624
+NMG, Julia,2000,128,periodic,2000,75p
+64.56840056370952
+NMG, Julia,2000,128,neumann,2000,25p
+64.52529436818811
+SAV, Julia,2000,512,periodic,2000,25p
+260.81333081731987
+NMG, Julia,2000,64,neumann,10,50p
+5.793058526954734
+SAV, Julia,2000,256,neumann,2000,50p
+37.84490979408554
+SAV, Julia,2000,512,periodic,10,25p
+260.81333081731987
+SAV, Julia,2000,128,periodic,10,50p
+16.338019238090347
+SAV, Julia,2000,512,neumann,10,75p
+261.0235085456542
+NMG, Julia,2000,256,periodic,2000,50p
+37.84490979408554
+SAV, Julia,2000,128,periodic,2000,50p
+16.338019238090347
+SAV, Julia,2000,64,neumann,2000,25p
+31.89139796114392
+NMG, Julia,2000,512,periodic,2000,75p
+261.0235085456542
+SAV, Julia,2000,256,periodic,2000,75p
+130.1317968868624
+SAV, Julia,2000,256,neumann,10,25p
+130.02964977248232
+SAV, Julia,2000,128,neumann,2000,25p
+64.52529436818811
+NMG, Julia,2000,256,neumann,10,75p
+130.1317968868624
+SAV, Julia,2000,512,neumann,10,25p
+260.81333081731987
+NMG, Julia,2000,64,neumann,2000,50p
+5.793058526954734
+SAV, Julia,2000,256,periodic,2000,50p
+37.84490979408554
+SAV, Julia,2000,64,neumann,2000,50p
+5.793058526954734
+SAV, Julia,2000,128,periodic,10,75p
+64.56840056370952
+NMG, Julia,2000,64,periodic,10,50p
+5.793058526954734
+SAV, Julia,2000,512,neumann,2000,50p
+79.2467743605897
+NMG, Julia,2000,64,periodic,2000,50p
+5.793058526954734
+NMG, Julia,2000,64,periodic,2000,75p
+31.90797299687814
+NMG, Julia,2000,512,neumann,10,25p
+260.81333081731987
+SAV, Julia,2000,256,neumann,2000,25p
+130.02964977248232
+SAV, Julia,2000,256,neumann,2000,75p
+130.1317968868624
+SAV, Julia,2000,512,periodic,10,50p
+79.2467743605897
+NMG, Julia,2000,128,periodic,10,50p
+16.338019238090347
+NMG, Julia,2000,128,neumann,2000,75p
+64.56840056370952
+NMG, Julia,2000,512,periodic,2000,25p
+260.81333081731987
+SAV, Julia,2000,64,periodic,2000,25p
+31.89139796114392
+NMG, Julia,2000,128,neumann,10,25p
+64.52529436818811
+NMG, Julia,2000,512,periodic,2000,50p
+79.2467743605897
+NMG, Julia,2000,64,periodic,10,75p
+31.90797299687814
+SAV, Julia,2000,64,neumann,2000,75p
+31.90797299687814
+SAV, Julia,2000,128,neumann,2000,75p
+64.56840056370952
+SAV, Julia,2000,64,periodic,2000,75p
+31.90797299687814
+SAV, Julia,2000,128,neumann,10,50p
+16.338019238090347
+NMG, Julia,2000,512,neumann,10,75p
+261.0235085456542
+SAV, Julia,2000,256,neumann,10,50p
+37.84490979408554
+NMG, Julia,2000,512,neumann,2000,25p
+260.81333081731987
+NMG, Julia,2000,256,periodic,10,25p
+130.02964977248232
+NMG, Julia,2000,256,neumann,10,50p
+37.84490979408554
+SAV, Julia,2000,128,neumann,2000,50p
+16.338019238090347
+NMG, Julia,2000,256,periodic,10,75p
+130.1317968868624
+SAV, Julia,2000,64,neumann,10,25p
+31.89139796114392
+NMG, Julia,2000,512,neumann,10,50p
+79.2467743605897
+SAV, Julia,2000,128,neumann,10,25p
+64.52529436818811
+NMG, Julia,2000,512,periodic,10,75p
+261.0235085456542
+SAV, Julia,2000,512,neumann,2000,75p
+261.0235085456542
+SAV, Julia,2000,128,periodic,2000,25p
+64.52529436818811
+SAV, Julia,2000,256,periodic,10,25p
+130.02964977248232
+SAV, Julia,2000,512,periodic,2000,50p
+79.2467743605897
+NMG, Julia,2000,256,neumann,2000,25p
+130.02964977248232
+NMG, Julia,2000,128,neumann,10,75p
+64.56840056370952
+NMG, Julia,2000,512,periodic,10,25p
+260.81333081731987
+NMG, Julia,2000,64,neumann,2000,25p
+31.89139796114392
+SAV, Julia,2000,64,periodic,2000,50p
+5.793058526954734
+SAV, Julia,2000,64,neumann,10,75p
+31.90797299687814
+SAV, Julia,2000,64,periodic,10,75p
+31.90797299687814
+NMG, Julia,2000,64,periodic,10,25p
+31.89139796114392
+SAV, Julia,2000,64,periodic,10,50p
+5.793058526954734
+SAV, Julia,2000,256,neumann,10,75p
+130.1317968868624
+NMG, Julia,2000,256,neumann,10,25p
+130.02964977248232
+SAV, Julia,2000,256,periodic,10,75p
+130.1317968868624
+SAV, Julia,2000,64,neumann,10,50p
+5.793058526954734
+SAV, Julia,2000,128,periodic,2000,75p
+64.56840056370952
+NMG, Julia,2000,256,periodic,10,50p
+37.84490979408554
+NMG, Julia,2000,128,periodic,10,75p
+64.56840056370952
+SAV, Julia,2000,256,periodic,10,50p
+37.84490979408554
+NMG, Julia,2000,128,periodic,10,25p
+64.52529436818811
+NMG, Julia,2000,64,neumann,2000,75p
+31.90797299687814
+NMG, Julia,2000,64,periodic,2000,25p
+31.89139796114392
+NMG, Julia,2000,256,neumann,2000,75p
+130.1317968868624
+SAV, Julia,2000,512,neumann,2000,25p
+260.81333081731987
+NMG, Julia,2000,512,neumann,2000,75p
+261.0235085456542
+NMG, Julia,2000,256,periodic,2000,25p
+130.02964977248232
+NMG, Julia,2000,512,periodic,10,50p
+79.2467743605897
+NMG, Julia,2000,128,periodic,2000,25p
+64.52529436818811
+SAV, Julia,2000,64,periodic,10,25p
+31.89139796114392
+NMG, Python,20,256,periodic,20,25p
+130.02964977248232
+SAV, Python,2000,256,neumann,2000,50p
+37.84490979408554
+NMG, Python,20,512,neumann,1,25p
+260.81333081731987
+SAV, Python,2000,512,periodic,2000,25p
+260.81333081731987
+NMG, Python,20,512,periodic,20,50p
+79.2467743605897
+SAV, Python,2000,64,neumann,10,25p
+31.89139796114392
+NMG, Python,20,256,neumann,10,50p
+37.84490979408554
+NMG, Python,20,128,periodic,10,50p
+16.338019238090347
+NMG, Python,200,64,periodic,200,50p
+5.793058526954734
+SAV, Python,2000,256,neumann,2000,75p
+130.1317968868624
+NMG, Python,20,512,neumann,20,50p
+79.2467743605897
+SAV, Python,2000,128,neumann,10,50p
+16.338019238090347
+NMG, Python,20,256,neumann,20,25p
+130.02964977248232
+SAV, Python,2000,256,neumann,10,75p
+130.1317968868624
+NMG, Python,20,128,neumann,1,75p
+64.56840056370952
+NMG, Python,20,512,periodic,20,50p
+79.2467743605897
+SAV, Python,2000,64,neumann,10,75p
+31.90797299687814
+NMG, Python,20,512,periodic,1,50p
+79.2467743605897
+NMG, Python,20,128,periodic,2000,50p
+16.338019238090347
+NMG, Python,20,128,periodic,20,50p
+16.338019238090347
+SAV, Python,2000,512,neumann,2000,25p
+260.81333081731987
+NMG, Python,20,128,periodic,1,50p
+16.338019238090347
+NMG, Python,20,64,neumann,1,25p
+31.89139796114392
+SAV, Python,2000,128,periodic,2000,75p
+64.56840056370952
+NMG, Python,20,256,periodic,2000,50p
+37.84490979408554
+NMG, Python,20,512,periodic,1,75p
+261.0235085456542
+SAV, Python,2000,512,neumann,2000,50p
+79.2467743605897
+NMG, Python,20,64,periodic,20,50p
+5.793058526954734
+SAV, Python,2000,512,periodic,10,75p
+261.0235085456542
+SAV, Python,2000,512,periodic,2000,75p
+261.0235085456542
+NMG, Python,20,64,periodic,2000,50p
+5.793058526954734
+NMG, Python,20,64,neumann,1,75p
+31.90797299687814
+NMG, Python,20,128,periodic,20,75p
+64.56840056370952
+SAV, Python,2000,256,periodic,2000,50p
+37.84490979408554
+SAV, Python,2000,512,neumann,10,75p
+261.0235085456542
+SAV, Python,2000,128,periodic,2000,25p
+64.52529436818811
+NMG, Python,20,64,neumann,20,75p
+31.90797299687814
+SAV, Python,2000,256,periodic,10,50p
+37.84490979408554
+NMG, Python,20,256,periodic,1,50p
+37.84490979408554
+SAV, Python,2000,64,periodic,2000,25p
+31.89139796114392
+NMG, Python,20,128,periodic,1,25p
+64.52529436818811
+SAV, Python,2000,512,periodic,10,50p
+79.2467743605897
+NMG, Python,20,128,periodic,20,50p
+16.338019238090347
+NMG, Python,20,64,periodic,1,50p
+5.793058526954734
+SAV, Python,2000,64,neumann,10,50p
+5.793058526954734
+NMG, Python,20,512,neumann,10,50p
+79.2467743605897
+NMG, Python,20,256,periodic,20,50p
+37.84490979408554
+NMG, Python,200,256,periodic,200,50p
+37.84490979408554
+SAV, Python,2000,64,periodic,2000,75p
+31.90797299687814
+NMG, Python,20,128,periodic,20,25p
+64.52529436818811
+NMG, Python,20,64,neumann,20,25p
+31.89139796114392
+SAV, Python,2000,128,neumann,10,25p
+64.52529436818811
+SAV, Python,2000,256,periodic,2000,25p
+130.02964977248232
+NMG, Python,20,128,neumann,10,50p
+16.338019238090347
+NMG, Python,20,256,periodic,1,75p
+130.1317968868624
+NMG, Python,20,256,neumann,2000,50p
+37.84490979408554
+NMG, Python,20,512,neumann,20,25p
+260.81333081731987
+NMG, Python,20,256,periodic,20,75p
+130.1317968868624
+NMG, Python,20,512,periodic,2000,50p
+79.2467743605897
+NMG, Python,20,64,neumann,2000,50p
+5.793058526954734
+SAV, Python,2000,64,neumann,2000,50p
+5.793058526954734
+SAV, Python,2000,512,periodic,2000,50p
+79.2467743605897
+SAV, Python,2000,512,neumann,10,50p
+79.2467743605897
+SAV, Python,2000,64,neumann,2000,75p
+31.90797299687814
+SAV, Python,2000,256,periodic,10,25p
+130.02964977248232
+NMG, Python,20,64,periodic,1,75p
+31.90797299687814
+NMG, Python,200,512,neumann,200,50p
+79.2467743605897
+NMG, Python,20,128,neumann,1,25p
+64.52529436818811
+SAV, Python,2000,128,neumann,2000,50p
+16.338019238090347
+NMG, Python,20,256,neumann,1,75p
+130.1317968868624
+NMG, Python,20,256,neumann,1,25p
+130.02964977248232
+NMG, Python,20,256,periodic,20,50p
+37.84490979408554
+NMG, Python,20,256,neumann,20,50p
+37.84490979408554
+SAV, Python,2000,64,neumann,2000,25p
+31.89139796114392
+SAV, Python,2000,128,neumann,2000,75p
+64.56840056370952
+NMG, Python,20,512,periodic,10,50p
+79.2467743605897
+SAV, Python,2000,64,periodic,10,25p
+31.89139796114392
+NMG, Python,20,128,neumann,20,25p
+64.52529436818811
+NMG, Python,20,128,periodic,1,75p
+64.56840056370952
+SAV, Python,2000,64,periodic,2000,50p
+5.793058526954734
+SAV, Python,2000,128,periodic,10,25p
+64.52529436818811
+NMG, Python,200,128,periodic,200,50p
+16.338019238090347
+NMG, Python,20,64,periodic,20,25p
+31.89139796114392
+SAV, Python,2000,512,neumann,2000,75p
+261.0235085456542
+SAV, Python,2000,256,neumann,10,25p
+130.02964977248232
+NMG, Python,20,64,periodic,1,25p
+31.89139796114392
+SAV, Python,2000,128,neumann,10,75p
+64.56840056370952
+NMG, Python,20,256,neumann,20,75p
+130.1317968868624
+NMG, Python,20,256,periodic,1,25p
+130.02964977248232
+SAV, Python,2000,512,periodic,10,25p
+260.81333081731987
+NMG, Python,20,64,neumann,10,50p
+5.793058526954734
+NMG, Python,20,128,neumann,20,75p
+64.56840056370952
+NMG, Python,20,128,neumann,2000,50p
+16.338019238090347
+NMG, Python,200,128,neumann,200,50p
+16.338019238090347
+NMG, Python,20,512,periodic,1,25p
+255.81444673962085
+NMG, Python,20,64,periodic,20,50p
+5.793058526954734
+NMG, Python,200,512,periodic,200,50p
+79.2467743605897
+SAV, Python,2000,256,neumann,10,50p
+37.84490979408554
+SAV, Python,2000,64,periodic,10,75p
+31.90797299687814
+SAV, Python,2000,256,neumann,2000,25p
+130.02964977248232
+NMG, Python,20,512,neumann,2000,50p
+79.2467743605897
+SAV, Python,2000,128,periodic,2000,50p
+16.338019238090347
+NMG, Python,20,64,periodic,20,75p
+31.90797299687814
+NMG, Python,20,256,periodic,10,50p
+37.84490979408554
+NMG, Python,2000,64,periodic,10,50p
+5.793058526954734
+SAV, Python,2000,256,periodic,10,75p
+130.1317968868624
+NMG, Python,20,512,neumann,20,75p
+261.0235085456542
+NMG, Python,200,64,neumann,200,50p
+5.793058526954734
+NMG, Python,20,512,neumann,1,75p
+261.0235085456542
+NMG, Python,20,64,periodic,10,50p
+5.793058526954734
+NMG, Python,20,512,periodic,20,75p
+261.0235085456542
+NMG, Python,200,256,neumann,200,50p
+37.84490979408554
+SAV, Python,2000,128,periodic,10,75p
+64.56840056370952
+SAV, Python,2000,256,periodic,2000,75p
+130.1317968868624
+SAV, Python,2000,128,neumann,2000,25p
+64.52529436818811
+SAV, Python,2000,128,periodic,10,50p
+16.338019238090347
+NMG, Python,20,512,periodic,20,25p
+260.81333081731987
+SAV, Python,2000,512,neumann,10,25p
+260.81333081731987
+SAV, Python,2000,64,periodic,10,50p
+5.793058526954734
+Timepoint 20
+SAV, MATLAB,2000,256,periodic,None (10),25p
+0.0
+SAV, MATLAB,2000,128,periodic,None (10),50p
+5.7002571282617325
+NMG, MATLAB,2000,64,neumann,None (10),25p
+0.0
+SAV, MATLAB,2000,512,periodic,None (10),75p
+256.1520481724324
+NMG, MATLAB,2000,128,periodic,None (10),50p
+5.662245662729454
+SAV, MATLAB,2000,256,neumann,None (10),25p
+187.97518255027967
+NMG, MATLAB,2000,128,neumann,None (10),75p
+63.10965453568904
+NMG, MATLAB,2000,256,neumann,None (10),50p
+25.117517132423174
+NMG, MATLAB,2000,256,neumann,None (10),75p
+126.71254753028275
+SAV, MATLAB,2000,64,neumann,None (10),50p
+1.5447789689915672
+NMG, MATLAB,2000,128,periodic,None (10),75p
+63.12001320580721
+NMG, MATLAB,2000,512,neumann,None (10),25p
+256.00137245811663
+SAV, MATLAB,2000,64,periodic,None (10),25p
+0.0
+NMG, MATLAB,2000,64,periodic,None (10),25p
+31.524861610256764
+NMG, MATLAB,2000,128,periodic,None (10),25p
+63.108963855321164
+NMG, MATLAB,2000,256,periodic,None (10),25p
+126.68567910633719
+SAV, MATLAB,2000,64,periodic,None (10),75p
+31.547024492321185
+SAV, MATLAB,2000,512,periodic,None (10),50p
+179.49950717978837
+SAV, MATLAB,2000,512,periodic,None (10),25p
+418.5278936216843
+SAV, MATLAB,2000,128,neumann,None (10),50p
+5.856340417585462
+SAV, MATLAB,2000,512,neumann,None (10),25p
+402.21924294641974
+NMG, MATLAB,2000,256,periodic,None (10),50p
+24.65529175760388
+NMG, MATLAB,2000,64,neumann,None (10),75p
+31.550744062959836
+SAV, MATLAB,2000,512,neumann,None (10),75p
+256.29222180436966
+SAV, MATLAB,2000,512,neumann,None (10),50p
+179.9490549580169
+SAV, MATLAB,2000,64,neumann,None (10),75p
+31.54892330730266
+NMG, MATLAB,2000,128,neumann,None (10),50p
+5.9016979966666385
+SAV, MATLAB,2000,256,periodic,None (10),75p
+129.08120996917572
+NMG, MATLAB,2000,512,periodic,None (10),75p
+256.1094609954897
+SAV, MATLAB,2000,128,neumann,None (10),25p
+63.168919102051035
+NMG, MATLAB,2000,512,neumann,None (10),75p
+256.2307186482159
+SAV, MATLAB,2000,256,neumann,None (10),75p
+126.59890199252833
+SAV, MATLAB,2000,64,periodic,None (10),50p
+2.0312893715124747
+SAV, MATLAB,2000,64,neumann,None (10),25p
+0.0
+SAV, MATLAB,2000,256,neumann,None (10),50p
+25.218930997077425
+NMG, MATLAB,2000,256,neumann,None (10),25p
+126.83575657012688
+NMG, MATLAB,2000,512,periodic,None (10),50p
+161.4171167602541
+SAV, MATLAB,2000,128,neumann,None (10),75p
+63.127524251886676
+SAV, MATLAB,2000,128,periodic,None (10),25p
+63.16439491140359
+SAV, MATLAB,2000,128,periodic,None (10),75p
+63.166606959653095
+SAV, MATLAB,2000,256,periodic,None (10),50p
+24.878567649840004
+NMG, MATLAB,2000,64,periodic,None (10),75p
+31.525523349835115
+NMG, MATLAB,2000,64,neumann,None (10),50p
+1.8142636441807576
+NMG, MATLAB,2000,256,periodic,None (10),75p
+126.7005918005267
+NMG, MATLAB,2000,512,neumann,None (10),50p
+162.06333077211187
+NMG, MATLAB,2000,128,neumann,None (10),25p
+63.09796297160185
+NMG, MATLAB,2000,64,periodic,None (10),50p
+1.7371540971179182
+NMG, MATLAB,2000,512,periodic,None (10),25p
+255.89752052175612
+NMG, Julia,2000,128,neumann,10,50p
+5.685651786887897
+NMG, Julia,2000,64,neumann,10,25p
+31.434194363755346
+NMG, Julia,2000,256,neumann,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,512,periodic,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,128,neumann,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,256,periodic,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,512,neumann,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,512,neumann,10,50p
+179.94905495801692
+SAV, Julia,2000,512,periodic,10,75p
+256.15204817243244
+NMG, Julia,2000,128,periodic,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,128,neumann,10,75p
+63.17074125390439
+SAV, Julia,2000,128,periodic,10,25p
+63.1643949114036
+NMG, Julia,2000,64,neumann,10,75p
+31.434065368871227
+NMG, Julia,2000,256,periodic,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,128,periodic,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,128,neumann,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,512,periodic,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,64,neumann,10,50p
+1.771433110235276
+SAV, Julia,2000,256,neumann,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,512,periodic,10,25p
+255.9539551770531
+SAV, Julia,2000,128,periodic,10,50p
+5.7002571282617325
+SAV, Julia,2000,512,neumann,10,75p
+256.29222180436966
+NMG, Julia,2000,256,periodic,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,128,periodic,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,64,neumann,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,512,periodic,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,256,periodic,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,256,neumann,10,25p
+126.67124502474371
+SAV, Julia,2000,128,neumann,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,256,neumann,10,75p
+115.87786452613601
+SAV, Julia,2000,512,neumann,10,25p
+256.0549811090598
+NMG, Julia,2000,64,neumann,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,256,periodic,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,64,neumann,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,128,periodic,10,75p
+63.1666069596531
+NMG, Julia,2000,64,periodic,10,50p
+1.6953339171156343
+SAV, Julia,2000,512,neumann,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,64,periodic,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,64,periodic,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,512,neumann,10,25p
+198.12079331600242
+SAV, Julia,2000,256,neumann,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,256,neumann,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,512,periodic,10,50p
+179.4995071797884
+NMG, Julia,2000,128,periodic,10,50p
+5.498736769083606
+NMG, Julia,2000,128,neumann,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,512,periodic,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,64,periodic,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,128,neumann,10,25p
+61.76795498132722
+NMG, Julia,2000,512,periodic,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,64,periodic,10,75p
+31.41585253105682
+SAV, Julia,2000,64,neumann,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,128,neumann,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,64,periodic,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,128,neumann,10,50p
+5.856340417585468
+NMG, Julia,2000,512,neumann,10,75p
+198.13809653520192
+SAV, Julia,2000,256,neumann,10,50p
+25.218930997077425
+NMG, Julia,2000,512,neumann,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,256,periodic,10,25p
+115.83781553494107
+NMG, Julia,2000,256,neumann,10,50p
+21.21260503377975
+SAV, Julia,2000,128,neumann,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,256,periodic,10,75p
+115.83753575434164
+SAV, Julia,2000,64,neumann,10,25p
+31.549120963391
+NMG, Julia,2000,512,neumann,10,50p
+75.30144693916402
+SAV, Julia,2000,128,neumann,10,25p
+63.168919102051035
+NMG, Julia,2000,512,periodic,10,75p
+198.07575256711462
+SAV, Julia,2000,512,neumann,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,128,periodic,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,256,periodic,10,25p
+126.65598306274632
+SAV, Julia,2000,512,periodic,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,256,neumann,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,128,neumann,10,75p
+61.77007551535894
+NMG, Julia,2000,512,periodic,10,25p
+198.06005652735988
+NMG, Julia,2000,64,neumann,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,64,periodic,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,64,neumann,10,75p
+31.54892330730266
+SAV, Julia,2000,64,periodic,10,75p
+31.547024492321196
+NMG, Julia,2000,64,periodic,10,25p
+31.426593630261998
+SAV, Julia,2000,64,periodic,10,50p
+1.6769473746248582
+SAV, Julia,2000,256,neumann,10,75p
+126.70243618237625
+NMG, Julia,2000,256,neumann,10,25p
+115.86447171457472
+SAV, Julia,2000,256,periodic,10,75p
+126.68599256034679
+SAV, Julia,2000,64,neumann,10,50p
+1.7641420142153477
+SAV, Julia,2000,128,periodic,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,256,periodic,10,50p
+20.77525439934636
+NMG, Julia,2000,128,periodic,10,75p
+61.7456253391327
+SAV, Julia,2000,256,periodic,10,50p
+24.87856764984002
+NMG, Julia,2000,128,periodic,10,25p
+61.76641690345253
+NMG, Julia,2000,64,neumann,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,64,periodic,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,256,neumann,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,512,neumann,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,512,neumann,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,256,periodic,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,512,periodic,10,50p
+74.59249548626549
+NMG, Julia,2000,128,periodic,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,64,periodic,10,25p
+31.54768527176153
+NMG, Python,20,256,periodic,20,25p
+127.92460761435089
+SAV, Python,2000,256,neumann,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Python,20,512,neumann,1,25p
+256.00137245771583
+SAV, Python,2000,512,periodic,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Python,20,512,periodic,20,50p
+72.21244924431976
+SAV, Python,2000,64,neumann,10,25p
+31.558370944936225
+NMG, Python,20,256,neumann,10,50p
+22.77529721137546
+NMG, Python,20,128,periodic,10,50p
+0.0
+NMG, Python,200,64,periodic,200,50p
+Timepoint not recorded. dt_out:200 is bigger than total timepoints: 200
+SAV, Python,2000,256,neumann,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Python,20,512,neumann,20,50p
+72.5681735210592
+SAV, Python,2000,128,neumann,10,50p
+6.284649318426194
+NMG, Python,20,256,neumann,20,25p
+127.94570813488926
+SAV, Python,2000,256,neumann,10,75p
+126.83734238631776
+NMG, Python,20,128,neumann,1,75p
+63.17376693860111
+NMG, Python,20,512,periodic,20,50p
+0.0
+SAV, Python,2000,64,neumann,10,75p
+31.55825529383667
+NMG, Python,20,512,periodic,1,50p
+161.66335786862768
+NMG, Python,20,128,periodic,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+NMG, Python,20,128,periodic,20,50p
+10.06923441413492
+SAV, Python,2000,512,neumann,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Python,20,128,periodic,1,50p
+5.757130191260566
+NMG, Python,20,64,neumann,1,25p
+31.55094312465564
+SAV, Python,2000,128,periodic,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Python,20,256,periodic,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+NMG, Python,20,512,periodic,1,75p
+256.11892733873253
+SAV, Python,2000,512,neumann,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Python,20,64,periodic,20,50p
+3.748299968072515
+SAV, Python,2000,512,periodic,10,75p
+255.7576886490253
+SAV, Python,2000,512,periodic,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Python,20,64,periodic,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+NMG, Python,20,64,neumann,1,75p
+31.550744062979923
+NMG, Python,20,128,periodic,20,75p
+63.602653914414795
+SAV, Python,2000,256,periodic,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Python,2000,512,neumann,10,75p
+255.84332284345987
+SAV, Python,2000,128,periodic,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Python,20,64,neumann,20,75p
+31.686502812467904
+SAV, Python,2000,256,periodic,10,50p
+22.44088245841992
+NMG, Python,20,256,periodic,1,50p
+24.726717070064822
+SAV, Python,2000,64,periodic,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Python,20,128,periodic,1,25p
+63.18414764680691
+SAV, Python,2000,512,periodic,10,50p
+113.56385098187837
+NMG, Python,20,128,periodic,20,50p
+0.0
+NMG, Python,20,64,periodic,1,50p
+1.7381932135046796
+SAV, Python,2000,64,neumann,10,50p
+1.9441233192271583
+NMG, Python,20,512,neumann,10,50p
+106.44178377460854
+NMG, Python,20,256,periodic,20,50p
+27.33603406778686
+NMG, Python,200,256,periodic,200,50p
+Timepoint not recorded. dt_out:200 is bigger than total timepoints: 200
+SAV, Python,2000,64,periodic,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Python,20,128,periodic,20,25p
+63.581589191916756
+NMG, Python,20,64,neumann,20,25p
+31.6781619914581
+SAV, Python,2000,128,neumann,10,25p
+63.2119839851417
+SAV, Python,2000,256,periodic,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Python,20,128,neumann,10,50p
+6.304231018753412
+NMG, Python,20,256,periodic,1,75p
+126.70459181886999
+NMG, Python,20,256,neumann,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+NMG, Python,20,512,neumann,20,25p
+258.058912690639
+NMG, Python,20,256,periodic,20,75p
+127.98935087494365
+NMG, Python,20,512,periodic,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+NMG, Python,20,64,neumann,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+SAV, Python,2000,64,neumann,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Python,2000,512,periodic,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Python,2000,512,neumann,10,50p
+114.05252444100788
+SAV, Python,2000,64,neumann,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Python,2000,256,periodic,10,25p
+126.78285084792155
+NMG, Python,20,64,periodic,1,75p
+31.539169265377843
+NMG, Python,200,512,neumann,200,50p
+Timepoint not recorded. dt_out:200 is bigger than total timepoints: 200
+NMG, Python,20,128,neumann,1,25p
+63.171404425424846
+SAV, Python,2000,128,neumann,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Python,20,256,neumann,1,75p
+126.71254753032547
+NMG, Python,20,256,neumann,1,25p
+126.67968730056576
+NMG, Python,20,256,periodic,20,50p
+0.0
+NMG, Python,20,256,neumann,20,50p
+27.586602934086983
+SAV, Python,2000,64,neumann,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Python,2000,128,neumann,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Python,20,512,periodic,10,50p
+0.0
+SAV, Python,2000,64,periodic,10,25p
+31.55668674526044
+NMG, Python,20,128,neumann,20,25p
+63.58567724581849
+NMG, Python,20,128,periodic,1,75p
+63.17005635857385
+SAV, Python,2000,64,periodic,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Python,2000,128,periodic,10,25p
+63.20761519748455
+NMG, Python,200,128,periodic,200,50p
+Timepoint not recorded. dt_out:200 is bigger than total timepoints: 200
+NMG, Python,20,64,periodic,20,25p
+31.673518018086572
+SAV, Python,2000,512,neumann,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Python,2000,256,neumann,10,25p
+126.79763305174926
+NMG, Python,20,64,periodic,1,25p
+31.545326212618434
+SAV, Python,2000,128,neumann,10,75p
+63.21644748955299
+NMG, Python,20,256,neumann,20,75p
+128.01528062200487
+NMG, Python,20,256,periodic,1,25p
+126.68965853890263
+SAV, Python,2000,512,periodic,10,25p
+255.59259937676413
+NMG, Python,20,64,neumann,10,50p
+2.021915171734363
+NMG, Python,20,128,neumann,20,75p
+63.61166651321611
+NMG, Python,20,128,neumann,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+NMG, Python,200,128,neumann,200,50p
+Timepoint not recorded. dt_out:200 is bigger than total timepoints: 200
+NMG, Python,20,512,periodic,1,25p
+0.0
+NMG, Python,20,64,periodic,20,50p
+3.743731764651743
+NMG, Python,200,512,periodic,200,50p
+Timepoint not recorded. dt_out:200 is bigger than total timepoints: 200
+SAV, Python,2000,256,neumann,10,50p
+22.730348599548797
+SAV, Python,2000,64,periodic,10,75p
+31.556460258923725
+SAV, Python,2000,256,neumann,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Python,20,512,neumann,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+SAV, Python,2000,128,periodic,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Python,20,64,periodic,20,75p
+31.679076871413944
+NMG, Python,20,256,periodic,10,50p
+0.0
+NMG, Python,2000,64,periodic,10,50p
+0.0
+SAV, Python,2000,256,periodic,10,75p
+126.82115474165917
+NMG, Python,20,512,neumann,20,75p
+258.24750751045195
+NMG, Python,200,64,neumann,200,50p
+Timepoint not recorded. dt_out:200 is bigger than total timepoints: 200
+NMG, Python,20,512,neumann,1,75p
+256.23071864792
+NMG, Python,20,64,periodic,10,50p
+0.0
+NMG, Python,20,512,periodic,20,75p
+258.1820070286859
+NMG, Python,200,256,neumann,200,50p
+Timepoint not recorded. dt_out:200 is bigger than total timepoints: 200
+SAV, Python,2000,128,periodic,10,75p
+63.21197085462444
+SAV, Python,2000,256,periodic,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Python,2000,128,neumann,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Python,2000,128,periodic,10,50p
+6.1485828950250445
+NMG, Python,20,512,periodic,20,25p
+257.9978126481088
+SAV, Python,2000,512,neumann,10,25p
+255.65428898861148
+SAV, Python,2000,64,periodic,10,50p
+1.8598253284868018
+Timepoint 1000
+SAV, MATLAB,2000,256,periodic,None (10),25p
+0.0
+SAV, MATLAB,2000,128,periodic,None (10),50p
+73.6755373697722
+NMG, MATLAB,2000,64,neumann,None (10),25p
+0.0
+SAV, MATLAB,2000,512,periodic,None (10),75p
+438.28957956100714
+NMG, MATLAB,2000,128,periodic,None (10),50p
+72.9708470012747
+SAV, MATLAB,2000,256,neumann,None (10),25p
+211.37329559158445
+NMG, MATLAB,2000,128,neumann,None (10),75p
+63.12257030804223
+NMG, MATLAB,2000,256,neumann,None (10),50p
+192.61468638744205
+NMG, MATLAB,2000,256,neumann,None (10),75p
+187.25024074703282
+SAV, MATLAB,2000,64,neumann,None (10),50p
+Exception type : ValueError 
+Exception message : setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (64,) + inhomogeneous part.
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 68, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 23, Func.Name : read_specific_lines, Message : result = np.array(result)']
+NMG, MATLAB,2000,128,periodic,None (10),75p
+63.10810877533731
+NMG, MATLAB,2000,512,neumann,None (10),25p
+436.9962537490206
+SAV, MATLAB,2000,64,periodic,None (10),25p
+0.0
+NMG, MATLAB,2000,64,periodic,None (10),25p
+31.521778892395957
+NMG, MATLAB,2000,128,periodic,None (10),25p
+63.15126585017361
+NMG, MATLAB,2000,256,periodic,None (10),25p
+192.32966270781236
+SAV, MATLAB,2000,64,periodic,None (10),75p
+31.52650054523181
+SAV, MATLAB,2000,512,periodic,None (10),50p
+433.84346017440413
+SAV, MATLAB,2000,512,periodic,None (10),25p
+441.5820236892185
+SAV, MATLAB,2000,128,neumann,None (10),50p
+73.4481895742842
+SAV, MATLAB,2000,512,neumann,None (10),25p
+439.8373388741806
+NMG, MATLAB,2000,256,periodic,None (10),50p
+193.8659513201841
+NMG, MATLAB,2000,64,neumann,None (10),75p
+31.529237640387002
+SAV, MATLAB,2000,512,neumann,None (10),75p
+437.9198548585057
+SAV, MATLAB,2000,512,neumann,None (10),50p
+432.76147584788293
+SAV, MATLAB,2000,64,neumann,None (10),75p
+31.529181467701687
+NMG, MATLAB,2000,128,neumann,None (10),50p
+74.17394354283478
+SAV, MATLAB,2000,256,periodic,None (10),75p
+203.8627301299482
+NMG, MATLAB,2000,512,periodic,None (10),75p
+438.98025361641095
+SAV, MATLAB,2000,128,neumann,None (10),25p
+63.11704294876918
+NMG, MATLAB,2000,512,neumann,None (10),75p
+438.3100867340895
+SAV, MATLAB,2000,256,neumann,None (10),75p
+193.44608247990263
+SAV, MATLAB,2000,64,periodic,None (10),50p
+Exception type : ValueError 
+Exception message : could not convert string to float: '-0.07200389799270.0445466446602141'
+Stack trace : ['File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 68, Func.Name : compare_phis_norm_at_timepoint, Message : snapshot = read_specific_lines(f"{root}/{fname}", line_list)', 'File : /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_norms.py , Line : 19, Func.Name : read_specific_lines, Message : digits.append(float(i))']
+SAV, MATLAB,2000,64,neumann,None (10),25p
+0.0
+SAV, MATLAB,2000,256,neumann,None (10),50p
+192.31017051619457
+NMG, MATLAB,2000,256,neumann,None (10),25p
+201.78393619223908
+NMG, MATLAB,2000,512,periodic,None (10),50p
+432.6027403405174
+SAV, MATLAB,2000,128,neumann,None (10),75p
+0.0
+SAV, MATLAB,2000,128,periodic,None (10),25p
+63.10912673268227
+SAV, MATLAB,2000,128,periodic,None (10),75p
+63.112017761849906
+SAV, MATLAB,2000,256,periodic,None (10),50p
+192.70118142375324
+NMG, MATLAB,2000,64,periodic,None (10),75p
+31.514852294776396
+NMG, MATLAB,2000,64,neumann,None (10),50p
+3.270825562536417
+NMG, MATLAB,2000,256,periodic,None (10),75p
+188.73560842701195
+NMG, MATLAB,2000,512,neumann,None (10),50p
+432.2944363019225
+NMG, MATLAB,2000,128,neumann,None (10),25p
+63.13574197922087
+NMG, MATLAB,2000,64,periodic,None (10),50p
+3.112027265173979
+NMG, MATLAB,2000,512,periodic,None (10),25p
+437.83766287132784
+NMG, Julia,2000,128,neumann,10,50p
+77.80094311604064
+NMG, Julia,2000,64,neumann,10,25p
+31.414451107542313
+NMG, Julia,2000,256,neumann,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,512,periodic,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,128,neumann,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,256,periodic,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,512,neumann,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,512,neumann,10,50p
+434.1515092725283
+SAV, Julia,2000,512,periodic,10,75p
+438.28957956100766
+NMG, Julia,2000,128,periodic,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,128,neumann,10,75p
+63.11720788147305
+SAV, Julia,2000,128,periodic,10,25p
+63.10912673268227
+NMG, Julia,2000,64,neumann,10,75p
+31.415081554478355
+NMG, Julia,2000,256,periodic,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,128,periodic,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,128,neumann,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,512,periodic,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,64,neumann,10,50p
+4.065187627307142
+SAV, Julia,2000,256,neumann,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,512,periodic,10,25p
+437.0897457135138
+SAV, Julia,2000,128,periodic,10,50p
+73.67553736977189
+SAV, Julia,2000,512,neumann,10,75p
+437.919854858505
+NMG, Julia,2000,256,periodic,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,128,periodic,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,64,neumann,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,512,periodic,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,256,periodic,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,256,neumann,10,25p
+192.73049006792493
+SAV, Julia,2000,128,neumann,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,256,neumann,10,75p
+191.90486301661102
+SAV, Julia,2000,512,neumann,10,25p
+436.4835894605065
+NMG, Julia,2000,64,neumann,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,256,periodic,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,64,neumann,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,128,periodic,10,75p
+63.11201776184991
+NMG, Julia,2000,64,periodic,10,50p
+3.9118968963281087
+SAV, Julia,2000,512,neumann,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,64,periodic,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,64,periodic,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,512,neumann,10,25p
+408.5238063403032
+SAV, Julia,2000,256,neumann,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,256,neumann,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,512,periodic,10,50p
+435.055183151694
+NMG, Julia,2000,128,periodic,10,50p
+77.28013780637103
+NMG, Julia,2000,128,neumann,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,512,periodic,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,64,periodic,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,128,neumann,10,25p
+61.75563929177036
+NMG, Julia,2000,512,periodic,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,64,periodic,10,75p
+31.39722440529844
+SAV, Julia,2000,64,neumann,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,128,neumann,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,64,periodic,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,128,neumann,10,50p
+74.68037721704657
+NMG, Julia,2000,512,neumann,10,75p
+411.3828051514364
+SAV, Julia,2000,256,neumann,10,50p
+193.67520021471137
+NMG, Julia,2000,512,neumann,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,256,periodic,10,25p
+193.76244148131698
+NMG, Julia,2000,256,neumann,10,50p
+191.99403940363928
+SAV, Julia,2000,128,neumann,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,256,periodic,10,75p
+192.80034831669207
+SAV, Julia,2000,64,neumann,10,25p
+31.528550475785732
+NMG, Julia,2000,512,neumann,10,50p
+414.5340428249593
+SAV, Julia,2000,128,neumann,10,25p
+63.11704294876917
+NMG, Julia,2000,512,periodic,10,75p
+411.19779687495793
+SAV, Julia,2000,512,neumann,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,128,periodic,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,256,periodic,10,25p
+193.28524102992012
+SAV, Julia,2000,512,periodic,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,256,neumann,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,128,neumann,10,75p
+61.755342112414404
+NMG, Julia,2000,512,periodic,10,25p
+408.1625518252855
+NMG, Julia,2000,64,neumann,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,64,periodic,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,64,neumann,10,75p
+31.529181467701676
+SAV, Julia,2000,64,periodic,10,75p
+31.526496082976156
+NMG, Julia,2000,64,periodic,10,25p
+31.405445736463438
+SAV, Julia,2000,64,periodic,10,50p
+3.2153442760481616
+SAV, Julia,2000,256,neumann,10,75p
+188.12445310007593
+NMG, Julia,2000,256,neumann,10,25p
+193.6145694648363
+SAV, Julia,2000,256,periodic,10,75p
+189.73652776629206
+SAV, Julia,2000,64,neumann,10,50p
+3.447620066869502
+SAV, Julia,2000,128,periodic,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,256,periodic,10,50p
+191.96106125724188
+NMG, Julia,2000,128,periodic,10,75p
+61.732369772365516
+SAV, Julia,2000,256,periodic,10,50p
+194.15883948125605
+NMG, Julia,2000,128,periodic,10,25p
+61.75072785598947
+NMG, Julia,2000,64,neumann,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,64,periodic,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,256,neumann,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,512,neumann,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,512,neumann,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,256,periodic,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Julia,2000,512,periodic,10,50p
+414.79873797348677
+NMG, Julia,2000,128,periodic,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Julia,2000,64,periodic,10,25p
+31.527277516861176
+NMG, Python,20,256,periodic,20,25p
+0.0
+SAV, Python,2000,256,neumann,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Python,20,512,neumann,1,25p
+0.0
+SAV, Python,2000,512,periodic,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Python,20,512,periodic,20,50p
+0.0
+SAV, Python,2000,64,neumann,10,25p
+31.528557360685948
+NMG, Python,20,256,neumann,10,50p
+0.0
+NMG, Python,20,128,periodic,10,50p
+0.0
+NMG, Python,200,64,periodic,200,50p
+0.0
+SAV, Python,2000,256,neumann,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Python,20,512,neumann,20,50p
+0.0
+SAV, Python,2000,128,neumann,10,50p
+74.47388558147766
+NMG, Python,20,256,neumann,20,25p
+0.0
+SAV, Python,2000,256,neumann,10,75p
+187.4518880407088
+NMG, Python,20,128,neumann,1,75p
+0.0
+NMG, Python,20,512,periodic,20,50p
+0.0
+SAV, Python,2000,64,neumann,10,75p
+31.529185557244343
+NMG, Python,20,512,periodic,1,50p
+0.0
+NMG, Python,20,128,periodic,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+NMG, Python,20,128,periodic,20,50p
+0.0
+SAV, Python,2000,512,neumann,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Python,20,128,periodic,1,50p
+0.0
+NMG, Python,20,64,neumann,1,25p
+0.0
+SAV, Python,2000,128,periodic,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Python,20,256,periodic,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+NMG, Python,20,512,periodic,1,75p
+0.0
+SAV, Python,2000,512,neumann,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Python,20,64,periodic,20,50p
+0.0
+SAV, Python,2000,512,periodic,10,75p
+438.14538256532967
+SAV, Python,2000,512,periodic,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Python,20,64,periodic,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+NMG, Python,20,64,neumann,1,75p
+0.0
+NMG, Python,20,128,periodic,20,75p
+0.0
+SAV, Python,2000,256,periodic,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Python,2000,512,neumann,10,75p
+437.78757998023576
+SAV, Python,2000,128,periodic,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Python,20,64,neumann,20,75p
+0.0
+SAV, Python,2000,256,periodic,10,50p
+193.9473216109162
+NMG, Python,20,256,periodic,1,50p
+0.0
+SAV, Python,2000,64,periodic,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Python,20,128,periodic,1,25p
+0.0
+SAV, Python,2000,512,periodic,10,50p
+434.8422628394777
+NMG, Python,20,128,periodic,20,50p
+0.0
+NMG, Python,20,64,periodic,1,50p
+0.0
+SAV, Python,2000,64,neumann,10,50p
+3.4102287786362386
+NMG, Python,20,512,neumann,10,50p
+0.0
+NMG, Python,20,256,periodic,20,50p
+0.0
+NMG, Python,200,256,periodic,200,50p
+0.0
+SAV, Python,2000,64,periodic,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Python,20,128,periodic,20,25p
+0.0
+NMG, Python,20,64,neumann,20,25p
+0.0
+SAV, Python,2000,128,neumann,10,25p
+63.11654608807246
+SAV, Python,2000,256,periodic,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Python,20,128,neumann,10,50p
+0.0
+NMG, Python,20,256,periodic,1,75p
+0.0
+NMG, Python,20,256,neumann,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+NMG, Python,20,512,neumann,20,25p
+0.0
+NMG, Python,20,256,periodic,20,75p
+0.0
+NMG, Python,20,512,periodic,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+NMG, Python,20,64,neumann,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+SAV, Python,2000,64,neumann,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Python,2000,512,periodic,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Python,2000,512,neumann,10,50p
+433.948878691805
+SAV, Python,2000,64,neumann,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Python,2000,256,periodic,10,25p
+192.6244819934458
+NMG, Python,20,64,periodic,1,75p
+0.0
+NMG, Python,200,512,neumann,200,50p
+0.0
+NMG, Python,20,128,neumann,1,25p
+0.0
+SAV, Python,2000,128,neumann,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Python,20,256,neumann,1,75p
+0.0
+NMG, Python,20,256,neumann,1,25p
+0.0
+NMG, Python,20,256,periodic,20,50p
+0.0
+NMG, Python,20,256,neumann,20,50p
+0.0
+SAV, Python,2000,64,neumann,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Python,2000,128,neumann,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Python,20,512,periodic,10,50p
+0.0
+SAV, Python,2000,64,periodic,10,25p
+31.527281223118976
+NMG, Python,20,128,neumann,20,25p
+0.0
+NMG, Python,20,128,periodic,1,75p
+0.0
+SAV, Python,2000,64,periodic,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Python,2000,128,periodic,10,25p
+63.10873595000792
+NMG, Python,200,128,periodic,200,50p
+0.0
+NMG, Python,20,64,periodic,20,25p
+0.0
+SAV, Python,2000,512,neumann,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Python,2000,256,neumann,10,25p
+192.06892322685692
+NMG, Python,20,64,periodic,1,25p
+0.0
+SAV, Python,2000,128,neumann,10,75p
+63.11672594698724
+NMG, Python,20,256,neumann,20,75p
+0.0
+NMG, Python,20,256,periodic,1,25p
+0.0
+SAV, Python,2000,512,periodic,10,25p
+436.8450630693618
+NMG, Python,20,64,neumann,10,50p
+0.0
+NMG, Python,20,128,neumann,20,75p
+0.0
+NMG, Python,20,128,neumann,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+NMG, Python,200,128,neumann,200,50p
+0.0
+NMG, Python,20,512,periodic,1,25p
+0.0
+NMG, Python,20,64,periodic,20,50p
+0.0
+NMG, Python,200,512,periodic,200,50p
+0.0
+SAV, Python,2000,256,neumann,10,50p
+193.47616104482663
+SAV, Python,2000,64,periodic,10,75p
+31.52650444359053
+SAV, Python,2000,256,neumann,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Python,20,512,neumann,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+SAV, Python,2000,128,periodic,2000,50p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+NMG, Python,20,64,periodic,20,75p
+0.0
+NMG, Python,20,256,periodic,10,50p
+0.0
+NMG, Python,2000,64,periodic,10,50p
+0.0
+SAV, Python,2000,256,periodic,10,75p
+189.11911531213406
+NMG, Python,20,512,neumann,20,75p
+0.0
+NMG, Python,200,64,neumann,200,50p
+0.0
+NMG, Python,20,512,neumann,1,75p
+0.0
+NMG, Python,20,64,periodic,10,50p
+0.0
+NMG, Python,20,512,periodic,20,75p
+0.0
+NMG, Python,200,256,neumann,200,50p
+0.0
+SAV, Python,2000,128,periodic,10,75p
+63.11154509537003
+SAV, Python,2000,256,periodic,2000,75p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Python,2000,128,neumann,2000,25p
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 2000
+SAV, Python,2000,128,periodic,10,50p
+73.46477861590833
+NMG, Python,20,512,periodic,20,25p
+0.0
+SAV, Python,2000,512,neumann,10,25p
+436.26002855415476
+SAV, Python,2000,64,periodic,10,50p
+3.180499293209839
+Timepoint 2000
+SAV, MATLAB,2000,256,periodic,None (10),25p
+0.0
+SAV, MATLAB,2000,128,periodic,None (10),50p
+86.93505241480213
+NMG, MATLAB,2000,64,neumann,None (10),25p
+0.0
+SAV, MATLAB,2000,512,periodic,None (10),75p
+447.9994210618892
+NMG, MATLAB,2000,128,periodic,None (10),50p
+86.38359593815396
+SAV, MATLAB,2000,256,neumann,None (10),25p
+0.0
+NMG, MATLAB,2000,128,neumann,None (10),75p
+0.0
+NMG, MATLAB,2000,256,neumann,None (10),50p
+206.0678595100578
+NMG, MATLAB,2000,256,neumann,None (10),75p
+213.01511661108722
+SAV, MATLAB,2000,64,neumann,None (10),50p
+0.0
+NMG, MATLAB,2000,128,periodic,None (10),75p
+0.0
+NMG, MATLAB,2000,512,neumann,None (10),25p
+445.4903051278205
+SAV, MATLAB,2000,64,periodic,None (10),25p
+0.0
+NMG, MATLAB,2000,64,periodic,None (10),25p
+0.0
+NMG, MATLAB,2000,128,periodic,None (10),25p
+0.0
+NMG, MATLAB,2000,256,periodic,None (10),25p
+212.36321079170466
+SAV, MATLAB,2000,64,periodic,None (10),75p
+31.52640544624525
+SAV, MATLAB,2000,512,periodic,None (10),50p
+449.6555679186532
+SAV, MATLAB,2000,512,periodic,None (10),25p
+0.0
+SAV, MATLAB,2000,128,neumann,None (10),50p
+86.01658112222805
+SAV, MATLAB,2000,512,neumann,None (10),25p
+0.0
+NMG, MATLAB,2000,256,periodic,None (10),50p
+207.7809447492659
+NMG, MATLAB,2000,64,neumann,None (10),75p
+31.52950516370679
+SAV, MATLAB,2000,512,neumann,None (10),75p
+448.02508347136074
+SAV, MATLAB,2000,512,neumann,None (10),50p
+448.72707556571265
+SAV, MATLAB,2000,64,neumann,None (10),75p
+31.529455329878335
+NMG, MATLAB,2000,128,neumann,None (10),50p
+86.07467232232753
+SAV, MATLAB,2000,256,periodic,None (10),75p
+0.0
+NMG, MATLAB,2000,512,periodic,None (10),75p
+448.45335694160974
+SAV, MATLAB,2000,128,neumann,None (10),25p
+63.28799303285219
+NMG, MATLAB,2000,512,neumann,None (10),75p
+448.70175247837864
+SAV, MATLAB,2000,256,neumann,None (10),75p
+0.0
+SAV, MATLAB,2000,64,periodic,None (10),50p
+10.044333210987459
+SAV, MATLAB,2000,64,neumann,None (10),25p
+0.0
+SAV, MATLAB,2000,256,neumann,None (10),50p
+205.70985152521897
+NMG, MATLAB,2000,256,neumann,None (10),25p
+0.0
+NMG, MATLAB,2000,512,periodic,None (10),50p
+449.2240314004587
+SAV, MATLAB,2000,128,neumann,None (10),75p
+0.0
+SAV, MATLAB,2000,128,periodic,None (10),25p
+63.20088169280996
+SAV, MATLAB,2000,128,periodic,None (10),75p
+63.260524051063015
+SAV, MATLAB,2000,256,periodic,None (10),50p
+206.73201410788226
+NMG, MATLAB,2000,64,periodic,None (10),75p
+0.0
+NMG, MATLAB,2000,64,neumann,None (10),50p
+10.40255049786071
+NMG, MATLAB,2000,256,periodic,None (10),75p
+211.91756423401497
+NMG, MATLAB,2000,512,neumann,None (10),50p
+448.1547254876634
+NMG, MATLAB,2000,128,neumann,None (10),25p
+0.0
+NMG, MATLAB,2000,64,periodic,None (10),50p
+10.14346008185456
+NMG, MATLAB,2000,512,periodic,None (10),25p
+446.7407829257655
+NMG, Julia,2000,128,neumann,10,50p
+88.97552455171996
+NMG, Julia,2000,64,neumann,10,25p
+31.414789913155868
+NMG, Julia,2000,256,neumann,2000,50p
+204.93765146038754
+SAV, Julia,2000,512,periodic,2000,75p
+448.055596499635
+NMG, Julia,2000,128,neumann,2000,50p
+88.97552455171996
+SAV, Julia,2000,256,periodic,2000,25p
+212.36572037788932
+NMG, Julia,2000,512,neumann,2000,50p
+432.20687068324156
+SAV, Julia,2000,512,neumann,10,50p
+449.82987147902037
+SAV, Julia,2000,512,periodic,10,75p
+448.055596499635
+NMG, Julia,2000,128,periodic,2000,50p
+89.51030870766573
+SAV, Julia,2000,128,neumann,10,75p
+63.243920416541826
+SAV, Julia,2000,128,periodic,10,25p
+63.20088169280991
+NMG, Julia,2000,64,neumann,10,75p
+31.41579722504934
+NMG, Julia,2000,256,periodic,2000,75p
+203.909910982339
+NMG, Julia,2000,128,periodic,2000,75p
+62.542757425095104
+NMG, Julia,2000,128,neumann,2000,25p
+62.527666683047684
+SAV, Julia,2000,512,periodic,2000,25p
+447.54572847403915
+NMG, Julia,2000,64,neumann,10,50p
+15.463282342791958
+SAV, Julia,2000,256,neumann,2000,50p
+206.60433055934558
+SAV, Julia,2000,512,periodic,10,25p
+447.54572847403915
+SAV, Julia,2000,128,periodic,10,50p
+86.93505241480163
+SAV, Julia,2000,512,neumann,10,75p
+448.0575826674208
+NMG, Julia,2000,256,periodic,2000,50p
+205.57255859051415
+SAV, Julia,2000,128,periodic,2000,50p
+86.93505241480163
+SAV, Julia,2000,64,neumann,2000,25p
+31.528587428094546
+NMG, Julia,2000,512,periodic,2000,75p
+428.14489466834357
+SAV, Julia,2000,256,periodic,2000,75p
+211.2265768592991
+SAV, Julia,2000,256,neumann,10,25p
+211.67642928101375
+SAV, Julia,2000,128,neumann,2000,25p
+63.29371271544478
+NMG, Julia,2000,256,neumann,10,75p
+204.7426555773793
+SAV, Julia,2000,512,neumann,10,25p
+445.95471020051394
+NMG, Julia,2000,64,neumann,2000,50p
+15.463282342791958
+SAV, Julia,2000,256,periodic,2000,50p
+207.41534302653906
+SAV, Julia,2000,64,neumann,2000,50p
+11.619937454490513
+SAV, Julia,2000,128,periodic,10,75p
+63.26052405106299
+NMG, Julia,2000,64,periodic,10,50p
+15.373279366252234
+SAV, Julia,2000,512,neumann,2000,50p
+449.82987147902037
+NMG, Julia,2000,64,periodic,2000,50p
+15.373279366252234
+NMG, Julia,2000,64,periodic,2000,75p
+31.396670886471625
+NMG, Julia,2000,512,neumann,10,25p
+425.1589675810097
+SAV, Julia,2000,256,neumann,2000,25p
+211.67642928101375
+SAV, Julia,2000,256,neumann,2000,75p
+212.90203379185505
+SAV, Julia,2000,512,periodic,10,50p
+450.8142159862076
+NMG, Julia,2000,128,periodic,10,50p
+89.51030870766573
+NMG, Julia,2000,128,neumann,2000,75p
+62.278815007830005
+NMG, Julia,2000,512,periodic,2000,25p
+424.79807774801725
+SAV, Julia,2000,64,periodic,2000,25p
+31.527487419178623
+NMG, Julia,2000,128,neumann,10,25p
+62.527666683047684
+NMG, Julia,2000,512,periodic,2000,50p
+432.79129592290485
+NMG, Julia,2000,64,periodic,10,75p
+31.396670886471625
+SAV, Julia,2000,64,neumann,2000,75p
+31.529462488434042
+SAV, Julia,2000,128,neumann,2000,75p
+63.243920416541826
+SAV, Julia,2000,64,periodic,2000,75p
+31.526409405667025
+SAV, Julia,2000,128,neumann,10,50p
+86.66184000034077
+NMG, Julia,2000,512,neumann,10,75p
+427.99515963484373
+SAV, Julia,2000,256,neumann,10,50p
+206.60433055934558
+NMG, Julia,2000,512,neumann,2000,25p
+425.1589675810097
+NMG, Julia,2000,256,periodic,10,25p
+204.2328961935036
+NMG, Julia,2000,256,neumann,10,50p
+204.93765146038754
+SAV, Julia,2000,128,neumann,2000,50p
+86.66184000034077
+NMG, Julia,2000,256,periodic,10,75p
+203.909910982339
+SAV, Julia,2000,64,neumann,10,25p
+31.528587428094546
+NMG, Julia,2000,512,neumann,10,50p
+432.20687068324156
+SAV, Julia,2000,128,neumann,10,25p
+63.29371271544478
+NMG, Julia,2000,512,periodic,10,75p
+428.14489466834357
+SAV, Julia,2000,512,neumann,2000,75p
+448.0575826674208
+SAV, Julia,2000,128,periodic,2000,25p
+63.20088169280991
+SAV, Julia,2000,256,periodic,10,25p
+212.36572037788932
+SAV, Julia,2000,512,periodic,2000,50p
+450.8142159862076
+NMG, Julia,2000,256,neumann,2000,25p
+203.5333970516826
+NMG, Julia,2000,128,neumann,10,75p
+62.278815007830005
+NMG, Julia,2000,512,periodic,10,25p
+424.79807774801725
+NMG, Julia,2000,64,neumann,2000,25p
+31.414789913155868
+SAV, Julia,2000,64,periodic,2000,50p
+11.038447535534498
+SAV, Julia,2000,64,neumann,10,75p
+31.529462488434042
+SAV, Julia,2000,64,periodic,10,75p
+31.526409405667025
+NMG, Julia,2000,64,periodic,10,25p
+31.40489838805438
+SAV, Julia,2000,64,periodic,10,50p
+11.038447535534498
+SAV, Julia,2000,256,neumann,10,75p
+212.90203379185505
+NMG, Julia,2000,256,neumann,10,25p
+203.5333970516826
+SAV, Julia,2000,256,periodic,10,75p
+211.2265768592991
+SAV, Julia,2000,64,neumann,10,50p
+11.619937454490513
+SAV, Julia,2000,128,periodic,2000,75p
+63.26052405106299
+NMG, Julia,2000,256,periodic,10,50p
+205.57255859051415
+NMG, Julia,2000,128,periodic,10,75p
+62.542757425095104
+SAV, Julia,2000,256,periodic,10,50p
+207.41534302653906
+NMG, Julia,2000,128,periodic,10,25p
+62.05804946644115
+NMG, Julia,2000,64,neumann,2000,75p
+31.41579722504934
+NMG, Julia,2000,64,periodic,2000,25p
+31.40489838805438
+NMG, Julia,2000,256,neumann,2000,75p
+204.7426555773793
+SAV, Julia,2000,512,neumann,2000,25p
+445.95471020051394
+NMG, Julia,2000,512,neumann,2000,75p
+427.99515963484373
+NMG, Julia,2000,256,periodic,2000,25p
+204.2328961935036
+NMG, Julia,2000,512,periodic,10,50p
+432.79129592290485
+NMG, Julia,2000,128,periodic,2000,25p
+62.05804946644115
+SAV, Julia,2000,64,periodic,10,25p
+31.527487419178623
+NMG, Python,20,256,periodic,20,25p
+0.0
+SAV, Python,2000,256,neumann,2000,50p
+27.866679663342683
+NMG, Python,20,512,neumann,1,25p
+0.0
+SAV, Python,2000,512,periodic,2000,25p
+257.50739698681565
+NMG, Python,20,512,periodic,20,50p
+0.0
+SAV, Python,2000,64,neumann,10,25p
+31.528582974880834
+NMG, Python,20,256,neumann,10,50p
+0.0
+NMG, Python,20,128,periodic,10,50p
+0.0
+NMG, Python,200,64,periodic,200,50p
+0.0
+SAV, Python,2000,256,neumann,2000,75p
+128.08024585824415
+NMG, Python,20,512,neumann,20,50p
+0.0
+SAV, Python,2000,128,neumann,10,50p
+86.59259987335616
+NMG, Python,20,256,neumann,20,25p
+0.0
+SAV, Python,2000,256,neumann,10,75p
+212.85666467902712
+NMG, Python,20,128,neumann,1,75p
+0.0
+NMG, Python,20,512,periodic,20,50p
+0.0
+SAV, Python,2000,64,neumann,10,75p
+31.529456043047084
+NMG, Python,20,512,periodic,1,50p
+0.0
+NMG, Python,20,128,periodic,2000,50p
+0.0
+NMG, Python,20,128,periodic,20,50p
+0.0
+SAV, Python,2000,512,neumann,2000,25p
+257.54625046539655
+NMG, Python,20,128,periodic,1,50p
+0.0
+NMG, Python,20,64,neumann,1,25p
+0.0
+SAV, Python,2000,128,periodic,2000,75p
+63.74370108014776
+NMG, Python,20,256,periodic,2000,50p
+0.0
+NMG, Python,20,512,periodic,1,75p
+0.0
+SAV, Python,2000,512,neumann,2000,50p
+70.76562501724244
+NMG, Python,20,64,periodic,20,50p
+0.0
+SAV, Python,2000,512,periodic,10,75p
+448.00476239448886
+SAV, Python,2000,512,periodic,2000,75p
+257.6713341985889
+NMG, Python,20,64,periodic,2000,50p
+3.743731764651743
+NMG, Python,20,64,neumann,1,75p
+0.0
+NMG, Python,20,128,periodic,20,75p
+0.0
+SAV, Python,2000,256,periodic,2000,50p
+27.758950047264467
+SAV, Python,2000,512,neumann,10,75p
+448.02746855968894
+SAV, Python,2000,128,periodic,2000,25p
+63.71787578813024
+NMG, Python,20,64,neumann,20,75p
+0.0
+SAV, Python,2000,256,periodic,10,50p
+207.3489561806162
+NMG, Python,20,256,periodic,1,50p
+0.0
+SAV, Python,2000,64,periodic,2000,25p
+31.66377662934786
+NMG, Python,20,128,periodic,1,25p
+0.0
+SAV, Python,2000,512,periodic,10,50p
+450.72571521244083
+NMG, Python,20,128,periodic,20,50p
+0.0
+NMG, Python,20,64,periodic,1,50p
+0.0
+SAV, Python,2000,64,neumann,10,50p
+11.503044984381381
+NMG, Python,20,512,neumann,10,50p
+0.0
+NMG, Python,20,256,periodic,20,50p
+0.0
+NMG, Python,200,256,periodic,200,50p
+0.0
+SAV, Python,2000,64,periodic,2000,75p
+31.66794612306504
+NMG, Python,20,128,periodic,20,25p
+0.0
+NMG, Python,20,64,neumann,20,25p
+0.0
+SAV, Python,2000,128,neumann,10,25p
+63.288553914593834
+SAV, Python,2000,256,periodic,2000,25p
+128.0160748619007
+NMG, Python,20,128,neumann,10,50p
+0.0
+NMG, Python,20,256,periodic,1,75p
+0.0
+NMG, Python,20,256,neumann,2000,50p
+27.586602934086983
+NMG, Python,20,512,neumann,20,25p
+0.0
+NMG, Python,20,256,periodic,20,75p
+0.0
+NMG, Python,20,512,periodic,2000,50p
+0.0
+NMG, Python,20,64,neumann,2000,50p
+3.8083581611143993
+SAV, Python,2000,64,neumann,2000,50p
+3.579272257620027
+SAV, Python,2000,512,periodic,2000,50p
+70.53360142349554
+SAV, Python,2000,512,neumann,10,50p
+449.7363752459766
+SAV, Python,2000,64,neumann,2000,75p
+31.668590764550228
+SAV, Python,2000,256,periodic,10,25p
+212.32062631275124
+NMG, Python,20,64,periodic,1,75p
+0.0
+NMG, Python,200,512,neumann,200,50p
+0.0
+NMG, Python,20,128,neumann,1,25p
+0.0
+SAV, Python,2000,128,neumann,2000,50p
+11.164805912920476
+NMG, Python,20,256,neumann,1,75p
+0.0
+NMG, Python,20,256,neumann,1,25p
+0.0
+NMG, Python,20,256,periodic,20,50p
+0.0
+NMG, Python,20,256,neumann,20,50p
+0.0
+SAV, Python,2000,64,neumann,2000,25p
+31.664241483647498
+SAV, Python,2000,128,neumann,2000,75p
+63.74474185298934
+NMG, Python,20,512,periodic,10,50p
+0.0
+SAV, Python,2000,64,periodic,10,25p
+31.527482499547883
+NMG, Python,20,128,neumann,20,25p
+0.0
+NMG, Python,20,128,periodic,1,75p
+0.0
+SAV, Python,2000,64,periodic,2000,50p
+3.554834141967341
+SAV, Python,2000,128,periodic,10,25p
+63.19928823365865
+NMG, Python,200,128,periodic,200,50p
+0.0
+NMG, Python,20,64,periodic,20,25p
+0.0
+SAV, Python,2000,512,neumann,2000,75p
+257.711832919136
+SAV, Python,2000,256,neumann,10,25p
+211.63952472476888
+NMG, Python,20,64,periodic,1,25p
+0.0
+SAV, Python,2000,128,neumann,10,75p
+63.24138997529489
+NMG, Python,20,256,neumann,20,75p
+0.0
+NMG, Python,20,256,periodic,1,25p
+0.0
+SAV, Python,2000,512,periodic,10,25p
+447.4559629069244
+NMG, Python,20,64,neumann,10,50p
+0.0
+NMG, Python,20,128,neumann,20,75p
+0.0
+NMG, Python,20,128,neumann,2000,50p
+10.212901752098293
+NMG, Python,200,128,neumann,200,50p
+0.0
+NMG, Python,20,512,periodic,1,25p
+0.0
+NMG, Python,20,64,periodic,20,50p
+0.0
+NMG, Python,200,512,periodic,200,50p
+0.0
+SAV, Python,2000,256,neumann,10,50p
+206.526373869982
+SAV, Python,2000,64,periodic,10,75p
+31.526405855273836
+SAV, Python,2000,256,neumann,2000,25p
+128.02046511547277
+NMG, Python,20,512,neumann,2000,50p
+72.5681735210592
+SAV, Python,2000,128,periodic,2000,50p
+11.130159016860505
+NMG, Python,20,64,periodic,20,75p
+0.0
+NMG, Python,20,256,periodic,10,50p
+0.0
+NMG, Python,2000,64,periodic,10,50p
+0.0
+SAV, Python,2000,256,periodic,10,75p
+211.17429998991858
+NMG, Python,20,512,neumann,20,75p
+0.0
+NMG, Python,200,64,neumann,200,50p
+0.0
+NMG, Python,20,512,neumann,1,75p
+0.0
+NMG, Python,20,64,periodic,10,50p
+0.0
+NMG, Python,20,512,periodic,20,75p
+0.0
+NMG, Python,200,256,neumann,200,50p
+0.0
+SAV, Python,2000,128,periodic,10,75p
+63.25698136389747
+SAV, Python,2000,256,periodic,2000,75p
+128.07047232969046
+SAV, Python,2000,128,neumann,2000,25p
+63.71783370723886
+SAV, Python,2000,128,periodic,10,50p
+86.85846834397618
+NMG, Python,20,512,periodic,20,25p
+0.0
+SAV, Python,2000,512,neumann,10,25p
+445.89778065632237
+SAV, Python,2000,64,periodic,10,50p
+10.924295389236239
+DONE

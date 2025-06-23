@@ -1,0 +1,1584 @@
+Fri May 9 11:44:36 EDT 2025
+MODULES LOADED
+Timepoint 0
+('SAV', 'MATLAB', '2000', '256', 'periodic', None, '25p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_256_periodic_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '128', 'periodic', None, None)
+SAV_MATLAB_2000_dt_5.50e-06_Nx_128_periodic_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '64', 'neumann', None, '25p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_64_neumann_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '512', 'periodic', None, '75p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_512_periodic_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '128', 'periodic', None, None)
+NMG_MATLAB_2000_dt_5.50e-06_Nx_128_periodic_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '256', 'neumann', None, '25p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_256_neumann_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '128', 'neumann', None, '75p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_128_neumann_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '256', 'neumann', None, None)
+NMG_MATLAB_2000_dt_5.50e-06_Nx_256_neumann_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '256', 'neumann', None, '75p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_256_neumann_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '64', 'neumann', None, None)
+SAV_MATLAB_2000_dt_5.50e-06_Nx_64_neumann_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '128', 'periodic', None, '75p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_128_periodic_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '512', 'neumann', None, '25p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_512_neumann_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '64', 'periodic', None, '25p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_64_periodic_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '64', 'periodic', None, '25p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_64_periodic_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '128', 'periodic', None, '25p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_128_periodic_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '256', 'periodic', None, '25p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_256_periodic_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '64', 'periodic', None, '75p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_64_periodic_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '512', 'periodic', None, None)
+SAV_MATLAB_2000_dt_5.50e-06_Nx_512_periodic_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '512', 'periodic', None, '25p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_512_periodic_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '128', 'neumann', None, None)
+SAV_MATLAB_2000_dt_5.50e-06_Nx_128_neumann_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '512', 'neumann', None, '25p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_512_neumann_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '256', 'periodic', None, None)
+NMG_MATLAB_2000_dt_5.50e-06_Nx_256_periodic_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '64', 'neumann', None, '75p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_64_neumann_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '512', 'neumann', None, '75p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_512_neumann_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '512', 'neumann', None, None)
+SAV_MATLAB_2000_dt_5.50e-06_Nx_512_neumann_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '64', 'neumann', None, '75p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_64_neumann_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '128', 'neumann', None, None)
+NMG_MATLAB_2000_dt_5.50e-06_Nx_128_neumann_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '256', 'periodic', None, '75p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_256_periodic_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '512', 'periodic', None, '75p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_512_periodic_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '128', 'neumann', None, '25p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_128_neumann_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '512', 'neumann', None, '75p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_512_neumann_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '256', 'neumann', None, '75p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_256_neumann_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '64', 'periodic', None, None)
+SAV_MATLAB_2000_dt_5.50e-06_Nx_64_periodic_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '64', 'neumann', None, '25p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_64_neumann_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '256', 'neumann', None, None)
+SAV_MATLAB_2000_dt_5.50e-06_Nx_256_neumann_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '256', 'neumann', None, '25p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_256_neumann_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '512', 'periodic', None, None)
+NMG_MATLAB_2000_dt_5.50e-06_Nx_512_periodic_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '128', 'neumann', None, '75p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_128_neumann_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '128', 'periodic', None, '25p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_128_periodic_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '128', 'periodic', None, '75p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_128_periodic_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '256', 'periodic', None, None)
+SAV_MATLAB_2000_dt_5.50e-06_Nx_256_periodic_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '64', 'periodic', None, '75p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_64_periodic_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '64', 'neumann', None, None)
+NMG_MATLAB_2000_dt_5.50e-06_Nx_64_neumann_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '256', 'periodic', None, '75p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_256_periodic_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '512', 'neumann', None, None)
+NMG_MATLAB_2000_dt_5.50e-06_Nx_512_neumann_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '128', 'neumann', None, '25p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_128_neumann_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '64', 'periodic', None, None)
+NMG_MATLAB_2000_dt_5.50e-06_Nx_64_periodic_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '512', 'periodic', None, '25p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_512_periodic_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'Julia', '2000', '128', 'neumann', '10', None)
+16.338019238090347
+('NMG', 'Julia', '2000', '64', 'neumann', '10', '25p')
+31.89139796114392
+('NMG', 'Julia', '2000', '256', 'neumann', '2000', None)
+37.84490979408554
+('SAV', 'Julia', '2000', '512', 'periodic', '2000', '75p')
+261.0235085456542
+('NMG', 'Julia', '2000', '128', 'neumann', '2000', None)
+16.338019238090347
+('SAV', 'Julia', '2000', '256', 'periodic', '2000', '25p')
+130.02964977248232
+('NMG', 'Julia', '2000', '512', 'neumann', '2000', None)
+79.2467743605897
+('SAV', 'Julia', '2000', '512', 'neumann', '10', None)
+79.2467743605897
+('SAV', 'Julia', '2000', '512', 'periodic', '10', '75p')
+261.0235085456542
+('NMG', 'Julia', '2000', '128', 'periodic', '2000', None)
+16.338019238090347
+('SAV', 'Julia', '2000', '128', 'neumann', '10', '75p')
+64.56840056370952
+('SAV', 'Julia', '2000', '128', 'periodic', '10', '25p')
+64.52529436818811
+('NMG', 'Julia', '2000', '64', 'neumann', '10', '75p')
+31.90797299687814
+('NMG', 'Julia', '2000', '256', 'periodic', '2000', '75p')
+130.1317968868624
+('NMG', 'Julia', '2000', '128', 'periodic', '2000', '75p')
+64.56840056370952
+('NMG', 'Julia', '2000', '128', 'neumann', '2000', '25p')
+64.52529436818811
+('SAV', 'Julia', '2000', '512', 'periodic', '2000', '25p')
+260.81333081731987
+('NMG', 'Julia', '2000', '64', 'neumann', '10', None)
+5.793058526954734
+('SAV', 'Julia', '2000', '256', 'neumann', '2000', None)
+37.84490979408554
+('SAV', 'Julia', '2000', '512', 'periodic', '10', '25p')
+260.81333081731987
+('SAV', 'Julia', '2000', '128', 'periodic', '10', None)
+16.338019238090347
+('SAV', 'Julia', '2000', '512', 'neumann', '10', '75p')
+261.0235085456542
+('NMG', 'Julia', '2000', '256', 'periodic', '2000', None)
+37.84490979408554
+('SAV', 'Julia', '2000', '128', 'periodic', '2000', None)
+16.338019238090347
+('SAV', 'Julia', '2000', '64', 'neumann', '2000', '25p')
+31.89139796114392
+('NMG', 'Julia', '2000', '512', 'periodic', '2000', '75p')
+261.0235085456542
+('SAV', 'Julia', '2000', '256', 'periodic', '2000', '75p')
+130.1317968868624
+('SAV', 'Julia', '2000', '256', 'neumann', '10', '25p')
+130.02964977248232
+('SAV', 'Julia', '2000', '128', 'neumann', '2000', '25p')
+64.52529436818811
+('NMG', 'Julia', '2000', '256', 'neumann', '10', '75p')
+130.1317968868624
+('SAV', 'Julia', '2000', '512', 'neumann', '10', '25p')
+260.81333081731987
+('NMG', 'Julia', '2000', '64', 'neumann', '2000', None)
+5.793058526954734
+('SAV', 'Julia', '2000', '256', 'periodic', '2000', None)
+37.84490979408554
+('SAV', 'Julia', '2000', '64', 'neumann', '2000', None)
+5.793058526954734
+('SAV', 'Julia', '2000', '128', 'periodic', '10', '75p')
+64.56840056370952
+('NMG', 'Julia', '2000', '64', 'periodic', '10', None)
+5.793058526954734
+('SAV', 'Julia', '2000', '512', 'neumann', '2000', None)
+79.2467743605897
+('NMG', 'Julia', '2000', '64', 'periodic', '2000', None)
+5.793058526954734
+('NMG', 'Julia', '2000', '64', 'periodic', '2000', '75p')
+31.90797299687814
+('NMG', 'Julia', '2000', '512', 'neumann', '10', '25p')
+260.81333081731987
+('SAV', 'Julia', '2000', '256', 'neumann', '2000', '25p')
+130.02964977248232
+('SAV', 'Julia', '2000', '256', 'neumann', '2000', '75p')
+130.1317968868624
+('SAV', 'Julia', '2000', '512', 'periodic', '10', None)
+79.2467743605897
+('NMG', 'Julia', '2000', '128', 'periodic', '10', None)
+16.338019238090347
+('NMG', 'Julia', '2000', '128', 'neumann', '2000', '75p')
+64.56840056370952
+('NMG', 'Julia', '2000', '512', 'periodic', '2000', '25p')
+260.81333081731987
+('SAV', 'Julia', '2000', '64', 'periodic', '2000', '25p')
+31.89139796114392
+('NMG', 'Julia', '2000', '128', 'neumann', '10', '25p')
+64.52529436818811
+('NMG', 'Julia', '2000', '512', 'periodic', '2000', None)
+79.2467743605897
+('NMG', 'Julia', '2000', '64', 'periodic', '10', '75p')
+31.90797299687814
+('SAV', 'Julia', '2000', '64', 'neumann', '2000', '75p')
+31.90797299687814
+('SAV', 'Julia', '2000', '128', 'neumann', '2000', '75p')
+64.56840056370952
+('SAV', 'Julia', '2000', '64', 'periodic', '2000', '75p')
+31.90797299687814
+('SAV', 'Julia', '2000', '128', 'neumann', '10', None)
+16.338019238090347
+('NMG', 'Julia', '2000', '512', 'neumann', '10', '75p')
+261.0235085456542
+('SAV', 'Julia', '2000', '256', 'neumann', '10', None)
+37.84490979408554
+('NMG', 'Julia', '2000', '512', 'neumann', '2000', '25p')
+260.81333081731987
+('NMG', 'Julia', '2000', '256', 'periodic', '10', '25p')
+130.02964977248232
+('NMG', 'Julia', '2000', '256', 'neumann', '10', None)
+37.84490979408554
+('SAV', 'Julia', '2000', '128', 'neumann', '2000', None)
+16.338019238090347
+('NMG', 'Julia', '2000', '256', 'periodic', '10', '75p')
+130.1317968868624
+('SAV', 'Julia', '2000', '64', 'neumann', '10', '25p')
+31.89139796114392
+('NMG', 'Julia', '2000', '512', 'neumann', '10', None)
+79.2467743605897
+('SAV', 'Julia', '2000', '128', 'neumann', '10', '25p')
+64.52529436818811
+('NMG', 'Julia', '2000', '512', 'periodic', '10', '75p')
+261.0235085456542
+('SAV', 'Julia', '2000', '512', 'neumann', '2000', '75p')
+261.0235085456542
+('SAV', 'Julia', '2000', '128', 'periodic', '2000', '25p')
+64.52529436818811
+('SAV', 'Julia', '2000', '256', 'periodic', '10', '25p')
+130.02964977248232
+('SAV', 'Julia', '2000', '512', 'periodic', '2000', None)
+79.2467743605897
+('NMG', 'Julia', '2000', '256', 'neumann', '2000', '25p')
+130.02964977248232
+('NMG', 'Julia', '2000', '128', 'neumann', '10', '75p')
+64.56840056370952
+('NMG', 'Julia', '2000', '512', 'periodic', '10', '25p')
+260.81333081731987
+('NMG', 'Julia', '2000', '64', 'neumann', '2000', '25p')
+31.89139796114392
+('SAV', 'Julia', '2000', '64', 'periodic', '2000', None)
+5.793058526954734
+('SAV', 'Julia', '2000', '64', 'neumann', '10', '75p')
+31.90797299687814
+('SAV', 'Julia', '2000', '64', 'periodic', '10', '75p')
+31.90797299687814
+('NMG', 'Julia', '2000', '64', 'periodic', '10', '25p')
+31.89139796114392
+('SAV', 'Julia', '2000', '64', 'periodic', '10', None)
+5.793058526954734
+('SAV', 'Julia', '2000', '256', 'neumann', '10', '75p')
+130.1317968868624
+('NMG', 'Julia', '2000', '256', 'neumann', '10', '25p')
+130.02964977248232
+('SAV', 'Julia', '2000', '256', 'periodic', '10', '75p')
+130.1317968868624
+('SAV', 'Julia', '2000', '64', 'neumann', '10', None)
+5.793058526954734
+('SAV', 'Julia', '2000', '128', 'periodic', '2000', '75p')
+64.56840056370952
+('NMG', 'Julia', '2000', '256', 'periodic', '10', None)
+37.84490979408554
+('NMG', 'Julia', '2000', '128', 'periodic', '10', '75p')
+64.56840056370952
+('SAV', 'Julia', '2000', '256', 'periodic', '10', None)
+37.84490979408554
+('NMG', 'Julia', '2000', '128', 'periodic', '10', '25p')
+64.52529436818811
+('NMG', 'Julia', '2000', '64', 'neumann', '2000', '75p')
+31.90797299687814
+('NMG', 'Julia', '2000', '64', 'periodic', '2000', '25p')
+31.89139796114392
+('NMG', 'Julia', '2000', '256', 'neumann', '2000', '75p')
+130.1317968868624
+('SAV', 'Julia', '2000', '512', 'neumann', '2000', '25p')
+260.81333081731987
+('NMG', 'Julia', '2000', '512', 'neumann', '2000', '75p')
+261.0235085456542
+('NMG', 'Julia', '2000', '256', 'periodic', '2000', '25p')
+130.02964977248232
+('NMG', 'Julia', '2000', '512', 'periodic', '10', None)
+79.2467743605897
+('NMG', 'Julia', '2000', '128', 'periodic', '2000', '25p')
+64.52529436818811
+('SAV', 'Julia', '2000', '64', 'periodic', '10', '25p')
+31.89139796114392
+('NMG', 'Python', '20', '256', 'periodic', '20', '25p')
+NMG_Python_20_dt_5.50e-06_Nx_256_periodic_dtout_20_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '256', 'neumann', '2000', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_256_neumann_dtout_2000phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'neumann', '1', '25p')
+NMG_Python_20_dt_5.50e-06_Nx_512_neumann_dtout_1_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '512', 'periodic', '2000', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_512_periodic_dtout_2000_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'periodic', '20', None)
+NMG_Python_20_dt_5.50e-06_Nx_512_periodic_dtout_20phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '64', 'neumann', '10', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_64_neumann_dtout_10_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'neumann', '10', None)
+spinodal_decomp_04_2025NMG_Python_20_dt_5.50e-06_Nx_256_neumann_dtout_10phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'periodic', '10', None)
+spinodal_decomp_04_2025NMG_Python_20_dt_5.50e-06_Nx_128_periodic_dtout_10phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '200', '64', 'periodic', '200', None)
+spinodal_decomp_04_2025NMG_Python_200_dt_5.50e-06_Nx_64_periodic_dtout_200phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '256', 'neumann', '2000', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_256_neumann_dtout_2000_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'neumann', '20', None)
+spinodal_decomp_04_2025NMG_Python_20_dt_5.50e-06_Nx_512_neumann_dtout_20phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '128', 'neumann', '10', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_128_neumann_dtout_10phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'neumann', '20', '25p')
+NMG_Python_20_dt_5.50e-06_Nx_256_neumann_dtout_20_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '256', 'neumann', '10', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_256_neumann_dtout_10_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'neumann', '1', '75p')
+NMG_Python_20_dt_5.50e-06_Nx_128_neumann_dtout_1_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'periodic', '20', None)
+spinodal_decomp_04_2025NMG_Python_20_dt_5.50e-06_Nx_512_periodic_dtout_20phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '64', 'neumann', '10', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_64_neumann_dtout_10_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'periodic', '1', None)
+NMG_Python_20_dt_5.50e-06_Nx_512_periodic_dtout_1phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'periodic', '2000', None)
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+('NMG', 'Python', '20', '128', 'periodic', '20', None)
+NMG_Python_20_dt_5.50e-06_Nx_128_periodic_dtout_20phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '512', 'neumann', '2000', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_512_neumann_dtout_2000_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'periodic', '1', None)
+NMG_Python_20_dt_5.50e-06_Nx_128_periodic_dtout_1phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '64', 'neumann', '1', '25p')
+NMG_Python_20_dt_5.50e-06_Nx_64_neumann_dtout_1_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '128', 'periodic', '2000', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_128_periodic_dtout_2000_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'periodic', '2000', None)
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+('NMG', 'Python', '20', '512', 'periodic', '1', '75p')
+NMG_Python_20_dt_5.50e-06_Nx_512_periodic_dtout_1_75pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '512', 'neumann', '2000', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_512_neumann_dtout_2000phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '64', 'periodic', '20', None)
+NMG_Python_20_dt_5.50e-06_Nx_64_periodic_dtout_20phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '512', 'periodic', '10', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_512_periodic_dtout_10_75pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '512', 'periodic', '2000', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_512_periodic_dtout_2000_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '64', 'periodic', '2000', None)
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+('NMG', 'Python', '20', '64', 'neumann', '1', '75p')
+NMG_Python_20_dt_5.50e-06_Nx_64_neumann_dtout_1_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'periodic', '20', '75p')
+NMG_Python_20_dt_5.50e-06_Nx_128_periodic_dtout_20_75pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '256', 'periodic', '2000', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_256_periodic_dtout_2000phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '512', 'neumann', '10', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_512_neumann_dtout_10_75pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '128', 'periodic', '2000', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_128_periodic_dtout_2000_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '64', 'neumann', '20', '75p')
+NMG_Python_20_dt_5.50e-06_Nx_64_neumann_dtout_20_75pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '256', 'periodic', '10', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_256_periodic_dtout_10phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'periodic', '1', None)
+NMG_Python_20_dt_5.50e-06_Nx_256_periodic_dtout_1phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '64', 'periodic', '2000', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_64_periodic_dtout_2000_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'periodic', '1', '25p')
+NMG_Python_20_dt_5.50e-06_Nx_128_periodic_dtout_1_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '512', 'periodic', '10', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_512_periodic_dtout_10phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'periodic', '20', None)
+spinodal_decomp_04_2025NMG_Python_20_dt_5.50e-06_Nx_128_periodic_dtout_20phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '64', 'periodic', '1', None)
+NMG_Python_20_dt_5.50e-06_Nx_64_periodic_dtout_1phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '64', 'neumann', '10', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_64_neumann_dtout_10phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'neumann', '10', None)
+spinodal_decomp_04_2025NMG_Python_20_dt_5.50e-06_Nx_512_neumann_dtout_10phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'periodic', '20', None)
+NMG_Python_20_dt_5.50e-06_Nx_256_periodic_dtout_20phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '200', '256', 'periodic', '200', None)
+spinodal_decomp_04_2025NMG_Python_200_dt_5.50e-06_Nx_256_periodic_dtout_200phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '64', 'periodic', '2000', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_64_periodic_dtout_2000_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'periodic', '20', '25p')
+NMG_Python_20_dt_5.50e-06_Nx_128_periodic_dtout_20_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '64', 'neumann', '20', '25p')
+NMG_Python_20_dt_5.50e-06_Nx_64_neumann_dtout_20_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '128', 'neumann', '10', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_128_neumann_dtout_10_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '256', 'periodic', '2000', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_256_periodic_dtout_2000_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'neumann', '10', None)
+spinodal_decomp_04_2025NMG_Python_20_dt_5.50e-06_Nx_128_neumann_dtout_10phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'periodic', '1', '75p')
+NMG_Python_20_dt_5.50e-06_Nx_256_periodic_dtout_1_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'neumann', '2000', None)
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+('NMG', 'Python', '20', '512', 'neumann', '20', '25p')
+NMG_Python_20_dt_5.50e-06_Nx_512_neumann_dtout_20_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'periodic', '20', '75p')
+NMG_Python_20_dt_5.50e-06_Nx_256_periodic_dtout_20_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'periodic', '2000', None)
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+('NMG', 'Python', '20', '64', 'neumann', '2000', None)
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+('SAV', 'Python', '2000', '64', 'neumann', '2000', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_64_neumann_dtout_2000phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '512', 'periodic', '2000', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_512_periodic_dtout_2000phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '512', 'neumann', '10', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_512_neumann_dtout_10phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '64', 'neumann', '2000', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_64_neumann_dtout_2000_75pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '256', 'periodic', '10', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_256_periodic_dtout_10_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '64', 'periodic', '1', '75p')
+NMG_Python_20_dt_5.50e-06_Nx_64_periodic_dtout_1_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '200', '512', 'neumann', '200', None)
+spinodal_decomp_04_2025NMG_Python_200_dt_5.50e-06_Nx_512_neumann_dtout_200phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'neumann', '1', '25p')
+NMG_Python_20_dt_5.50e-06_Nx_128_neumann_dtout_1_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '128', 'neumann', '2000', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_128_neumann_dtout_2000phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'neumann', '1', '75p')
+NMG_Python_20_dt_5.50e-06_Nx_256_neumann_dtout_1_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'neumann', '1', '25p')
+NMG_Python_20_dt_5.50e-06_Nx_256_neumann_dtout_1_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'periodic', '20', None)
+spinodal_decomp_04_2025NMG_Python_20_dt_5.50e-06_Nx_256_periodic_dtout_20phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'neumann', '20', None)
+spinodal_decomp_04_2025NMG_Python_20_dt_5.50e-06_Nx_256_neumann_dtout_20phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '64', 'neumann', '2000', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_64_neumann_dtout_2000_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '128', 'neumann', '2000', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_128_neumann_dtout_2000_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'periodic', '10', None)
+spinodal_decomp_04_2025NMG_Python_20_dt_5.50e-06_Nx_512_periodic_dtout_10phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '64', 'periodic', '10', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_64_periodic_dtout_10_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'neumann', '20', '25p')
+NMG_Python_20_dt_5.50e-06_Nx_128_neumann_dtout_20_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'periodic', '1', '75p')
+NMG_Python_20_dt_5.50e-06_Nx_128_periodic_dtout_1_75pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '64', 'periodic', '2000', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_64_periodic_dtout_2000phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '128', 'periodic', '10', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_128_periodic_dtout_10_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '200', '128', 'periodic', '200', None)
+spinodal_decomp_04_2025NMG_Python_200_dt_5.50e-06_Nx_128_periodic_dtout_200phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '64', 'periodic', '20', '25p')
+NMG_Python_20_dt_5.50e-06_Nx_64_periodic_dtout_20_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '512', 'neumann', '2000', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_512_neumann_dtout_2000_75pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '256', 'neumann', '10', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_256_neumann_dtout_10_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '64', 'periodic', '1', '25p')
+NMG_Python_20_dt_5.50e-06_Nx_64_periodic_dtout_1_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '128', 'neumann', '10', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_128_neumann_dtout_10_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'neumann', '20', '75p')
+NMG_Python_20_dt_5.50e-06_Nx_256_neumann_dtout_20_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'periodic', '1', '25p')
+NMG_Python_20_dt_5.50e-06_Nx_256_periodic_dtout_1_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '512', 'periodic', '10', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_512_periodic_dtout_10_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '64', 'neumann', '10', None)
+spinodal_decomp_04_2025NMG_Python_20_dt_5.50e-06_Nx_64_neumann_dtout_10phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'neumann', '20', '75p')
+NMG_Python_20_dt_5.50e-06_Nx_128_neumann_dtout_20_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'neumann', '2000', None)
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+('NMG', 'Python', '200', '128', 'neumann', '200', None)
+spinodal_decomp_04_2025NMG_Python_200_dt_5.50e-06_Nx_128_neumann_dtout_200phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'periodic', '1', '25p')
+NMG_Python_20_dt_5.50e-06_Nx_512_periodic_dtout_1_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '64', 'periodic', '20', None)
+spinodal_decomp_04_2025NMG_Python_20_dt_5.50e-06_Nx_64_periodic_dtout_20phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '200', '512', 'periodic', '200', None)
+spinodal_decomp_04_2025NMG_Python_200_dt_5.50e-06_Nx_512_periodic_dtout_200phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '256', 'neumann', '10', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_256_neumann_dtout_10phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '64', 'periodic', '10', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_64_periodic_dtout_10_75pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '256', 'neumann', '2000', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_256_neumann_dtout_2000_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'neumann', '2000', None)
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+('SAV', 'Python', '2000', '128', 'periodic', '2000', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_128_periodic_dtout_2000phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '64', 'periodic', '20', '75p')
+NMG_Python_20_dt_5.50e-06_Nx_64_periodic_dtout_20_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'periodic', '10', None)
+spinodal_decomp_04_2025NMG_Python_20_dt_5.50e-06_Nx_256_periodic_dtout_10phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '2000', '64', 'periodic', '10', None)
+spinodal_decomp_04_2025NMG_Python_2000_dt_5.50e-06_Nx_64_periodic_dtout_10phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '256', 'periodic', '10', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_256_periodic_dtout_10_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'neumann', '20', '75p')
+NMG_Python_20_dt_5.50e-06_Nx_512_neumann_dtout_20_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '200', '64', 'neumann', '200', None)
+spinodal_decomp_04_2025NMG_Python_200_dt_5.50e-06_Nx_64_neumann_dtout_200phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'neumann', '1', '75p')
+NMG_Python_20_dt_5.50e-06_Nx_512_neumann_dtout_1_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '64', 'periodic', '10', None)
+spinodal_decomp_04_2025NMG_Python_20_dt_5.50e-06_Nx_64_periodic_dtout_10phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'periodic', '20', '75p')
+NMG_Python_20_dt_5.50e-06_Nx_512_periodic_dtout_20_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '200', '256', 'neumann', '200', None)
+spinodal_decomp_04_2025NMG_Python_200_dt_5.50e-06_Nx_256_neumann_dtout_200phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '128', 'periodic', '10', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_128_periodic_dtout_10_75pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '256', 'periodic', '2000', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_256_periodic_dtout_2000_75pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '128', 'neumann', '2000', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_128_neumann_dtout_2000_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '128', 'periodic', '10', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_128_periodic_dtout_10phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'periodic', '20', '25p')
+NMG_Python_20_dt_5.50e-06_Nx_512_periodic_dtout_20_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '512', 'neumann', '10', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_512_neumann_dtout_10_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '64', 'periodic', '10', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_64_periodic_dtout_10phi.csv is not in the correct format for calculating norm.
+Timepoint 20
+('SAV', 'MATLAB', '2000', '256', 'periodic', None, '25p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_256_periodic_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '128', 'periodic', None, None)
+SAV_MATLAB_2000_dt_5.50e-06_Nx_128_periodic_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '64', 'neumann', None, '25p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_64_neumann_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '512', 'periodic', None, '75p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_512_periodic_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '128', 'periodic', None, None)
+NMG_MATLAB_2000_dt_5.50e-06_Nx_128_periodic_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '256', 'neumann', None, '25p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_256_neumann_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '128', 'neumann', None, '75p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_128_neumann_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '256', 'neumann', None, None)
+NMG_MATLAB_2000_dt_5.50e-06_Nx_256_neumann_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '256', 'neumann', None, '75p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_256_neumann_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '64', 'neumann', None, None)
+SAV_MATLAB_2000_dt_5.50e-06_Nx_64_neumann_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '128', 'periodic', None, '75p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_128_periodic_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '512', 'neumann', None, '25p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_512_neumann_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '64', 'periodic', None, '25p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_64_periodic_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '64', 'periodic', None, '25p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_64_periodic_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '128', 'periodic', None, '25p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_128_periodic_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '256', 'periodic', None, '25p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_256_periodic_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '64', 'periodic', None, '75p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_64_periodic_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '512', 'periodic', None, None)
+SAV_MATLAB_2000_dt_5.50e-06_Nx_512_periodic_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '512', 'periodic', None, '25p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_512_periodic_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '128', 'neumann', None, None)
+SAV_MATLAB_2000_dt_5.50e-06_Nx_128_neumann_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '512', 'neumann', None, '25p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_512_neumann_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '256', 'periodic', None, None)
+NMG_MATLAB_2000_dt_5.50e-06_Nx_256_periodic_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '64', 'neumann', None, '75p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_64_neumann_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '512', 'neumann', None, '75p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_512_neumann_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '512', 'neumann', None, None)
+SAV_MATLAB_2000_dt_5.50e-06_Nx_512_neumann_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '64', 'neumann', None, '75p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_64_neumann_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '128', 'neumann', None, None)
+NMG_MATLAB_2000_dt_5.50e-06_Nx_128_neumann_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '256', 'periodic', None, '75p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_256_periodic_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '512', 'periodic', None, '75p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_512_periodic_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '128', 'neumann', None, '25p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_128_neumann_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '512', 'neumann', None, '75p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_512_neumann_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '256', 'neumann', None, '75p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_256_neumann_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '64', 'periodic', None, None)
+SAV_MATLAB_2000_dt_5.50e-06_Nx_64_periodic_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '64', 'neumann', None, '25p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_64_neumann_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '256', 'neumann', None, None)
+SAV_MATLAB_2000_dt_5.50e-06_Nx_256_neumann_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '256', 'neumann', None, '25p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_256_neumann_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '512', 'periodic', None, None)
+NMG_MATLAB_2000_dt_5.50e-06_Nx_512_periodic_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '128', 'neumann', None, '75p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_128_neumann_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '128', 'periodic', None, '25p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_128_periodic_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '128', 'periodic', None, '75p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_128_periodic_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '256', 'periodic', None, None)
+SAV_MATLAB_2000_dt_5.50e-06_Nx_256_periodic_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '64', 'periodic', None, '75p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_64_periodic_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '64', 'neumann', None, None)
+NMG_MATLAB_2000_dt_5.50e-06_Nx_64_neumann_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '256', 'periodic', None, '75p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_256_periodic_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '512', 'neumann', None, None)
+NMG_MATLAB_2000_dt_5.50e-06_Nx_512_neumann_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '128', 'neumann', None, '25p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_128_neumann_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '64', 'periodic', None, None)
+NMG_MATLAB_2000_dt_5.50e-06_Nx_64_periodic_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '512', 'periodic', None, '25p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_512_periodic_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'Julia', '2000', '128', 'neumann', '10', None)
+5.685651786887897
+('NMG', 'Julia', '2000', '64', 'neumann', '10', '25p')
+31.434194363755346
+('NMG', 'Julia', '2000', '256', 'neumann', '2000', None)
+42.232167400733196
+('SAV', 'Julia', '2000', '512', 'periodic', '2000', '75p')
+263.18199010986
+('NMG', 'Julia', '2000', '128', 'neumann', '2000', None)
+18.41903071226197
+('SAV', 'Julia', '2000', '256', 'periodic', '2000', '25p')
+131.05905272871377
+('NMG', 'Julia', '2000', '512', 'neumann', '2000', None)
+90.25923065331627
+('SAV', 'Julia', '2000', '512', 'neumann', '10', None)
+179.94905495801692
+('SAV', 'Julia', '2000', '512', 'periodic', '10', '75p')
+256.15204817243244
+('NMG', 'Julia', '2000', '128', 'periodic', '2000', None)
+18.123161393387257
+('SAV', 'Julia', '2000', '128', 'neumann', '10', '75p')
+63.17074125390439
+('SAV', 'Julia', '2000', '128', 'periodic', '10', '25p')
+63.1643949114036
+('NMG', 'Julia', '2000', '64', 'neumann', '10', '75p')
+31.434065368871227
+('NMG', 'Julia', '2000', '256', 'periodic', '2000', '75p')
+130.6506775617898
+('NMG', 'Julia', '2000', '128', 'periodic', '2000', '75p')
+64.51065471304891
+('NMG', 'Julia', '2000', '128', 'neumann', '2000', '25p')
+64.50403418081378
+('SAV', 'Julia', '2000', '512', 'periodic', '2000', '25p')
+263.2688167150745
+('NMG', 'Julia', '2000', '64', 'neumann', '10', None)
+1.771433110235276
+('SAV', 'Julia', '2000', '256', 'neumann', '2000', None)
+42.26290919041744
+('SAV', 'Julia', '2000', '512', 'periodic', '10', '25p')
+255.9539551770531
+('SAV', 'Julia', '2000', '128', 'periodic', '10', None)
+5.7002571282617325
+('SAV', 'Julia', '2000', '512', 'neumann', '10', '75p')
+256.29222180436966
+('NMG', 'Julia', '2000', '256', 'periodic', '2000', None)
+41.77774779477648
+('SAV', 'Julia', '2000', '128', 'periodic', '2000', None)
+17.743426614322274
+('SAV', 'Julia', '2000', '64', 'neumann', '2000', '25p')
+31.89139796114392
+('NMG', 'Julia', '2000', '512', 'periodic', '2000', '75p')
+262.7892473712269
+('SAV', 'Julia', '2000', '256', 'periodic', '2000', '75p')
+130.79436677749518
+('SAV', 'Julia', '2000', '256', 'neumann', '10', '25p')
+126.67124502474371
+('SAV', 'Julia', '2000', '128', 'neumann', '2000', '25p')
+64.51654295333323
+('NMG', 'Julia', '2000', '256', 'neumann', '10', '75p')
+115.87786452613601
+('SAV', 'Julia', '2000', '512', 'neumann', '10', '25p')
+256.0549811090598
+('NMG', 'Julia', '2000', '64', 'neumann', '2000', None)
+5.793058526954734
+('SAV', 'Julia', '2000', '256', 'periodic', '2000', None)
+41.86185539998946
+('SAV', 'Julia', '2000', '64', 'neumann', '2000', None)
+5.793058526954734
+('SAV', 'Julia', '2000', '128', 'periodic', '10', '75p')
+63.1666069596531
+('NMG', 'Julia', '2000', '64', 'periodic', '10', None)
+1.6953339171156343
+('SAV', 'Julia', '2000', '512', 'neumann', '2000', None)
+90.68045616646606
+('NMG', 'Julia', '2000', '64', 'periodic', '2000', None)
+5.793058526954734
+('NMG', 'Julia', '2000', '64', 'periodic', '2000', '75p')
+31.90797299687814
+('NMG', 'Julia', '2000', '512', 'neumann', '10', '25p')
+198.12079331600242
+('SAV', 'Julia', '2000', '256', 'neumann', '2000', '25p')
+131.01024622494418
+('SAV', 'Julia', '2000', '256', 'neumann', '2000', '75p')
+131.0657327473569
+('SAV', 'Julia', '2000', '512', 'periodic', '10', None)
+179.4995071797884
+('NMG', 'Julia', '2000', '128', 'periodic', '10', None)
+5.498736769083606
+('NMG', 'Julia', '2000', '128', 'neumann', '2000', '75p')
+64.5256865872936
+('NMG', 'Julia', '2000', '512', 'periodic', '2000', '25p')
+262.91658407075437
+('SAV', 'Julia', '2000', '64', 'periodic', '2000', '25p')
+31.89139796114392
+('NMG', 'Julia', '2000', '128', 'neumann', '10', '25p')
+61.76795498132722
+('NMG', 'Julia', '2000', '512', 'periodic', '2000', None)
+89.2513506703435
+('NMG', 'Julia', '2000', '64', 'periodic', '10', '75p')
+31.41585253105682
+('SAV', 'Julia', '2000', '64', 'neumann', '2000', '75p')
+31.90797299687814
+('SAV', 'Julia', '2000', '128', 'neumann', '2000', '75p')
+64.53802963356786
+('SAV', 'Julia', '2000', '64', 'periodic', '2000', '75p')
+31.90797299687814
+('SAV', 'Julia', '2000', '128', 'neumann', '10', None)
+5.856340417585468
+('NMG', 'Julia', '2000', '512', 'neumann', '10', '75p')
+198.13809653520192
+('SAV', 'Julia', '2000', '256', 'neumann', '10', None)
+25.218930997077425
+('NMG', 'Julia', '2000', '512', 'neumann', '2000', '25p')
+263.29609381314856
+('NMG', 'Julia', '2000', '256', 'periodic', '10', '25p')
+115.83781553494107
+('NMG', 'Julia', '2000', '256', 'neumann', '10', None)
+21.21260503377975
+('SAV', 'Julia', '2000', '128', 'neumann', '2000', None)
+18.39612422625795
+('NMG', 'Julia', '2000', '256', 'periodic', '10', '75p')
+115.83753575434164
+('SAV', 'Julia', '2000', '64', 'neumann', '10', '25p')
+31.549120963391
+('NMG', 'Julia', '2000', '512', 'neumann', '10', None)
+75.30144693916402
+('SAV', 'Julia', '2000', '128', 'neumann', '10', '25p')
+63.168919102051035
+('NMG', 'Julia', '2000', '512', 'periodic', '10', '75p')
+198.07575256711462
+('SAV', 'Julia', '2000', '512', 'neumann', '2000', '75p')
+263.74780031658236
+('SAV', 'Julia', '2000', '128', 'periodic', '2000', '25p')
+64.5183893146643
+('SAV', 'Julia', '2000', '256', 'periodic', '10', '25p')
+126.65598306274632
+('SAV', 'Julia', '2000', '512', 'periodic', '2000', None)
+90.40834462083185
+('NMG', 'Julia', '2000', '256', 'neumann', '2000', '25p')
+130.95897859112256
+('NMG', 'Julia', '2000', '128', 'neumann', '10', '75p')
+61.77007551535894
+('NMG', 'Julia', '2000', '512', 'periodic', '10', '25p')
+198.06005652735988
+('NMG', 'Julia', '2000', '64', 'neumann', '2000', '25p')
+31.89139796114392
+('SAV', 'Julia', '2000', '64', 'periodic', '2000', None)
+5.793058526954734
+('SAV', 'Julia', '2000', '64', 'neumann', '10', '75p')
+31.54892330730266
+('SAV', 'Julia', '2000', '64', 'periodic', '10', '75p')
+31.547024492321196
+('NMG', 'Julia', '2000', '64', 'periodic', '10', '25p')
+31.426593630261998
+('SAV', 'Julia', '2000', '64', 'periodic', '10', None)
+1.6769473746248582
+('SAV', 'Julia', '2000', '256', 'neumann', '10', '75p')
+126.70243618237625
+('NMG', 'Julia', '2000', '256', 'neumann', '10', '25p')
+115.86447171457472
+('SAV', 'Julia', '2000', '256', 'periodic', '10', '75p')
+126.68599256034679
+('SAV', 'Julia', '2000', '64', 'neumann', '10', None)
+1.7641420142153477
+('SAV', 'Julia', '2000', '128', 'periodic', '2000', '75p')
+64.5272187837422
+('NMG', 'Julia', '2000', '256', 'periodic', '10', None)
+20.77525439934636
+('NMG', 'Julia', '2000', '128', 'periodic', '10', '75p')
+61.7456253391327
+('SAV', 'Julia', '2000', '256', 'periodic', '10', None)
+24.87856764984002
+('NMG', 'Julia', '2000', '128', 'periodic', '10', '25p')
+61.76641690345253
+('NMG', 'Julia', '2000', '64', 'neumann', '2000', '75p')
+31.90797299687814
+('NMG', 'Julia', '2000', '64', 'periodic', '2000', '25p')
+31.89139796114392
+('NMG', 'Julia', '2000', '256', 'neumann', '2000', '75p')
+130.99545785426858
+('SAV', 'Julia', '2000', '512', 'neumann', '2000', '25p')
+263.3914499060275
+('NMG', 'Julia', '2000', '512', 'neumann', '2000', '75p')
+263.42845796836525
+('NMG', 'Julia', '2000', '256', 'periodic', '2000', '25p')
+131.06417799383067
+('NMG', 'Julia', '2000', '512', 'periodic', '10', None)
+74.59249548626549
+('NMG', 'Julia', '2000', '128', 'periodic', '2000', '25p')
+64.51419240933146
+('SAV', 'Julia', '2000', '64', 'periodic', '10', '25p')
+31.54768527176153
+('NMG', 'Python', '20', '256', 'periodic', '20', '25p')
+NMG_Python_20_dt_5.50e-06_Nx_256_periodic_dtout_20_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '256', 'neumann', '2000', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_256_neumann_dtout_2000phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'neumann', '1', '25p')
+NMG_Python_20_dt_5.50e-06_Nx_512_neumann_dtout_1_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '512', 'periodic', '2000', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_512_periodic_dtout_2000_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'periodic', '20', None)
+NMG_Python_20_dt_5.50e-06_Nx_512_periodic_dtout_20phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '64', 'neumann', '10', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_64_neumann_dtout_10_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'neumann', '10', None)
+spinodal_decomp_04_2025NMG_Python_20_dt_5.50e-06_Nx_256_neumann_dtout_10phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'periodic', '10', None)
+0.0
+('NMG', 'Python', '200', '64', 'periodic', '200', None)
+spinodal_decomp_04_2025NMG_Python_200_dt_5.50e-06_Nx_64_periodic_dtout_200phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '256', 'neumann', '2000', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_256_neumann_dtout_2000_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'neumann', '20', None)
+spinodal_decomp_04_2025NMG_Python_20_dt_5.50e-06_Nx_512_neumann_dtout_20phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '128', 'neumann', '10', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_128_neumann_dtout_10phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'neumann', '20', '25p')
+NMG_Python_20_dt_5.50e-06_Nx_256_neumann_dtout_20_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '256', 'neumann', '10', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_256_neumann_dtout_10_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'neumann', '1', '75p')
+NMG_Python_20_dt_5.50e-06_Nx_128_neumann_dtout_1_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'periodic', '20', None)
+0.0
+('SAV', 'Python', '2000', '64', 'neumann', '10', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_64_neumann_dtout_10_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'periodic', '1', None)
+NMG_Python_20_dt_5.50e-06_Nx_512_periodic_dtout_1phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'periodic', '2000', None)
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+('NMG', 'Python', '20', '128', 'periodic', '20', None)
+NMG_Python_20_dt_5.50e-06_Nx_128_periodic_dtout_20phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '512', 'neumann', '2000', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_512_neumann_dtout_2000_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'periodic', '1', None)
+NMG_Python_20_dt_5.50e-06_Nx_128_periodic_dtout_1phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '64', 'neumann', '1', '25p')
+NMG_Python_20_dt_5.50e-06_Nx_64_neumann_dtout_1_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '128', 'periodic', '2000', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_128_periodic_dtout_2000_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'periodic', '2000', None)
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+('NMG', 'Python', '20', '512', 'periodic', '1', '75p')
+NMG_Python_20_dt_5.50e-06_Nx_512_periodic_dtout_1_75pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '512', 'neumann', '2000', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_512_neumann_dtout_2000phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '64', 'periodic', '20', None)
+NMG_Python_20_dt_5.50e-06_Nx_64_periodic_dtout_20phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '512', 'periodic', '10', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_512_periodic_dtout_10_75pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '512', 'periodic', '2000', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_512_periodic_dtout_2000_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '64', 'periodic', '2000', None)
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+('NMG', 'Python', '20', '64', 'neumann', '1', '75p')
+NMG_Python_20_dt_5.50e-06_Nx_64_neumann_dtout_1_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'periodic', '20', '75p')
+NMG_Python_20_dt_5.50e-06_Nx_128_periodic_dtout_20_75pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '256', 'periodic', '2000', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_256_periodic_dtout_2000phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '512', 'neumann', '10', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_512_neumann_dtout_10_75pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '128', 'periodic', '2000', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_128_periodic_dtout_2000_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '64', 'neumann', '20', '75p')
+NMG_Python_20_dt_5.50e-06_Nx_64_neumann_dtout_20_75pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '256', 'periodic', '10', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_256_periodic_dtout_10phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'periodic', '1', None)
+NMG_Python_20_dt_5.50e-06_Nx_256_periodic_dtout_1phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '64', 'periodic', '2000', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_64_periodic_dtout_2000_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'periodic', '1', '25p')
+NMG_Python_20_dt_5.50e-06_Nx_128_periodic_dtout_1_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '512', 'periodic', '10', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_512_periodic_dtout_10phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'periodic', '20', None)
+0.0
+('NMG', 'Python', '20', '64', 'periodic', '1', None)
+NMG_Python_20_dt_5.50e-06_Nx_64_periodic_dtout_1phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '64', 'neumann', '10', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_64_neumann_dtout_10phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'neumann', '10', None)
+spinodal_decomp_04_2025NMG_Python_20_dt_5.50e-06_Nx_512_neumann_dtout_10phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'periodic', '20', None)
+NMG_Python_20_dt_5.50e-06_Nx_256_periodic_dtout_20phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '200', '256', 'periodic', '200', None)
+spinodal_decomp_04_2025NMG_Python_200_dt_5.50e-06_Nx_256_periodic_dtout_200phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '64', 'periodic', '2000', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_64_periodic_dtout_2000_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'periodic', '20', '25p')
+NMG_Python_20_dt_5.50e-06_Nx_128_periodic_dtout_20_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '64', 'neumann', '20', '25p')
+NMG_Python_20_dt_5.50e-06_Nx_64_neumann_dtout_20_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '128', 'neumann', '10', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_128_neumann_dtout_10_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '256', 'periodic', '2000', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_256_periodic_dtout_2000_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'neumann', '10', None)
+spinodal_decomp_04_2025NMG_Python_20_dt_5.50e-06_Nx_128_neumann_dtout_10phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'periodic', '1', '75p')
+NMG_Python_20_dt_5.50e-06_Nx_256_periodic_dtout_1_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'neumann', '2000', None)
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+('NMG', 'Python', '20', '512', 'neumann', '20', '25p')
+NMG_Python_20_dt_5.50e-06_Nx_512_neumann_dtout_20_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'periodic', '20', '75p')
+NMG_Python_20_dt_5.50e-06_Nx_256_periodic_dtout_20_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'periodic', '2000', None)
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+('NMG', 'Python', '20', '64', 'neumann', '2000', None)
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+('SAV', 'Python', '2000', '64', 'neumann', '2000', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_64_neumann_dtout_2000phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '512', 'periodic', '2000', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_512_periodic_dtout_2000phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '512', 'neumann', '10', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_512_neumann_dtout_10phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '64', 'neumann', '2000', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_64_neumann_dtout_2000_75pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '256', 'periodic', '10', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_256_periodic_dtout_10_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '64', 'periodic', '1', '75p')
+NMG_Python_20_dt_5.50e-06_Nx_64_periodic_dtout_1_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '200', '512', 'neumann', '200', None)
+spinodal_decomp_04_2025NMG_Python_200_dt_5.50e-06_Nx_512_neumann_dtout_200phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'neumann', '1', '25p')
+NMG_Python_20_dt_5.50e-06_Nx_128_neumann_dtout_1_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '128', 'neumann', '2000', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_128_neumann_dtout_2000phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'neumann', '1', '75p')
+NMG_Python_20_dt_5.50e-06_Nx_256_neumann_dtout_1_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'neumann', '1', '25p')
+NMG_Python_20_dt_5.50e-06_Nx_256_neumann_dtout_1_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'periodic', '20', None)
+0.0
+('NMG', 'Python', '20', '256', 'neumann', '20', None)
+spinodal_decomp_04_2025NMG_Python_20_dt_5.50e-06_Nx_256_neumann_dtout_20phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '64', 'neumann', '2000', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_64_neumann_dtout_2000_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '128', 'neumann', '2000', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_128_neumann_dtout_2000_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'periodic', '10', None)
+0.0
+('SAV', 'Python', '2000', '64', 'periodic', '10', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_64_periodic_dtout_10_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'neumann', '20', '25p')
+NMG_Python_20_dt_5.50e-06_Nx_128_neumann_dtout_20_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'periodic', '1', '75p')
+NMG_Python_20_dt_5.50e-06_Nx_128_periodic_dtout_1_75pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '64', 'periodic', '2000', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_64_periodic_dtout_2000phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '128', 'periodic', '10', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_128_periodic_dtout_10_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '200', '128', 'periodic', '200', None)
+spinodal_decomp_04_2025NMG_Python_200_dt_5.50e-06_Nx_128_periodic_dtout_200phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '64', 'periodic', '20', '25p')
+NMG_Python_20_dt_5.50e-06_Nx_64_periodic_dtout_20_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '512', 'neumann', '2000', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_512_neumann_dtout_2000_75pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '256', 'neumann', '10', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_256_neumann_dtout_10_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '64', 'periodic', '1', '25p')
+NMG_Python_20_dt_5.50e-06_Nx_64_periodic_dtout_1_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '128', 'neumann', '10', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_128_neumann_dtout_10_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'neumann', '20', '75p')
+NMG_Python_20_dt_5.50e-06_Nx_256_neumann_dtout_20_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'periodic', '1', '25p')
+NMG_Python_20_dt_5.50e-06_Nx_256_periodic_dtout_1_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '512', 'periodic', '10', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_512_periodic_dtout_10_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '64', 'neumann', '10', None)
+spinodal_decomp_04_2025NMG_Python_20_dt_5.50e-06_Nx_64_neumann_dtout_10phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'neumann', '20', '75p')
+NMG_Python_20_dt_5.50e-06_Nx_128_neumann_dtout_20_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'neumann', '2000', None)
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+('NMG', 'Python', '200', '128', 'neumann', '200', None)
+spinodal_decomp_04_2025NMG_Python_200_dt_5.50e-06_Nx_128_neumann_dtout_200phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'periodic', '1', '25p')
+0.0
+('NMG', 'Python', '20', '64', 'periodic', '20', None)
+spinodal_decomp_04_2025NMG_Python_20_dt_5.50e-06_Nx_64_periodic_dtout_20phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '200', '512', 'periodic', '200', None)
+spinodal_decomp_04_2025NMG_Python_200_dt_5.50e-06_Nx_512_periodic_dtout_200phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '256', 'neumann', '10', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_256_neumann_dtout_10phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '64', 'periodic', '10', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_64_periodic_dtout_10_75pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '256', 'neumann', '2000', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_256_neumann_dtout_2000_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'neumann', '2000', None)
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+('SAV', 'Python', '2000', '128', 'periodic', '2000', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_128_periodic_dtout_2000phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '64', 'periodic', '20', '75p')
+NMG_Python_20_dt_5.50e-06_Nx_64_periodic_dtout_20_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'periodic', '10', None)
+0.0
+('NMG', 'Python', '2000', '64', 'periodic', '10', None)
+0.0
+('SAV', 'Python', '2000', '256', 'periodic', '10', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_256_periodic_dtout_10_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'neumann', '20', '75p')
+NMG_Python_20_dt_5.50e-06_Nx_512_neumann_dtout_20_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '200', '64', 'neumann', '200', None)
+spinodal_decomp_04_2025NMG_Python_200_dt_5.50e-06_Nx_64_neumann_dtout_200phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'neumann', '1', '75p')
+NMG_Python_20_dt_5.50e-06_Nx_512_neumann_dtout_1_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '64', 'periodic', '10', None)
+0.0
+('NMG', 'Python', '20', '512', 'periodic', '20', '75p')
+NMG_Python_20_dt_5.50e-06_Nx_512_periodic_dtout_20_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '200', '256', 'neumann', '200', None)
+spinodal_decomp_04_2025NMG_Python_200_dt_5.50e-06_Nx_256_neumann_dtout_200phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '128', 'periodic', '10', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_128_periodic_dtout_10_75pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '256', 'periodic', '2000', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_256_periodic_dtout_2000_75pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '128', 'neumann', '2000', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_128_neumann_dtout_2000_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '128', 'periodic', '10', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_128_periodic_dtout_10phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'periodic', '20', '25p')
+NMG_Python_20_dt_5.50e-06_Nx_512_periodic_dtout_20_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '512', 'neumann', '10', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_512_neumann_dtout_10_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '64', 'periodic', '10', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_64_periodic_dtout_10phi.csv is not in the correct format for calculating norm.
+Timepoint 2000
+('SAV', 'MATLAB', '2000', '256', 'periodic', None, '25p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_256_periodic_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '128', 'periodic', None, None)
+SAV_MATLAB_2000_dt_5.50e-06_Nx_128_periodic_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '64', 'neumann', None, '25p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_64_neumann_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '512', 'periodic', None, '75p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_512_periodic_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '128', 'periodic', None, None)
+NMG_MATLAB_2000_dt_5.50e-06_Nx_128_periodic_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '256', 'neumann', None, '25p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_256_neumann_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '128', 'neumann', None, '75p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_128_neumann_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '256', 'neumann', None, None)
+NMG_MATLAB_2000_dt_5.50e-06_Nx_256_neumann_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '256', 'neumann', None, '75p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_256_neumann_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '64', 'neumann', None, None)
+SAV_MATLAB_2000_dt_5.50e-06_Nx_64_neumann_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '128', 'periodic', None, '75p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_128_periodic_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '512', 'neumann', None, '25p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_512_neumann_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '64', 'periodic', None, '25p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_64_periodic_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '64', 'periodic', None, '25p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_64_periodic_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '128', 'periodic', None, '25p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_128_periodic_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '256', 'periodic', None, '25p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_256_periodic_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '64', 'periodic', None, '75p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_64_periodic_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '512', 'periodic', None, None)
+SAV_MATLAB_2000_dt_5.50e-06_Nx_512_periodic_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '512', 'periodic', None, '25p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_512_periodic_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '128', 'neumann', None, None)
+SAV_MATLAB_2000_dt_5.50e-06_Nx_128_neumann_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '512', 'neumann', None, '25p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_512_neumann_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '256', 'periodic', None, None)
+NMG_MATLAB_2000_dt_5.50e-06_Nx_256_periodic_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '64', 'neumann', None, '75p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_64_neumann_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '512', 'neumann', None, '75p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_512_neumann_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '512', 'neumann', None, None)
+SAV_MATLAB_2000_dt_5.50e-06_Nx_512_neumann_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '64', 'neumann', None, '75p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_64_neumann_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '128', 'neumann', None, None)
+NMG_MATLAB_2000_dt_5.50e-06_Nx_128_neumann_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '256', 'periodic', None, '75p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_256_periodic_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '512', 'periodic', None, '75p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_512_periodic_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '128', 'neumann', None, '25p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_128_neumann_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '512', 'neumann', None, '75p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_512_neumann_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '256', 'neumann', None, '75p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_256_neumann_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '64', 'periodic', None, None)
+SAV_MATLAB_2000_dt_5.50e-06_Nx_64_periodic_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '64', 'neumann', None, '25p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_64_neumann_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '256', 'neumann', None, None)
+SAV_MATLAB_2000_dt_5.50e-06_Nx_256_neumann_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '256', 'neumann', None, '25p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_256_neumann_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '512', 'periodic', None, None)
+NMG_MATLAB_2000_dt_5.50e-06_Nx_512_periodic_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '128', 'neumann', None, '75p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_128_neumann_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '128', 'periodic', None, '25p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_128_periodic_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '128', 'periodic', None, '75p')
+SAV_MATLAB_2000_dt_5.50e-06_Nx_128_periodic_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('SAV', 'MATLAB', '2000', '256', 'periodic', None, None)
+SAV_MATLAB_2000_dt_5.50e-06_Nx_256_periodic_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '64', 'periodic', None, '75p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_64_periodic_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '64', 'neumann', None, None)
+NMG_MATLAB_2000_dt_5.50e-06_Nx_64_neumann_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '256', 'periodic', None, '75p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_256_periodic_n_relax_4_75p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '512', 'neumann', None, None)
+NMG_MATLAB_2000_dt_5.50e-06_Nx_512_neumann_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '128', 'neumann', None, '25p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_128_neumann_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '64', 'periodic', None, None)
+NMG_MATLAB_2000_dt_5.50e-06_Nx_64_periodic_n_relax_4_phi.csv is not in the correct format for calculating norm.
+('NMG', 'MATLAB', '2000', '512', 'periodic', None, '25p')
+NMG_MATLAB_2000_dt_5.50e-06_Nx_512_periodic_n_relax_4_25p_phi.csv is not in the correct format for calculating norm.
+('NMG', 'Julia', '2000', '128', 'neumann', '10', None)
+88.97552455171996
+('NMG', 'Julia', '2000', '64', 'neumann', '10', '25p')
+31.414789913155868
+('NMG', 'Julia', '2000', '256', 'neumann', '2000', None)
+204.93765146038754
+('SAV', 'Julia', '2000', '512', 'periodic', '2000', '75p')
+448.055596499635
+('NMG', 'Julia', '2000', '128', 'neumann', '2000', None)
+88.97552455171996
+('SAV', 'Julia', '2000', '256', 'periodic', '2000', '25p')
+212.36572037788932
+('NMG', 'Julia', '2000', '512', 'neumann', '2000', None)
+432.20687068324156
+('SAV', 'Julia', '2000', '512', 'neumann', '10', None)
+449.82987147902037
+('SAV', 'Julia', '2000', '512', 'periodic', '10', '75p')
+448.055596499635
+('NMG', 'Julia', '2000', '128', 'periodic', '2000', None)
+89.51030870766573
+('SAV', 'Julia', '2000', '128', 'neumann', '10', '75p')
+63.243920416541826
+('SAV', 'Julia', '2000', '128', 'periodic', '10', '25p')
+63.20088169280991
+('NMG', 'Julia', '2000', '64', 'neumann', '10', '75p')
+31.41579722504934
+('NMG', 'Julia', '2000', '256', 'periodic', '2000', '75p')
+203.909910982339
+('NMG', 'Julia', '2000', '128', 'periodic', '2000', '75p')
+62.542757425095104
+('NMG', 'Julia', '2000', '128', 'neumann', '2000', '25p')
+62.527666683047684
+('SAV', 'Julia', '2000', '512', 'periodic', '2000', '25p')
+447.54572847403915
+('NMG', 'Julia', '2000', '64', 'neumann', '10', None)
+15.463282342791958
+('SAV', 'Julia', '2000', '256', 'neumann', '2000', None)
+206.60433055934558
+('SAV', 'Julia', '2000', '512', 'periodic', '10', '25p')
+447.54572847403915
+('SAV', 'Julia', '2000', '128', 'periodic', '10', None)
+86.93505241480163
+('SAV', 'Julia', '2000', '512', 'neumann', '10', '75p')
+448.0575826674208
+('NMG', 'Julia', '2000', '256', 'periodic', '2000', None)
+205.57255859051415
+('SAV', 'Julia', '2000', '128', 'periodic', '2000', None)
+86.93505241480163
+('SAV', 'Julia', '2000', '64', 'neumann', '2000', '25p')
+31.528587428094546
+('NMG', 'Julia', '2000', '512', 'periodic', '2000', '75p')
+428.14489466834357
+('SAV', 'Julia', '2000', '256', 'periodic', '2000', '75p')
+211.2265768592991
+('SAV', 'Julia', '2000', '256', 'neumann', '10', '25p')
+211.67642928101375
+('SAV', 'Julia', '2000', '128', 'neumann', '2000', '25p')
+63.29371271544478
+('NMG', 'Julia', '2000', '256', 'neumann', '10', '75p')
+204.7426555773793
+('SAV', 'Julia', '2000', '512', 'neumann', '10', '25p')
+445.95471020051394
+('NMG', 'Julia', '2000', '64', 'neumann', '2000', None)
+15.463282342791958
+('SAV', 'Julia', '2000', '256', 'periodic', '2000', None)
+207.41534302653906
+('SAV', 'Julia', '2000', '64', 'neumann', '2000', None)
+11.619937454490513
+('SAV', 'Julia', '2000', '128', 'periodic', '10', '75p')
+63.26052405106299
+('NMG', 'Julia', '2000', '64', 'periodic', '10', None)
+15.373279366252234
+('SAV', 'Julia', '2000', '512', 'neumann', '2000', None)
+449.82987147902037
+('NMG', 'Julia', '2000', '64', 'periodic', '2000', None)
+15.373279366252234
+('NMG', 'Julia', '2000', '64', 'periodic', '2000', '75p')
+31.396670886471625
+('NMG', 'Julia', '2000', '512', 'neumann', '10', '25p')
+425.1589675810097
+('SAV', 'Julia', '2000', '256', 'neumann', '2000', '25p')
+211.67642928101375
+('SAV', 'Julia', '2000', '256', 'neumann', '2000', '75p')
+212.90203379185505
+('SAV', 'Julia', '2000', '512', 'periodic', '10', None)
+450.8142159862076
+('NMG', 'Julia', '2000', '128', 'periodic', '10', None)
+89.51030870766573
+('NMG', 'Julia', '2000', '128', 'neumann', '2000', '75p')
+62.278815007830005
+('NMG', 'Julia', '2000', '512', 'periodic', '2000', '25p')
+424.79807774801725
+('SAV', 'Julia', '2000', '64', 'periodic', '2000', '25p')
+31.527487419178623
+('NMG', 'Julia', '2000', '128', 'neumann', '10', '25p')
+62.527666683047684
+('NMG', 'Julia', '2000', '512', 'periodic', '2000', None)
+432.79129592290485
+('NMG', 'Julia', '2000', '64', 'periodic', '10', '75p')
+31.396670886471625
+('SAV', 'Julia', '2000', '64', 'neumann', '2000', '75p')
+31.529462488434042
+('SAV', 'Julia', '2000', '128', 'neumann', '2000', '75p')
+63.243920416541826
+('SAV', 'Julia', '2000', '64', 'periodic', '2000', '75p')
+31.526409405667025
+('SAV', 'Julia', '2000', '128', 'neumann', '10', None)
+86.66184000034077
+('NMG', 'Julia', '2000', '512', 'neumann', '10', '75p')
+427.99515963484373
+('SAV', 'Julia', '2000', '256', 'neumann', '10', None)
+206.60433055934558
+('NMG', 'Julia', '2000', '512', 'neumann', '2000', '25p')
+425.1589675810097
+('NMG', 'Julia', '2000', '256', 'periodic', '10', '25p')
+204.2328961935036
+('NMG', 'Julia', '2000', '256', 'neumann', '10', None)
+204.93765146038754
+('SAV', 'Julia', '2000', '128', 'neumann', '2000', None)
+86.66184000034077
+('NMG', 'Julia', '2000', '256', 'periodic', '10', '75p')
+203.909910982339
+('SAV', 'Julia', '2000', '64', 'neumann', '10', '25p')
+31.528587428094546
+('NMG', 'Julia', '2000', '512', 'neumann', '10', None)
+432.20687068324156
+('SAV', 'Julia', '2000', '128', 'neumann', '10', '25p')
+63.29371271544478
+('NMG', 'Julia', '2000', '512', 'periodic', '10', '75p')
+428.14489466834357
+('SAV', 'Julia', '2000', '512', 'neumann', '2000', '75p')
+448.0575826674208
+('SAV', 'Julia', '2000', '128', 'periodic', '2000', '25p')
+63.20088169280991
+('SAV', 'Julia', '2000', '256', 'periodic', '10', '25p')
+212.36572037788932
+('SAV', 'Julia', '2000', '512', 'periodic', '2000', None)
+450.8142159862076
+('NMG', 'Julia', '2000', '256', 'neumann', '2000', '25p')
+203.5333970516826
+('NMG', 'Julia', '2000', '128', 'neumann', '10', '75p')
+62.278815007830005
+('NMG', 'Julia', '2000', '512', 'periodic', '10', '25p')
+424.79807774801725
+('NMG', 'Julia', '2000', '64', 'neumann', '2000', '25p')
+31.414789913155868
+('SAV', 'Julia', '2000', '64', 'periodic', '2000', None)
+11.038447535534498
+('SAV', 'Julia', '2000', '64', 'neumann', '10', '75p')
+31.529462488434042
+('SAV', 'Julia', '2000', '64', 'periodic', '10', '75p')
+31.526409405667025
+('NMG', 'Julia', '2000', '64', 'periodic', '10', '25p')
+31.40489838805438
+('SAV', 'Julia', '2000', '64', 'periodic', '10', None)
+11.038447535534498
+('SAV', 'Julia', '2000', '256', 'neumann', '10', '75p')
+212.90203379185505
+('NMG', 'Julia', '2000', '256', 'neumann', '10', '25p')
+203.5333970516826
+('SAV', 'Julia', '2000', '256', 'periodic', '10', '75p')
+211.2265768592991
+('SAV', 'Julia', '2000', '64', 'neumann', '10', None)
+11.619937454490513
+('SAV', 'Julia', '2000', '128', 'periodic', '2000', '75p')
+63.26052405106299
+('NMG', 'Julia', '2000', '256', 'periodic', '10', None)
+205.57255859051415
+('NMG', 'Julia', '2000', '128', 'periodic', '10', '75p')
+62.542757425095104
+('SAV', 'Julia', '2000', '256', 'periodic', '10', None)
+207.41534302653906
+('NMG', 'Julia', '2000', '128', 'periodic', '10', '25p')
+62.05804946644115
+('NMG', 'Julia', '2000', '64', 'neumann', '2000', '75p')
+31.41579722504934
+('NMG', 'Julia', '2000', '64', 'periodic', '2000', '25p')
+31.40489838805438
+('NMG', 'Julia', '2000', '256', 'neumann', '2000', '75p')
+204.7426555773793
+('SAV', 'Julia', '2000', '512', 'neumann', '2000', '25p')
+445.95471020051394
+('NMG', 'Julia', '2000', '512', 'neumann', '2000', '75p')
+427.99515963484373
+('NMG', 'Julia', '2000', '256', 'periodic', '2000', '25p')
+204.2328961935036
+('NMG', 'Julia', '2000', '512', 'periodic', '10', None)
+432.79129592290485
+('NMG', 'Julia', '2000', '128', 'periodic', '2000', '25p')
+62.05804946644115
+('SAV', 'Julia', '2000', '64', 'periodic', '10', '25p')
+31.527487419178623
+('NMG', 'Python', '20', '256', 'periodic', '20', '25p')
+0.0
+('SAV', 'Python', '2000', '256', 'neumann', '2000', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_256_neumann_dtout_2000phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'neumann', '1', '25p')
+0.0
+('SAV', 'Python', '2000', '512', 'periodic', '2000', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_512_periodic_dtout_2000_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'periodic', '20', None)
+0.0
+('SAV', 'Python', '2000', '64', 'neumann', '10', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_64_neumann_dtout_10_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'neumann', '10', None)
+0.0
+('NMG', 'Python', '20', '128', 'periodic', '10', None)
+0.0
+('NMG', 'Python', '200', '64', 'periodic', '200', None)
+0.0
+('SAV', 'Python', '2000', '256', 'neumann', '2000', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_256_neumann_dtout_2000_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'neumann', '20', None)
+0.0
+('SAV', 'Python', '2000', '128', 'neumann', '10', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_128_neumann_dtout_10phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'neumann', '20', '25p')
+0.0
+('SAV', 'Python', '2000', '256', 'neumann', '10', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_256_neumann_dtout_10_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'neumann', '1', '75p')
+0.0
+('NMG', 'Python', '20', '512', 'periodic', '20', None)
+0.0
+('SAV', 'Python', '2000', '64', 'neumann', '10', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_64_neumann_dtout_10_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'periodic', '1', None)
+0.0
+('NMG', 'Python', '20', '128', 'periodic', '2000', None)
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+('NMG', 'Python', '20', '128', 'periodic', '20', None)
+0.0
+('SAV', 'Python', '2000', '512', 'neumann', '2000', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_512_neumann_dtout_2000_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'periodic', '1', None)
+0.0
+('NMG', 'Python', '20', '64', 'neumann', '1', '25p')
+0.0
+('SAV', 'Python', '2000', '128', 'periodic', '2000', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_128_periodic_dtout_2000_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'periodic', '2000', None)
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+('NMG', 'Python', '20', '512', 'periodic', '1', '75p')
+0.0
+('SAV', 'Python', '2000', '512', 'neumann', '2000', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_512_neumann_dtout_2000phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '64', 'periodic', '20', None)
+0.0
+('SAV', 'Python', '2000', '512', 'periodic', '10', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_512_periodic_dtout_10_75pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '512', 'periodic', '2000', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_512_periodic_dtout_2000_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '64', 'periodic', '2000', None)
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+('NMG', 'Python', '20', '64', 'neumann', '1', '75p')
+0.0
+('NMG', 'Python', '20', '128', 'periodic', '20', '75p')
+0.0
+('SAV', 'Python', '2000', '256', 'periodic', '2000', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_256_periodic_dtout_2000phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '512', 'neumann', '10', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_512_neumann_dtout_10_75pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '128', 'periodic', '2000', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_128_periodic_dtout_2000_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '64', 'neumann', '20', '75p')
+0.0
+('SAV', 'Python', '2000', '256', 'periodic', '10', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_256_periodic_dtout_10phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'periodic', '1', None)
+0.0
+('SAV', 'Python', '2000', '64', 'periodic', '2000', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_64_periodic_dtout_2000_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'periodic', '1', '25p')
+0.0
+('SAV', 'Python', '2000', '512', 'periodic', '10', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_512_periodic_dtout_10phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'periodic', '20', None)
+0.0
+('NMG', 'Python', '20', '64', 'periodic', '1', None)
+0.0
+('SAV', 'Python', '2000', '64', 'neumann', '10', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_64_neumann_dtout_10phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'neumann', '10', None)
+0.0
+('NMG', 'Python', '20', '256', 'periodic', '20', None)
+0.0
+('NMG', 'Python', '200', '256', 'periodic', '200', None)
+0.0
+('SAV', 'Python', '2000', '64', 'periodic', '2000', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_64_periodic_dtout_2000_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'periodic', '20', '25p')
+0.0
+('NMG', 'Python', '20', '64', 'neumann', '20', '25p')
+0.0
+('SAV', 'Python', '2000', '128', 'neumann', '10', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_128_neumann_dtout_10_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '256', 'periodic', '2000', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_256_periodic_dtout_2000_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'neumann', '10', None)
+0.0
+('NMG', 'Python', '20', '256', 'periodic', '1', '75p')
+0.0
+('NMG', 'Python', '20', '256', 'neumann', '2000', None)
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+('NMG', 'Python', '20', '512', 'neumann', '20', '25p')
+0.0
+('NMG', 'Python', '20', '256', 'periodic', '20', '75p')
+0.0
+('NMG', 'Python', '20', '512', 'periodic', '2000', None)
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+('NMG', 'Python', '20', '64', 'neumann', '2000', None)
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+('SAV', 'Python', '2000', '64', 'neumann', '2000', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_64_neumann_dtout_2000phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '512', 'periodic', '2000', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_512_periodic_dtout_2000phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '512', 'neumann', '10', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_512_neumann_dtout_10phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '64', 'neumann', '2000', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_64_neumann_dtout_2000_75pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '256', 'periodic', '10', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_256_periodic_dtout_10_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '64', 'periodic', '1', '75p')
+0.0
+('NMG', 'Python', '200', '512', 'neumann', '200', None)
+0.0
+('NMG', 'Python', '20', '128', 'neumann', '1', '25p')
+0.0
+('SAV', 'Python', '2000', '128', 'neumann', '2000', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_128_neumann_dtout_2000phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'neumann', '1', '75p')
+0.0
+('NMG', 'Python', '20', '256', 'neumann', '1', '25p')
+0.0
+('NMG', 'Python', '20', '256', 'periodic', '20', None)
+0.0
+('NMG', 'Python', '20', '256', 'neumann', '20', None)
+0.0
+('SAV', 'Python', '2000', '64', 'neumann', '2000', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_64_neumann_dtout_2000_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '128', 'neumann', '2000', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_128_neumann_dtout_2000_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'periodic', '10', None)
+0.0
+('SAV', 'Python', '2000', '64', 'periodic', '10', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_64_periodic_dtout_10_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '128', 'neumann', '20', '25p')
+0.0
+('NMG', 'Python', '20', '128', 'periodic', '1', '75p')
+0.0
+('SAV', 'Python', '2000', '64', 'periodic', '2000', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_64_periodic_dtout_2000phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '128', 'periodic', '10', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_128_periodic_dtout_10_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '200', '128', 'periodic', '200', None)
+0.0
+('NMG', 'Python', '20', '64', 'periodic', '20', '25p')
+0.0
+('SAV', 'Python', '2000', '512', 'neumann', '2000', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_512_neumann_dtout_2000_75pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '256', 'neumann', '10', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_256_neumann_dtout_10_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '64', 'periodic', '1', '25p')
+0.0
+('SAV', 'Python', '2000', '128', 'neumann', '10', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_128_neumann_dtout_10_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '256', 'neumann', '20', '75p')
+0.0
+('NMG', 'Python', '20', '256', 'periodic', '1', '25p')
+0.0
+('SAV', 'Python', '2000', '512', 'periodic', '10', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_512_periodic_dtout_10_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '64', 'neumann', '10', None)
+0.0
+('NMG', 'Python', '20', '128', 'neumann', '20', '75p')
+0.0
+('NMG', 'Python', '20', '128', 'neumann', '2000', None)
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+('NMG', 'Python', '200', '128', 'neumann', '200', None)
+0.0
+('NMG', 'Python', '20', '512', 'periodic', '1', '25p')
+0.0
+('NMG', 'Python', '20', '64', 'periodic', '20', None)
+0.0
+('NMG', 'Python', '200', '512', 'periodic', '200', None)
+0.0
+('SAV', 'Python', '2000', '256', 'neumann', '10', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_256_neumann_dtout_10phi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '64', 'periodic', '10', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_64_periodic_dtout_10_75pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '256', 'neumann', '2000', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_256_neumann_dtout_2000_25pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'neumann', '2000', None)
+Timepoint not recorded. dt_out:2000 is bigger than total timepoints: 20
+('SAV', 'Python', '2000', '128', 'periodic', '2000', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_128_periodic_dtout_2000phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '64', 'periodic', '20', '75p')
+0.0
+('NMG', 'Python', '20', '256', 'periodic', '10', None)
+0.0
+('NMG', 'Python', '2000', '64', 'periodic', '10', None)
+0.0
+('SAV', 'Python', '2000', '256', 'periodic', '10', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_256_periodic_dtout_10_75pphi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'neumann', '20', '75p')
+0.0
+('NMG', 'Python', '200', '64', 'neumann', '200', None)
+0.0
+('NMG', 'Python', '20', '512', 'neumann', '1', '75p')
+0.0
+('NMG', 'Python', '20', '64', 'periodic', '10', None)
+0.0
+('NMG', 'Python', '20', '512', 'periodic', '20', '75p')
+0.0
+('NMG', 'Python', '200', '256', 'neumann', '200', None)
+0.0
+('SAV', 'Python', '2000', '128', 'periodic', '10', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_128_periodic_dtout_10_75pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '256', 'periodic', '2000', '75p')
+SAV_Python_2000_dt_5.50e-06_Nx_256_periodic_dtout_2000_75pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '128', 'neumann', '2000', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_128_neumann_dtout_2000_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '128', 'periodic', '10', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_128_periodic_dtout_10phi.csv is not in the correct format for calculating norm.
+('NMG', 'Python', '20', '512', 'periodic', '20', '25p')
+0.0
+('SAV', 'Python', '2000', '512', 'neumann', '10', '25p')
+SAV_Python_2000_dt_5.50e-06_Nx_512_neumann_dtout_10_25pphi.csv is not in the correct format for calculating norm.
+('SAV', 'Python', '2000', '64', 'periodic', '10', None)
+spinodal_decomp_04_2025SAV_Python_2000_dt_5.50e-06_Nx_64_periodic_dtout_10phi.csv is not in the correct format for calculating norm.
+DONE

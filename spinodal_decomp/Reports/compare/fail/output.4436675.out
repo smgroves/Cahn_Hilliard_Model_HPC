@@ -1,0 +1,8 @@
+Fri May 9 13:48:48 EDT 2025
+MODULES LOADED
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_phi_mass.py", line 100, in <module>
+    print(time)
+          ^^^^
+NameError: name 'time' is not defined
+DONE
