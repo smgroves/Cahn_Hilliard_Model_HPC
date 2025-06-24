@@ -1,0 +1,20 @@
+Mon Jun 23 12:20:52 EDT 2025
+128 neumann true SAV 50p
+MODULES LOADED
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024b Update 3 (24.2.0.2806996) 64-bit (glnxa64)
+                             November 26, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+ run_spinodal_decomp_HPC(128, 'neumann', 'true', 'SAV', '395628_44', 50p);quit;
+                                                                       |
+{Invalid expression. Check for missing multiplication operator, missing or
+unbalanced delimiters, or other syntax error. To construct matrices, use
+brackets instead of parentheses.
+} 
+Done.

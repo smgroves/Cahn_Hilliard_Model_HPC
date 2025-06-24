@@ -1,0 +1,5 @@
+Mon Jun 23 15:57:39 EDT 2025
+512 periodic true NMG 25p
+MODULES LOADED
+GKS: cannot open display - headless operation mode active
+slurmstepd: error: *** JOB 404273 ON udc-aw34-8c0 CANCELLED AT 2025-06-23T23:57:48 DUE TO TIME LIMIT ***

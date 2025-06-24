@@ -3,8 +3,8 @@
 #SBATCH -o ./Reports/%A/output.%J.out
 #SBATCH --ntasks-per-node=16
 #SBATCH --account=janeslab
-#SBATCH --time=10:00:00
-#SBATCH --mem=50G
+#SBATCH --time=15:00:00
+#SBATCH --mem=200G
 #SBATCH --partition=standard
 #SBATCH --array=1-5
 

@@ -36,7 +36,8 @@ m = 8
 epsilon = m * h / (2 * sqrt(2) * atanh(0.9))
 
 printphi = true
-phi0 = initialization_from_file("$(indir)initial_phi_$(GridSize)_smooth_n_relax_$(n_relax)_$(note)_$(boundary).csv", GridSize, GridSize, delim=',', transpose_matrix=false)
+#use neumann-smoothed IC for both periodic and neumann sims
+phi0 = initialization_from_file("$(indir)initial_phi_$(GridSize)_smooth_n_relax_$(n_relax)_$(note)_neumann.csv", GridSize, GridSize, delim=',', transpose_matrix=false)
 dt = 5.5e-6
 max_it = 2000
 
@@ -78,5 +79,5 @@ if print
         writedlm(f, E_t, " ")
     end
     # t_out = readdlm("$(pathname)t_out.csv", ',', Float64)
-    ch_movie_from_file("$(pathname)phi.csv", t_out, GridSize; dtframes=1, filename="$(pathname)movie", filetype="avi", colorbar_type="default")
+    ch_movie_from_file("$(pathname)phi.csv", t_out, GridSize; dtframes=1, filename="$(pathname)movie", filetype="mp4", colorbar_type="default")
 end

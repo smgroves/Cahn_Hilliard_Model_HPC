@@ -1,0 +1,4 @@
+Mon Jun 23 15:41:08 EDT 2025
+512 periodic true NMG 75p
+MODULES LOADED
+slurmstepd: error: *** JOB 403911 ON udc-an33-12c1 CANCELLED AT 2025-06-23T23:41:19 DUE TO TIME LIMIT ***

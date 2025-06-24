@@ -1,0 +1,34 @@
+Mon Jun 23 12:24:37 EDT 2025
+256 periodic true NMG 25p
+MODULES LOADED
+An error occurred while extracting product files.
+Try rerunning the installer.
+
+For help, see this <a href="https://www.mathworks.com/pi_ee_mci_glnxa64">support article</a>.
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024b Update 3 (24.2.0.2806996) 64-bit (glnxa64)
+                             November 26, 2024
+
+[Warning: Unable to load Toolbox Path Cache
+/home/xpz5km/.matlab/R2024b/toolbox_cache-24.2.0-455963650-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+ run_spinodal_decomp_HPC(256, 'periodic', 'true', 'NMG', '395628_81', 25p);quit;
+                                                                        |
+{Invalid expression. Check for missing multiplication operator, missing or
+unbalanced delimiters, or other syntax error. To construct matrices, use
+brackets instead of parentheses.
+} 
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+Done.

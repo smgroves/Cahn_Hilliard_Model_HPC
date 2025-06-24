@@ -1,0 +1,4 @@
+Mon Jun 23 12:11:25 EDT 2025
+64 periodic true SAV _50p
+MODULES LOADED
+slurmstepd: error: *** JOB 395300 ON udc-aw32-4c0 CANCELLED AT 2025-06-23T12:11:33 ***

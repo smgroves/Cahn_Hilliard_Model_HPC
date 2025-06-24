@@ -1,0 +1,30 @@
+Mon Jun 23 12:24:37 EDT 2025
+128 neumann false SAV 25p
+MODULES LOADED
+An error occurred while extracting product files.
+Try rerunning the installer.
+
+For help, see this <a href="https://www.mathworks.com/pi_ee_mci_glnxa64">support article</a>.
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024b Update 3 (24.2.0.2806996) 64-bit (glnxa64)
+                             November 26, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+ run_spinodal_decomp_HPC(128, 'neumann', 'false', 'SAV', '395628_80', 25p);quit;
+                                                                        |
+{Invalid expression. Check for missing multiplication operator, missing or
+unbalanced delimiters, or other syntax error. To construct matrices, use
+brackets instead of parentheses.
+} 
+An error occurred while extracting product files.
+Try rerunning the installer.
+
+For help, see this <a href="https://www.mathworks.com/pi_ee_mci_glnxa64">support article</a>.
+Done.

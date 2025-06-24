@@ -1,0 +1,9 @@
+512 periodic true NMG 75p
+512 periodic true NMG 50p
+512 periodic true NMG 25p
+512 neumann false SAV 25p
+512 neumann true SAV 75p
+512 neumann false SAV 75p
+512 neumann true SAV 50p
+512 neumann false SAV 50p
+512 neumann true SAV 25p
