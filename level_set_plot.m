@@ -1,6 +1,6 @@
 function [rr, tt] = level_set_plot(dt, indir, total_time, everyR, epsilon_name, R0, folder, Nx, suffix)
     timesteps=total_time/dt;
-    name=sprintf('phi_%s_%s_1.0e-6__R0_%s_eps_%s%s',string(Nx),string(timesteps),R0, epsilon_name, suffix)
+    name=sprintf('SAV_Julia_%s_%s_1.0e-6__R0_%s_eps_%s%s',string(Nx),string(timesteps),R0, epsilon_name, suffix)
     dtout=10;
     % Nx = 2^8;Ny=2^8;
     Ny = Nx;

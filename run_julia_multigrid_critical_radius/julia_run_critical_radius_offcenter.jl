@@ -31,7 +31,7 @@ println(R0)
 println("starting initialization")
 phi0 = initialize_offcenter(nx, nx, R0 = R0, epsilon = gam)
 # outdir = "/scratch/xpz5km/Cahn_Hilliard_Model/julia_out/critical_radius_updated_IC"
-boundary = "neumann"
+boundary = "periodic"
 outdir = "/project/g_bme-janeslab/SarahG/julia_out/critical_radius_offcenter/phi_$(nx)_$(max_it)_$(tol)__R0_$(R0)_eps_$(round(gam, sigdigits = 5))_$(boundary)_offcenter"
 println("starting ch solver")
 

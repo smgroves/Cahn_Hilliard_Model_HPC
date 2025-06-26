@@ -1,0 +1,6 @@
+Tue Jun 24 13:58:21 EDT 2025
+0.11 12 10
+MODULES LOADED
+/var/spool/slurm/slurmd/job455353/slurm_script: line 17: 680351 Killed                  julia julia_run_critical_radius_256.jl $OPTS
+DONE
+slurmstepd: error: Detected 1 oom_kill event in StepId=455353.batch. Some of the step tasks have been OOM Killed.

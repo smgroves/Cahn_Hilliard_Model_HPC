@@ -1,0 +1,14 @@
+Wed Jun 25 14:16:29 EDT 2025
+0.105 12 10
+MODULES LOADED
+ERROR: LoadError: ArgumentError: First argument to `@sprintf` must be a format string.
+Stacktrace:
+ [1] var"@sprintf"(__source__::LineNumberNode, __module__::Module, fmt::Any, args::Vararg{Any})
+   @ Printf /sfs/gpfs/tardis/applications/202506/software/standard/core/julia/1.9.2/share/julia/stdlib/v1.9/Printf/src/Printf.jl:961
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/run_julia_multigrid_critical_radius/julia_run_critical_radius_256.jl:48
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/run_julia_multigrid_critical_radius/julia_run_critical_radius_256.jl:48
+0.105
+starting initialization
+starting ch solver
+Running periodic
+DONE

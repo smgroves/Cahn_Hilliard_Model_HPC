@@ -9,7 +9,7 @@
 #SBATCH --array=1-5
 
 echo $(date)
-OPTS=$(sed -n "${SLURM_ARRAY_TASK_ID}"p ./run_julia_multigrid_critical_radius/options_alt_IC.txt)
+OPTS=$(sed -n "${SLURM_ARRAY_TASK_ID}"p ./run_julia_multigrid_critical_radius/options_alt_IC_128.txt)
 module load matlab
 echo "LOADED MATLAB"
 R0=$(echo "$OPTS" | awk '{print $1}')
@@ -23,5 +23,5 @@ echo $R0
 echo $m
 echo $indir
 echo $suffix
-matlab -nodisplay -r "level_set_radius_array_alt_IC($R0, $m, 256,'$indir', '$suffix'); exit;"
+matlab -nodisplay -r "level_set_radius_array_alt_IC($R0, $m, 128,'$indir', '$suffix'); exit;"
 echo "DONE"

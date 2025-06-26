@@ -78,7 +78,9 @@ def plot_timepoint(phi_name, indir, outdir, timepoints, delim = " ",Nx = 128):
         # plt.close()
 
 
-indir = "/project/g_bme-janeslab/SarahG/julia_out/critical_radius_alt_IC"
+# indir = "/project/g_bme-janeslab/SarahG/julia_out/critical_radius_alt_IC"
+indir = "/project/g_bme-janeslab/SarahG/julia_out/critical_radius_offcenter"
+
 outdir = f"{indir}/timepoint_plots"
 timepoints = [0,8000,16000,24000,32000,40000]
 # plot_timepoint("phi_128_400000_1.0e-6__R0_0.118_eps_0.015009.txt", indir, outdir, timepoints = timepoints)
@@ -88,14 +90,13 @@ timepoints = [0,8000,16000,24000,32000,40000]
 # plot_timepoint("phi_128_400000_1.0e-6__R0_0.118_eps_0.015009.txt", indir, outdir, timepoints = [0,2000,4000,6000,8000])
 
 #timepoints = 0, 0.01, 0.03, 0.1, 0.3, 1, 3, 10 
-timepoints = [0, 40, 120, 400, 1200,4000,12000,40000]
+timepoints = [0, 40, 120]#, 400, 1200,4000,12000,40000]
 # plot_timepoint("phi_128_400000_1.0e-6__R0_0.11_eps_0.015009.txt", indir, outdir, timepoints = timepoints)
 # plot_timepoint("phi_128_400000_1.0e-6__R0_0.12_eps_0.015009.txt", indir, outdir, timepoints = timepoints)
 # plot_timepoint("phi_128_400000_1.0e-6__R0_0.12_eps_0.011257.txt", indir, outdir, timepoints = timepoints)
 # plot_timepoint("phi_128_400000_1.0e-6__R0_0.09_eps_0.011257.txt", indir, outdir, timepoints = timepoints)
-plot_timepoint("phi_256_400000_1.0e-6__R0_0.105_eps_0.011257_two_halvesphi.csv", indir, outdir, timepoints = timepoints, delim = ",", Nx = 256)
+plot_timepoint("phi_256_400000_1.0e-6__R0_0.105_eps_0.011257_neumann_offcenterphi.csv", indir, outdir, timepoints = timepoints, delim = ",", Nx = 256)
 # plot_timepoint("phi_128_400000_1.0e-6__R0_0.06_eps_0.011257.txt", indir, outdir, timepoints = timepoints)
 # plot_timepoint("phi_128_400000_1.0e-6__R0_0.1_eps_0.011257.txt", indir, outdir, timepoints = timepoints)
-
 
 

@@ -3,13 +3,13 @@
 #SBATCH -o ./Reports/%A/output.%J.out
 #SBATCH --ntasks-per-node=16
 #SBATCH --account=janeslab
-#SBATCH --time=10:00:00
-#SBATCH --mem=50G
+#SBATCH --time=30:00:00
+#SBATCH --mem=200G
 #SBATCH --partition=standard
-#SBATCH --array=1-54
+#SBATCH --array=1-5
 
 echo $(date)
-OPTS=$(sed -n "${SLURM_ARRAY_TASK_ID}"p options_256_v2.txt)
+OPTS=$(sed -n "${SLURM_ARRAY_TASK_ID}"p options_periodic_check.txt)
 echo $OPTS
 # Load  Julia environment
 module load julia/1.9.2

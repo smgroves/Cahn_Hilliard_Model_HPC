@@ -1,0 +1,13 @@
+Tue Jun 24 11:44:31 EDT 2025
+0.09 12 10
+MODULES LOADED
+ERROR: LoadError: UndefVarError: `phi0` not defined
+Stacktrace:
+ [1] top-level scope
+   @ ./timing.jl:393
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/run_julia_multigrid_critical_radius/julia_run_critical_radius_256.jl:37
+0.09
+starting initialization
+starting ch solver
+Running periodic
+DONE

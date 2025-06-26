@@ -1,6 +1,6 @@
 function [] = level_set_radius_array(R0, m, Nx,indir, suffix)
     folder = "plots";
-    total_time=10;
+    total_time=6; %changed just to look at unfinished sims; needs to be changed back to 10!
     everyR=10;
 %    if m==8
 %        epsilon_name="0.015009"
@@ -32,7 +32,7 @@ function [] = level_set_radius_array(R0, m, Nx,indir, suffix)
     length(R0_vector)
 
     T = table(transpose(rr), transpose(tt), transpose(R0_vector),'VariableNames',{'radius', 'time', 'R0'});
-    writetable(T,sprintf('%s/radius_0.5_level_set_epsilon_%s_%s.txt',indir, epsilon_name, Nx),'WriteMode','append')
+    writetable(T,sprintf('%s/radius_0.5_level_set_epsilon_%s_%d_%s.txt',indir, epsilon_name, Nx, suffix),'WriteMode','append')
 
     % M = [[rr; nan], [tt; nan], R0_vector]
 end

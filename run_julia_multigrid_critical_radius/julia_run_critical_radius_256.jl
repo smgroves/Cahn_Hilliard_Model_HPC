@@ -10,6 +10,9 @@
 using Dates
 date_time = now()
 include("../CH_multigrid_solver.jl")
+include("../spinodal_decomp/CahnHilliard_Julia_solvers/CahnHilliard_SAV.jl")
+include("../spinodal_decomp/CahnHilliard_Julia_solvers/CahnHilliard_NMG.jl")
+
 #ARGS: [R0, M]
 nx = 256
 tol = 1e-6
@@ -23,11 +26,35 @@ max_it_CH = 10000
 ns = 10
 println(R0)
 println("starting initialization")
-phi = initialization(nx, nx, method="droplet", h=1 / 256, R0 = R0, gam = gam)
-outdir = "/project/g_bme-janeslab/SarahG/julia_out/critical_radius_updated_IC_256"
+phi0 = initialization(nx, nx, method="droplet", h=1 / 256, R0 = R0, gam = gam)
+outdir = "/project/g_bme-janeslab/SarahG/julia_out/critical_radius_updated_IC_256/"
+
 println("starting ch solver")
 
-time_passed = @elapsed main(phi, nx, tol, outdir, dt=dt, gam=gam, max_it=max_it, print_mass=false, print_e=false, overwrite=false, print_r=false, suffix="_256_R0_$(R0)_eps_$(round(gam, sigdigits = 5))", check_dir=false)
-open("/home/xpz5km/Cahn_Hilliard_Model/Job_specs.csv", "a", lock=false) do f
-    writedlm(f, [date_time, "critical_radius_256_R0_$(R0)_eps_$(round(gam, sigdigits = 5))" "Julia" nx gam dt tol max_it max_it_CH time_passed], ",")
-end
+# println("Running periodic")
+# boundary = "periodic"
+# id = @sprintf("NMG_Julia_%d_dt_%.2e_Nx_%d_%s_", max_it, dt, nx, boundary)
+# pathname = @sprintf("%s/%s_", outdir, id)
+# time_passed = @elapsed CahnHilliard_NMG(phi0; t_iter=max_it, dt=dt, tol=tol, dt_out=ns, epsilon2=gam^2, boundary=boundary, printres=false, printphi=true, pathname=pathname)
+# println("Running neumann")
+# boundary = "neumann"
+# id = @sprintf("NMG_Julia_%d_dt_%.2e_Nx_%d_%s_", max_it, dt, nx, boundary)
+# pathname = @sprintf("%s/%s_", outdir, id)
+# time_passed = @elapsed CahnHilliard_NMG(phi0; t_iter=max_it, dt=dt, tol=tol, dt_out=ns, epsilon2=gam^2, boundary=boundary, printres=false, printphi=true, pathname=pathname)
+
+
+println("Running periodic")
+boundary = "periodic"
+id = "SAV_Julia_$(nx)_$(max_it)_$(tol)__R0_$(R0)_eps_$(round(gam, sigdigits = 5))_$(boundary)"
+pathname = @sprintf("%s/%s_", outdir, id)
+time_passed = @elapsed CahnHilliard_SAV(phi0; t_iter=max_it, dt=dt,  dt_out=ns, epsilon2=gam^2, boundary=boundary, printres=false, printphi=true, pathname=pathname)
+println("Running neumann")
+boundary = "neumann"
+id = "SAV_Julia_$(nx)_$(max_it)_$(tol)__R0_$(R0)_eps_$(round(gam, sigdigits = 5))_$(boundary)"
+pathname = @sprintf("%s/%s_", outdir, id)
+time_passed = @elapsed CahnHilliard_SAV(phi0; t_iter=max_it, dt=dt, dt_out=ns, epsilon2=gam^2, boundary=boundary, printres=false, printphi=true, pathname=pathname)
+
+# # time_passed = @elapsed main(phi, nx, tol, outdir, dt=dt, gam=gam, max_it=max_it, print_mass=false, print_e=false, overwrite=false, print_r=false, suffix="_256_R0_$(R0)_eps_$(round(gam, sigdigits = 5))", check_dir=false)
+# open("/home/xpz5km/Cahn_Hilliard_Model/Job_specs.csv", "a", lock=false) do f
+#     writedlm(f, [date_time, "critical_radius_256_R0_$(R0)_eps_$(round(gam, sigdigits = 5))" "Julia" nx gam dt tol max_it max_it_CH time_passed], ",")
+# end

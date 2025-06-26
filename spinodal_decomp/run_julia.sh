@@ -4,7 +4,7 @@
 #SBATCH --ntasks-per-node=16
 #SBATCH --account=janeslab
 #SBATCH --time=12:00:00
-#SBATCH --mem=100G
+#SBATCH --mem=250G
 #SBATCH --partition=standard
 #SBATCH --array=1-9
 
@@ -20,7 +20,7 @@ echo "MODULES LOADED"
 boundary=$(echo "$OPTS" | awk '{print $2}')
 SLURM_ID=${SLURM_ARRAY_JOB_ID}_${SLURM_ARRAY_TASK_ID}
 
-if [[ "$boundary" == "periodic"  ]]; then
+if [[ "$boundary" == "neumann"  ]]; then
 # julia ./CahnHilliard_Julia_solvers/run_spinodal_decomp.jl $OPTS "_25p" $SLURM_ID 
     julia ./CahnHilliard_Julia_solvers/run_spinodal_decomp_HPC.jl $OPTS $SLURM_ID 
 fi

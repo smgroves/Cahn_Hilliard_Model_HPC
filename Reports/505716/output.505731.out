@@ -1,0 +1,47 @@
+Wed Jun 25 19:46:49 EDT 2025
+0.1 12 10
+LOADED MATLAB
+0.1
+12
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024b Update 3 (24.2.0.2806996) 64-bit (glnxa64)
+                             November 26, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+eps =
+
+    0.0113
+
+
+epsilon_name = 
+
+    "0.011257"
+
+
+R0_name =
+
+    '0.1'
+
+
+name =
+
+    'SAV_Julia_256_400000_1.0e-6__R0_0.1_eps_0.011257_periodic_phi'
+
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+{Index in position 3 exceeds array bounds. Index must not exceed 33146.
+
+Error in level_set_plot (line 26)
+        phi_tmp = phi(:,:,i+1);
+                  ^^^^^^^^^^^^
+Error in level_set_radius_array (line 24)
+    [rr,tt] = level_set_plot(2.5e-5, indir, total_time, everyR, epsilon_name, R0_name, folder, Nx, suffix);
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+DONE
