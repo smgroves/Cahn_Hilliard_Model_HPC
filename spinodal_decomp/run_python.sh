@@ -32,7 +32,7 @@ print=$(echo "$OPTS" | awk '{print $3}')
 solver=$(echo "$OPTS" | awk '{print $4}')
 
 SLURM_ID=${SLURM_ARRAY_JOB_ID}_${SLURM_ARRAY_TASK_ID}
-python ./CahnHilliard_Python_solvers/run_spinodal_decomp.py ${GridSize} ${boundary} ${print} ${solver} ${SLURM_ID} ""
+python ./CahnHilliard_Python_solvers/run_spinodal_decomp_HPC.py ${GridSize} ${boundary} ${print} ${solver} ${SLURM_ID} ""
 
 
 echo "DONE"

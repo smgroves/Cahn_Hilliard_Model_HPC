@@ -1,6 +1,6 @@
 function [] = level_set_radius_array(R0, m, Nx,indir, suffix)
     folder = "plots";
-    total_time=6; %changed just to look at unfinished sims; needs to be changed back to 10!
+    total_time=10; 
     everyR=10;
 %    if m==8
 %        epsilon_name="0.015009"

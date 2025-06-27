@@ -17,7 +17,7 @@ end
 date_time = now()
 include("../spinodal_decomp/CahnHilliard_Julia_solvers/CahnHilliard_NMG.jl")
 #ARGS: [R0, M, total_time]
-nx = 256
+nx = 128
 tol = 1e-6
 dt = 2.5e-5
 R0 =parse.(Float64, ARGS[1])

@@ -9,7 +9,7 @@
 #SBATCH --array=1-5
 
 echo $(date)
-OPTS=$(sed -n "${SLURM_ARRAY_TASK_ID}"p options_alt_IC_256.txt)
+OPTS=$(sed -n "${SLURM_ARRAY_TASK_ID}"p options_alt_IC_128.txt)
 outdir="/project/g_bme-janeslab/SarahG/julia_out/critical_radius_offcenter"
 mkdir -p $outdir
 

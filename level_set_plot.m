@@ -19,7 +19,7 @@ function [rr, tt] = level_set_plot(dt, indir, total_time, everyR, epsilon_name, 
     phi = reshape(phi,phidims(1),phidims(3),phidims(2)); %Reshape multidimensional array
     phi = shiftdim(phi,2); %Shift dimensions to move frames to the third dimension
 
-    for i = 0:everyR:timesteps/dtout
+    for i = 0:everyR:300000/dtout %%changed just to look at unfinished sims; needs to be changed back to 10!
         T=i*dtout*dt;
         % t = Nx*i+1 : Nx*(i+1);
         % psi = Psi(t,:);
