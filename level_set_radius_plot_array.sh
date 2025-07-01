@@ -9,7 +9,7 @@
 #SBATCH --array=1-5
 
 echo $(date)
-OPTS=$(sed -n "${SLURM_ARRAY_TASK_ID}"p ./run_julia_multigrid_critical_radius/options_periodic_check.txt)
+OPTS=$(sed -n "${SLURM_ARRAY_TASK_ID}"p ./run_julia_multigrid_critical_radius/options_alt_IC_128.txt)
 echo $OPTS
 module load matlab
 echo "LOADED MATLAB"
@@ -18,8 +18,10 @@ m=$(echo "$OPTS" | awk '{print $2}')
 echo $R0
 echo $m
 # indir="/scratch/xpz5km/Cahn_Hilliard_Model/julia_out/critical_radius_updated_IC"
-indir="/project/g_bme-janeslab/SarahG/julia_out/critical_radius_updated_IC_256/"
-suffix="_periodic_phi"
+# indir="/project/g_bme-janeslab/SarahG/julia_out/critical_radius_updated_IC_256/"
+indir="/project/g_bme-janeslab/SarahG/julia_out/critical_radius_offcenter"
 
-matlab -nodisplay -r "level_set_radius_array($R0, $m, 256,'$indir', '$suffix'); exit;"
+suffix="_periodic_offcenterphi"
+
+matlab -nodisplay -r "level_set_radius_array($R0, $m, 128,'$indir', '$suffix'); exit;"
 echo "DONE"

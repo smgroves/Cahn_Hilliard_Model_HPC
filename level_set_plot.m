@@ -1,6 +1,6 @@
 function [rr, tt] = level_set_plot(dt, indir, total_time, everyR, epsilon_name, R0, folder, Nx, suffix)
     timesteps=total_time/dt;
-    name=sprintf('SAV_Julia_%s_%s_1.0e-6__R0_%s_eps_%s%s',string(Nx),string(timesteps),R0, epsilon_name, suffix)
+    name=sprintf('phi_%s_%s_1.0e-6__R0_%s_eps_%s%s',string(Nx),string(timesteps),R0, epsilon_name, suffix)
     dtout=10;
     % Nx = 2^8;Ny=2^8;
     Ny = Nx;
@@ -19,7 +19,7 @@ function [rr, tt] = level_set_plot(dt, indir, total_time, everyR, epsilon_name, 
     phi = reshape(phi,phidims(1),phidims(3),phidims(2)); %Reshape multidimensional array
     phi = shiftdim(phi,2); %Shift dimensions to move frames to the third dimension
 
-    for i = 0:everyR:300000/dtout %%changed just to look at unfinished sims; needs to be changed back to 10!
+    for i = 0:everyR:timesteps/dtout %%changed just to look at unfinished sims; needs to be changed back to 10!
         T=i*dtout*dt;
         % t = Nx*i+1 : Nx*(i+1);
         % psi = Psi(t,:);

@@ -1,0 +1,7 @@
+512 neumann false SAV 25p
+/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/CahnHilliard_Python_solvers/CHsolvers/CahnHilliard_SAV.py:152: ComplexWarning: Casting complex values to real discards the imaginary part
+  D_t[0] = ch_r_error(r_old, phi_old, h2, C0, gamma0)
+      xi = np.max(0, np.min(xi, 1))  # Restrict xi to the range [0,1] line 86, in sav_solver
+
+numpy.AxisError: axis 1 is out of bounds for array of dimension 0
+512 periodic false SAV 25p

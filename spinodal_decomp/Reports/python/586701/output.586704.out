@@ -1,0 +1,34 @@
+Fri Jun 27 14:29:05 EDT 2025
+Loading modules...
+Finished loading modules...
+64 periodic true SAV 75p
+/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/CahnHilliard_Python_solvers/CHsolvers/CahnHilliard_SAV.py:152: ComplexWarning: Casting complex values to real discards the imaginary part
+  D_t[0] = ch_r_error(r_old, phi_old, h2, C0, gamma0)
+Running SAV...
+Saving squared residuals per iteration to file in the output directory
+
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/./CahnHilliard_Python_solvers/run_spinodal_decomp_HPC.py", line 69, in <module>
+    results_dict = ch.SAV.CahnHilliard_SAV(phi0, t_iter=max_it, dt=dt, dt_out=dt_out, m=m,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/CahnHilliard_Python_solvers/CHsolvers/aux_functions_NMG.py", line 64, in wrapper
+    results = func(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/CahnHilliard_Python_solvers/CHsolvers/CahnHilliard_SAV.py", line 158, in CahnHilliard_SAV
+    phi_new, r_new = solver.sav_solver(
+                     ^^^^^^^^^^^^^^^^^^
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/CahnHilliard_Python_solvers/CHsolvers/SAV_solver.py", line 86, in sav_solver
+    xi = np.max(0, np.min(xi, 1))  # Restrict xi to the range [0,1]
+                   ^^^^^^^^^^^^^
+  File "<__array_function__ internals>", line 200, in amin
+  File "/apps/software/standard/core/miniforge/24.3.0-py3.11/lib/python3.11/site-packages/numpy/core/fromnumeric.py", line 2946, in amin
+    return _wrapreduction(a, np.minimum, 'min', axis, None, out,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/software/standard/core/miniforge/24.3.0-py3.11/lib/python3.11/site-packages/numpy/core/fromnumeric.py", line 84, in _wrapreduction
+    return reduction(axis=axis, out=out, **passkwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/software/standard/core/miniforge/24.3.0-py3.11/lib/python3.11/site-packages/numpy/core/_methods.py", line 45, in _amin
+    return umr_minimum(a, axis, None, out, keepdims, initial, where)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy.AxisError: axis 1 is out of bounds for array of dimension 0
+DONE

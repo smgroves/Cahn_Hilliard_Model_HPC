@@ -6,7 +6,7 @@ import numpy as np
 import sys
 
 indir = "./IC/"
-outdir = "/project/g_bme-janeslab/SarahG/spinodal_decomp_04_2025/"
+outdir = "/project/g_bme-janeslab/SarahG/spinodal_decomp_06_2025/"
 
 
 if True:
@@ -32,9 +32,10 @@ m = 8
 epsilon = m * h / (2 * np.sqrt(2) * np.arctanh(0.9))
 
 printphi = True
+#use neumann-smoothed IC for both periodic and neumann sims
 
 phi0 = np.loadtxt(
-    f"{indir}initial_phi_{GridSize}_smooth_n_relax_{n_relax}_from512{note}.csv", delimiter=",")
+    f"{indir}initial_phi_{GridSize}_smooth_n_relax_{n_relax}_{note}_neumann.csv", delimiter=",")
 
 dt = 5.5E-06
 
@@ -73,13 +74,13 @@ elif method == "SAV":
 if print_results:
     results_dict["t_out"] = results_dict.pop("results1")
     results_dict["phi_t"] = results_dict.pop("results2")
-    results_dict["delta_mass_t"] = results_dict.pop("results3")
+    results_dict["mass_t"] = results_dict.pop("results3")
     results_dict["E_t"] = results_dict.pop("results4")
 
     # Save results
     np.savetxt(f"{pathname}t_out.csv", results_dict["t_out"], delimiter=",")
     np.savetxt(f"{pathname}mass.csv",
-            results_dict["delta_mass_t"], delimiter=",")
+            results_dict["mass_t"], delimiter=",")
     np.savetxt(f"{pathname}energy.csv", results_dict["E_t"], delimiter=",")
 
 #date,language,method,GridSize,epsilon,dt,tol,t_iter,solver_iter,dt_out,
