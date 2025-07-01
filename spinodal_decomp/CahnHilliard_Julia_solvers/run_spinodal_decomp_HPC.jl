@@ -54,12 +54,12 @@ date_time = now()
 if method == "NMG"
     result, elapsed_time, mem_allocated, gc_time, memory_counters = @timed CahnHilliard_NMG(phi0; t_iter=max_it, dt=dt, dt_out=dt_out, m=m, boundary=boundary, printphi=printphi, pathname=pathname)
     open("$(outdir)/Job_specs_updated.csv", "a", lock=false) do f
-        writedlm(f, [Dates.format(date_time, "mm/dd/yyyy HH:MM:SS") "Julia" method GridSize epsilon dt 1e-5 max_it 1e4 dt_out print boundary pathname elapsed_time mem_allocated / 1e6 SLURM_ID note], ",")
+        writedlm(f, [Dates.format(date_time, "mm/dd/yyyy HH:MM:SS") "Julia" method GridSize epsilon dt 1e-5 max_it 1e4 dt_out print boundary pathname elapsed_time (mem_allocated/1e6) SLURM_ID note], ",")
     end
 elseif method == "SAV"
     result, elapsed_time, mem_allocated, gc_time, memory_counters = @timed CahnHilliard_SAV(phi0; t_iter=max_it, dt=dt, dt_out=dt_out, m=m, boundary=boundary, printphi=printphi, pathname=pathname)
     open("$(outdir)/Job_specs_updated.csv", "a", lock=false) do f
-        writedlm(f, [Dates.format(date_time, "mm/dd/yyyy HH:MM:SS") "Julia" method GridSize epsilon dt "NaN" max_it "NaN" dt_out print boundary pathname elapsed_time mem_allocated / 1e6 SLURM_ID note], ",")
+        writedlm(f, [Dates.format(date_time, "mm/dd/yyyy HH:MM:SS") "Julia" method GridSize epsilon dt "NaN" max_it "NaN" dt_out print boundary pathname elapsed_time (mem_allocated/1e6) SLURM_ID note], ",")
     end
 end
 

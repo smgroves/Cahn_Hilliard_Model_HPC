@@ -6,10 +6,10 @@
 #SBATCH --time=10:00:00
 #SBATCH --mem=50G
 #SBATCH --partition=standard
-#SBATCH --array=1-2
+#SBATCH --array=1-6
 
 echo $(date)
-OPTS=$(sed -n "${SLURM_ARRAY_TASK_ID}"p options_v9.txt)
+OPTS=$(sed -n "${SLURM_ARRAY_TASK_ID}"p options_large_eps_v2.txt)
 echo $OPTS
 # Load  Julia environment
 module load julia/1.9.2

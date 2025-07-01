@@ -1,0 +1,10 @@
+64 neumann false NMG 25p
+64 neumann true NMG 25p
+512 neumann false NMG 75p
+64 neumann false SAV 50p
+64 neumann true SAV 50p
+64 neumann false SAV 25p
+64 neumann true SAV 5p
+256 neumann true SAV 75p
+256 neumann false SAV 25p
+

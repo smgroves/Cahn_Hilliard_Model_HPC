@@ -1,0 +1,10 @@
+Tue Jul 1 14:38:34 EDT 2025
+Loading modules...
+Finished loading modules...
+512 periodic true SAV 25p
+/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/CahnHilliard_Python_solvers/CHsolvers/CahnHilliard_SAV.py:152: ComplexWarning: Casting complex values to real discards the imaginary part
+  D_t[0] = ch_r_error(r_old, phi_old, h2, C0, gamma0)
+/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/CahnHilliard_Python_solvers/CHsolvers/CahnHilliard_SAV.py:184: ComplexWarning: Casting complex values to real discards the imaginary part
+  E_t[t_index] = calculate_discrete_energy(
+/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/CahnHilliard_Python_solvers/CHsolvers/CahnHilliard_SAV.py:186: ComplexWarning: Casting complex values to real discards the imaginary part
+  D_t[t_index] = ch_r_error(r_new, phi_new, h2, C0, gamma0)

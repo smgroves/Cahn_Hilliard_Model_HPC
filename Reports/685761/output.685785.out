@@ -1,0 +1,73 @@
+Tue Jul 1 15:31:55 EDT 2025
+0.19 64 10
+LOADED MATLAB
+0.19
+64
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024b Update 3 (24.2.0.2806996) 64-bit (glnxa64)
+                             November 26, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+eps =
+
+    0.1201
+
+
+epsilon_name = 
+
+    "0.12007"
+
+
+R0_name =
+
+    '0.19'
+
+
+name =
+
+    'phi_128_400000_1.0e-6__R0_0.19_eps_0.12007'
+
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+[Warning: Error in state of SceneNode.
+String scalar or character vector must have valid interpreter syntax:
+Radius at 0.5 level set
+ phi_128_400000_1.0e-6__R0_0.19_eps_0.12007
+] 
+[> In defaulterrorcallback (line 12)
+In print (line 36)
+In saveas (line 181)
+In level_set_plot (line 67)
+In level_set_radius_array (line 24)] 
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+
+ans =
+
+        4001
+
+DONE

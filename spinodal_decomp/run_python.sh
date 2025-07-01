@@ -32,11 +32,11 @@ GridSize=$(echo "$OPTS" | awk '{print $1}')
 boundary=$(echo "$OPTS" | awk '{print $2}')
 print=$(echo "$OPTS" | awk '{print $3}')
 solver=$(echo "$OPTS" | awk '{print $4}')
-
 SLURM_ID=${SLURM_ARRAY_JOB_ID}_${SLURM_ARRAY_TASK_ID}
 note=$(echo "$OPTS" | awk '{print $5}')
 
-python ./CahnHilliard_Python_solvers/run_spinodal_decomp_HPC.py ${GridSize} ${boundary} ${print} ${solver} ${SLURM_ID} ${note}
-
+if [[ "$solver" == "SAV"  ]]; then
+    python ./CahnHilliard_Python_solvers/run_spinodal_decomp_HPC.py ${GridSize} ${boundary} ${print} ${solver} ${SLURM_ID} ${note}
+fi
 
 echo "DONE"

@@ -17,7 +17,7 @@ println(R0)
 println("starting initialization")
 phi = initialization(nx, nx, method="droplet", h=1 / 128, R0 = R0, gam = gam)
 # outdir = "/scratch/xpz5km/Cahn_Hilliard_Model/julia_out/critical_radius_updated_IC"
-outdir = "/project/g_bme-janeslab/SarahG/julia_out/julia_out/critical_radius_updated_IC"
+outdir = "/project/g_bme-janeslab/SarahG/julia_out/critical_radius_updated_IC"
 println("starting ch solver")
 
 time_passed = @elapsed main(phi, nx, tol, outdir, dt=dt, gam=gam, max_it=max_it, print_mass=false, print_e=false, overwrite=false, print_r=false, suffix="_R0_$(R0)_eps_$(round(gam, sigdigits = 5))", check_dir=false)
