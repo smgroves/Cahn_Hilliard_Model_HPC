@@ -1,0 +1,33 @@
+Thu Jul 10 14:10:40 EDT 2025
+64 neumann true NMG 75p
+MODULES LOADED
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024b Update 3 (24.2.0.2806996) 64-bit (glnxa64)
+                             November 26, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+outdir = 
+
+    "/project/g_bme-janeslab/SarahG/spinodal_decomp_06_2025"
+
+
+dt_out =
+
+    10
+
+Running NMG solver with parameters: /project/g_bme-janeslab/SarahG/spinodal_decomp_06_2025/out_MATLAB/NMG_MATLAB_2000_dt_5.50e-06_Nx_64_neumann_dt_out_1075p_
+
+tol = 
+
+    "1e-5"
+
+
+solver_iter = 
+
+    "1e4"

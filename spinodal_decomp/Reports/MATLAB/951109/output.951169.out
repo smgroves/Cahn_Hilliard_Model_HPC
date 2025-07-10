@@ -1,0 +1,4 @@
+Thu Jul 10 14:05:00 EDT 2025
+128 periodic true NMG 50p
+MODULES LOADED
+slurmstepd: error: *** JOB 951169 ON udc-ba06-12c0 CANCELLED AT 2025-07-10T14:05:57 ***

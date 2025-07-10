@@ -1,0 +1,5 @@
+Wed Jul 2 14:02:57 EDT 2025
+MODULES LOADED
+python: can't open file '/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_L2_error.py': [Errno 2] No such file or directory
+                                         /home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_L2_errror.py
+DONE

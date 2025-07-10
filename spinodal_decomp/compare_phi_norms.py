@@ -107,10 +107,10 @@ def compare_phis_norm_at_timepoint(indir,out_file, timepoint=None):
                 # return list_of_filenames, list_of_n
 
 #reset file each time if rerunning the same timepoints
-out_file = f"/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_norms.csv"
+out_file = f"/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/compare_norms_v3.csv"
 
 
-indir = "/project/g_bme-janeslab/SarahG/spinodal_decomp_04_2025"
+indir = "/project/g_bme-janeslab/SarahG/spinodal_decomp_06_2025"
 # print("Timepoint 0")
 # compare_phis_norm_at_timepoint(indir,out_file, timepoint = 0)
 # print("Timepoint 20")
@@ -119,12 +119,9 @@ indir = "/project/g_bme-janeslab/SarahG/spinodal_decomp_04_2025"
 # compare_phis_norm_at_timepoint(indir, out_file, timepoint = 1000)
 # print("Timepoint 2000")
 # compare_phis_norm_at_timepoint(indir, out_file, timepoint = 2000)
-for time in range(560, 2000,40):
-    if time in [1000, 2000]: continue
-
-    else: 
-        print(time)
-        compare_phis_norm_at_timepoint(indir, out_file, timepoint = time)
+for time in range(0, 2000,40):
+    print(time)
+    compare_phis_norm_at_timepoint(indir, out_file, timepoint = time)
 
 
 

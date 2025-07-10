@@ -11,7 +11,7 @@
 echo $(date)
 module load matlab
 
-OPTS=$(sed -n "${SLURM_ARRAY_TASK_ID}"p ../opts_Julia.txt)
+OPTS=$(sed -n "${SLURM_ARRAY_TASK_ID}"p ../opts_06_2025.txt)
 #64 periodic true NMG 75p
 
 echo $OPTS
@@ -28,8 +28,7 @@ solver=$(echo "$OPTS" | awk '{print $4}')
 note=$(echo "$OPTS" | awk '{print $5}')
 
 SLURM_ID=${SLURM_ARRAY_JOB_ID}_${SLURM_ARRAY_TASK_ID}
-#redoing periodic BC with neumann-smoothed IC
-if [[ "$boundary" == "periodic"  ]]; then
+if [[ "$print_results" == "true"  ]]; then
     matlab -nodisplay -nosplash -r "run_spinodal_decomp_HPC($GridSize, '$boundary', '$print_results', '$solver', '$SLURM_ID', '$note');quit;"
 fi
 echo "Done."

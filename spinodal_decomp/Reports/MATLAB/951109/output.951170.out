@@ -1,0 +1,43 @@
+Thu Jul 10 14:05:00 EDT 2025
+128 neumann true NMG 50p
+MODULES LOADED
+An error occurred while extracting product files.
+Try rerunning the installer.
+
+For help, see this <a href="https://www.mathworks.com/pi_ee_mci_glnxa64">support article</a>.
+You already have the most recent version of MATLAB Connector installed.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024b Update 3 (24.2.0.2806996) 64-bit (glnxa64)
+                             November 26, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+outdir = 
+
+    "/project/g_bme-janeslab/SarahG/spinodal_decomp_06_2025"
+
+
+dt_out =
+
+    10
+
+Running NMG solver with parameters: /project/g_bme-janeslab/SarahG/spinodal_decomp_06_2025/out_MATLAB/NMG_MATLAB_2000_dt_5.50e-06_Nx_128_neumann_dt_out_10
+
+tol = 
+
+    "1e-5"
+
+
+solver_iter = 
+
+    "1e4"
+
+  5 percent complete
+ 10 percent complete
+ 15 percent complete
+slurmstepd: error: *** JOB 951170 ON udc-ba06-12c0 CANCELLED AT 2025-07-10T14:05:57 ***

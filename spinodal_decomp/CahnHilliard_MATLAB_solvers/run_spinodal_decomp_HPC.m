@@ -21,7 +21,7 @@ function run_spinodal_decomp_HPC(GridSize, boundary, print_results, solver, SLUR
     else
         dt_out = 2000
     end
-    pathname = sprintf("%s/out_MATLAB/%s_MATLAB_%d_dt_%.2e_Nx_%d_%s_n_relax_%d%s_",outdir,solver, max_it,dt, GridSize, boundary, n_relax,note);
+    pathname = sprintf("%s/out_MATLAB/%s_MATLAB_%d_dt_%.2e_Nx_%d_%s_dt_out_%d%s_",outdir,solver, max_it,dt, GridSize, boundary, dt_out,note);
 
     % #################################################
     % RUN SAV SOLVER 
