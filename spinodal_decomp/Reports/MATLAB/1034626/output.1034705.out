@@ -1,0 +1,6 @@
+Mon Jul 14 13:10:50 EDT 2025
+128 neumann true SAV 25p
+MODULES LOADED
+/var/spool/slurm/slurmd/job1034705/slurm_script: line 31: syntax error in conditional expression: unexpected token `;'
+/var/spool/slurm/slurmd/job1034705/slurm_script: line 31: syntax error near `;'
+/var/spool/slurm/slurmd/job1034705/slurm_script: line 31: `if [[ "$print_results" == "true" &&  "$solver" == "NMG" && "$GridSize" == "512"]]; then'

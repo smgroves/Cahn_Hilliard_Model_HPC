@@ -1,0 +1,19 @@
+Tue Jul 15 15:54:30 EDT 2025
+128 periodic true SAV 75p
+MODULES LOADED
+ERROR: LoadError: UndefVarError: `filename` not defined
+Stacktrace:
+ [1] (::var"#7#8")(io::IOStream)
+   @ Main /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/rmse_python.jl:86
+ [2] open(::var"#7#8", ::String, ::Vararg{String}; kwargs::Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+   @ Base ./io.jl:395
+ [3] open(::Function, ::String, ::String)
+   @ Base ./io.jl:392
+ [4] top-level scope
+   @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/rmse_python.jl:85
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/rmse_python.jl:85
+Starting...
+/project/g_bme-janeslab/SarahG/spinodal_decomp_06_2025/out_python/NMG_Python_20_dt_5.50e-06_Nx_128_periodic_dtout_175p
+/project/g_bme-janeslab/SarahG/spinodal_decomp_06_2025/out_python/SAV_Python_20_dt_5.50e-06_Nx_128_periodic_dtout_175p
+[0.044342516494689566, 0.038245023737777155, 0.037120703238124206, 0.0372003274972061, 0.035727200636862085, 0.03621058887919928, 0.03622540039469993, 0.03588941720206141, 0.03471575343962889, 0.03658322014134661, 0.03602821693016242, 0.03820874153818423, 0.036353341351165386, 0.035981668825080096, 0.03724736978012677, 0.0379901129003537, 0.03704681926133078, 0.03572065278303265, 0.03573708905808731, 0.03612069228246053, 0.043686313732291635]
+DONE

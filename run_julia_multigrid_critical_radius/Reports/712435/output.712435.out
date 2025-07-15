@@ -1,0 +1,22 @@
+Wed Jul 2 12:46:22 EDT 2025
+MODULES LOADED
+Timepoint  0
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/run_julia_multigrid_critical_radius/plot_timepoints_critical_radius.py", line 98, in <module>
+    plot_timepoint("phi_128_400000_1.0e-6__R0_0.25_eps_0.12007.csv", indir, outdir, timepoints = timepoints, delim = ",", Nx = 128)
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/run_julia_multigrid_critical_radius/plot_timepoints_critical_radius.py", line 35, in plot_timepoint
+    tmp = read_chunk(phi_name, indir, timepoint = timepoint, delim=delim, rows_per_timepoint=Nx)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/run_julia_multigrid_critical_radius/plot_timepoints_critical_radius.py", line 13, in read_chunk
+    phi_chunk = np.genfromtxt(
+                ^^^^^^^^^^^^^^
+  File "/apps/software/standard/core/miniforge/24.3.0-py3.11/lib/python3.11/site-packages/numpy/lib/npyio.py", line 1977, in genfromtxt
+    fid = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/software/standard/core/miniforge/24.3.0-py3.11/lib/python3.11/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/apps/software/standard/core/miniforge/24.3.0-py3.11/lib/python3.11/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /project/g_bme-janeslab/SarahG/julia_out/critical_radius_updated_IC/phi_128_400000_1.0e-6__R0_0.25_eps_0.12007.csv not found.
+DONE

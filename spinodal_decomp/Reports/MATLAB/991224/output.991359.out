@@ -1,0 +1,46 @@
+Sat Jul 12 17:22:48 EDT 2025
+512 neumann true NMG 25p
+MODULES LOADED
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024b Update 3 (24.2.0.2806996) 64-bit (glnxa64)
+                             November 26, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+outdir = 
+
+    "/project/g_bme-janeslab/SarahG/spinodal_decomp_06_2025"
+
+
+dt_out =
+
+    10
+
+Running NMG solver with parameters: /project/g_bme-janeslab/SarahG/spinodal_decomp_06_2025/out_MATLAB/NMG_MATLAB_20000_dt_5.50e-07_Nx_512_neumann_dt_out_1025p_
+
+tol = 
+
+    "1e-5"
+
+
+solver_iter = 
+
+    "1e4"
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+
+  5 percent complete
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+An unexpected error has occurred.
+To resolve this issue, contact <a href="https://www.mathworks.com/pi_gene_mci_glnxa64">Technical Support</a>.
+slurmstepd: error: *** JOB 991359 ON udc-ba06-4c0 CANCELLED AT 2025-07-13T18:23:00 DUE TO TIME LIMIT ***

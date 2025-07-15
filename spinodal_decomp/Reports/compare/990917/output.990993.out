@@ -1,0 +1,54 @@
+Sat Jul 12 17:05:40 EDT 2025
+64 neumann true SAV 25p
+MODULES LOADED
+GKS: cannot open display - headless operation mode active
+ERROR: LoadError: BoundsError: attempt to access 64×64×201 Array{Float64, 3} at index [1:64, 1:64, 211]
+Stacktrace:
+ [1] throw_boundserror(A::Array{Float64, 3}, I::Tuple{Base.Slice{Base.OneTo{Int64}}, Base.Slice{Base.OneTo{Int64}}, Int64})
+   @ Base ./abstractarray.jl:744
+ [2] checkbounds
+   @ ./abstractarray.jl:709 [inlined]
+ [3] _getindex
+   @ ./multidimensional.jl:860 [inlined]
+ [4] getindex
+   @ ./abstractarray.jl:1294 [inlined]
+ [5] macro expansion
+   @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/difference_map_movie.jl:39 [inlined]
+ [6] macro expansion
+   @ ~/.julia/packages/Plots/3u4B6/src/animation.jl:251 [inlined]
+ [7] difference_movie(difference::Array{Float64, 3}, t_out::UnitRange{Int64}, ny::Int64; dtframes::Int64, filename::String, filetype::String, colorbar_type::String)
+   @ Main /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/difference_map_movie.jl:37
+ [8] top-level scope
+   @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/difference_map_movie.jl:159
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/difference_map_movie.jl:159
+Starting...
+/project/g_bme-janeslab/SarahG/spinodal_decomp_06_2025/out_MATLAB/SAV_MATLAB_2000_dt_5.50e-07_Nx_64_neumann_dt_out_1025p
+201
+201
+(64, 64, 201)
+1
+  0 percent complete
+11
+21
+31
+41
+51
+61
+71
+81
+91
+101
+  5 percent complete
+111
+121
+131
+141
+151
+161
+171
+181
+191
+201
+ 10 percent complete
+211
+DONE

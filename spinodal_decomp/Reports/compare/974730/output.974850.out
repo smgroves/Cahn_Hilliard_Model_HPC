@@ -1,0 +1,89 @@
+Fri Jul 11 13:14:05 EDT 2025
+128 neumann true SAV 75p
+MODULES LOADED
+GKS: cannot open display - headless operation mode active
+ERROR: LoadError: MethodError: no method matching isless(::Nothing, ::Int64)
+
+Closest candidates are:
+  isless(!Matched::Union{StatsBase.PValue, StatsBase.TestStat}, ::Real)
+   @ StatsBase ~/.julia/packages/StatsBase/xgoZ5/src/statmodels.jl:90
+  isless(!Matched::AbstractGray, ::Real)
+   @ ColorTypes ~/.julia/packages/ColorTypes/vpFgh/src/operations.jl:38
+  isless(!Matched::AbstractFloat, ::Real)
+   @ Base operators.jl:179
+  ...
+
+Stacktrace:
+  [1] min(x::Int64, y::Nothing)
+    @ Base ./operators.jl:481
+  [2] sample_color(cg::PlotUtils.ContinuousColorGradient, x::Float64)
+    @ PlotUtils ~/.julia/packages/PlotUtils/dVEMd/src/colorschemes.jl:58
+  [3] get(cg::PlotUtils.ContinuousColorGradient, x::Float64, rangescale::Tuple{Float64, Float64})
+    @ PlotUtils ~/.julia/packages/PlotUtils/dVEMd/src/colorschemes.jl:73
+  [4] (::PlotUtils.var"#6#7"{PlotUtils.ContinuousColorGradient})(x::Float64)
+    @ PlotUtils ~/.julia/packages/PlotUtils/dVEMd/src/colorschemes.jl:29
+  [5] iterate
+    @ ./generator.jl:47 [inlined]
+  [6] _collect(c::Matrix{Float64}, itr::Base.Generator{Matrix{Float64}, PlotUtils.var"#6#7"{PlotUtils.ContinuousColorGradient}}, #unused#::Base.EltypeUnknown, isz::Base.HasShape{2})
+    @ Base ./array.jl:802
+  [7] collect_similar
+    @ ./array.jl:711 [inlined]
+  [8] map
+    @ ./abstractarray.jl:3261 [inlined]
+  [9] get(cg::PlotUtils.ContinuousColorGradient, v::Matrix{Float64}, rangescale::Tuple{Float64, Float64})
+    @ PlotUtils ~/.julia/packages/PlotUtils/dVEMd/src/colorschemes.jl:29
+ [10] gr_draw_heatmap(series::Plots.Series, x::Vector{Float64}, y::Vector{Float64}, z::Matrix{Float64}, clims::Tuple{Float64, Float64})
+    @ Plots ~/.julia/packages/Plots/3u4B6/src/backends/gr.jl:2024
+ [11] gr_add_series(sp::Plots.Subplot{Plots.GRBackend}, series::Plots.Series)
+    @ Plots ~/.julia/packages/Plots/3u4B6/src/backends/gr.jl:1788
+ [12] gr_display(sp::Plots.Subplot{Plots.GRBackend}, w::Measures.AbsoluteLength, h::Measures.AbsoluteLength, vp_canvas::Plots.GRViewport{Float64})
+    @ Plots ~/.julia/packages/Plots/3u4B6/src/backends/gr.jl:964
+ [13] (::Plots.var"#508#509"{Int64, Int64, Plots.GRViewport{Float64}})(sp::Plots.Subplot{Plots.GRBackend})
+    @ Plots ~/.julia/packages/Plots/3u4B6/src/backends/gr.jl:688
+ [14] foreach(f::Plots.var"#508#509"{Int64, Int64, Plots.GRViewport{Float64}}, itr::Vector{Plots.Subplot})
+    @ Base ./abstractarray.jl:3073
+ [15] gr_display(plt::Plots.Plot{Plots.GRBackend}, dpi_factor::Float64)
+    @ Plots ~/.julia/packages/Plots/3u4B6/src/backends/gr.jl:688
+ [16] #557
+    @ ~/.julia/packages/Plots/3u4B6/src/backends/gr.jl:2086 [inlined]
+ [17] withenv(::Plots.var"#557#558"{Plots.Plot{Plots.GRBackend}, Float64}, ::Pair{String, String}, ::Vararg{Pair{String, String}})
+    @ Base ./env.jl:197
+ [18] _show(io::IOStream, #unused#::MIME{Symbol("image/png")}, plt::Plots.Plot{Plots.GRBackend})
+    @ Plots ~/.julia/packages/Plots/3u4B6/src/backends/gr.jl:2081
+ [19] #invokelatest#2
+    @ ./essentials.jl:816 [inlined]
+ [20] invokelatest
+    @ ./essentials.jl:813 [inlined]
+ [21] show
+    @ ~/.julia/packages/Plots/3u4B6/src/output.jl:232 [inlined]
+ [22] #346
+    @ ~/.julia/packages/Plots/3u4B6/src/output.jl:6 [inlined]
+ [23] open(::Plots.var"#346#347"{Plots.Plot{Plots.GRBackend}}, ::String, ::Vararg{String}; kwargs::Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+    @ Base ./io.jl:395
+ [24] open
+    @ ./io.jl:392 [inlined]
+ [25] png
+    @ ~/.julia/packages/Plots/3u4B6/src/output.jl:6 [inlined]
+ [26] frame(anim::Animation, plt::Plots.Plot{Plots.GRBackend})
+    @ Plots ~/.julia/packages/Plots/3u4B6/src/animation.jl:26
+ [27] frame(anim::Animation)
+    @ Plots ~/.julia/packages/Plots/3u4B6/src/animation.jl:24
+ [28] macro expansion
+    @ ~/.julia/packages/Plots/3u4B6/src/animation.jl:232 [inlined]
+ [29] macro expansion
+    @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/difference_map_movie.jl:63 [inlined]
+ [30] macro expansion
+    @ ~/.julia/packages/Plots/3u4B6/src/animation.jl:251 [inlined]
+ [31] difference_movie(difference::Array{Float64, 3}, t_out::UnitRange{Int64}, ny::Int64; dtframes::Int64, filename::String, filetype::String, colorbar_type::String)
+    @ Main /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/difference_map_movie.jl:37
+ [32] top-level scope
+    @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/difference_map_movie.jl:152
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/difference_map_movie.jl:152
+Starting...
+/project/g_bme-janeslab/SarahG/spinodal_decomp_06_2025/out_julia/SAV_Julia_2000_dt_5.50e-06_Nx_128_neumann_dtout_1075p
+201
+201
+(128, 128, 201)
+1
+  0 percent complete
+DONE

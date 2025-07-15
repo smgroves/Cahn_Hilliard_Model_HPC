@@ -9,7 +9,7 @@
 #SBATCH --array=1-6
 
 echo $(date)
-OPTS=$(sed -n "${SLURM_ARRAY_TASK_ID}"p ./run_julia_multigrid_critical_radius/options_large_eps.txt)
+OPTS=$(sed -n "${SLURM_ARRAY_TASK_ID}"p ./run_julia_multigrid_critical_radius/options_large_eps_v2.txt)
 echo $OPTS
 module load matlab
 echo "LOADED MATLAB"

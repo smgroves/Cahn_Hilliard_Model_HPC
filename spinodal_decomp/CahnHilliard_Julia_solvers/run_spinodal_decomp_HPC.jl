@@ -2,13 +2,7 @@ using DelimitedFiles
 using Dates
 using BenchmarkTools
 using Printf
-# import Pkg; Pkg.add("FFTW")
-# Pkg.add("Plots")
-# Pkg.add("CSV")
-# Pkg.add("LinearAlgebra")
-# Pkg.add("BenchmarkTools")
-# Pkg.add("StaticArrays")
-# Pkg.add("Printf")
+
 
 include("CahnHilliard_NMG.jl")
 include("CahnHilliard_SAV.jl")
@@ -38,13 +32,13 @@ epsilon = m * h / (2 * sqrt(2) * atanh(0.9))
 printphi = true
 #use neumann-smoothed IC for both periodic and neumann sims
 phi0 = initialization_from_file("$(indir)initial_phi_$(GridSize)_smooth_n_relax_$(n_relax)_$(note)_neumann.csv", GridSize, GridSize, delim=',', transpose_matrix=false)
-dt = 5.5e-6
-max_it = 2000
+dt = 5.5e-7
+max_it = 20000
 
 if print
     dt_out = 10
 else
-    dt_out = 2000
+    dt_out = 20000
 end
 
 id = @sprintf("%s_Julia_%d_dt_%.2e_Nx_%d_%s_dtout_%d%s", method, max_it, dt, GridSize, boundary, dt_out, note)
@@ -79,5 +73,5 @@ if print
         writedlm(f, E_t, " ")
     end
     # t_out = readdlm("$(pathname)t_out.csv", ',', Float64)
-    ch_movie_from_file("$(pathname)phi.csv", t_out, GridSize; dtframes=1, filename="$(pathname)movie", filetype="mp4", colorbar_type="default")
+    # ch_movie_from_file("$(pathname)phi.csv", t_out, GridSize; dtframes=1, filename="$(pathname)movie", filetype="mp4", colorbar_type="default")
 end

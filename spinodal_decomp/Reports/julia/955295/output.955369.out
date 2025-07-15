@@ -1,0 +1,30 @@
+Thu Jul 10 16:59:17 EDT 2025
+128 periodic true NMG 25p
+MODULES LOADED
+   Resolving package versions...
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.9/Project.toml`
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.9/Manifest.toml`
+Precompiling project...
+[91m  ✗ [39m[90mGtkObservables[39m
+[91m  ✗ [39mProfileView
+  0 dependencies successfully precompiled in 5 seconds. 237 already precompiled.
+  [91m2[39m dependencies errored. To see a full report either run `import Pkg; Pkg.precompile()` or load the packages
+ERROR: LoadError: ArgumentError: Cannot open '/project/g_bme-janeslab/SarahG/spinodal_decomp_06_2025/out_Julia//out_julia/NMG_Julia_2000_dt_5.50e-06_Nx_128_periodic_dtout_1025p_phi.csv': not a file
+Stacktrace:
+ [1] readdlm_auto(input::String, dlm::Char, T::Type, eol::Char, auto::Bool; opts::Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+   @ DelimitedFiles ~/.julia/packages/DelimitedFiles/aGcsu/src/DelimitedFiles.jl:234
+ [2] readdlm_auto
+   @ ~/.julia/packages/DelimitedFiles/aGcsu/src/DelimitedFiles.jl:233 [inlined]
+ [3] #readdlm#5
+   @ ~/.julia/packages/DelimitedFiles/aGcsu/src/DelimitedFiles.jl:170 [inlined]
+ [4] readdlm
+   @ ~/.julia/packages/DelimitedFiles/aGcsu/src/DelimitedFiles.jl:170 [inlined]
+ [5] #readdlm#4
+   @ ~/.julia/packages/DelimitedFiles/aGcsu/src/DelimitedFiles.jl:162 [inlined]
+ [6] readdlm(input::String, dlm::Char)
+   @ DelimitedFiles ~/.julia/packages/DelimitedFiles/aGcsu/src/DelimitedFiles.jl:162
+ [7] top-level scope
+   @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/rmse.jl:45
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/rmse.jl:45
+Starting...
+DONE

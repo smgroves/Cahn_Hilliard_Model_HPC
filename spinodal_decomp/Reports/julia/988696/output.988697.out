@@ -1,0 +1,4 @@
+Sat Jul 12 10:51:10 EDT 2025
+64 periodic true NMG 75p
+MODULES LOADED
+slurmstepd: error: *** JOB 988697 ON udc-aw33-13c1 CANCELLED AT 2025-07-12T10:51:16 ***

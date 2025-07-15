@@ -1,0 +1,10 @@
+Sat Jul 12 10:51:38 EDT 2025
+512 neumann true NMG 25p
+MODULES LOADED
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+
+[24883] signal (6.-6): Aborted
+in expression starting at none:0
+/var/spool/slurm/slurmd/job988796/slurm_script: line 28: 24883 Aborted                 julia ./CahnHilliard_Julia_solvers/run_spinodal_decomp_HPC.jl $OPTS $SLURM_ID
+DONE

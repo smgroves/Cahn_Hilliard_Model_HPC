@@ -1,0 +1,21 @@
+Fri Jul 11 13:17:52 EDT 2025
+512 periodic true SAV 25p
+MODULES LOADED
+ERROR: LoadError: MethodError: no method matching (Array{Float64})(::Int64, ::Int64, ::Int64, ::Int64)
+
+Closest candidates are:
+  (Array{T})(!Matched::Missing, ::Any...) where T
+   @ Base baseext.jl:46
+  (Array{T})(!Matched::UndefInitializer, ::Int64, ::Int64, ::Int64) where T
+   @ Core boot.jl:493
+  (Array{T})(!Matched::UndefInitializer, ::Integer, ::Integer, ::Integer) where T
+   @ Base baseext.jl:29
+  ...
+
+Stacktrace:
+ [1] top-level scope
+   @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/difference_map_movie.jl:130
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/difference_map_movie.jl:130
+Starting...
+/project/g_bme-janeslab/SarahG/spinodal_decomp_06_2025/out_julia/SAV_Julia_2000_dt_5.50e-06_Nx_512_periodic_dtout_1025p
+DONE

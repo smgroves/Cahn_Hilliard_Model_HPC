@@ -1,0 +1,6 @@
+Mon Jul 14 13:10:29 EDT 2025
+256 periodic false NMG 50p
+MODULES LOADED
+/var/spool/slurm/slurmd/job1034680/slurm_script: line 31: syntax error in conditional expression: unexpected token `;'
+/var/spool/slurm/slurmd/job1034680/slurm_script: line 31: syntax error near `;'
+/var/spool/slurm/slurmd/job1034680/slurm_script: line 31: `if [[ "$print_results" == "true" &&  "$solver" == "NMG" && "$GridSize" == "512"]]; then'

@@ -1,0 +1,73 @@
+Thu Jul 10 16:51:48 EDT 2025
+64 periodic true NMG 75p
+MODULES LOADED
+    Updating registry at `~/.julia/registries/General.toml`
+   Resolving package versions...
+   Installed VersionParsing ─ v1.3.0
+   Installed PyCall ───────── v1.96.4
+   Installed PyPlot ───────── v2.11.6
+   Installed Conda ────────── v1.10.2
+    Updating `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.9/Project.toml`
+  [d330b81b] + PyPlot v2.11.6
+    Updating `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.9/Manifest.toml`
+  [8f4d0f93] + Conda v1.10.2
+  [438e738f] + PyCall v1.96.4
+  [d330b81b] + PyPlot v2.11.6
+  [81def892] + VersionParsing v1.3.0
+    Building Conda ─→ `~/.julia/scratchspaces/44cfe95a-1eb2-52ea-b672-e2afdf69b78f/b19db3927f0db4151cb86d073689f2428e524576/build.log`
+    Building PyCall → `~/.julia/scratchspaces/44cfe95a-1eb2-52ea-b672-e2afdf69b78f/9816a3826b0ebf49ab4926e2b18842ad8b5c8f04/build.log`
+Precompiling project...
+[32m  ✓ [39m[90mVersionParsing[39m
+[32m  ✓ [39m[90mOpenSpecFun_jll[39m
+[32m  ✓ [39m[90mATK_jll[39m
+[32m  ✓ [39m[90mConda[39m
+[32m  ✓ [39m[90mgdk_pixbuf_jll[39m
+[32m  ✓ [39m[90mat_spi2_core_jll[39m
+[32m  ✓ [39m[90mQt6ShaderTools_jll[39m
+[32m  ✓ [39m[90mLibrsvg_jll[39m
+[32m  ✓ [39m[90mat_spi2_atk_jll[39m
+[32m  ✓ [39m[90mCairo[39m
+[32m  ✓ [39m[90mQt6Declarative_jll[39m
+[32m  ✓ [39m[90mGTK3_jll[39m
+[32m  ✓ [39m[90mSpecialFunctions[39m
+[32m  ✓ [39m[90mQt6Wayland_jll[39m
+[32m  ✓ [39m[90mColorVectorSpace → SpecialFunctionsExt[39m
+[32m  ✓ [39m[90mHypergeometricFunctions[39m
+[32m  ✓ [39m[90mStatsFuns[39m
+[33m  ✓ [39m[90mGR[39m
+[33m  ✓ [39m[90mColorSchemes[39m
+[32m  ✓ [39mDistributions
+[32m  ✓ [39m[90mGtk[39m
+[32m  ✓ [39m[90mPyCall[39m
+[91m  ✗ [39m[90mGtkObservables[39m
+[32m  ✓ [39m[90mDistributions → DistributionsTestExt[39m
+[32m  ✓ [39mPyPlot
+[33m  ✓ [39m[90mPlotUtils[39m
+[33m  ✓ [39m[90mPlotThemes[39m
+[33m  ✓ [39m[90mRecipesPipeline[39m
+[91m  ✗ [39mProfileView
+[33m  ✓ [39mPlots
+[32m  ✓ [39m[90mPlots → FileIOExt[39m
+[32m  ✓ [39m[90mPlots → UnitfulExt[39m
+  30 dependencies successfully precompiled in 114 seconds. 207 already precompiled.
+  [33m6[39m dependencies precompiled but different versions are currently loaded. Restart julia to access the new versions
+  [91m2[39m dependencies errored. To see a full report either run `import Pkg; Pkg.precompile()` or load the packages
+ERROR: LoadError: ArgumentError: Cannot open '/project/g_bme-janeslab/SarahG/spinodal_decomp_06_2025/out_Julia//out_julia/NMG_Julia_2000_dt_5.50e-06_Nx_64_periodic_dtout_1075p__phi.csv': not a file
+Stacktrace:
+ [1] readdlm_auto(input::String, dlm::Char, T::Type, eol::Char, auto::Bool; opts::Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+   @ DelimitedFiles ~/.julia/packages/DelimitedFiles/aGcsu/src/DelimitedFiles.jl:234
+ [2] readdlm_auto
+   @ ~/.julia/packages/DelimitedFiles/aGcsu/src/DelimitedFiles.jl:233 [inlined]
+ [3] #readdlm#5
+   @ ~/.julia/packages/DelimitedFiles/aGcsu/src/DelimitedFiles.jl:170 [inlined]
+ [4] readdlm
+   @ ~/.julia/packages/DelimitedFiles/aGcsu/src/DelimitedFiles.jl:170 [inlined]
+ [5] #readdlm#4
+   @ ~/.julia/packages/DelimitedFiles/aGcsu/src/DelimitedFiles.jl:162 [inlined]
+ [6] readdlm(input::String, dlm::Char)
+   @ DelimitedFiles ~/.julia/packages/DelimitedFiles/aGcsu/src/DelimitedFiles.jl:162
+ [7] top-level scope
+   @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/rmse.jl:45
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/rmse.jl:45
+Starting...
+DONE

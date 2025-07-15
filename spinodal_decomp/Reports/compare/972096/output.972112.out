@@ -1,0 +1,33 @@
+Fri Jul 11 11:17:26 EDT 2025
+64 neumann true SAV 75p
+MODULES LOADED
+ERROR: LoadError: MethodError: no method matching real(::Nothing)
+
+Closest candidates are:
+  real(!Matched::LinearAlgebra.LowerTriangular{var"#s970", S} where {var"#s970"<:Real, S<:AbstractMatrix{var"#s970"}})
+   @ LinearAlgebra /sfs/gpfs/tardis/applications/202506/software/standard/core/julia/1.9.2/share/julia/stdlib/v1.9/LinearAlgebra/src/triangular.jl:50
+  real(!Matched::LinearAlgebra.LowerTriangular{var"#s969", S} where {var"#s969"<:Complex, S<:AbstractMatrix{var"#s969"}})
+   @ LinearAlgebra /sfs/gpfs/tardis/applications/202506/software/standard/core/julia/1.9.2/share/julia/stdlib/v1.9/LinearAlgebra/src/triangular.jl:51
+  real(!Matched::AbstractGray)
+   @ ColorTypes ~/.julia/packages/ColorTypes/vpFgh/src/conversions.jl:117
+  ...
+
+Stacktrace:
+ [1] _broadcast_getindex_evalf
+   @ ./broadcast.jl:683 [inlined]
+ [2] _broadcast_getindex
+   @ ./broadcast.jl:656 [inlined]
+ [3] getindex
+   @ ./broadcast.jl:610 [inlined]
+ [4] copyto_nonleaf!(dest::Matrix{Float64}, bc::Base.Broadcast.Broadcasted{Base.Broadcast.DefaultArrayStyle{2}, Tuple{Base.OneTo{Int64}, Base.OneTo{Int64}}, typeof(real), Tuple{Base.Broadcast.Broadcasted{Base.Broadcast.DefaultArrayStyle{2}, Nothing, typeof(parse_py_complex), Tuple{Base.Broadcast.Extruded{Matrix{Any}, Tuple{Bool, Bool}, Tuple{Int64, Int64}}}}}}, iter::CartesianIndices{2, Tuple{Base.OneTo{Int64}, Base.OneTo{Int64}}}, state::CartesianIndex{2}, count::Int64)
+   @ Base.Broadcast ./broadcast.jl:1068
+ [5] copy
+   @ ./broadcast.jl:920 [inlined]
+ [6] materialize(bc::Base.Broadcast.Broadcasted{Base.Broadcast.DefaultArrayStyle{2}, Nothing, typeof(real), Tuple{Base.Broadcast.Broadcasted{Base.Broadcast.DefaultArrayStyle{2}, Nothing, typeof(parse_py_complex), Tuple{Matrix{Any}}}}})
+   @ Base.Broadcast ./broadcast.jl:873
+ [7] top-level scope
+   @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/rmse.jl:60
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/rmse.jl:60
+Starting...
+/project/g_bme-janeslab/SarahG/spinodal_decomp_06_2025/out_MATLAB/SAV_MATLAB_2000_dt_5.50e-06_Nx_64_neumann_dt_out_1075p_
+DONE

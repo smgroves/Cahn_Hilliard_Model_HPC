@@ -1,0 +1,40 @@
+Sat Jul 12 10:51:38 EDT 2025
+512 periodic true NMG 50p
+MODULES LOADED
+ERROR: LoadError: OutOfMemoryError()
+Stacktrace:
+  [1] Array
+    @ ./boot.jl:479 [inlined]
+  [2] Array
+    @ ./boot.jl:487 [inlined]
+  [3] zeros
+    @ ./array.jl:584 [inlined]
+  [4] zeros
+    @ ./array.jl:580 [inlined]
+  [5] prolong_ch(uc::Matrix{Float64}, vc::Matrix{Float64}, nxc::Int64, nyc::Int64)
+    @ Main /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/CahnHilliard_Julia_solvers/nmg_solver.jl:61
+  [6] vcycle!(uf_new::Matrix{Float64}, wf_new::Matrix{Float64}, su::Matrix{Float64}, sw::Matrix{Float64}, nxf::Int64, nyf::Int64, ilevel::Int64, c_relax::Int64, xright::Int64, xleft::Int64, yright::Int64, yleft::Int64, dt::Float64, epsilon2::Float64, n_level::Int64, boundary::String)
+    @ Main /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/CahnHilliard_Julia_solvers/nmg_solver.jl:99
+  [7] nmg_solver!(rr::Matrix{Float64}, c_old::Matrix{Float64}, c_new::Matrix{Float64}, mu::Matrix{Float64}, nx::Int64, ny::Int64, dt::Float64, solver_iter::Float64, tol::Float64, c_relax::Int64, xright::Int64, xleft::Int64, yright::Int64, yleft::Int64, epsilon2::Float64, n_level::Int64, boundary::String; suffix::String, printres::Bool)
+    @ Main /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/CahnHilliard_Julia_solvers/nmg_solver.jl:118
+  [8] nmg_solver!
+    @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/CahnHilliard_Julia_solvers/nmg_solver.jl:111 [inlined]
+  [9] CahnHilliard_NMG(phi0::Matrix{Float64}; t_iter::Int64, dt::Float64, solver_iter::Float64, tol::Float64, dt_out::Int64, m::Int64, epsilon2::Float64, boundary::String, c_relax::Int64, domain::Matrix{Int64}, printres::Bool, printphi::Bool, pathname::String)
+    @ Main /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/CahnHilliard_Julia_solvers/CahnHilliard_NMG.jl:120
+ [10] macro expansion
+    @ ./timing.jl:501 [inlined]
+ [11] top-level scope
+    @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/CahnHilliard_Julia_solvers/run_spinodal_decomp_HPC.jl:55
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/CahnHilliard_Julia_solvers/run_spinodal_decomp_HPC.jl:54
+  5 percent complete
+ 10 percent complete
+ 15 percent complete
+ 20 percent complete
+ 25 percent complete
+ 30 percent complete
+ 35 percent complete
+ 40 percent complete
+ 45 percent complete
+ 50 percent complete
+ 60 percent complete
+DONE

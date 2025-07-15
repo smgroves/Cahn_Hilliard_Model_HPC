@@ -1,0 +1,10 @@
+Fri Jul 11 11:28:28 EDT 2025
+512 periodic true SAV 25p
+MODULES LOADED
+ERROR: LoadError: UndefVarError: `readdlm` not defined
+Stacktrace:
+ [1] top-level scope
+   @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/difference_map_movie.jl:110
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/difference_map_movie.jl:110
+Starting...
+DONE

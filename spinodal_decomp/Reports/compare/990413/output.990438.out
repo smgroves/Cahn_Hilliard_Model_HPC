@@ -1,0 +1,5 @@
+Sat Jul 12 16:43:39 EDT 2025
+256 neumann true SAV 75p
+MODULES LOADED
+GKS: cannot open display - headless operation mode active
+slurmstepd: error: *** JOB 990438 ON udc-ba05-25c0 CANCELLED AT 2025-07-12T16:45:06 ***

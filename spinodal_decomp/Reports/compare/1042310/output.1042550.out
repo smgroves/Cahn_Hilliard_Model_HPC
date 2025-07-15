@@ -1,0 +1,14 @@
+Mon Jul 14 17:27:30 EDT 2025
+256 neumann true SAV 75p
+MODULES LOADED
+ERROR: LoadError: UndefVarError: `timepoints` not defined
+Stacktrace:
+ [1] top-level scope
+   @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/rmse_python.jl:74
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/rmse_python.jl:74
+Starting...
+/project/g_bme-janeslab/SarahG/spinodal_decomp_06_2025/out_python/NMG_Python_20_dt_5.50e-06_Nx_256_neumann_dtout_175p
+/project/g_bme-janeslab/SarahG/spinodal_decomp_06_2025/out_python/SAV_Python_2000_dt_5.50e-06_Nx_256_neumann_dtout_1075p
+Timepoints do not match: 21 vs 201
+[0.4996707954121337, 0.5892419966492163, 0.579238378864648]
+DONE

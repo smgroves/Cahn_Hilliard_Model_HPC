@@ -1,0 +1,7 @@
+Fri Jul 11 11:26:53 EDT 2025
+256 periodic true SAV 50p
+MODULES LOADED
+ERROR: LoadError: UndefVarError: `@sprintf` not defined
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/difference_map_movie.jl:50
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/difference_map_movie.jl:5
+DONE

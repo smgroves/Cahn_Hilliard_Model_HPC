@@ -1,0 +1,16 @@
+Fri Jul 11 11:01:26 EDT 2025
+128 neumann true SAV 50p
+MODULES LOADED
+ERROR: LoadError: DimensionMismatch: new dimensions (128, 128, 201) must be consistent with array size 3318912
+Stacktrace:
+ [1] (::Base.var"#throw_dmrsa#318")(dims::Tuple{Int64, Int64, Int64}, len::Int64)
+   @ Base ./reshapedarray.jl:41
+ [2] reshape(a::Matrix{Any}, dims::Tuple{Int64, Int64, Int64})
+   @ Base ./reshapedarray.jl:45
+ [3] top-level scope
+   @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/rmse.jl:63
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/rmse.jl:63
+Starting...
+/project/g_bme-janeslab/SarahG/spinodal_decomp_06_2025/out_MATLAB/SAV_MATLAB_2000_dt_5.50e-06_Nx_128_neumann_dt_out_1050p_
+/project/g_bme-janeslab/SarahG/spinodal_decomp_06_2025/out_python/SAV_Python_2000_dt_5.50e-06_Nx_128_neumann_dtout_1050p
+DONE

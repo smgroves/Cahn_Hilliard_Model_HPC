@@ -1,0 +1,38 @@
+Sat Jul 12 17:20:39 EDT 2025
+256 periodic true SAV 25p
+MODULES LOADED
+ERROR: LoadError: OutOfMemoryError()
+Stacktrace:
+  [1] _string_n
+    @ ./strings/string.jl:90 [inlined]
+  [2] StringVector
+    @ ./iobuffer.jl:31 [inlined]
+  [3] read(s::IOStream)
+    @ Base ./iostream.jl:542
+  [4] read
+    @ ./io.jl:1004 [inlined]
+  [5] #418
+    @ ./io.jl:473 [inlined]
+  [6] open(f::Base.var"#418#419"{String}, args::String; kwargs::Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+    @ Base ./io.jl:395
+  [7] open
+    @ ./io.jl:392 [inlined]
+  [8] read
+    @ ./io.jl:473 [inlined]
+  [9] readdlm_auto(input::String, dlm::Char, T::Type, eol::Char, auto::Bool; opts::Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+    @ DelimitedFiles ~/.julia/packages/DelimitedFiles/aGcsu/src/DelimitedFiles.jl:247
+ [10] readdlm_auto
+    @ ~/.julia/packages/DelimitedFiles/aGcsu/src/DelimitedFiles.jl:233 [inlined]
+ [11] #readdlm#5
+    @ ~/.julia/packages/DelimitedFiles/aGcsu/src/DelimitedFiles.jl:170 [inlined]
+ [12] readdlm
+    @ ~/.julia/packages/DelimitedFiles/aGcsu/src/DelimitedFiles.jl:170 [inlined]
+ [13] #readdlm#4
+    @ ~/.julia/packages/DelimitedFiles/aGcsu/src/DelimitedFiles.jl:162 [inlined]
+ [14] readdlm(input::String, dlm::Char)
+    @ DelimitedFiles ~/.julia/packages/DelimitedFiles/aGcsu/src/DelimitedFiles.jl:162
+ [15] top-level scope
+    @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/difference_map_movie.jl:122
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/difference_map_movie.jl:122
+Starting...
+DONE

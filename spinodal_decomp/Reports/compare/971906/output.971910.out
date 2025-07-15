@@ -1,0 +1,30 @@
+Fri Jul 11 11:13:54 EDT 2025
+64 neumann true SAV 75p
+MODULES LOADED
+ERROR: LoadError: MethodError: no method matching parse_py_complex(::Float64)
+
+Closest candidates are:
+  parse_py_complex(!Matched::String)
+   @ Main /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/rmse.jl:50
+
+Stacktrace:
+ [1] _broadcast_getindex_evalf
+   @ ./broadcast.jl:683 [inlined]
+ [2] _broadcast_getindex
+   @ ./broadcast.jl:656 [inlined]
+ [3] _getindex
+   @ ./broadcast.jl:680 [inlined]
+ [4] _broadcast_getindex
+   @ ./broadcast.jl:655 [inlined]
+ [5] getindex
+   @ ./broadcast.jl:610 [inlined]
+ [6] copy
+   @ ./broadcast.jl:912 [inlined]
+ [7] materialize(bc::Base.Broadcast.Broadcasted{Base.Broadcast.DefaultArrayStyle{2}, Nothing, typeof(real), Tuple{Base.Broadcast.Broadcasted{Base.Broadcast.DefaultArrayStyle{2}, Nothing, typeof(parse_py_complex), Tuple{Matrix{Any}}}}})
+   @ Base.Broadcast ./broadcast.jl:873
+ [8] top-level scope
+   @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/rmse.jl:62
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/rmse.jl:62
+Starting...
+/project/g_bme-janeslab/SarahG/spinodal_decomp_06_2025/out_MATLAB/SAV_MATLAB_2000_dt_5.50e-06_Nx_64_neumann_dt_out_1075p_
+DONE

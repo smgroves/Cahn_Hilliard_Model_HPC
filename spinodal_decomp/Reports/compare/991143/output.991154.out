@@ -1,0 +1,4 @@
+Sat Jul 12 17:15:59 EDT 2025
+128 periodic true SAV 75p
+MODULES LOADED
+slurmstepd: error: *** JOB 991154 ON udc-aw33-6c1 CANCELLED AT 2025-07-12T17:16:09 ***

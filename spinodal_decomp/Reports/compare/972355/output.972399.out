@@ -1,0 +1,4 @@
+Fri Jul 11 11:31:28 EDT 2025
+512 periodic true SAV 75p
+MODULES LOADED
+slurmstepd: error: *** JOB 972399 ON udc-ba06-16c0 CANCELLED AT 2025-07-11T11:42:30 ***

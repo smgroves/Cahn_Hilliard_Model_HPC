@@ -1,0 +1,22 @@
+Mon Jul 14 16:57:34 EDT 2025
+128 neumann true SAV 50p
+MODULES LOADED
+ERROR: LoadError: ArgumentError: Cannot open '/project/g_bme-janeslab/SarahG/spinodal_decomp_06_2025/out_python/NMG_Python_20_dt_5.50e-06_Nx_128_neumann_dtout_50p_phi.csv': not a file
+Stacktrace:
+ [1] readdlm_auto(input::String, dlm::Char, T::Type, eol::Char, auto::Bool; opts::Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+   @ DelimitedFiles ~/.julia/packages/DelimitedFiles/aGcsu/src/DelimitedFiles.jl:234
+ [2] readdlm_auto
+   @ ~/.julia/packages/DelimitedFiles/aGcsu/src/DelimitedFiles.jl:233 [inlined]
+ [3] #readdlm#5
+   @ ~/.julia/packages/DelimitedFiles/aGcsu/src/DelimitedFiles.jl:170 [inlined]
+ [4] readdlm
+   @ ~/.julia/packages/DelimitedFiles/aGcsu/src/DelimitedFiles.jl:170 [inlined]
+ [5] #readdlm#4
+   @ ~/.julia/packages/DelimitedFiles/aGcsu/src/DelimitedFiles.jl:162 [inlined]
+ [6] readdlm(input::String, dlm::Char)
+   @ DelimitedFiles ~/.julia/packages/DelimitedFiles/aGcsu/src/DelimitedFiles.jl:162
+ [7] top-level scope
+   @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/rmse_python.jl:38
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/rmse_python.jl:38
+Starting...
+DONE

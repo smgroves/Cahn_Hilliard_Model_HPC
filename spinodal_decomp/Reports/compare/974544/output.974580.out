@@ -1,0 +1,29 @@
+Fri Jul 11 13:02:15 EDT 2025
+64 neumann true SAV 75p
+MODULES LOADED
+ERROR: LoadError: InexactError: Int64(-0.5512920264335129)
+Stacktrace:
+  [1] Int64
+    @ ./float.jl:900 [inlined]
+  [2] convert
+    @ ./number.jl:7 [inlined]
+  [3] setindex!
+    @ ./array.jl:971 [inlined]
+  [4] macro expansion
+    @ ./multidimensional.jl:932 [inlined]
+  [5] macro expansion
+    @ ./cartesian.jl:64 [inlined]
+  [6] macro expansion
+    @ ./multidimensional.jl:927 [inlined]
+  [7] _unsafe_setindex!(::IndexLinear, ::Array{Int64, 3}, ::Matrix{Float64}, ::Base.Slice{Base.OneTo{Int64}}, ::Base.Slice{Base.OneTo{Int64}}, ::Int64)
+    @ Base ./multidimensional.jl:939
+  [8] _setindex!
+    @ ./multidimensional.jl:916 [inlined]
+  [9] setindex!(::Array{Int64, 3}, ::Matrix{Float64}, ::Function, ::Function, ::Int64)
+    @ Base ./abstractarray.jl:1397
+ [10] top-level scope
+    @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/difference_map_movie.jl:134
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/difference_map_movie.jl:133
+Starting...
+/project/g_bme-janeslab/SarahG/spinodal_decomp_06_2025/out_julia/SAV_Julia_2000_dt_5.50e-06_Nx_64_neumann_dtout_1075p
+DONE

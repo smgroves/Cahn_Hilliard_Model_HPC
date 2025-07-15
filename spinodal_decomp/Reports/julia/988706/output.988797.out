@@ -1,0 +1,6 @@
+Sat Jul 12 10:51:38 EDT 2025
+512 periodic true SAV 25p
+MODULES LOADED
+/var/spool/slurm/slurmd/job988797/slurm_script: line 28: 313438 Killed                  julia ./CahnHilliard_Julia_solvers/run_spinodal_decomp_HPC.jl $OPTS $SLURM_ID
+DONE
+slurmstepd: error: Detected 1 oom_kill event in StepId=988797.batch. Some of the step tasks have been OOM Killed.

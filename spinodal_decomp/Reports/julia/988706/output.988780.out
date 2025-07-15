@@ -1,0 +1,5 @@
+Sat Jul 12 10:51:38 EDT 2025
+128 neumann true NMG 25p
+MODULES LOADED
+GKS: cannot open display - headless operation mode active
+slurmstepd: error: *** JOB 988780 ON udc-ba05-19c1 CANCELLED AT 2025-07-12T22:51:50 DUE TO TIME LIMIT ***

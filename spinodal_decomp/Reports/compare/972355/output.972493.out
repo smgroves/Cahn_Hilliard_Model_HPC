@@ -1,0 +1,4 @@
+Fri Jul 11 11:32:25 EDT 2025
+512 periodic true SAV 25p
+MODULES LOADED
+slurmstepd: error: *** JOB 972493 ON udc-an33-2c1 CANCELLED AT 2025-07-11T11:42:30 ***

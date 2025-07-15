@@ -1,0 +1,6 @@
+Fri Jul 11 10:59:47 EDT 2025
+64 periodic false NMG 50p
+MODULES LOADED
+/var/spool/slurm/slurmd/job971736/slurm_script: line 25: unexpected token `;', conditional binary operator expected
+/var/spool/slurm/slurmd/job971736/slurm_script: line 25: syntax error near `;'
+/var/spool/slurm/slurmd/job971736/slurm_script: line 25: `if [[ "$print_results" == "true" && "$solver"=="SAV"]]; then'

@@ -59,9 +59,9 @@ if method == "NMG":
 elif method == "SAV":
     print("Running SAV...")
 
-    max_it = 2000
+    max_it = 20
     if print_results:
-        dt_out = 10
+        dt_out = 1
     else:
         dt_out = 2000
     pathname = f"{outdir}/{method}_Python_{max_it}_dt_{dt:.2e}_Nx_{GridSize}_{boundary}_dtout_{dt_out}{note}"

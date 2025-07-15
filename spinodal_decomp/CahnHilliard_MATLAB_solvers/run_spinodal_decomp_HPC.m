@@ -7,8 +7,8 @@ function run_spinodal_decomp_HPC(GridSize, boundary, print_results, solver, SLUR
     h = 1/GridSize;
     epsilon = m * h/ (2 * sqrt(2) * atanh(0.9)); 
 
-    dt = 5.5e-6;
-    max_it = 2000;
+    dt = 5.5e-7;
+    max_it = 20000;
 
     %run both periodic and neumann with the IC that were smoothed using neumann-BC-smoothing
     init_file = sprintf("%s/initial_phi_%d_smooth_n_relax_%d_%s_neumann.csv",indir,GridSize, n_relax,note);
@@ -19,7 +19,7 @@ function run_spinodal_decomp_HPC(GridSize, boundary, print_results, solver, SLUR
     if print_results == "true"
         dt_out = 10
     else
-        dt_out = 2000
+        dt_out = 20000
     end
     pathname = sprintf("%s/out_MATLAB/%s_MATLAB_%d_dt_%.2e_Nx_%d_%s_dt_out_%d%s_",outdir,solver, max_it,dt, GridSize, boundary, dt_out,note);
 
@@ -68,8 +68,8 @@ function run_spinodal_decomp_HPC(GridSize, boundary, print_results, solver, SLUR
     end
     filename = strcat(pathname, "movie");
     fprintf("Creating movie\n");
-    if print_results
-        ch_movie_from_file(strcat(pathname,"phi.csv"), t_out, ny,filename = filename, filetype = "Motion JPEG AVI")
+    % if print_results
+        % ch_movie_from_file(strcat(pathname,"phi.csv"), t_out, ny,filename = filename, filetype = "Motion JPEG AVI")
 
     writematrix(t_out,sprintf('%st_out.csv', pathname));
     writematrix(delta_mass_t,sprintf('%smass.csv', pathname));

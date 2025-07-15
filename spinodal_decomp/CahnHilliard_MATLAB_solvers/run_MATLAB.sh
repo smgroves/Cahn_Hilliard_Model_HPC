@@ -3,7 +3,7 @@
 #SBATCH -o ../Reports/MATLAB/%A/output.%j.out 
 #SBATCH --ntasks-per-node=16
 #SBATCH --account=janeslab
-#SBATCH --time=25:00:00
+#SBATCH --time=50:00:00
 #SBATCH --mem=100G
 #SBATCH --partition=standard
 #SBATCH --array=1-96
@@ -28,7 +28,7 @@ solver=$(echo "$OPTS" | awk '{print $4}')
 note=$(echo "$OPTS" | awk '{print $5}')
 
 SLURM_ID=${SLURM_ARRAY_JOB_ID}_${SLURM_ARRAY_TASK_ID}
-if [[ "$print_results" == "true"  ]]; then
+if [[ "$print_results" == "true" && "$solver" == "NMG" && "$GridSize" == "512" ]]; then
     matlab -nodisplay -nosplash -r "run_spinodal_decomp_HPC($GridSize, '$boundary', '$print_results', '$solver', '$SLURM_ID', '$note');quit;"
 fi
 echo "Done."
