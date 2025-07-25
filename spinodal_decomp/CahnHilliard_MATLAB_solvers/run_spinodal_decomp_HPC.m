@@ -14,7 +14,6 @@ function run_spinodal_decomp_HPC(GridSize, boundary, print_results, solver, SLUR
     init_file = sprintf("%s/initial_phi_%d_smooth_n_relax_%d_%s_neumann.csv",indir,GridSize, n_relax,note);
     phi0 = readmatrix(init_file);
     print_phi = true;
-    dt_out = 10;
     ny = GridSize;
     if print_results == "true"
         dt_out = 10
@@ -61,7 +60,8 @@ function run_spinodal_decomp_HPC(GridSize, boundary, print_results, solver, SLUR
                                             boundary = boundary,...
                                             printphi=print_phi,...
                                             pathname=pathname,...
-                                            dt_out = dt_out);
+                                            dt_out = dt_out,...
+                                            printres=true);
         elapsedTime = toc(tStart_NMG);
 
 
