@@ -1,0 +1,385 @@
+Tue Apr 7 10:48:15 EDT 2026
+=== CPU SPECIFICATIONS ===
+Socket(s):           2
+Model name:          AMD EPYC 9454 48-Core Processor
+CPU max MHz:         3810.7910
+CPU min MHz:         1500.0000
+
+512 neumann true SAV 75p
+MODULES LOADED
+   Resolving package versions...
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Project.toml`
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Manifest.toml`
+   Resolving package versions...
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Project.toml`
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Manifest.toml`
+   Resolving package versions...
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Project.toml`
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Manifest.toml`
+   Resolving package versions...
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Project.toml`
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Manifest.toml`
+   Resolving package versions...
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Project.toml`
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Manifest.toml`
+   Resolving package versions...
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Project.toml`
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Manifest.toml`
+   Resolving package versions...
+    Updating `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Project.toml`
+  [91a5bcdd] + Plots v1.41.6
+    Updating `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Manifest.toml`
+  [66dad0bd] + AliasTables v1.1.3
+  [d1d4a3ce] + BitFlags v0.1.9
+  [944b1d66] + CodecZlib v0.7.8
+  [35d6a980] + ColorSchemes v3.31.0
+  [3da002f7] + ColorTypes v0.12.1
+  [c3611d14] + ColorVectorSpace v0.11.0
+  [5ae59095] + Colors v0.13.1
+  [f0e56b4a] + ConcurrentUtilities v2.5.1
+  [d38c429a] + Contour v0.6.3
+  [8bb1440f] + DelimitedFiles v1.9.1
+  [ffbed154] + DocStringExtensions v0.9.5
+  [460bff9d] + ExceptionUnwrapping v0.1.11
+  [c87230d0] + FFMPEG v0.4.5
+  [53c48c17] + FixedPointNumbers v0.8.5
+  [1fa38f19] + Format v1.3.7
+  [28b8d3ca] + GR v0.73.24
+  [42e2da0e] + Grisu v1.0.2
+  [cd3eb016] + HTTP v1.11.0
+  [92d709cd] + IrrationalConstants v0.2.6
+  [1019f520] + JLFzf v0.1.11
+  [23fbe1c1] + Latexify v0.16.10
+  [2ab3a3ac] + LogExpFunctions v0.3.29
+  [e6f89c97] + LoggingExtras v1.2.0
+  [1914dd2f] + MacroTools v0.5.16
+  [739be429] + MbedTLS v1.1.10
+  [442fdcdd] + Measures v0.3.3
+  [77ba4419] + NaNMath v1.1.3
+  [4d8831e6] + OpenSSL v1.6.1
+  [ccf2f8ad] + PlotThemes v3.3.0
+  [995b91a9] + PlotUtils v1.4.4
+  [91a5bcdd] + Plots v1.41.6
+  [43287f4e] + PtrArrays v1.4.0
+  [3cdcf5f2] + RecipesBase v1.3.4
+  [01d81517] + RecipesPipeline v0.6.12
+  [05181044] + RelocatableFolders v1.0.1
+  [ae029012] + Requires v1.3.1
+  [6c6a2e73] + Scratch v1.3.0
+  [992d4aef] + Showoff v1.0.3
+  [777ac1f9] + SimpleBufferStream v1.2.0
+  [860ef19b] + StableRNGs v1.0.4
+  [82ae8749] + StatsAPI v1.8.0
+  [2913bbd2] + StatsBase v0.34.10
+  [62fd8b95] + TensorCore v0.1.1
+  [3bb67fe8] + TranscodingStreams v0.11.3
+  [5c2747f8] + URIs v1.6.1
+  [1cfade01] + UnicodeFun v0.4.1
+  [41fe7b60] + Unzip v0.2.0
+  [6e34b625] + Bzip2_jll v1.0.9+0
+  [83423d85] + Cairo_jll v1.18.6+0
+  [ee1fde0b] + Dbus_jll v1.16.2+0
+  [2702e6a9] + EpollShim_jll v0.0.20230411+1
+  [2e619515] + Expat_jll v2.7.3+0
+  [b22a6f82] + FFMPEG_jll v8.0.1+1
+  [a3f928ae] + Fontconfig_jll v2.17.1+0
+  [d7e528f0] + FreeType2_jll v2.14.3+1
+  [559328eb] + FriBidi_jll v1.0.17+0
+  [0656b61e] + GLFW_jll v3.4.1+0
+  [d2c73de3] + GR_jll v0.73.24+0
+⌅ [b0724c58] + GettextRuntime_jll v0.22.4+0
+  [61579ee1] + Ghostscript_jll v9.55.1+0
+  [7746bdde] + Glib_jll v2.86.3+0
+  [3b182d85] + Graphite2_jll v1.3.15+0
+  [2e76f6c2] + HarfBuzz_jll v8.5.1+0
+  [aacddb02] + JpegTurbo_jll v3.1.4+0
+  [c1c5ebd0] + LAME_jll v3.100.3+0
+  [88015f11] + LERC_jll v4.0.1+0
+  [1d63c593] + LLVMOpenMP_jll v18.1.8+0
+⌅ [e9f186c6] + Libffi_jll v3.4.7+0
+  [7e76a0d4] + Libglvnd_jll v1.7.1+1
+  [94ce4f54] + Libiconv_jll v1.18.0+0
+  [4b2f31a3] + Libmount_jll v2.41.3+0
+  [89763e89] + Libtiff_jll v4.7.2+0
+  [38a345b3] + Libuuid_jll v2.41.3+0
+  [e7412a2a] + Ogg_jll v1.3.6+0
+  [458c3c95] + OpenSSL_jll v3.5.5+0
+  [91d4177d] + Opus_jll v1.6.1+0
+  [36c8627f] + Pango_jll v1.57.0+0
+⌅ [30392449] + Pixman_jll v0.44.2+0
+  [c0090381] + Qt6Base_jll v6.10.2+1
+  [629bc702] + Qt6Declarative_jll v6.10.2+1
+  [ce943373] + Qt6ShaderTools_jll v6.10.2+1
+  [6de9746b] + Qt6Svg_jll v6.10.2+0
+  [e99dba38] + Qt6Wayland_jll v6.10.2+1
+  [a44049a8] + Vulkan_Loader_jll v1.3.243+0
+  [a2964d1f] + Wayland_jll v1.24.0+0
+  [ffd25f8a] + XZ_jll v5.8.2+0
+  [f67eecfb] + Xorg_libICE_jll v1.1.2+0
+  [c834827a] + Xorg_libSM_jll v1.2.6+0
+  [4f6342f7] + Xorg_libX11_jll v1.8.13+0
+  [0c0b7dd1] + Xorg_libXau_jll v1.0.13+0
+  [935fb764] + Xorg_libXcursor_jll v1.2.4+0
+  [a3789734] + Xorg_libXdmcp_jll v1.1.6+0
+  [1082639a] + Xorg_libXext_jll v1.3.8+0
+  [d091e8ba] + Xorg_libXfixes_jll v6.0.2+0
+  [a51aa0fd] + Xorg_libXi_jll v1.8.3+0
+  [d1454406] + Xorg_libXinerama_jll v1.1.7+0
+  [ec84b674] + Xorg_libXrandr_jll v1.5.6+0
+  [ea2f1a96] + Xorg_libXrender_jll v0.9.12+0
+  [a65dc6b1] + Xorg_libpciaccess_jll v0.18.1+0
+  [c7cfdc94] + Xorg_libxcb_jll v1.17.1+0
+  [cc61e674] + Xorg_libxkbfile_jll v1.2.0+0
+  [e920d4aa] + Xorg_xcb_util_cursor_jll v0.1.6+0
+  [12413925] + Xorg_xcb_util_image_jll v0.4.1+0
+  [2def613f] + Xorg_xcb_util_jll v0.4.1+0
+  [975044d2] + Xorg_xcb_util_keysyms_jll v0.4.1+0
+  [0d47668e] + Xorg_xcb_util_renderutil_jll v0.3.10+0
+  [c22f9ab0] + Xorg_xcb_util_wm_jll v0.4.2+0
+  [35661453] + Xorg_xkbcomp_jll v1.4.7+0
+  [33bec58e] + Xorg_xkeyboard_config_jll v2.44.0+0
+  [c5fb5394] + Xorg_xtrans_jll v1.6.0+0
+  [3161d3a3] + Zstd_jll v1.5.7+1
+  [35ca27e7] + eudev_jll v3.2.14+0
+  [214eeab7] + fzf_jll v0.61.1+0
+  [a4ae2306] + libaom_jll v3.13.1+0
+  [0ac62f75] + libass_jll v0.17.4+0
+  [1183f4f0] + libdecor_jll v0.2.2+0
+  [8e53e030] + libdrm_jll v2.4.125+1
+  [2db6ffa8] + libevdev_jll v1.13.4+0
+  [f638f0a6] + libfdk_aac_jll v2.0.4+0
+  [36db933b] + libinput_jll v1.28.1+0
+  [b53b4c65] + libpng_jll v1.6.56+0
+  [9a156e7d] + libva_jll v2.23.0+0
+  [f27f6e37] + libvorbis_jll v1.3.8+0
+  [009596ad] + mtdev_jll v1.1.7+0
+⌅ [1270edf5] + x264_jll v10164.0.1+0
+  [dfaa095f] + x265_jll v4.1.0+0
+  [d8fb68d0] + xkbcommon_jll v1.13.0+0
+  [a63ad114] + Mmap v1.11.0
+  [9e88b42a] + Serialization v1.11.0
+  [2f01184e] + SparseArrays v1.11.0
+  [8dfed614] + Test v1.11.0
+  [05823500] + OpenLibm_jll v0.8.5+0
+  [efcefdf7] + PCRE2_jll v10.42.0+1
+  [bea87d4a] + SuiteSparse_jll v7.7.0+0
+        Info Packages marked with ⌅ have new versions available but compatibility constraints restrict them from upgrading. To see why use `status --outdated -m`
+Precompiling project...
+    TensorCore Being precompiled by another machine (hostname: udc-ba05-33c0, pid: 147507, pidfile: /home/xpz5km/.julia/compiled/v1.11/TensorCore/wqzBb_SaQAK.ji.pidfile)
+    StatsAPI Being precompiled by another machine (hostname: udc-ba05-33c0, pid: 147507, pidfile: /home/xpz5km/.julia/compiled/v1.11/StatsAPI/Rf3YC_SaQAK.ji.pidfile)
+    Contour Being precompiled by another machine (hostname: udc-ba05-33c0, pid: 147507, pidfile: /home/xpz5km/.julia/compiled/v1.11/Contour/ZECEP_SaQAK.ji.pidfile)
+    Format Being precompiled by another machine (hostname: udc-ba05-33c0, pid: 147507, pidfile: /home/xpz5km/.julia/compiled/v1.11/Format/MRFzB_SaQAK.ji.pidfile)
+    Measures Being precompiled by another machine (hostname: udc-ba05-33c0, pid: 147507, pidfile: /home/xpz5km/.julia/compiled/v1.11/Measures/RAMEy_SaQAK.ji.pidfile)
+    MacroTools Being precompiled by another machine (hostname: udc-ba03-26c1, pid: 661646, pidfile: /home/xpz5km/.julia/compiled/v1.11/MacroTools/38lnR_SaQAK.ji.pidfile)
+    Grisu Being precompiled by another machine (hostname: udc-ba03-26c1, pid: 661646, pidfile: /home/xpz5km/.julia/compiled/v1.11/Grisu/T2ZVU_SaQAK.ji.pidfile)
+    Requires Being precompiled by another machine (hostname: udc-ba03-26c1, pid: 661646, pidfile: /home/xpz5km/.julia/compiled/v1.11/Requires/IyxeS_SaQAK.ji.pidfile)
+    StableRNGs Being precompiled by another machine (hostname: udc-ba03-26c1, pid: 661646, pidfile: /home/xpz5km/.julia/compiled/v1.11/StableRNGs/fu6AW_SaQAK.ji.pidfile)
+    Unzip Being precompiled by another machine (hostname: udc-ba03-26c1, pid: 661646, pidfile: /home/xpz5km/.julia/compiled/v1.11/Unzip/6rOOd_SaQAK.ji.pidfile)
+    DocStringExtensions Being precompiled by another machine (hostname: udc-ba03-26c1, pid: 661646, pidfile: /home/xpz5km/.julia/compiled/v1.11/DocStringExtensions/KRdZs_SaQAK.ji.pidfile)
+    IrrationalConstants Being precompiled by another machine (hostname: udc-ba03-26c1, pid: 661646, pidfile: /home/xpz5km/.julia/compiled/v1.11/IrrationalConstants/ukdUG_SaQAK.ji.pidfile)
+    URIs Being precompiled by another machine (hostname: udc-ba03-26c1, pid: 661646, pidfile: /home/xpz5km/.julia/compiled/v1.11/URIs/eec2u_SaQAK.ji.pidfile)
+    SimpleBufferStream Being precompiled by another machine (hostname: udc-ba03-26c1, pid: 661646, pidfile: /home/xpz5km/.julia/compiled/v1.11/SimpleBufferStream/QbHsM_SaQAK.ji.pidfile)
+    PtrArrays Being precompiled by another machine (hostname: udc-ba03-26c1, pid: 661646, pidfile: /home/xpz5km/.julia/compiled/v1.11/PtrArrays/y1ds7_SaQAK.ji.pidfile)
+    TranscodingStreams Being precompiled by another machine (hostname: udc-ba03-26c1, pid: 661646, pidfile: /home/xpz5km/.julia/compiled/v1.11/TranscodingStreams/eJQ7D_SaQAK.ji.pidfile)
+    NaNMath Being precompiled by another machine (hostname: udc-ba03-26c1, pid: 661646, pidfile: /home/xpz5km/.julia/compiled/v1.11/NaNMath/k9Y1O_SaQAK.ji.pidfile)
+    DelimitedFiles Being precompiled by another machine (hostname: udc-ba03-26c1, pid: 661646, pidfile: /home/xpz5km/.julia/compiled/v1.11/DelimitedFiles/dlKZm_SaQAK.ji.pidfile)
+    SparseArraysExt Being precompiled by another machine (hostname: udc-ba05-33c0, pid: 147507, pidfile: /home/xpz5km/.julia/compiled/v1.11/SparseArraysExt/k0lPI_SaQAK.ji.pidfile)
+    BitFlags Being precompiled by another machine (hostname: udc-ba03-26c1, pid: 661646, pidfile: /home/xpz5km/.julia/compiled/v1.11/BitFlags/sbYUO_SaQAK.ji.pidfile)
+    ConcurrentUtilities Being precompiled by another machine (hostname: udc-ba03-26c1, pid: 661646, pidfile: /home/xpz5km/.julia/compiled/v1.11/ConcurrentUtilities/OtIZJ_SaQAK.ji.pidfile)
+    FixedPointNumbers Being precompiled by another machine (hostname: udc-ba03-26c1, pid: 661646, pidfile: /home/xpz5km/.julia/compiled/v1.11/FixedPointNumbers/Ple2W_SaQAK.ji.pidfile)
+    MbedTLS Being precompiled by another machine (hostname: udc-ba05-33c0, pid: 147507, pidfile: /home/xpz5km/.julia/compiled/v1.11/MbedTLS/bf9T0_SaQAK.ji.pidfile)
+    Scratch Being precompiled by another machine (hostname: udc-ba05-33c0, pid: 147507, pidfile: /home/xpz5km/.julia/compiled/v1.11/Scratch/ICI1U_SaQAK.ji.pidfile)
+    LoggingExtras Being precompiled by another machine (hostname: udc-ba05-33c0, pid: 147507, pidfile: /home/xpz5km/.julia/compiled/v1.11/LoggingExtras/9fRHf_SaQAK.ji.pidfile)
+    UnicodeFun Being precompiled by another machine (hostname: udc-ba05-33c0, pid: 147507, pidfile: /home/xpz5km/.julia/compiled/v1.11/UnicodeFun/wLwUU_SaQAK.ji.pidfile)
+    AbstractFFTsTestExt Being precompiled by another machine (hostname: udc-ba05-33c0, pid: 147507, pidfile: /home/xpz5km/.julia/compiled/v1.11/AbstractFFTsTestExt/Pr5Et_SaQAK.ji.pidfile)
+    ExceptionUnwrapping Being precompiled by another machine (hostname: udc-ba05-33c0, pid: 147507, pidfile: /home/xpz5km/.julia/compiled/v1.11/ExceptionUnwrapping/DKnWN_SaQAK.ji.pidfile)
+    OpenSSL_jll Being precompiled by another machine (hostname: udc-ba05-33c0, pid: 147507, pidfile: /home/xpz5km/.julia/compiled/v1.11/OpenSSL_jll/M3X35_SaQAK.ji.pidfile)
+    Graphite2_jll Being precompiled by another machine (hostname: udc-ba05-33c0, pid: 147507, pidfile: /home/xpz5km/.julia/compiled/v1.11/Graphite2_jll/XMuhG_SaQAK.ji.pidfile)
+    Libmount_jll Being precompiled by another machine (hostname: udc-ba05-33c0, pid: 147507, pidfile: /home/xpz5km/.julia/compiled/v1.11/Libmount_jll/04u4y_SaQAK.ji.pidfile)
+    EpollShim_jll Being precompiled by another machine (hostname: udc-ba05-33c0, pid: 147507, pidfile: /home/xpz5km/.julia/compiled/v1.11/EpollShim_jll/9JxHH_SaQAK.ji.pidfile)
+    525.1 ms  ✓ Xorg_libXau_jll
+    x264_jll Being precompiled by another machine (hostname: udc-ba03-26c1, pid: 661646, pidfile: /home/xpz5km/.julia/compiled/v1.11/x264_jll/XmaTp_SaQAK.ji.pidfile)
+    libaom_jll Being precompiled by another machine (hostname: udc-ba03-26c1, pid: 661646, pidfile: /home/xpz5km/.julia/compiled/v1.11/libaom_jll/i2i8X_SaQAK.ji.pidfile)
+    Zstd_jll Being precompiled by another machine (hostname: udc-ba03-26c1, pid: 661646, pidfile: /home/xpz5km/.julia/compiled/v1.11/Zstd_jll/cFDJB_SaQAK.ji.pidfile)
+    Expat_jll Being precompiled by another machine (hostname: udc-ba03-26c1, pid: 661646, pidfile: /home/xpz5km/.julia/compiled/v1.11/Expat_jll/4P57b_SaQAK.ji.pidfile)
+    Opus_jll Being precompiled by another machine (hostname: udc-ba03-26c1, pid: 661646, pidfile: /home/xpz5km/.julia/compiled/v1.11/Opus_jll/vFQVB_SaQAK.ji.pidfile)
+    Xorg_xtrans_jll Being precompiled by another machine (hostname: udc-ba03-26c1, pid: 661646, pidfile: /home/xpz5km/.julia/compiled/v1.11/Xorg_xtrans_jll/xYA3D_SaQAK.ji.pidfile)
+    libevdev_jll Being precompiled by another machine (hostname: udc-ba03-26c1, pid: 661646, pidfile: /home/xpz5km/.julia/compiled/v1.11/libevdev_jll/ycIBu_SaQAK.ji.pidfile)
+    Libiconv_jll Being precompiled by another machine (hostname: udc-ba03-26c1, pid: 661646, pidfile: /home/xpz5km/.julia/compiled/v1.11/Libiconv_jll/ujTCF_SaQAK.ji.pidfile)
+    Libffi_jll Being precompiled by another machine (hostname: udc-ba05-33c0, pid: 147507, pidfile: /home/xpz5km/.julia/compiled/v1.11/Libffi_jll/y4lM8_SaQAK.ji.pidfile)
+    eudev_jll Being precompiled by another machine (hostname: udc-ba03-26c1, pid: 661646, pidfile: /home/xpz5km/.julia/compiled/v1.11/eudev_jll/sB3LA_SaQAK.ji.pidfile)
+    Libuuid_jll Being precompiled by another machine (hostname: udc-ba05-33c0, pid: 147507, pidfile: /home/xpz5km/.julia/compiled/v1.11/Libuuid_jll/H4xj5_SaQAK.ji.pidfile)
+    FriBidi_jll Being precompiled by another machine (hostname: udc-ba05-33c0, pid: 147507, pidfile: /home/xpz5km/.julia/compiled/v1.11/FriBidi_jll/tf6pT_SaQAK.ji.pidfile)
+    RecipesBase Being precompiled by another machine (hostname: udc-ba05-33c0, pid: 147507, pidfile: /home/xpz5km/.julia/compiled/v1.11/RecipesBase/8e2Mm_SaQAK.ji.pidfile)
+    598.5 ms  ✓ LLVMOpenMP_jll
+    568.4 ms  ✓ LAME_jll
+    581.1 ms  ✓ Xorg_libpciaccess_jll
+    555.2 ms  ✓ Xorg_libXdmcp_jll
+    572.3 ms  ✓ LERC_jll
+    595.4 ms  ✓ Xorg_libICE_jll
+    593.8 ms  ✓ libpng_jll
+    592.1 ms  ✓ libfdk_aac_jll
+    605.9 ms  ✓ Bzip2_jll
+    583.3 ms  ✓ XZ_jll
+    591.7 ms  ✓ mtdev_jll
+    594.4 ms  ✓ Ogg_jll
+    601.3 ms  ✓ fzf_jll
+    600.7 ms  ✓ JpegTurbo_jll
+    698.4 ms  ✓ x265_jll
+    502.2 ms  ✓ libdrm_jll
+    530.6 ms  ✓ Pixman_jll
+    500.5 ms  ✓ Xorg_libSM_jll
+    502.0 ms  ✓ FreeType2_jll
+    522.3 ms  ✓ libvorbis_jll
+    732.8 ms  ✓ JLFzf
+    802.3 ms  ✓ Ghostscript_jll
+   1021.0 ms  ✓ Xorg_libxcb_jll
+    488.6 ms  ✓ Xorg_xcb_util_jll
+    487.6 ms  ✓ Xorg_xcb_util_image_jll
+    485.6 ms  ✓ Xorg_xcb_util_renderutil_jll
+    492.9 ms  ✓ Xorg_xcb_util_keysyms_jll
+    498.9 ms  ✓ Xorg_xcb_util_wm_jll
+    471.7 ms  ✓ Xorg_xcb_util_cursor_jll
+  10110.4 ms  ✓ Grisu
+  10112.4 ms  ✓ MacroTools
+  10119.1 ms  ✓ Measures
+  10121.9 ms  ✓ Format
+  10124.5 ms  ✓ Contour
+  10126.6 ms  ✓ StatsAPI
+  10203.6 ms  ✓ TensorCore
+  10087.7 ms  ✓ SimpleBufferStream
+    Showoff Being precompiled by another machine (hostname: udc-ba05-33c0, pid: 147507, pidfile: /home/xpz5km/.julia/compiled/v1.11/Showoff/vyYkR_SaQAK.ji.pidfile)
+  10155.1 ms  ✓ DelimitedFiles
+  10156.3 ms  ✓ NaNMath
+  10157.1 ms  ✓ TranscodingStreams
+  10158.7 ms  ✓ PtrArrays
+  10161.0 ms  ✓ URIs
+  10161.7 ms  ✓ IrrationalConstants
+  10165.1 ms  ✓ DocStringExtensions
+  10170.5 ms  ✓ Unzip
+  10175.5 ms  ✓ StableRNGs
+  10184.1 ms  ✓ Requires
+  10129.0 ms  ✓ FixedPointNumbers
+  10132.1 ms  ✓ ConcurrentUtilities
+  10136.7 ms  ✓ BitFlags
+  10138.2 ms  ✓ Statistics → SparseArraysExt
+    CodecZlib Being precompiled by another machine (hostname: udc-ba05-33c0, pid: 147507, pidfile: /home/xpz5km/.julia/compiled/v1.11/CodecZlib/1TI30_SaQAK.ji.pidfile)
+    AliasTables Being precompiled by another machine (hostname: udc-ba05-33c0, pid: 147507, pidfile: /home/xpz5km/.julia/compiled/v1.11/AliasTables/C6bK3_SaQAK.ji.pidfile)
+    LogExpFunctions Being precompiled by another machine (hostname: udc-ba05-33c0, pid: 147507, pidfile: /home/xpz5km/.julia/compiled/v1.11/LogExpFunctions/cmCYR_SaQAK.ji.pidfile)
+    ColorTypes Being precompiled by another machine (hostname: udc-ba05-33c0, pid: 147507, pidfile: /home/xpz5km/.julia/compiled/v1.11/ColorTypes/db21U_SaQAK.ji.pidfile)
+  10109.6 ms  ✓ MbedTLS
+  10105.7 ms  ✓ LoggingExtras
+  10107.4 ms  ✓ Scratch
+  10228.5 ms  ✓ ExceptionUnwrapping
+  10214.2 ms  ✓ EpollShim_jll
+  10215.8 ms  ✓ Libmount_jll
+  10217.4 ms  ✓ Graphite2_jll
+  10219.2 ms  ✓ OpenSSL_jll
+    OpenSSL Being precompiled by another machine (hostname: udc-ba05-33c0, pid: 147507, pidfile: /home/xpz5km/.julia/compiled/v1.11/OpenSSL/B4VRP_SaQAK.ji.pidfile)
+    346.7 ms  ✓ RelocatableFolders
+  10010.9 ms  ✓ x264_jll
+  10015.0 ms  ✓ libaom_jll
+  10053.0 ms  ✓ Libuuid_jll
+  10054.5 ms  ✓ eudev_jll
+  10055.5 ms  ✓ Libffi_jll
+  10056.9 ms  ✓ Libiconv_jll
+  10057.7 ms  ✓ libevdev_jll
+  10058.5 ms  ✓ Xorg_xtrans_jll
+  10059.4 ms  ✓ Opus_jll
+  10060.3 ms  ✓ Expat_jll
+  10061.2 ms  ✓ Zstd_jll
+  10064.2 ms  ✓ RecipesBase
+  10065.1 ms  ✓ FriBidi_jll
+    libinput_jll Being precompiled by another machine (hostname: udc-ba03-26c1, pid: 661646, pidfile: /home/xpz5km/.julia/compiled/v1.11/libinput_jll/6TBe0_SaQAK.ji.pidfile)
+    GettextRuntime_jll Being precompiled by another machine (hostname: udc-ba05-33c0, pid: 147507, pidfile: /home/xpz5km/.julia/compiled/v1.11/GettextRuntime_jll/WxHrl_SaQAK.ji.pidfile)
+    Dbus_jll Being precompiled by another machine (hostname: udc-ba05-33c0, pid: 147507, pidfile: /home/xpz5km/.julia/compiled/v1.11/Dbus_jll/1kwKZ_SaQAK.ji.pidfile)
+    Wayland_jll Being precompiled by another machine (hostname: udc-ba05-33c0, pid: 147507, pidfile: /home/xpz5km/.julia/compiled/v1.11/Wayland_jll/DKZcj_SaQAK.ji.pidfile)
+    Libtiff_jll Being precompiled by another machine (hostname: udc-ba03-26c1, pid: 661646, pidfile: /home/xpz5km/.julia/compiled/v1.11/Libtiff_jll/f0w9B_SaQAK.ji.pidfile)
+    499.4 ms  ✓ Xorg_libX11_jll
+    613.9 ms  ✓ Fontconfig_jll
+   2022.7 ms  ✓ Latexify
+   2753.6 ms  ✓ Latexify → SparseArraysExt
+   3388.1 ms  ✓ Latexify → DataFramesExt
+  10042.2 ms  ✓ Showoff
+  10033.6 ms  ✓ ColorTypes
+  10037.3 ms  ✓ LogExpFunctions
+  10059.2 ms  ✓ AliasTables
+  10060.7 ms  ✓ CodecZlib
+  20272.2 ms  ✓ UnicodeFun
+  20270.9 ms  ✓ AbstractFFTs → AbstractFFTsTestExt
+  10026.8 ms  ✓ OpenSSL
+    HTTP Being precompiled by another machine (hostname: udc-ba05-33c0, pid: 147507, pidfile: /home/xpz5km/.julia/compiled/v1.11/HTTP/zXWya_SaQAK.ji.pidfile)
+    419.6 ms  ✓ ColorTypes → StyledStringsExt
+  10040.3 ms  ✓ Libtiff_jll
+  10041.2 ms  ✓ Wayland_jll
+  10044.5 ms  ✓ Dbus_jll
+  10048.2 ms  ✓ GettextRuntime_jll
+  10049.2 ms  ✓ libinput_jll
+    607.8 ms  ✓ Glib_jll
+   1322.8 ms  ✓ ColorVectorSpace
+   1595.1 ms  ✓ StatsBase
+  10557.6 ms  ✓ Xorg_libXfixes_jll
+  10567.2 ms  ✓ Xorg_libXrender_jll
+  10556.3 ms  ✓ Xorg_libxkbfile_jll
+    486.0 ms  ✓ Xorg_xkbcomp_jll
+    492.4 ms  ✓ Xorg_libXcursor_jll
+    447.7 ms  ✓ Xorg_xkeyboard_config_jll
+   2887.4 ms  ✓ Colors
+    ColorSchemes Being precompiled by another machine (hostname: udc-ba03-26c1, pid: 661646, pidfile: /home/xpz5km/.julia/compiled/v1.11/ColorSchemes/EO5fj_SaQAK.ji.pidfile)
+    495.0 ms  ✓ xkbcommon_jll
+  10052.1 ms  ✓ HTTP
+  20569.2 ms  ✓ Xorg_libXext_jll
+    511.5 ms  ✓ Xorg_libXi_jll
+    508.7 ms  ✓ Xorg_libXinerama_jll
+    506.0 ms  ✓ Xorg_libXrandr_jll
+    539.0 ms  ✓ libva_jll
+    624.2 ms  ✓ Libglvnd_jll
+    621.4 ms  ✓ Cairo_jll
+    504.5 ms  ✓ Vulkan_Loader_jll
+    578.9 ms  ✓ HarfBuzz_jll
+    543.6 ms  ✓ libass_jll
+    578.1 ms  ✓ Pango_jll
+    830.7 ms  ✓ Qt6Base_jll
+    571.3 ms  ✓ libdecor_jll
+    584.3 ms  ✓ Qt6ShaderTools_jll
+    605.0 ms  ✓ Qt6Svg_jll
+    737.4 ms  ✓ FFMPEG_jll
+    571.8 ms  ✓ GLFW_jll
+    521.2 ms  ✓ FFMPEG
+    677.8 ms  ✓ GR_jll
+   1346.9 ms  ✓ Qt6Declarative_jll
+    625.1 ms  ✓ Qt6Wayland_jll
+   2425.8 ms  ✓ GR
+  20051.0 ms  ✓ ColorSchemes
+    PlotUtils Being precompiled by another machine (hostname: udc-ba05-33c0, pid: 147507, pidfile: /home/xpz5km/.julia/compiled/v1.11/PlotUtils/YveHG_SaQAK.ji.pidfile)
+  10040.6 ms  ✓ PlotUtils
+   1966.4 ms  ✓ PlotThemes
+   2532.4 ms  ✓ RecipesPipeline
+    Plots Being precompiled by another machine (hostname: udc-ba03-26c1, pid: 661646, pidfile: /home/xpz5km/.julia/compiled/v1.11/Plots/ld3vC_SaQAK.ji.pidfile)
+  50293.0 ms  ✓ Plots
+  132 dependencies successfully precompiled in 106 seconds. 79 already precompiled.
+ERROR: LoadError: ArgumentError: Package CSV not found in current path.
+- Run `import Pkg; Pkg.add("CSV")` to install the CSV package.
+Stacktrace:
+ [1] macro expansion
+   @ ./loading.jl:2296 [inlined]
+ [2] macro expansion
+   @ ./lock.jl:273 [inlined]
+ [3] __require(into::Module, mod::Symbol)
+   @ Base ./loading.jl:2271
+ [4] #invoke_in_world#3
+   @ ./essentials.jl:1089 [inlined]
+ [5] invoke_in_world
+   @ ./essentials.jl:1086 [inlined]
+ [6] require(into::Module, mod::Symbol)
+   @ Base ./loading.jl:2260
+ [7] include(fname::String)
+   @ Main ./sysimg.jl:38
+ [8] top-level scope
+   @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/CahnHilliard_Julia_solvers/run_spinodal_decomp_HPC.jl:17
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/CahnHilliard_Julia_solvers/ch_movie_from_file.jl:1
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/CahnHilliard_Julia_solvers/run_spinodal_decomp_HPC.jl:17
+
+=== CLOCK RATE DURING SIMULATION ===
+Average CPU MHz: 0
+DONE

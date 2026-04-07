@@ -1,0 +1,11 @@
+Tue Jul 15 16:29:13 EDT 2025
+128 periodic true SAV 75p
+MODULES LOADED
+ERROR: LoadError: TypeError: non-boolean (Missing) used in boolean context
+Stacktrace:
+ [1] top-level scope
+   @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/rmse.jl:54
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/rmse.jl:54
+Starting...
+/project/g_bme-janeslab/SarahG/spinodal_decomp_06_2025/out_MATLAB/SAV_MATLAB_2000_dt_5.50e-06_Nx_128_periodic_dt_out_1075p
+DONE

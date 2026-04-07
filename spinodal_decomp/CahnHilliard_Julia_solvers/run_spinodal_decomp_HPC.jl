@@ -1,3 +1,11 @@
+import Pkg; Pkg.add("BenchmarkTools")
+Pkg.add("DataFrames")
+Pkg.add("StaticArrays")
+Pkg.add("LinearAlgebra")
+Pkg.add("FFTW")
+Pkg.add("StaticArrays")
+Pkg.add("Plots")
+Pkg.add("CSV")
 using DelimitedFiles
 using Dates
 using BenchmarkTools
@@ -44,6 +52,7 @@ end
 id = @sprintf("%s_Julia_%d_dt_%.2e_Nx_%d_%s_dtout_%d%s", method, max_it, dt, GridSize, boundary, dt_out, note)
 pathname = @sprintf("%s/out_julia/%s_", outdir, id)
 date_time = now()
+println("Julia threads: $(Threads.nthreads())")
 
 if method == "NMG"
     result, elapsed_time, mem_allocated, gc_time, memory_counters = @timed CahnHilliard_NMG(phi0; t_iter=max_it, dt=dt, dt_out=dt_out, m=m, boundary=boundary, printphi=printphi, pathname=pathname)
@@ -56,6 +65,7 @@ elseif method == "SAV"
         writedlm(f, [Dates.format(date_time, "mm/dd/yyyy HH:MM:SS") "Julia" method GridSize epsilon dt "NaN" max_it "NaN" dt_out print boundary pathname elapsed_time (mem_allocated/1e6) SLURM_ID note], ",")
     end
 end
+
 
 if print
     println("Printing out results...")

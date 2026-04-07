@@ -3,19 +3,19 @@
 #SBATCH -o ./Reports/julia/%A/output.%j.out 
 #SBATCH --ntasks-per-node=16
 #SBATCH --account=janeslab
-#SBATCH --time=30:00:00
-#SBATCH --mem=500G
+#SBATCH --time=8:00:00
+#SBATCH --mem=1400G
 #SBATCH --partition=standard
 #SBATCH --array=1-96
 
 echo $(date)
-OPTS=$(sed -n "${SLURM_ARRAY_TASK_ID}"p opts_06_2025.txt)
+OPTS=$(sed -n "${SLURM_ARRAY_TASK_ID}"p opts_Julia_redo_v4.txt)
 echo $OPTS
 
 outdir="/project/g_bme-janeslab/SarahG/spinodal_decomp_06_2025/out_julia"
 mkdir -p $outdir
 # Load  Julia environment
-module load julia/1.9.2
+module load julia/1.11.6
 echo "MODULES LOADED"
 boundary=$(echo "$OPTS" | awk '{print $2}')
 print=$(echo "$OPTS" | awk '{print $3}')

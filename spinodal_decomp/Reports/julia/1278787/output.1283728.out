@@ -1,0 +1,6 @@
+Thu Jul 17 19:02:35 EDT 2025
+512 neumann true SAV 50p
+MODULES LOADED
+/var/spool/slurm/slurmd/job1283728/slurm_script: line 28: 389459 Killed                  julia ./CahnHilliard_Julia_solvers/run_spinodal_decomp_HPC.jl $OPTS $SLURM_ID
+DONE
+slurmstepd: error: Detected 1 oom_kill event in StepId=1283728.batch. Some of the step tasks have been OOM Killed.

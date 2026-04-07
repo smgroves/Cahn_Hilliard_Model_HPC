@@ -53,37 +53,52 @@ println(pathname2)
 #%%
 
 #reshape full_data1 from [AxB,C] to [A,B,C]
-# timepoints = 201  # number of timepoints
+timepoints = 21  # number of timepoints
 tp1 = size(full_data1, 1) ÷ nx
 tp2 = size(full_data2, 1) ÷ nx
 if tp1 != tp2
     println("Timepoints do not match: $(tp1) vs $(tp2)")
 end
-full_data1 = reshape(full_data1, (nx, nx, tp1))
-# full_data1 = full_data1[:, :, [1,11,21]]  # every 10th timepoint since dtout = 1
-full_data2 = reshape(full_data2, (nx, nx, tp2))
-# full_data2 = full_data2[:, :, 1:3]  # first three since dtout = 10
+full_data1_reshaped = zeros(nx, nx, timepoints)
+
+# full_data1 = reshape(full_data1, (nx, nx, tp1))
+println(tp1)
+println(tp2)
+for i in 1:timepoints
+    full_data1_reshaped[:, :, i] = full_data1[(nx*(i-1)+1):(nx*i), :]
+end
+
+full_data1_reshaped = full_data1_reshaped[:, :, 1:min(timepoints, tp2, tp1)]  # ensure we only take the first min(timepoints, tp1) timepoints
+# full_data2 = reshape(full_data2, (nx, nx, tp2))
+full_data2_reshaped = zeros(nx, nx, timepoints)
+
+for i in 1:timepoints
+    full_data2_reshaped[:, :, i] = full_data2[(nx*(i-1)+1):(nx*i), :]
+end
+full_data2_reshaped = full_data2_reshaped[:, :, 1:min(timepoints, tp1, tp2)]  # ensure we only take the first min(timepoints, tp2) timepoints
+
 
 # calculare L2 norm for each timepoint in phi
-rmse = vec(sqrt.(mean((full_data1 - full_data2) .^ 2, dims=(1, 2))))
+rmse = vec(sqrt.(mean((full_data1_reshaped - full_data2_reshaped) .^ 2, dims=(1, 2))))
 println(rmse)
 ave_err = mean(rmse)
 
 title1 = (basename(pathname1))
 title2 = (basename(pathname2))
-# Plots.plot(rmse, label="RMSE", xlabel="Time Step", title="RMSE \n$(title1)\n$(title2)", titlefont=font(10), legend=:topleft, xlims=(1, 21))
-# hline!([ave_err], linestyle=:dot, color=:black, label="Average RMSE = $(round(ave_err, digits = 4))")  # add horizontal dotted line at y = 0.0
+Plots.plot(rmse, label="RMSE", xlabel="Time Step", title="RMSE \n$(title1)\n$(title2)", titlefont=font(10), legend=:topleft, xlims=(1, 21))
+hline!([ave_err], linestyle=:dot, color=:black, label="Average RMSE = $(round(ave_err, digits = 4))")  # add horizontal dotted line at y = 0.0
 
-# #save FIGURE
-# println("saving figure")
+#save FIGURE
+println("saving figure")
+savefig("$(outdir)/out_python/plots/$(title1)_$(title2).pdf")
 
 
-# savefig("$(outdir)/out_python/plots/$(title1)_$(title2).pdf")
-headers = ["compared_files";  string.(1:length(rmse))]
+# headers = ["compared_files";  string.(1:length(rmse))]
 
+rmse_file ="$(outdir)/out_compare/rmse_Python_NMG_SAV.csv"
 line = join(["$(title1)_$(title2)"; string.(rmse)], ",") * "\n"
-open("$(outdir)/out_python/rmse.csv", "a") do io
-    if !isfile("$(outdir)/out_python/rmse.csv") || filesize("$(outdir)/out_python/rmse.csv") == 0
+open(rmse_file, "a") do io
+    if !isfile(rmse_file) || filesize(rmse_file) == 0
         write(io, join(headers, ",") * "\n")
     end
     write(io, line)

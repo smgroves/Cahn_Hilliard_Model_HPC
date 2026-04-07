@@ -1,0 +1,4 @@
+Tue Jul 15 16:32:36 EDT 2025
+512 neumann true NMG 50p
+MODULES LOADED
+slurmstepd: error: *** JOB 1178962 ON udc-ba06-6c0 CANCELLED AT 2025-07-15T16:32:58 ***

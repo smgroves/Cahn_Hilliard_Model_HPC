@@ -1,0 +1,37 @@
+Fri Jul 25 12:53:24 EDT 2025
+512 neumann true NMG 50p
+MODULES LOADED
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2025a (25.1.0.2943329) 64-bit (glnxa64)
+                               April 16, 2025
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+outdir = 
+
+    "/project/g_bme-janeslab/SarahG/spinodal_decomp_06_2025"
+
+
+dt_out =
+
+    10
+
+Running NMG solver with parameters: /project/g_bme-janeslab/SarahG/spinodal_decomp_06_2025/out_MATLAB/NMG_MATLAB_20000_dt_5.50e-07_Nx_512_neumann_dt_out_1050p_
+
+tol = 
+
+    "1e-5"
+
+
+solver_iter = 
+
+    "1e4"
+
+Saving squared residuals per iteration to file in the working directory
+Launching updater executable
+slurmstepd: error: *** JOB 1740810 ON udc-ba06-18c0 CANCELLED AT 2025-07-27T14:53:25 DUE TO TIME LIMIT ***

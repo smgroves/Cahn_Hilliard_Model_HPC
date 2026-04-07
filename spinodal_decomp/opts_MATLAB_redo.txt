@@ -1,0 +1,6 @@
+512 neumann true NMG 25p
+512 neumann true NMG 50p
+512 neumann true NMG 75p
+512 periodic true NMG 25p
+512 periodic true NMG 50p
+512 periodic true NMG 75p

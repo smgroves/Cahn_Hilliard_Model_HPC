@@ -1,0 +1,37 @@
+Tue Apr 7 10:36:02 EDT 2026
+=== CPU SPECIFICATIONS ===
+Socket(s):           2
+Model name:          AMD EPYC 9454 48-Core Processor
+CPU max MHz:         3810.7910
+CPU min MHz:         1500.0000
+
+512 neumann true SAV 50p
+MODULES LOADED
+   Resolving package versions...
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Project.toml`
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Manifest.toml`
+ERROR: LoadError: ArgumentError: Package DataFrames not found in current path.
+- Run `import Pkg; Pkg.add("DataFrames")` to install the DataFrames package.
+Stacktrace:
+ [1] macro expansion
+   @ ./loading.jl:2296 [inlined]
+ [2] macro expansion
+   @ ./lock.jl:273 [inlined]
+ [3] __require(into::Module, mod::Symbol)
+   @ Base ./loading.jl:2271
+ [4] #invoke_in_world#3
+   @ ./essentials.jl:1089 [inlined]
+ [5] invoke_in_world
+   @ ./essentials.jl:1086 [inlined]
+ [6] require(into::Module, mod::Symbol)
+   @ Base ./loading.jl:2260
+ [7] include(fname::String)
+   @ Main ./sysimg.jl:38
+ [8] top-level scope
+   @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/CahnHilliard_Julia_solvers/run_spinodal_decomp_HPC.jl:8
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/CahnHilliard_Julia_solvers/CahnHilliard_NMG.jl:20
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/CahnHilliard_Julia_solvers/run_spinodal_decomp_HPC.jl:8
+
+=== CLOCK RATE DURING SIMULATION ===
+Average CPU MHz: 0
+DONE

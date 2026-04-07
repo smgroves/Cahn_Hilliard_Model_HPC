@@ -1,0 +1,23 @@
+Fri Jul 18 11:14:40 EDT 2025
+512 neumann true NMG 75p
+MODULES LOADED
+ERROR: LoadError: BoundsError: attempt to access 988160×512 Matrix{Float64} at index [988161:988672, 1:512]
+Stacktrace:
+ [1] throw_boundserror(A::Matrix{Float64}, I::Tuple{UnitRange{Int64}, Base.Slice{Base.OneTo{Int64}}})
+   @ Base ./abstractarray.jl:744
+ [2] checkbounds
+   @ ./abstractarray.jl:709 [inlined]
+ [3] _getindex
+   @ ./multidimensional.jl:860 [inlined]
+ [4] getindex(::Matrix{Float64}, ::UnitRange{Int64}, ::Function)
+   @ Base ./abstractarray.jl:1294
+ [5] top-level scope
+   @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/rmse.jl:80
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/rmse.jl:79
+Starting...
+/project/g_bme-janeslab/SarahG/spinodal_decomp_06_2025/out_Julia/NMG_Julia_20000_dt_5.50e-07_Nx_512_neumann_dtout_1075p
+/project/g_bme-janeslab/SarahG/spinodal_decomp_06_2025/out_Julia/SAV_Julia_20000_dt_5.50e-07_Nx_512_neumann_dtout_1075p
+Timepoints do not match: 2001 vs 1930
+2001
+1930
+DONE

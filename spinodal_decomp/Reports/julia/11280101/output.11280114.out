@@ -1,0 +1,67 @@
+Tue Apr 7 10:44:56 EDT 2026
+=== CPU SPECIFICATIONS ===
+Socket(s):           2
+Model name:          AMD EPYC 9454 48-Core Processor
+CPU max MHz:         3810.7910
+CPU min MHz:         1500.0000
+
+512 neumann true SAV 25p
+MODULES LOADED
+   Resolving package versions...
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Project.toml`
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Manifest.toml`
+   Resolving package versions...
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Project.toml`
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Manifest.toml`
+   Resolving package versions...
+   Installed StaticArraysCore ─ v1.4.4
+   Installed StaticArrays ───── v1.9.18
+    Updating `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Project.toml`
+  [90137ffa] + StaticArrays v1.9.18
+    Updating `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Manifest.toml`
+  [90137ffa] + StaticArrays v1.9.18
+  [1e83bf80] + StaticArraysCore v1.4.4
+Precompiling project...
+    StaticArrays Being precompiled by another machine (hostname: udc-ba05-33c0, pid: 139287, pidfile: /home/xpz5km/.julia/compiled/v1.11/StaticArrays/yY9vm_SaQAK.ji.pidfile)
+  10160.8 ms  ✓ StaticArrays
+    591.9 ms  ✓ StaticArrays → StaticArraysStatisticsExt
+  2 dependencies successfully precompiled in 11 seconds. 46 already precompiled.
+   Resolving package versions...
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Project.toml`
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Manifest.toml`
+Precompiling project...
+    MKL_jll Being precompiled by another machine (hostname: udc-ba06-7c1, pid: 769198, pidfile: /home/xpz5km/.julia/compiled/v1.11/MKL_jll/DHEix_SaQAK.ji.pidfile)
+  10023.2 ms  ✓ MKL_jll
+   4414.0 ms  ✓ FFTW
+  2 dependencies successfully precompiled in 15 seconds. 70 already precompiled.
+   Resolving package versions...
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Project.toml`
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Manifest.toml`
+   Resolving package versions...
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Project.toml`
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Manifest.toml`
+ERROR: LoadError: ArgumentError: Package Plots not found in current path.
+- Run `import Pkg; Pkg.add("Plots")` to install the Plots package.
+Stacktrace:
+ [1] macro expansion
+   @ ./loading.jl:2296 [inlined]
+ [2] macro expansion
+   @ ./lock.jl:273 [inlined]
+ [3] __require(into::Module, mod::Symbol)
+   @ Base ./loading.jl:2271
+ [4] #invoke_in_world#3
+   @ ./essentials.jl:1089 [inlined]
+ [5] invoke_in_world
+   @ ./essentials.jl:1086 [inlined]
+ [6] require(into::Module, mod::Symbol)
+   @ Base ./loading.jl:2260
+ [7] include(fname::String)
+   @ Main ./sysimg.jl:38
+ [8] top-level scope
+   @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/CahnHilliard_Julia_solvers/run_spinodal_decomp_HPC.jl:17
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/CahnHilliard_Julia_solvers/ch_movie_from_file.jl:1
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/CahnHilliard_Julia_solvers/run_spinodal_decomp_HPC.jl:17
+
+=== CLOCK RATE DURING SIMULATION ===
+Average CPU MHz: 0
+DONE

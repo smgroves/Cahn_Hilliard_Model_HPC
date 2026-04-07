@@ -1,0 +1,94 @@
+Tue Apr 7 10:44:51 EDT 2026
+=== CPU SPECIFICATIONS ===
+Socket(s):           2
+Model name:          AMD EPYC 9454 48-Core Processor
+CPU max MHz:         3810.7910
+CPU min MHz:         1500.0000
+
+512 neumann true SAV 75p
+MODULES LOADED
+   Resolving package versions...
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Project.toml`
+    Updating `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Manifest.toml`
+  [90137ffa] - StaticArrays v1.9.18
+  [1e83bf80] - StaticArraysCore v1.4.4
+   Resolving package versions...
+    Updating `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Project.toml`
+  [90137ffa] + StaticArrays v1.9.18
+    Updating `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Manifest.toml`
+  [90137ffa] + StaticArrays v1.9.18
+  [1e83bf80] + StaticArraysCore v1.4.4
+   Resolving package versions...
+    Updating `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Project.toml`
+  [7a1cc6ca] + FFTW v1.10.0
+    Updating `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Manifest.toml`
+  [621f4979] + AbstractFFTs v1.5.0
+  [7a1cc6ca] + FFTW v1.10.0
+  [692b3bcd] + JLLWrappers v1.7.1
+  [f5851436] + FFTW_jll v3.3.11+0
+  [1d5cc7b8] + IntelOpenMP_jll v2025.2.0+0
+  [856f044c] + MKL_jll v2025.2.0+0
+  [1317d2d5] + oneTBB_jll v2022.0.0+1
+  [0dad84c5] + ArgTools v1.1.2
+  [f43a241f] + Downloads v1.6.0
+  [7b1f6079] + FileWatching v1.11.0
+  [4af54fe1] + LazyArtifacts v1.11.0
+  [b27032c2] + LibCURL v0.6.4
+  [76f85450] + LibGit2 v1.11.0
+  [ca575930] + NetworkOptions v1.2.0
+  [44cfe95a] + Pkg v1.11.0
+  [a4e569a6] + Tar v1.10.0
+  [deac9b47] + LibCURL_jll v8.6.0+0
+  [e37daf67] + LibGit2_jll v1.7.2+0
+  [29816b5a] + LibSSH2_jll v1.11.0+1
+  [c8ffd9c3] + MbedTLS_jll v2.28.6+0
+  [14a3606d] + MozillaCACerts_jll v2023.12.12
+  [83775a58] + Zlib_jll v1.2.13+1
+  [8e850ede] + nghttp2_jll v1.59.0+0
+  [3f19e933] + p7zip_jll v17.4.0+2
+Precompiling project...
+    489.3 ms  ✓ FFTW_jll
+    877.9 ms  ✓ IntelOpenMP_jll
+    914.9 ms  ✓ oneTBB_jll
+   4304.0 ms  ✓ MKL_jll
+   4475.0 ms  ✓ FFTW
+  5 dependencies successfully precompiled in 10 seconds. 67 already precompiled.
+  1 dependency had output during precompilation:
+┌ MKL_jll
+│  Downloading artifact: IntelOpenMP
+│   Downloading artifact: oneTBB
+└  
+   Resolving package versions...
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Project.toml`
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Manifest.toml`
+   Resolving package versions...
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Project.toml`
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Manifest.toml`
+   Resolving package versions...
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Project.toml`
+  No Changes to `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Manifest.toml`
+ERROR: LoadError: ArgumentError: Package Plots not found in current path.
+- Run `import Pkg; Pkg.add("Plots")` to install the Plots package.
+Stacktrace:
+ [1] macro expansion
+   @ ./loading.jl:2296 [inlined]
+ [2] macro expansion
+   @ ./lock.jl:273 [inlined]
+ [3] __require(into::Module, mod::Symbol)
+   @ Base ./loading.jl:2271
+ [4] #invoke_in_world#3
+   @ ./essentials.jl:1089 [inlined]
+ [5] invoke_in_world
+   @ ./essentials.jl:1086 [inlined]
+ [6] require(into::Module, mod::Symbol)
+   @ Base ./loading.jl:2260
+ [7] include(fname::String)
+   @ Main ./sysimg.jl:38
+ [8] top-level scope
+   @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/CahnHilliard_Julia_solvers/run_spinodal_decomp_HPC.jl:17
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/CahnHilliard_Julia_solvers/ch_movie_from_file.jl:1
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/CahnHilliard_Julia_solvers/run_spinodal_decomp_HPC.jl:17
+
+=== CLOCK RATE DURING SIMULATION ===
+Average CPU MHz: 0
+DONE

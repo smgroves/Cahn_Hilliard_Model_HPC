@@ -1,0 +1,12 @@
+Tue Jul 15 17:59:37 EDT 2025
+128 periodic true SAV 75p
+MODULES LOADED
+ERROR: LoadError: UndefVarError: `timepoints` not defined
+Stacktrace:
+ [1] top-level scope
+   @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/rmse_python.jl:62
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/rmse_python.jl:62
+Starting...
+/project/g_bme-janeslab/SarahG/spinodal_decomp_06_2025/out_python/NMG_Python_20_dt_5.50e-06_Nx_128_periodic_dtout_175p
+/project/g_bme-janeslab/SarahG/spinodal_decomp_06_2025/out_python/SAV_Python_20_dt_5.50e-06_Nx_128_periodic_dtout_175p
+DONE

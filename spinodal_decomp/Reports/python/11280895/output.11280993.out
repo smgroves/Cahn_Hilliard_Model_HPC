@@ -1,0 +1,33 @@
+Tue Apr 7 10:55:42 EDT 2026
+=== CPU SPECIFICATIONS ===
+Socket(s):           2
+Model name:          AMD EPYC 9454 48-Core Processor
+CPU max MHz:         3810.7910
+CPU min MHz:         1500.0000
+
+Task 14 options: 128 neumann false NMG
+
+Parsed parameters:
+  N: 128
+  boundary: neumann
+  print: false
+  method: NMG
+
+Lmod has detected the following error: The following module(s) are unknown:
+"python/3.9"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "python/3.9"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+MODULES LOADED
+
+Running Python analysis...
+/var/spool/slurm/slurmd/job11280993/slurm_script: line 205: python: command not found
+
+ERROR: Task 14 failed

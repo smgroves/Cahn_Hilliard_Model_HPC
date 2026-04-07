@@ -1,0 +1,26 @@
+Tue Apr 7 10:25:54 EDT 2026
+=== CPU SPECIFICATIONS ===
+Socket(s):           2
+Model name:          AMD EPYC 9454 48-Core Processor
+CPU max MHz:         3810.7910
+CPU min MHz:         1500.0000
+
+512 neumann true SAV 25p
+Lmod has detected the following error: The following module(s) are unknown:
+"julia/1.9.2"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "julia/1.9.2"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+MODULES LOADED
+/var/spool/slurm/slurmd/job11279126/slurm_script: line 42: julia: command not found
+
+=== CLOCK RATE DURING SIMULATION ===
+awk: cmd. line:1: fatal: division by zero attempted
+DONE

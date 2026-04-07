@@ -1,0 +1,81 @@
+Tue Apr 7 10:32:41 EDT 2026
+=== CPU SPECIFICATIONS ===
+Socket(s):           2
+Model name:          AMD EPYC 9454 48-Core Processor
+CPU max MHz:         3810.7910
+CPU min MHz:         1500.0000
+
+512 neumann true SAV 25p
+MODULES LOADED
+    Updating registry at `~/.julia/registries/General.toml`
+   Resolving package versions...
+   Installed Statistics ───── v1.11.1
+   Installed Compat ───────── v4.18.1
+   Installed Parsers ──────── v2.8.3
+   Installed StructUtils ──── v2.7.1
+   Installed BenchmarkTools ─ v1.7.0
+   Installed JSON ─────────── v1.5.0
+   Installed Preferences ──── v1.5.2
+    Updating `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Project.toml`
+  [6e4b80f9] + BenchmarkTools v1.7.0
+    Updating `/sfs/gpfs/tardis/home/xpz5km/.julia/environments/v1.11/Manifest.toml`
+  [6e4b80f9] + BenchmarkTools v1.7.0
+  [34da2185] + Compat v4.18.1
+  [682c06a0] + JSON v1.5.0
+  [69de0a69] + Parsers v2.8.3
+⌅ [aea7be01] + PrecompileTools v1.2.1
+  [21216c6a] + Preferences v1.5.2
+  [10745b16] + Statistics v1.11.1
+  [ec057cc2] + StructUtils v2.7.1
+  [56f22d72] + Artifacts v1.11.0
+  [ade2ca70] + Dates v1.11.0
+  [8f399da3] + Libdl v1.11.0
+  [37e2e46d] + LinearAlgebra v1.11.0
+  [56ddb016] + Logging v1.11.0
+  [de0858da] + Printf v1.11.0
+  [9abbd945] + Profile v1.11.0
+  [9a3f8284] + Random v1.11.0
+  [ea8e919c] + SHA v0.7.0
+  [fa267f1f] + TOML v1.0.3
+  [cf7118a7] + UUIDs v1.11.0
+  [4ec0a83e] + Unicode v1.11.0
+  [e66e0078] + CompilerSupportLibraries_jll v1.1.1+0
+  [4536629a] + OpenBLAS_jll v0.3.27+1
+  [8e850b90] + libblastrampoline_jll v5.11.0+0
+        Info Packages marked with ⌅ have new versions available but compatibility constraints restrict them from upgrading. To see why use `status --outdated -m`
+Precompiling project...
+    480.5 ms  ✓ Statistics
+    445.5 ms  ✓ Compat
+    568.3 ms  ✓ StructUtils
+    566.8 ms  ✓ Preferences
+    410.1 ms  ✓ Compat → CompatLinearAlgebraExt
+    370.7 ms  ✓ PrecompileTools
+   6490.4 ms  ✓ Parsers
+   2061.9 ms  ✓ JSON
+    954.4 ms  ✓ BenchmarkTools
+  9 dependencies successfully precompiled in 11 seconds. 8 already precompiled.
+ERROR: LoadError: ArgumentError: Package DataFrames not found in current path.
+- Run `import Pkg; Pkg.add("DataFrames")` to install the DataFrames package.
+Stacktrace:
+ [1] macro expansion
+   @ ./loading.jl:2296 [inlined]
+ [2] macro expansion
+   @ ./lock.jl:273 [inlined]
+ [3] __require(into::Module, mod::Symbol)
+   @ Base ./loading.jl:2271
+ [4] #invoke_in_world#3
+   @ ./essentials.jl:1089 [inlined]
+ [5] invoke_in_world
+   @ ./essentials.jl:1086 [inlined]
+ [6] require(into::Module, mod::Symbol)
+   @ Base ./loading.jl:2260
+ [7] include(fname::String)
+   @ Main ./sysimg.jl:38
+ [8] top-level scope
+   @ /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/CahnHilliard_Julia_solvers/run_spinodal_decomp_HPC.jl:8
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/CahnHilliard_Julia_solvers/CahnHilliard_NMG.jl:20
+in expression starting at /sfs/gpfs/tardis/home/xpz5km/Cahn_Hilliard_Model_HPC/spinodal_decomp/CahnHilliard_Julia_solvers/run_spinodal_decomp_HPC.jl:8
+
+=== CLOCK RATE DURING SIMULATION ===
+Average CPU MHz: 0
+DONE
