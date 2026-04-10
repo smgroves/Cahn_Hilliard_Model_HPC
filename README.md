@@ -5,6 +5,7 @@ High-performance computing implementations of solvers for the **Cahn-Hilliard eq
 **Author:** Sarah Groves
 
 **Note: All code for execution was written by Sarah Groves. Claude was used to generate READMEs for general use.**
+
 ---
 
 ## Mathematical Background
